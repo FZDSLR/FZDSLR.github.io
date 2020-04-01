@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我是谁</title>
+    <url>/2020/04/01//who-am-i/</url>
+    <content><![CDATA[<h1 align = "center">FZDSLR</h1>
+<h2 align = "center">一只学生党</h2>
+<img src="/images/YYLWANG.jpg"  alt="望" />
+<style>
+.heimu, .heimu a, a .heimu, .heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+.heimu:hover, .heimu:active,
+.heimu:hover .heimu, .heimu:active .heimu {
+    color: white !important;
+}
+.heimu:hover a, a:hover .heimu,
+.heimu:active a, a:active .heimu {
+    color: lightblue !important;
+}
+.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+.heimu:active .new, .heimu .new:active, .new:active .heimu {
+    color: #BA0000 !important;
+}
+</style>
+<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
+
+
+<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
+<s><center>以上</s><span class="heimu" title="对说的就是您">在巨佬的眼中</span><s>可能仅知皮毛</center></s>
+
+<p><strong><center>新浪邮箱<center/></strong></p>
+<center>FZDSLR@sina.com</center>
+
+]]></content>
+  </entry>
+  <entry>
     <title>FZDSLR的第一篇博客</title>
     <url>/2020/03/31/FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<ul>
@@ -15,23 +51,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我是谁</title>
-    <url>/2020/04/01//who-am-i/</url>
-    <content><![CDATA[<h1 align = "center">FZDSLR</h1>
-<h2 align = "center">一只学生党</h2>
-<img src="/images/YYLWANG.jpg"  alt="望" />
-<style type="text/css">
-.heimu {background-color: #252525 !important;color: #252525 !important;}
-</style>
-<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
-
-
-<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
-<s><center>以上可能仅知皮毛</center></s>
-
-<center>新浪邮箱<center/>
-<center>FZDSLR@sina.com</center>
-
-]]></content>
+    <title>2019的下半年</title>
+    <url>/2020/04/01/2019%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%B9%B4/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-01T04:13:48.987Z</updated>
+  <updated>2020-04-01T08:17:28.872Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2019的下半年</title>
+    <link href="http://yoursite.com/2020/04/01/2019%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%B9%B4/"/>
+    <id>http://yoursite.com/2020/04/01/2019%E7%9A%84%E4%B8%8B%E5%8D%8A%E5%B9%B4/</id>
+    <published>2020-04-01T08:17:28.000Z</published>
+    <updated>2020-04-01T08:17:28.872Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>我是谁</title>
     <link href="http://yoursite.com/2020/04/01/who-am-i/"/>
     <id>http://yoursite.com/2020/04/01/who-am-i/</id>
     <published>2020-04-01T02:30:23.000Z</published>
-    <updated>2020-04-01T04:13:48.987Z</updated>
+    <updated>2020-04-01T09:01:44.591Z</updated>
     
     <summary type="html">
     
@@ -32,8 +47,8 @@
           &lt;h1 align = &quot;center&quot;&gt;FZDSLR&lt;/h1&gt;
 &lt;h2 align = &quot;center&quot;&gt;一只学生党&lt;/h2&gt;
 &lt;img src=&quot;/images/YYLWANG.jpg&quot;  alt=&quot;望&quot; /&gt;
-&lt;style type=&quot;text/css&quot;&gt;
-.heimu
+&lt;style&gt;
+.heimu, .heimu a, a
         
       
     
