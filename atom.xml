@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-01T10:06:07.728Z</updated>
+  <updated>2020-04-04T14:11:08.836Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>致敬英雄</title>
+    <link href="http://yoursite.com/2020-04-04-heros-in-the-peace-years.html"/>
+    <id>http://yoursite.com/2020-04-04-heros-in-the-peace-years.html</id>
+    <published>2020-04-04T04:00:00.000Z</published>
+    <updated>2020-04-04T14:11:08.836Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e8893c5504f4bcb040ac6f1.jpg&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="小记" scheme="http://yoursite.com/tags/%E5%B0%8F%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>我是谁</title>
