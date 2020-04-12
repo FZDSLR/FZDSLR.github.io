@@ -3,7 +3,7 @@
   <entry>
     <title>FZDSLR的第一篇博客</title>
     <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<ul>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
 <li>此网站托管于Github</li>
 </ul>
 <ul>
@@ -17,7 +17,7 @@
   <entry>
     <title>我是谁</title>
     <url>/2020-04-01-/who-am-i.html</url>
-    <content><![CDATA[<h1 align = "center">FZDSLR</h1>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 align = "center">FZDSLR</h1>
 <h2 align = "center">一只学生党</h2>
 <img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"   alt="望" />
 <style>

@@ -29,9 +29,7 @@
       
         
         
-          &lt;h1 align = &quot;center&quot;&gt;FZDSLR&lt;/h1&gt;
-&lt;h2 align = &quot;center&quot;&gt;一只学生党&lt;/h2&gt;
-&lt;img src=&quot;/&quot; class=&quot;lazyload&quot;
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
@@ -54,16 +52,7 @@
       
         
         
-          &lt;ul&gt;
-&lt;li&gt;此网站托管于Github&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;以后可能会发一点比较杂乱的东西&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul&gt;
-&lt;li&gt;正在摸索网站用法ing&lt;/li&gt;
-&lt;/ul&gt;
-
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot;
         
       
     
