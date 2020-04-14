@@ -50,4 +50,49 @@
 
 ]]></content>
   </entry>
+  <entry>
+    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
+    <url>/2020-04-14-BINGPICTURES.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><style>
+.heimu, .heimu a, a .heimu, .heimu a.new {
+    background-color: #252525;
+    color: #252525;
+    text-shadow: none;
+}
+.heimu:hover, .heimu:active,
+.heimu:hover .heimu, .heimu:active .heimu {
+    color: white !important;
+}
+.heimu:hover a, a:hover .heimu,
+.heimu:active a, a:active .heimu {
+    color: lightblue !important;
+}
+.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
+.heimu:active .new, .heimu .new:active, .new:active .heimu {
+    color: #BA0000 !important;
+}
+</style>
+<div class="note info">
+            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
+          </div>
+<div class="note info">
+            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv日榜" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
+          </div>
+
+<h1 id="顺带一提"><a href="#顺带一提" class="headerlink" title="顺带一提"></a>顺带一提</h1><ul>
+<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
+<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
+</ul>
+<h1 id="card-bingpicture-pug内容"><a href="#card-bingpicture-pug内容" class="headerlink" title="card_bingpicture.pug内容"></a><code>card_bingpicture.pug</code>内容</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
+<h1 id="index-pug添加"><a href="#index-pug添加" class="headerlink" title="index.pug添加"></a><code>index.pug</code>添加</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
+<h1 id="butterfly-yml添加"><a href="#butterfly-yml添加" class="headerlink" title="butterfly.yml添加"></a><code>butterfly.yml</code>添加</h1><p><code>card_bingpicture: true</code></p>
+<h1 id="ZH-CN-yml添加"><a href="#ZH-CN-yml添加" class="headerlink" title="ZH-CN.yml添加"></a><code>ZH-CN.yml</code>添加</h1><p><code>card_bingpicture: Bing每日图片</code></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
 </search>
