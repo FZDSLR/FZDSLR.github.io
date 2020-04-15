@@ -20,25 +20,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 align = "center">FZDSLR</h1>
 <h2 align = "center">一只学生党</h2>
 <img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"   alt="望" />
-<style>
-.heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
-    text-shadow: none;
-}
-.heimu:hover, .heimu:active,
-.heimu:hover .heimu, .heimu:active .heimu {
-    color: white !important;
-}
-.heimu:hover a, a:hover .heimu,
-.heimu:active a, a:active .heimu {
-    color: lightblue !important;
-}
-.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
-.heimu:active .new, .heimu .new:active, .new:active .heimu {
-    color: #BA0000 !important;
-}
-</style>
+
 <center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
 
 
@@ -53,26 +35,7 @@
   <entry>
     <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
     <url>/2020-04-14-BINGPICTURES.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><style>
-.heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
-    text-shadow: none;
-}
-.heimu:hover, .heimu:active,
-.heimu:hover .heimu, .heimu:active .heimu {
-    color: white !important;
-}
-.heimu:hover a, a:hover .heimu,
-.heimu:active a, a:active .heimu {
-    color: lightblue !important;
-}
-.heimu:hover .new, .heimu .new:hover, .new:hover .heimu,
-.heimu:active .new, .heimu .new:active, .new:active .heimu {
-    color: #BA0000 !important;
-}
-</style>
-<div class="note info">
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">
             <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
           </div>
 <div class="note info">
