@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fzdslr.github.io/"/>
-  <updated>2020-04-15T08:01:16.521Z</updated>
+  <updated>2020-04-16T10:24:51.842Z</updated>
   <id>http://fzdslr.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“云”上合唱团</title>
+    <link href="http://fzdslr.github.io/2020-04-16-choir-on-cloud.html"/>
+    <id>http://fzdslr.github.io/2020-04-16-choir-on-cloud.html</id>
+    <published>2020-04-16T11:00:00.000Z</published>
+    <updated>2020-04-16T10:24:51.842Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script
+        
+      
+    
+    </summary>
+    
+    
+      <category term="FZYZ" scheme="http://fzdslr.github.io/categories/FZYZ/"/>
+    
+    
+      <category term="FZYZ" scheme="http://fzdslr.github.io/tags/FZYZ/"/>
+    
+      <category term="测试" scheme="http://fzdslr.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>

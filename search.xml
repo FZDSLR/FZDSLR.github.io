@@ -58,4 +58,18 @@
         <tag>Hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>“云”上合唱团</title>
+    <url>/2020-04-16-choir-on-cloud.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br><span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
+<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
+      <categories>
+        <category>FZYZ</category>
+      </categories>
+      <tags>
+        <tag>FZYZ</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
 </search>
