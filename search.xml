@@ -1,78 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>FZDSLR的第一篇博客</title>
-    <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li>此网站托管于Github</li>
-</ul>
-<ul>
-<li>以后可能会发一点比较杂乱的东西</li>
-</ul>
-<ul>
-<li>正在摸索网站用法ing</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>我是谁</title>
-    <url>/2020-04-01-/who-am-i.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 align = "center">FZDSLR</h1>
-<h2 align = "center">一只学生党</h2>
-<img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"   alt="望" />
-
-<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
-
-
-<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
-<center><span class="heimu" title="对，我太菜了"><s>以上都不会（确信）</s></span></center>
-
-<p><strong><center>新浪邮箱<center/></strong></p>
-<center>FZDSLR@sina.com</center>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <url>/2020-04-14-BINGPICTURES.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="note info">
-            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
-          </div>
-<div class="note info">
-            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv日榜" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
-          </div>
-
-<h1 id="顺带一提"><a href="#顺带一提" class="headerlink" title="顺带一提"></a>顺带一提</h1><ul>
-<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
-<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
-</ul>
-<h1 id="card-bingpicture-pug内容"><a href="#card-bingpicture-pug内容" class="headerlink" title="card_bingpicture.pug内容"></a><code>card_bingpicture.pug</code>内容</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
-<h1 id="index-pug添加"><a href="#index-pug添加" class="headerlink" title="index.pug添加"></a><code>index.pug</code>添加</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
-<h1 id="butterfly-yml添加"><a href="#butterfly-yml添加" class="headerlink" title="butterfly.yml添加"></a><code>butterfly.yml</code>添加</h1><p><code>card_bingpicture: true</code></p>
-<h1 id="ZH-CN-yml添加"><a href="#ZH-CN-yml添加" class="headerlink" title="ZH-CN.yml添加"></a><code>ZH-CN.yml</code>添加</h1><p><code>card_bingpicture: Bing每日图片</code></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>“云”上合唱团</title>
-    <url>/2020-04-16-choir-on-cloud.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br><span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
-<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
-      <categories>
-        <category>FZYZ</category>
-      </categories>
-      <tags>
-        <tag>FZYZ</tag>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>“暴风雪”计划：大纲（持续补充）</title>
     <url>/2020-04-17-BURAN.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p>
@@ -234,6 +162,90 @@
       <tags>
         <tag>航天</tag>
         <tag>暴风雪-能源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FZDSLR的第一篇博客</title>
+    <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><ul>
+<li>此网站托管于Github</li>
+</ul>
+<ul>
+<li>以后可能会发一点比较杂乱的东西</li>
+</ul>
+<ul>
+<li>正在摸索网站用法ing</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>“云”上合唱团</title>
+    <url>/2020-04-16-choir-on-cloud.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br><span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
+<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
+      <categories>
+        <category>FZYZ</category>
+      </categories>
+      <tags>
+        <tag>FZYZ</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我是谁</title>
+    <url>/2020-04-01-/who-am-i.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 align = "center">FZDSLR</h1>
+<h2 align = "center">一只学生党</h2>
+<img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"   alt="望" />
+
+<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
+
+
+<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
+<center><span class="heimu" title="对，我太菜了"><s>以上都不会（确信）</s></span></center>
+
+<p><strong><center>新浪邮箱<center/></strong></p>
+<center>FZDSLR@sina.com</center>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
+    <url>/2020-04-14-BINGPICTURES.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
+            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
+          </div>
+<div class="note info">
+            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv日榜" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
+          </div>
+
+<h1 id="顺带一提"><a href="#顺带一提" class="headerlink" title="顺带一提"></a>顺带一提</h1><ul>
+<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
+<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
+</ul>
+<h1 id="card-bingpicture-pug内容"><a href="#card-bingpicture-pug内容" class="headerlink" title="card_bingpicture.pug内容"></a><code>card_bingpicture.pug</code>内容</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
+<h1 id="index-pug添加"><a href="#index-pug添加" class="headerlink" title="index.pug添加"></a><code>index.pug</code>添加</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
+<h1 id="butterfly-yml添加"><a href="#butterfly-yml添加" class="headerlink" title="butterfly.yml添加"></a><code>butterfly.yml</code>添加</h1><p><code>card_bingpicture: true</code></p>
+<h1 id="ZH-CN-yml添加"><a href="#ZH-CN-yml添加" class="headerlink" title="ZH-CN.yml添加"></a><code>ZH-CN.yml</code>添加</h1><p><code>card_bingpicture: Bing每日图片</code></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物构知识点（正在学习中）</title>
+    <url>/2020-04-18-wugou1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script>]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>化学</tag>
       </tags>
   </entry>
 </search>
