@@ -336,13 +336,15 @@
     <title>FZDSLR的第一篇博客</title>
     <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><ul>
-<li>此网站托管于Github</li>
-</ul>
-<ul>
-<li>以后可能会发一点比较杂乱的东西</li>
-</ul>
-<ul>
-<li>正在摸索网站用法ing</li>
+<li>
+<p>此网站托管于Github</p>
+</li>
+<li>
+<p>以后可能会发一点比较杂乱的东西</p>
+</li>
+<li>
+<p>正在摸索网站用法ing</p>
+</li>
 </ul>
 ]]></content>
   </entry>
@@ -567,5 +569,201 @@
 <center>FZDSLR@sina.com</center>
 
 ]]></content>
+  </entry>
+  <entry>
+    <title>动量笔记整理</title>
+    <url>/2020-04-21-dongliang1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="动量"><a class="markdownIt-Anchor" href="#动量"></a> 动量</h1>
+<h2 id="动量-动能-动量变化量的比较"><a class="markdownIt-Anchor" href="#动量-动能-动量变化量的比较"></a> 动量、动能、动量变化量的比较</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>动量</th>
+<th>动能</th>
+<th>动量的变化量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>定义</td>
+<td>物体的质量和速度的乘积</td>
+<td>物体由于运动而具有的能量</td>
+<td>物体末动量与初动量的矢量差</td>
+</tr>
+<tr>
+<td>定义式</td>
+<td><em>p</em>＝<em>mv</em></td>
+<td><em>E<sub>k</sub></em>= <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>mv<sup>2</sup></td>
+<td><em>Δp</em>＝<em>p</em>′－<em>p</em></td>
+</tr>
+<tr>
+<td>矢标性</td>
+<td>矢量</td>
+<td>标量</td>
+<td>矢量</td>
+</tr>
+<tr>
+<td>特点</td>
+<td>状态量</td>
+<td>状态量</td>
+<td>过程量</td>
+</tr>
+</tbody>
+</table>
+<h2 id="动量的性质"><a class="markdownIt-Anchor" href="#动量的性质"></a> 动量的性质</h2>
+<ul>
+<li>
+<p>矢量性：方向与瞬时速度方向相同．</p>
+</li>
+<li>
+<p>瞬时性：动量是描述物体运动状态的量，是针对某一时刻而言的．</p>
+</li>
+<li>
+<p>相对性：大小与参考系的选取有关，通常情况是指相对地面的动量．</p>
+</li>
+</ul>
+<h2 id="动量守恒条件"><a class="markdownIt-Anchor" href="#动量守恒条件"></a> 动量守恒条件</h2>
+<ul>
+<li>
+<p>理想守恒：系统不受外力或所受外力的合力为零，则系统动量守恒．</p>
+</li>
+<li>
+<p>近似守恒：系统受到的合力不为零，但当内力远大于外力时，系统的动量可近似看成守恒．</p>
+</li>
+<li>
+<p>分方向守恒：系统在某个方向上所受合力为零时，系统在该方向上动量守恒．</p>
+</li>
+</ul>
+<h2 id="动量守恒定律的表达式"><a class="markdownIt-Anchor" href="#动量守恒定律的表达式"></a> 动量守恒定律的表达式</h2>
+<p><em>m</em>1<em>v</em>1＋<em>m</em>2<em>v</em>2＝<em>m</em>1<em>v</em>1′＋<em>m</em>2<em>v</em>2′</p>
+<p><em>Δ</em> <em>p</em>1＝－<em>Δ</em> <em>p</em>2.</p>
+<h2 id="动量守恒定律的特点"><a class="markdownIt-Anchor" href="#动量守恒定律的特点"></a> 动量守恒定律的特点</h2>
+<ul>
+<li>
+<p>矢量性：表达式中涉及的都是矢量，需要首先选取正方向，分清各物体初、末动量的正、负。</p>
+</li>
+<li>
+<p>瞬时性：动量是状态量，动量守恒指对应每一时刻的总动量都和初时刻的总动量相等。不同时刻的动量不能相加。</p>
+</li>
+<li>
+<p>同时性：动量是状态量，具有瞬时性，动量守恒定律指的是相互作用的物体构成的物体系在任一时刻的总动量都相同．</p>
+</li>
+<li>
+<p>普适性：它不仅适用于两个物体组成的系统，也适用于多个物体组成的系统；不仅适用于宏观物体组成的系统，对微观粒子组成的系统也适用。</p>
+</li>
+</ul>
+<h2 id="应用动量守恒定律解题的步骤"><a class="markdownIt-Anchor" href="#应用动量守恒定律解题的步骤"></a> 应用动量守恒定律解题的步骤</h2>
+<ul>
+<li>
+<p>明确研究对象，确定系统的组成(系统包括哪几个物体及研究的过程)；</p>
+</li>
+<li>
+<p>进行受力分析，判断系统动量是否守恒(或某一方向上动量是否守恒)；</p>
+</li>
+<li>
+<p>规定正方向，确定初、末状态动量；</p>
+</li>
+<li>
+<p>由动量守恒定律列出方程</p>
+</li>
+<li>
+<p>代入数据，求出结果，必要时讨论说明</p>
+</li>
+</ul>
+<h2 id="动量守恒定律应用-弹性碰撞和非弹性碰撞"><a class="markdownIt-Anchor" href="#动量守恒定律应用-弹性碰撞和非弹性碰撞"></a> 动量守恒定律应用 弹性碰撞和非弹性碰撞</h2>
+<h3 id="碰撞的种类和特点"><a class="markdownIt-Anchor" href="#碰撞的种类和特点"></a> 碰撞的种类和特点</h3>
+<ul>
+<li>
+<p>机械能是否守恒</p>
+<table>
+<thead>
+<tr>
+<th>弹性碰撞</th>
+<th>动量守恒，机械能守恒</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>非弹性碰撞</strong></td>
+<td><strong>动量守恒，机械能有损失</strong></td>
+</tr>
+<tr>
+<td><strong>完全非弹性碰撞</strong></td>
+<td><strong>动量守恒，机械能损失最大</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>碰撞前后动量是否共线</p>
+<table>
+<thead>
+<tr>
+<th>对心碰撞(正碰)</th>
+<th>碰撞前后速度共线</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>非对心碰撞(斜碰)</strong></td>
+<td><strong>碰撞前后速度不共线</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="碰撞现象满足的规律"><a class="markdownIt-Anchor" href="#碰撞现象满足的规律"></a> 碰撞现象满足的规律</h3>
+<ul>
+<li>
+<p>动量守恒定律．</p>
+</li>
+<li>
+<p>机械能不增加</p>
+</li>
+<li>
+<p>速度要合理：若碰前两物体同向运动，则应有<em>v</em>后&gt;<em>v</em>前，碰后原来在前的物体速度一定增大，若碰后两物体同向运动，则应有<em>v</em>前′≥<em>v</em>后′；碰前两物体相向运动，碰后两物体的运动方向不可能都不改变</p>
+</li>
+</ul>
+<h3 id="弹性碰撞的规律"><a class="markdownIt-Anchor" href="#弹性碰撞的规律"></a> 弹性碰撞的规律</h3>
+<p>质量为<em>m<sub>1</sub></em>，速度为*v<sub>1</sub><em>的小球与质量为</em>m<sub>2</sub>*的静止小球发生正面弹性碰撞</p>
+<p>则：</p>
+<ul>
+<li>
+<p><em>m<sub>1</sub>v<sub>1</sub></em>=<em>m<sub>1</sub>v<sub>1</sub>’</em>+<em>m<sub>2</sub>v<sub>2</sub>’</em></p>
+</li>
+<li>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub><sup>2</sup></em>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub>’<sup>2</sup></em>+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>2</sub>v<sub>2</sub>’<sup>2</sup></em></p>
+</li>
+</ul>
+<p>可得：</p>
+<ul>
+<li>
+<p><em>v<sub>1</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>−</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {m_1-m_2} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.263531em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8184309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">−</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
+</li>
+<li>
+<p><em>v<sub>2</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {2m} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2902079999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
+</li>
+</ul>
+<p>即：</p>
+<ol>
+<li>
+<p>当两球质量相等时，<em>v</em><sub>1</sub>′＝0，<em>v</em><sub>2</sub>′＝<em>v</em><sub>1</sub>，两球碰撞后交换速度 <s>置换反应</s></p>
+</li>
+<li>
+<p>当质量大的球碰质量小的球时，<em>v</em><sub>1</sub>′&gt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后两球都向前运动</p>
+</li>
+<li>
+<p>当质量小的球碰质量大的球时，<em>v</em><sub>1</sub>′&lt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后质量小的球被反弹回来</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>物理</tag>
+      </tags>
   </entry>
 </search>
