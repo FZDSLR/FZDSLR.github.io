@@ -766,4 +766,226 @@
         <tag>物理</tag>
       </tags>
   </entry>
+  <entry>
+    <title>机械振动与机械波</title>
+    <url>/2020-05-01-zhengdong1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="机械振动"><a class="markdownIt-Anchor" href="#机械振动"></a> 机械振动</h2>
+<h3 id="简谐运动"><a class="markdownIt-Anchor" href="#简谐运动"></a> 简谐运动</h3>
+<ul>
+<li>
+<p>动力学特征：<em>F=-kx</em></p>
+</li>
+<li>
+<p>运动学特征：<em>x,v,a</em>均按正弦或余弦规律发生周期性变化(注意<em>v</em>、<em>a</em>的变化趋势相反)</p>
+</li>
+<li>
+<p>能量特征：系统的机械能守恒，振幅A不变</p>
+</li>
+<li>
+<p>简谐运动的运动学表达式：<em>x</em>＝<em>A</em>sin (<em>ωt</em>＋<em>φ</em>)，其中<em>A</em>代表振幅，<em>ω</em>＝<em>2πf</em>表示简谐运动的快慢，(<em>ωt</em>＋<em>φ</em>)代表简谐运动的相位，<em>φ</em>叫做初相</p>
+</li>
+</ul>
+<h3 id="单摆"><a class="markdownIt-Anchor" href="#单摆"></a> 单摆</h3>
+<ul>
+<li>视为简谐运动的条件：摆角小于5°</li>
+<li>周期公式：<em>T</em> = <em>2π</em> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mfrac><mi>l</mi><mi>g</mi></mfrac></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{\frac{l}{g}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.8399999999999999em;vertical-align:-0.6555000000000001em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1844999999999999em;"><span class="svg-align" style="top:-3.8em;"><span class="pstrut" style="height:3.8em;"></span><span class="mord" style="padding-left:1em;"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.1445em;"><span class="pstrut" style="height:3.8em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.8800000000000001em;"><svg width='400em' height='1.8800000000000001em' viewBox='0 0 400000 1944' preserveAspectRatio='xMinYMin slice'><path d='M1001,80H400000v40H1013.1s-83.4,268,-264.1,840c-180.7,
+572,-277,876.3,-289,913c-4.7,4.7,-12.7,7,-24,7s-12,0,-12,0c-1.3,-3.3,-3.7,-11.7,
+-7,-25c-35.3,-125.3,-106.7,-373.3,-214,-744c-10,12,-21,25,-33,39s-32,39,-32,39
+c-6,-5.3,-15,-14,-27,-26s25,-30,25,-30c26.7,-32.7,52,-63,76,-91s52,-60,52,-60
+s208,722,208,722c56,-175.3,126.3,-397.3,211,-666c84.7,-268.7,153.8,-488.2,207.5,
+-658.5c53.7,-170.3,84.5,-266.8,92.5,-289.5c4,-6.7,10,-10,18,-10z
+M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.6555000000000001em;"><span></span></span></span></span></span></span></span></span></li>
+<li>单摆的等时性：单摆的振动周期取决于摆长<em>l</em>和重力加速度<em>g</em>，与振幅和振子(小球)质量都没有关系</li>
+</ul>
+<h3 id="受迫振动与共振"><a class="markdownIt-Anchor" href="#受迫振动与共振"></a> 受迫振动与共振</h3>
+<ul>
+<li>
+<p>受迫振动：系统在驱动力作用下的振动．做受迫振动的物体，它的周期(或频率)等于驱动力的周期(或频率)，而与物体的固有周期(或频率)无关</p>
+</li>
+<li>
+<p>共振：做受迫振动的物体，它的固有频率与驱动力的频率越接近，其振幅就越大，当二者相等时，振幅达到最大，这就是共振现象</p>
+</li>
+</ul>
+<h3 id="对比"><a class="markdownIt-Anchor" href="#对比"></a> 对比</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>自由振动</th>
+<th>受迫振动</th>
+<th>共振</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>受力情况</td>
+<td>仅受回复力</td>
+<td>受驱动力作用</td>
+<td>受驱动力作用</td>
+</tr>
+<tr>
+<td>振动周期或频率</td>
+<td>由系统本身性质决定，即固有周期<em>T</em><sub>0</sub>或固有频率<em>f</em><sub>0</sub></td>
+<td>由驱动力的周期或频率决定，即<em>T</em>＝<em>T</em><sub>驱</sub>或<em>f</em>＝<em>f</em><sub>驱</sub></td>
+<td><em>T</em><sub>驱</sub>＝<em>T</em><sub>0</sub>或<em>f</em><sub>驱</sub>＝<em>f</em><sub>0</sub></td>
+</tr>
+<tr>
+<td>振动能量</td>
+<td>振动物体的机械能不变</td>
+<td>由产生驱动力的物体提供</td>
+<td>振动物体获得的能量最大</td>
+</tr>
+<tr>
+<td>常见例子</td>
+<td>弹簧振子或单摆  (<em>θ</em>≤5°)</td>
+<td>机械工作时底座发生的振动</td>
+<td>共振筛、声 音的共鸣等</td>
+</tr>
+</tbody>
+</table>
+<h2 id="机械波"><a class="markdownIt-Anchor" href="#机械波"></a> 机械波</h2>
+<ul>
+<li>形成条件： 波源与介质</li>
+</ul>
+<h3 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点</h3>
+<ol>
+<li>机械波传播的只是振动的形式和能量，质点只在各自的平衡位置附近做简谐运动，并不随波迁移。</li>
+<li>介质中各质点的振幅相同，振动周期和频率都与波源的振动周期和频率相同。</li>
+<li>各质点开始振动(即起振)的方向均相同。</li>
+<li>一个周期内，质点完成一次全振动，通过的路程为4<em>A</em>，位移为零。</li>
+</ol>
+<h3 id="波速-波长及频率"><a class="markdownIt-Anchor" href="#波速-波长及频率"></a> 波速、波长及频率</h3>
+<ul>
+<li>
+<p>波长：在波动中，振动相位总是相同的两个相邻质点间的距离，用<em>λ</em>表示．</p>
+</li>
+<li>
+<p>波速：波在介质中的传播速度．由介质本身的性质决定；波速的计算公式：<em>v</em>＝<em>λ</em> <em>T</em>或<em>v</em> = <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{Δx}{Δt}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>。</p>
+</li>
+<li>
+<p>频率：由波源决定，等于波源的振动频率．</p>
+</li>
+<li>
+<p>波长、波速和频率的关系：<em>v</em>＝<em>f</em> <em>λ</em>.</p>
+<pre><code>特别提醒：机械波从一种介质进入另一种介质，频率不变，波速、波长都改变．
+</code></pre>
+</li>
+</ul>
+<h3 id="波的干涉和衍射"><a class="markdownIt-Anchor" href="#波的干涉和衍射"></a> 波的干涉和衍射</h3>
+<ul>
+<li>
+<p>产生稳定干涉的条件：频率相同的两列同性质的波相遇．</p>
+</li>
+<li>
+<p>现象：两列波相遇时，某些区域振动总是加强，某些区域振动总是减弱，且加强区和减弱区互相间隔．</p>
+</li>
+<li>
+<p>对两个完全相同的波源产生的干涉来说，凡到两波源的路程差为一个波长整数倍时，振动加强；凡到两波源的路程差为半个波长的奇数倍时，振动减弱．</p>
+</li>
+<li>
+<p>产生明显衍射现象的条件：障碍物或孔(缝)的尺寸跟波长差不多，或者比波长更小．</p>
+</li>
+</ul>
+<h3 id="多普勒效应"><a class="markdownIt-Anchor" href="#多普勒效应"></a> 多普勒效应</h3>
+<ul>
+<li>
+<p>波源不动：观察者向波源运动，接收频率增大；观察者背离波源运动，接收频率减小</p>
+</li>
+<li>
+<p>观察者不动：波源向观察者运动，接收频率增大；波源背离观察者运动，接收频率减小</p>
+<p><strong>总之</strong></p>
+<p>当波源与观察者相互靠近时，观察者接收到的频率变大，当波源与观察者相互远离时，观察者接收到的频率变小。</p>
+</li>
+</ul>
+<h2 id="方法"><a class="markdownIt-Anchor" href="#方法"></a> 方法</h2>
+<h3 id="质点的振动方向与波的传播方向的互判方法"><a class="markdownIt-Anchor" href="#质点的振动方向与波的传播方向的互判方法"></a> 质点的振动方向与波的传播方向的互判方法</h3>
+<ul>
+<li>
+<p>上下坡法</p>
+<p>沿波的传播方向看，“上坡”的点向下运动，“下坡”的点向上运动，简称“上坡下，下坡上”。</p>
+</li>
+<li>
+<p>带动法</p>
+<p>在质点<em>P</em>靠近波源一方附近的图象上另找一点<em>P</em>′，若<em>P</em>′在<em>P</em>上方，则<em>P</em>向上运动，若<em>P</em>′在<em>P</em>下方，则<em>P</em>向下运动．</p>
+</li>
+<li>
+<p>微平移法<br />
+作出经微小时间Δt后的波形，就知道了各质点经过Δt时间到达的位置，也就知道了此刻质点的振动方向。</p>
+</li>
+</ul>
+<h3 id="振动图象与波动图像"><a class="markdownIt-Anchor" href="#振动图象与波动图像"></a> 振动图象与波动图像</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>振动图象</th>
+<th>波动图象</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>研究对象</td>
+<td>振动质点</td>
+<td>沿波传播方向的所有质点</td>
+</tr>
+<tr>
+<td>研究内容</td>
+<td>质点的位移随时间的变化规律</td>
+<td>某时刻所有质点的空间分布规律</td>
+</tr>
+<tr>
+<td>物理意义</td>
+<td>表示同一质点在各时刻的位移</td>
+<td>表示某时刻各质点的位移</td>
+</tr>
+<tr>
+<td>图象信息</td>
+<td>(1)质点振动周期  (2)质点振幅  (3)某一质点在各时刻的位移  (4)各时刻速度、加速度的方向</td>
+<td>(1)波长、振幅  (2)任意一质点在该时刻的位移  (3)任意一质点在该时刻的加速度方向  (4)传播方向、振动方向的互判</td>
+</tr>
+<tr>
+<td>图象变化</td>
+<td>随时间推移，图象延续，但已有形状不变</td>
+<td>随时间推移，波形沿传播方向平移</td>
+</tr>
+<tr>
+<td>一完整曲线占横坐标的距离</td>
+<td>表示一个周期</td>
+<td>表示一个波长</td>
+</tr>
+</tbody>
+</table>
+<h3 id="波的干涉-衍射-多普勒效应"><a class="markdownIt-Anchor" href="#波的干涉-衍射-多普勒效应"></a> 波的干涉、衍射、多普勒效应</h3>
+<h4 id="波的干涉中振动加强点和减弱点的判断"><a class="markdownIt-Anchor" href="#波的干涉中振动加强点和减弱点的判断"></a> 波的干涉中振动加强点和减弱点的判断</h4>
+<p>某质点的振动是加强还是减弱，取决于该点到两相干波源的距离之差Δ<em>x</em>.</p>
+<ul>
+<li>当两波源振动步调一致时</li>
+</ul>
+<p>若Δ<em>x</em>＝<em>nλ</em>(<em>n</em>＝0,1,2，…)，则振动加强；</p>
+<p>若Δ<em>x</em>＝(2<em>n</em>＋1)<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>λ</mi><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {λ}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">λ</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>，则振动减弱．</p>
+<ul>
+<li>当两波源振动步调相反时</li>
+</ul>
+<p>若Δ<em>x</em>＝(2<em>n</em>＋1)<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>λ</mi><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {λ}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">λ</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> (<em>n</em>＝0,1,2，…)，则振动加强；</p>
+<p>若Δ<em>x</em>＝<em>nλ</em>(<em>n</em>＝0,1,2，…)，则振动减弱．</p>
+<h4 id="波的衍射现象"><a class="markdownIt-Anchor" href="#波的衍射现象"></a> 波的衍射现象</h4>
+<p>波的衍射现象是指波能绕过障碍物继续传播的现象，产生明显衍射现象的条件是缝、孔的宽度或障碍物的尺寸跟波长相差不大或者小于波长．</p>
+<h3 id="波的多解问题"><a class="markdownIt-Anchor" href="#波的多解问题"></a> 波的多解问题</h3>
+<ul>
+<li>
+<p>周期性：时间周期性：时间间隔Δt与周期T的关系不明确；空间周期性：波传播距离Δx与波长λ的关系不明确．</p>
+</li>
+<li>
+<p>双向性：传播方向双向性：波的传播方向不确定；振动方向双向性：质点振动方向不确定．</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>物理</tag>
+      </tags>
+  </entry>
 </search>

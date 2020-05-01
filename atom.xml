@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fzdslr.github.io/"/>
-  <updated>2020-04-21T03:34:42.437Z</updated>
+  <updated>2020-05-01T03:07:28.094Z</updated>
   <id>http://fzdslr.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>机械振动与机械波</title>
+    <link href="http://fzdslr.github.io/2020-05-01-zhengdong1.html"/>
+    <id>http://fzdslr.github.io/2020-05-01-zhengdong1.html</id>
+    <published>2020-05-01T03:30:00.000Z</published>
+    <updated>2020-05-01T03:07:28.094Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script
+        
+      
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="http://fzdslr.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="学习笔记" scheme="http://fzdslr.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="物理" scheme="http://fzdslr.github.io/tags/%E7%89%A9%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>动量笔记整理</title>
