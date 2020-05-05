@@ -338,7 +338,10 @@
 </ul>
 </li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">故可得：氯化钠溶液或熔融氯化钠中没有离子键</span><br><span class="line">离子化合物熔化只断键，属于化学变化</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>故可得：氯化钠溶液或熔融氯化钠中没有离子键<br />
+离子化合物熔化只断键，属于化学变化</p>
+</blockquote>
 <ul>
 <li>物理性质（括号中为例外）
 <ul>
@@ -461,24 +464,18 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <table>
 <thead>
 <tr>
-<th>类别</th>
-<th>示意图</th>
-<th>类别</th>
-<th>示意图</th>
+<th>NaCl</th>
+<th>CsCl</th>
+<th>ZnS</th>
+<th>CaF<sub>2</sub></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>NaCl</td>
-<td><img src=" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/NaCl-estructura_cristalina.svg" /"/></td>
-<td>CsCl</td>
-<td><img src=" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/CsCl_polyhedra.png" /"/></td>
-</tr>
-<tr>
-<td>ZnS</td>
-<td><img src=" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Sphalerite-unit-cell-3D-balls.png" /"/></td>
-<td>CaF<sub>2</sub></td>
-<td><img src=" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Fluorite-unit-cell-3D-balls.png" /"/></td>
+<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/NaCl-estructura_cristalina.svg"  width="200px"/></td>
+<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/CsCl_polyhedra.png"  width="200px"/></td>
+<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Sphalerite-unit-cell-3D-balls.png"  width="200px"/></td>
+<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Fluorite-unit-cell-3D-balls.png"  width="200px"/></td>
 </tr>
 </tbody>
 </table>
