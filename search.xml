@@ -450,21 +450,12 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <li>
 <p>NaCl型</p>
 <ul>
-<li>
-<p>面心立方堆积</p>
-</li>
-<li>
-<p>一个晶胞平均含4个Na<sup>+</sup>和4个Cl<sup>-</sup></p>
-</li>
-<li>
-<p>Na<sup>+</sup>的配位数为6，Cl<sup>-</sup>的配位数为6</p>
-</li>
-<li>
-<p>离Na<sup>+</sup>周围最近的Cl<sup>-</sup>构成的空间构型为空间正八面体</p>
-</li>
-<li>
-<p>在每个Na<sup>+</sup>周围最近且等距离的Na<sup>+</sup>有12个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有12个</p>
-</li>
+<li>面心立方堆积</li>
+<li>一个晶胞平均含4个Na<sup>+</sup>和4个Cl<sup>-</sup></li>
+<li>Na<sup>+</sup>的配位数为6，Cl<sup>-</sup>的配位数为6</li>
+<li>离Na<sup>+</sup>周围最近的Cl<sup>-</sup>构成的空间构型为空间正八面体</li>
+<li>在每个Na<sup>+</sup>周围最近且等距离的Na<sup>+</sup>有12个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有12个</li>
+<li>配位数为6（在所有八面体空隙插入原子）</li>
 </ul>
 </li>
 <li>
@@ -487,49 +478,38 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <li>
 <p>ZnS型（闪锌矿型）</p>
 <ul>
-<li>
-<p>类金刚石堆积</p>
-</li>
-<li>
-<p>一个ZnS晶胞中含4个Zn<sup>2+</sup>和4个S<sup>2-</sup></p>
-</li>
-<li>
-<p>Zn<sup>2+</sup>的配位数是，S<sup>2-</sup>的配位数是</p>
-</li>
-<li>
-<p>Zn<sup>2+</sup>形成8个四面体空隙，S<sup>2-</sup>填入其中4个四面体空隙，空隙填充率50%</p>
-</li>
-<li>
-<p>在每个Zn<sup>2+</sup>周围最近且等距离的Zn<sup>2+</sup>有6个，在每个S<sup>2-</sup>周围最近且等距离的S<sup>2-</sup>有6个</p>
-</li>
-<li>
-<p>Zn<sup>2+</sup>与S<sup>2-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+<li>类金刚石堆积</li>
+<li>一个ZnS晶胞中含4个Zn<sup>2+</sup>和4个S<sup>2-</sup></li>
+<li>Zn<sup>2+</sup>的配位数是，S<sup>2-</sup>的配位数是</li>
+<li>Zn<sup>2+</sup>形成8个四面体空隙，S<sup>2-</sup>填入其中4个四面体空隙，空隙填充率50%</li>
+<li>在每个Zn<sup>2+</sup>周围最近且等距离的Zn<sup>2+</sup>有6个，在每个S<sup>2-</sup>周围最近且等距离的S<sup>2-</sup>有6个</li>
+<li>Zn<sup>2+</sup>与S<sup>2-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
 -10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
 -50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
 35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
 -221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
 s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a(体对角线的四等分点)</p>
-</li>
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a(体对角线的四等分点)</li>
+<li>配位数为4（在互不相邻的四面体空隙插入原子）</li>
 </ul>
 </li>
 <li>
 <p>CaF<sub>2</sub>型</p>
 <ul>
-<li>
-<p>面心立方堆积</p>
+<li>面心立方堆积</li>
+</ul>
 </li>
 <li>
 <p>一个晶胞含4个Ca<sup>2+</sup>和8个F<sup>-</sup></p>
-</li>
-<li>
-<p>Ca<sup>2+</sup>的配位数为8，F<sup>-</sup>的配位数为4</p>
+<ul>
+<li>Ca<sup>2+</sup>的配位数为8，F<sup>-</sup>的配位数为4</li>
+</ul>
 </li>
 <li>
 <p>Ca<sup>2+</sup>形成8个四面体空隙，F<sup>-</sup>填入其中8个四面体空隙，空隙填充率100%</p>
-</li>
-<li>
-<p>在每个Ca<sup>2+</sup>周围最近且等距离的Ca<sup>2+</sup>有12个，在每个F<sup>-</sup>周围最近且等距离的F<sup>-</sup>有6个</p>
+<ul>
+<li>在每个Ca<sup>2+</sup>周围最近且等距离的Ca<sup>2+</sup>有12个，在每个F<sup>-</sup>周围最近且等距离的F<sup>-</sup>有6个</li>
+</ul>
 </li>
 <li>
 <p>Ca<sup>2+</sup>与F<sup>-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
@@ -539,7 +519,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 -221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
 s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
 s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a</p>
-</li>
+<ul>
+<li>配位数为4（在所有四面体空隙插入原子）</li>
 </ul>
 </li>
 </ul>
@@ -565,14 +546,33 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </table>
 <h2 id="原子晶体"><a class="markdownIt-Anchor" href="#原子晶体"></a> 原子晶体</h2>
 <ul>
-<li>共价键：两个或多个非金属原子共同使用它们的外层电子（砷化镓为例外），在理想情况下达到电子饱和的状态，由此组成比较稳定和坚固的化学结构.
+<li>
+<p>共价键：原子间通过共用电子对形成的化学键</p>
 <ul>
-<li>共价键形成的本质：当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</li>
-<li>具有饱和性。</li>
-<li>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</li>
+<li>
+<p>成键微粒：原子</p>
+</li>
+<li>
+<p>共价键形成的本质：当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</p>
+</li>
+<li>
+<p>具有饱和性。</p>
+</li>
+<li>
+<p>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</p>
+</li>
 </ul>
 </li>
-<li>共价键的分类
+<li>
+<p>共价键的参数</p>
+<ul>
+<li>键能：拆开1mol共价键所吸收的能量\形成1mol共价键所释放的能量。</li>
+<li>键长：两个成键原子的核间距离叫做该化学键的键长（约等于成键两原子半径之和）</li>
+<li>键角：多原子分子中的两个共价键之间的夹角。</li>
+</ul>
+</li>
+<li>
+<p>共价键的分类</p>
 <ul>
 <li>形成共价键的原子轨道重叠方式
 <ul>
@@ -582,15 +582,101 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 <li>形成共价键的电子对是否偏移
 <ul>
-<li>极性键	共用电子对发生偏移</li>
-<li>非极性键	共用电子对不发生偏移</li>
+<li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
+<li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
 </ul>
 </li>
 <li>原子间共用电子对的数目
 <ul>
-<li>单键	原子间有一对共用电子对</li>
-<li>双键	原子间有两对共用电子对</li>
-<li>三键	原子间有三对共用电子对</li>
+<li>
+<p>单键	原子间有一对共用电子对</p>
+</li>
+<li>
+<p>双键	原子间有两对共用电子对</p>
+</li>
+<li>
+<p>三键	原子间有三对共用电子对</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>σ键</p>
+<ul>
+<li>
+<p>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠</p>
+</li>
+<li>
+<p>类别</p>
+<ul>
+<li>s-sσ键：由两个s原子轨道重叠形成的σ键（无方向性）</li>
+<li>s-pσ键：由一个s原子轨道和一个p原子轨道重叠形成的σ键</li>
+<li>p-pσ键：由两个p原子轨道重叠形成的σ键</li>
+</ul>
+</li>
+<li>
+<p>特征</p>
+<ul>
+<li>
+<p>形成σ键的原子轨道重叠程度较大，故较稳定</p>
+</li>
+<li>
+<p>以形成σ键的两原子核的连线为轴，任何一个原子均可以旋转，并不破坏σ键的结构</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>π键</p>
+<ul>
+<li>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>示意图</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Pi-Bond.svg"  width="200px"/></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>分类</p>
+<ul>
+<li>
+<p>定域π键：两原子间形成的π键</p>
+<blockquote>
+<p>例：N<sub>2</sub> 2个π键</p>
+</blockquote>
+</li>
+<li>
+<p>离域π键：多原子间形成的π键</p>
+<p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li>
+<p>a：成键原子数（偶数，且≥4）</p>
+</li>
+<li>
+<p>b：成键电子数</p>
+</li>
+</ul>
+<blockquote>
+<p>例：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>3</mn><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_3^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（CO<sub>2</sub>，O<sub>3</sub>），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>4</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_4^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>5</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_5^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>6</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_6^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（苯）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>特征</p>
+<ul>
+<li>形成π键时电子云重叠程度比σ键小，故较不稳定。</li>
+<li>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</li>
 </ul>
 </li>
 </ul>
