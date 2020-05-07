@@ -1,731 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>物构知识点（正在学习中）</title>
-    <url>/2020-04-18-wg1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="原子结构与性质"><a class="markdownIt-Anchor" href="#原子结构与性质"></a> 原子结构与性质</h1>
-<h2 id="研究历史"><a class="markdownIt-Anchor" href="#研究历史"></a> 研究历史</h2>
+    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
+    <url>/2020-04-14-BINGPICTURES.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
+            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
+          </div>
+<div class="note info">
+            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv%E6%97%A5%E6%A6%9C" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
+          </div>
+<h1 id="顺带一提"><a class="markdownIt-Anchor" href="#顺带一提"></a> 顺带一提</h1>
 <ul>
-<li>1808，道尔顿，实心球模型</li>
-<li>1897，汤姆森，葡萄干布丁模型</li>
-<li>1909，卢瑟福，行星模型</li>
-<li>1913，玻尔，玻尔模型</li>
+<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
+<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
 </ul>
-<h2 id="基态原子的核外电子排布"><a class="markdownIt-Anchor" href="#基态原子的核外电子排布"></a> 基态原子的核外电子排布</h2>
-<h3 id="排布规律"><a class="markdownIt-Anchor" href="#排布规律"></a> 排布规律</h3>
+<h1 id="card_bingpicturepug内容"><a class="markdownIt-Anchor" href="#card_bingpicturepug内容"></a> <code>card_bingpicture.pug</code>内容</h1>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
+<h1 id="indexpug添加"><a class="markdownIt-Anchor" href="#indexpug添加"></a> <code>index.pug</code>添加</h1>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
+<h1 id="butterflyyml添加"><a class="markdownIt-Anchor" href="#butterflyyml添加"></a> <code>butterfly.yml</code>添加</h1>
+<p><code>card_bingpicture: true</code></p>
+<h1 id="zh-cnyml添加"><a class="markdownIt-Anchor" href="#zh-cnyml添加"></a> <code>ZH-CN.yml</code>添加</h1>
+<p><code>card_bingpicture: Bing每日图片</code></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>“暴风雪”计划：大纲（持续补充）</title>
+    <url>/2020-04-17-BURAN.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
+<p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p>
+<p>项目的核心为“暴风雪”号航天飞机。</p>
+<h1 id="大纲"><a class="markdownIt-Anchor" href="#大纲"></a> 大纲</h1>
+<h2 id="运载工具"><a class="markdownIt-Anchor" href="#运载工具"></a> 运载工具</h2>
 <ul>
-<li>能量最低原理：原子核外电子总是先占有能量最低的电子轨道。</li>
-<li>泡利不相容原理：每个原子轨道上最多只能容纳2个自旋方向相反的电子</li>
-<li>洪特规则：当电子排布在同一能级的不同轨道时，基态原子中的电子总是优先单独占据一个轨道，而且自旋状态相同</li>
+<li>Myasishchev VM-T（Мясищев ВМ-Т «Атлант»）
+<ul>
+<li>米亚-4型轰炸机的变种，用于运输“暴风雪”号模型及“能源”火箭的组件。</li>
 </ul>
-<h3 id="四种表示方法"><a class="markdownIt-Anchor" href="#四种表示方法"></a> 四种表示方法</h3>
+</li>
+<li>AN-225(Ан-225 « Мрия »)
 <ul>
-<li>电子排布式</li>
+<li>至今为止世界上载重量最大的运输机，用于运输“暴风雪”号航天飞机。</li>
 </ul>
-<blockquote>
-<p>例： Cr：1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>3d<sup>5</sup>4s<sup>1</p>
-</blockquote>
-<ul>
-<li>简化表示式</li>
+</li>
 </ul>
-<blockquote>
-<p>例：Cu：[Ar]3d<sup>10</sup>4s<sup>1</sup></p>
-</blockquote>
+<h2 id="发射场拜科努尔航天发射场космодром-байконур"><a class="markdownIt-Anchor" href="#发射场拜科努尔航天发射场космодром-байконур"></a> 发射场——拜科努尔航天发射场（Космодром Байконур）</h2>
 <ul>
-<li>价电子排布式</li>
+<li>UKSS/第250号站点（УниверсальныйКомплексСтенд-Старт）
+<ul>
+<li>该发射台建于70年代末，可兼做测试台。唯一一次在250号上进行的发射为“能源”的首飞。</li>
 </ul>
-<blockquote>
-<p>例：Fe：3d<sup>6</sup>4s<sup>2</sup></p>
-</blockquote>
+</li>
+<li>第110号站点
 <ul>
-<li>电子排布图</li>
+<li>该发射台上进行过五次发射任务：四次失败的N1火箭发射任务，以及一次成功的“能源-暴风雪”任务。</li>
 </ul>
-<blockquote>
-<p>例：<img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/%E6%8D%95%E8%8E%B765661.png"  alt="" /></p>
-</blockquote>
-<p>​</p>
-<h3 id="原子轨道"><a class="markdownIt-Anchor" href="#原子轨道"></a> 原子轨道</h3>
+</li>
+<li>“周年纪念日”机场/第251号站点（“Юбилейный”）
 <ul>
-<li>电子层</li>
+<li>位于拜科努尔发射场的机场，被用于运输航天组件及“暴风雪”的着陆设施。</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>由内至外电子层顺序</th>
-<th>电子层符号</th>
-<th>亚电子层数目</th>
-<th>原子轨道数目n<sup>2</sup></th>
-<th>可容纳电子数目2n<sup>2</sup></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>K</td>
-<td>1</td>
-<td>1</td>
-<td>2</td>
-</tr>
-<tr>
-<td>2</td>
-<td>L</td>
-<td>2</td>
-<td>4</td>
-<td>8</td>
-</tr>
-<tr>
-<td>3</td>
-<td>M</td>
-<td>3</td>
-<td>9</td>
-<td>18</td>
-</tr>
-<tr>
-<td>4</td>
-<td>N</td>
-<td>4</td>
-<td>16</td>
-<td>32</td>
-</tr>
-</tbody>
-</table>
+</li>
+<li>第112号站点
 <ul>
-<li>原子轨道</li>
+<li>最开始为组装N1火箭而被建造，后被用于维护航天飞机和组装“暴风雪-能源”复合体，1K1“暴风雪”在此存放，并在2002年被倒塌的机库屋顶摧毁。</li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>由内至外顺序</th>
-<th>名称</th>
-<th>形状</th>
-<th>伸展方向</th>
-<th>可容纳电子数目</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>s</td>
-<td>球形</td>
-<td>1</td>
-<td>2</td>
-</tr>
-<tr>
-<td>2</td>
-<td>p</td>
-<td>纺锤形</td>
-<td>3</td>
-<td>6</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d</td>
-<td>复杂</td>
-<td>5</td>
-<td>10</td>
-</tr>
-<tr>
-<td>4</td>
-<td>f</td>
-<td>复杂</td>
-<td>7</td>
-<td>14</td>
-</tr>
-</tbody>
-</table>
+</li>
+<li>第254号站点
 <ul>
-<li>示意图<br />
-<img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/yuanziguidao.svg"  width="40%" height="40%" /></li>
+<li>在飞行任务后，用于维修、翻新航天飞机。</li>
 </ul>
-<h2 id="元素第一电离能和电负性及其变化规律"><a class="markdownIt-Anchor" href="#元素第一电离能和电负性及其变化规律"></a> 元素第一电离能和电负性及其变化规律</h2>
+</li>
+</ul>
+<h2 id="航天飞机"><a class="markdownIt-Anchor" href="#航天飞机"></a> 航天飞机</h2>
+<h3 id="量产型"><a class="markdownIt-Anchor" href="#量产型"></a> 量产型</h3>
 <ul>
-<li>电负性： 衡量元素在化合物中吸引电子的能力。
+<li>11F35 1K “暴风雪”（Буран）（1.01）
 <ul>
-<li>氟的电负性为4.0</li>
-<li>变化规律：
+<li>唯一飞行过的量产型号。在2002年于哈萨克斯坦被因暴风雪而倒塌的机棚摧毁。</li>
+</ul>
+</li>
+<li>11F35 2K “小鸟”/“风暴”（Птичка/Буря）（1.02）
 <ul>
-<li>同周期（从左到右）：依次增大</li>
-<li>同主族（自上而下）：依次减小</li>
+<li>量产型二号机，1988年开始建造，目前位于拜科努尔发射场的112A站点（112-MZK组装大楼）。</li>
+</ul>
+</li>
+<li>11F35 3K “贝加尔湖”（Байкал）（2.01）
+<ul>
+<li>量产型三号机，为前两架的改进版本，现位于莫斯科郊外茄科夫斯基的飞行博物馆。</li>
+</ul>
+</li>
+<li>11F35 4K （2.02）
+<ul>
+<li>量产型四号机，被拆解。</li>
+</ul>
+</li>
+<li>11F35 5K （2.03）
+<ul>
+<li>量产型五号机，被拆解。</li>
+</ul>
+</li>
+</ul>
+<h3 id="试验机"><a class="markdownIt-Anchor" href="#试验机"></a> 试验机</h3>
+<ul>
+<li>BOR/БОР(Беспилотный Орбитальный Ракетоплан, 无人驾驶轨道火箭飞机）
+<ul>
+<li>BOR-1
+<ul>
+<li>（以米格-105为蓝本的）全木制（？）试验机，于1969年7月15日被发射至亚轨道，在以13,000 km / h的速度进入大气层时被烧毁。</li>
+</ul>
+</li>
+<li>BOR-2
+<ul>
+<li>1:3全金属试验机，发射过四次，编号101-104。</li>
+</ul>
+</li>
+<li>BOR-3
+<ul>
+<li>1:3全金属试验机，发射过两次，编号301-302。</li>
+</ul>
+</li>
+<li>BOR-4
+<ul>
+<li>米格-105的1:2模型，发射过至少5次（另外还有2次未证实的发射记录），编号为BOR-4C,“宇宙”-1374/1445/1517/1614。</li>
+</ul>
+</li>
+<li>BOR-5
+<ul>
+<li>“暴风雪”的1:8模型，发射过5次，编号501-505。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>第一电离能: 某元素的气态原子失去一个电子形成+1价气态阳离子所需的最低能量，用符号*I<sub>1</sub>*表示
+<li>空中及静态试验机
 <ul>
-<li>变化规律：
+<li>OK-M/OK-ML-1/BST-001（0.01）
 <ul>
-<li>同周期（从左到右）：增大趋势(注意ⅡA、ⅤA的特殊性)</li>
-<li>同主族（自上而下）：依次减小</li>
+<li>静态强度测试机。后被移至高尔基中央文化休闲公园。在2014年7月5-6日被移至俄罗斯国家经济展览中心以庆祝国家经济成就展（前身为苏联国民经济成就展）举办75周年。</li>
 </ul>
 </li>
+<li>OK-GLI/BST-002（0.02）
+<ul>
+<li>水平飞行测试机，进行过25（24？）次空中飞行和9次地面飞行。现位于德国施派尔技术博物馆中。</li>
 </ul>
 </li>
-</ul>
-<blockquote>
-<p>同周期元素，ⅡA族(np<sup>0</sup>)和ⅤA族(ns<sup>2</sup>np<sup>3</sup>)，因p轨道处于全空或半满状态，比较稳定，所以其第一电离能大于同周期右侧相 邻的ⅢA族、ⅥA族元素，如第一电离能Mg&gt;Al，P&gt;S。</p>
-</blockquote>
+<li>OK-KS（0.03）
 <ul>
-<li>元素周期表中区的划分</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>区</th>
-<th>族</th>
-<th>最外层电子</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>s区</td>
-<td>ⅠA、ⅡA两族元素</td>
-<td>ns<sup>1-2</sup></td>
-</tr>
-<tr>
-<td>p区</td>
-<td>ⅢA-ⅦA族元素及0族元素</td>
-<td>ns<sup>2</sup>np<sup>1-6</sup></td>
-</tr>
-<tr>
-<td>d区</td>
-<td>ⅢB-ⅦB,Ⅷ族</td>
-<td>(n-1)d<sup>1-9</sup>ns<sup>1-2</sup></td>
-</tr>
-<tr>
-<td>ds区</td>
-<td>ⅠB、ⅡB族</td>
-<td>(n-1)d<sup>10</sup>ns<sup>1-2</sup></td>
-</tr>
-<tr>
-<td>f区</td>
-<td>镧系、锕系元素</td>
-<td>(n-2)f<sup>0-14</sup>(n-1)d<sup>0-2</sup>ns<sup>2</sup></td>
-</tr>
-</tbody>
-</table>
-<h1 id="晶体结构与性质"><a class="markdownIt-Anchor" href="#晶体结构与性质"></a> 晶体结构与性质</h1>
-<h2 id="分类"><a class="markdownIt-Anchor" href="#分类"></a> 分类</h2>
-<table>
-<thead>
-<tr>
-<th>类别</th>
-<th>粒子间作用力</th>
-<th>特征</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>分子晶体</td>
-<td>分子间作用力（范德华力、氢键）</td>
-<td>低熔沸点</td>
-</tr>
-<tr>
-<td>离子晶体</td>
-<td>离子键</td>
-<td>较高熔沸点，在水溶液/熔融能导电</td>
-</tr>
-<tr>
-<td>原子晶体</td>
-<td>共价键</td>
-<td>高熔沸点</td>
-</tr>
-<tr>
-<td>金属晶体</td>
-<td>金属键</td>
-<td>导电、传热、延展性</td>
-</tr>
-</tbody>
-</table>
-<h2 id="金属晶体"><a class="markdownIt-Anchor" href="#金属晶体"></a> 金属晶体</h2>
-<ul>
-<li>
-<p>金属键：金属阳离子和自由电子之间强烈的相互作用</p>
-<ul>
-<li>
-<p>存在于金属单质/合金/金属簇化合物中</p>
-</li>
-<li>
-<p>金属键没有方向性——延展性</p>
-</li>
-<li>
-<p>自由电子在外电场作用下定向移动——导电性</p>
-</li>
-<li>
-<p>通过自由电子的运动把能量从温度高的地方向温度低的地方传递——导热性</p>
-</li>
-<li>
-<p>金属离子半径越小，离子电荷数越多，金属键越强，金属熔、沸点就越高。</p>
-</li>
+<li>电控、电力系统测试机。现位于RKK Energia的安全控制中心？（ICC）</li>
 </ul>
 </li>
-<li>
-<p>金属晶体堆积模型</p>
+<li>OK-MT/OK-ML-1（0.04）
 <ul>
-<li>密置层和非密置层
+<li>尺寸-重量拟合测试模型，现位于拜科努尔发射场的博物馆。</li>
+</ul>
+</li>
+<li>OK-M005（0.05）
 <ul>
-<li>非密置层：每个圆球和其他四个球相切</li>
-<li>密置层：每个圆球和其他六个球相切</li>
+<li>热-振动-强度测试机。位于莫斯科中央空气流体动力学研究院。</li>
+</ul>
+</li>
+<li>OK-TVI（0.06）
+<ul>
+<li>热-真空测试模型。位于莫斯科东北的佩列斯韦特的НИИХИММАШ测试厂房。</li>
+</ul>
+</li>
+<li>OK-M008（0.08）
+<ul>
+<li>医学研究。在测试弹射座椅的可靠性后，该机就被送到莫斯科第29医院，后被转移至莫斯科附近的宇航员培训中心。目前位于（FMBA所属的？）第83临床医院辖区内。</li>
+</ul>
+</li>
+<li>OK-TVA（0.15）
+<ul>
+<li>发射前操作（加油，装配等）测试机。现在和1.02“小鸟”一起躺在拜科努尔112A站点的80号大楼。</li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
-<table>
-<thead>
-<tr>
-<th>类别</th>
-<th>例子</th>
-<th>示意图</th>
-<th>晶胞占有原子数</th>
-<th>原子半径r与立方体边长a的关系</th>
-<th>配位数</th>
-<th>空间利用率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>简单立方堆积</td>
-<td>钋（Po）</td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattic_simple_cubic.svg"  width="200px"/></td>
-<td>1</td>
-<td>a=2r</td>
-<td>6</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>π</mi><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{π}{6}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.040392em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">π</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>≈52%</td>
-</tr>
-<tr>
-<td>体心立方堆积</td>
-<td>钠、钾、铬、钼、钨</td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Cubic-body-centered.svg"  width="200px"/></td>
-<td>2</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mn>3</mn></msqrt><mi>a</mi></mrow><annotation encoding="application/x-tex">\sqrt{3}a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.13278em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.90722em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">3</span></span></span><span style="top:-2.86722em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.13278em;"><span></span></span></span></span></span><span class="mord mathdefault">a</span></span></span></span>=4r</td>
-<td>8</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>8</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{3}}{8}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">3</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈68%</td>
-</tr>
-<tr>
-<td>面心立方堆积</td>
-<td>金、银、铜、铅</td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattice_face_centered_cubic.svg"  width="200px"/></td>
-<td>4</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{2}a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault">a</span></span></span></span>=2r</td>
-<td>12</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>6</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{6}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈74%</td>
-</tr>
-<tr>
-<td>六方立方堆积</td>
-<td>镁、锌、钛</td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Hexagonal_close_packed.svg"  width="200px"/></td>
-<td>2</td>
-<td></td>
-<td>12</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>6</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{6}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈74%</td>
-</tr>
-</tbody>
-</table>
+<h2 id="能源火箭家族"><a class="markdownIt-Anchor" href="#能源火箭家族"></a> 能源火箭家族</h2>
 <ul>
-<li>关于面心和六方的一些图片</li>
-</ul>
-<blockquote>
-<p>左面心，右六方</p>
-<img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Close_packing.svg"  width="500px"/>
-</blockquote>
-<h2 id="离子晶体"><a class="markdownIt-Anchor" href="#离子晶体"></a> 离子晶体</h2>
+<li>“能源”
 <ul>
-<li>
-<p>离子键：阴阳离子之间的强烈的相互作用</p>
-<ul>
-<li>没有方向性和饱和性</li>
-<li>含有离子键的化合物就是离子化合物</li>
-<li>包括引力和斥力</li>
+<li>芯级：4台RD-0120</li>
+<li>“天顶”助推器数：4</li>
 </ul>
 </li>
-<li>
-<p>晶格能<em>U</em>：拆开1mol离子晶体使之形成气态阳离子和气态阴离子时所需的能量。</p>
+<li>“能源-M”
 <ul>
-<li>晶格能越大，表明离子晶体中的离子键越强。</li>
-<li>一般而言，晶格能越大，离子晶体的熔点越高，硬度越大。</li>
-<li>影响因素：阴阳离子的电荷数越多，离子间的核间距越小，晶格能越大</li>
+<li>芯级：1台RD-0120</li>
+<li>“天顶”助推器数：2或4</li>
 </ul>
 </li>
-<li>
-<p>离子配位数：一种离子周围紧邻的带相反电荷的离子数目。</p>
+<li>“能源-2”/Ураган
 <ul>
-<li>离子晶体中离子的配位数主要取决于阴、阳离子的相对大小。</li>
+<li>从芯级到助推皆采用滑翔方式进行回收。</li>
 </ul>
 </li>
-<li>
-<p>离子晶体：由阴阳离子通过离子键结合而成的晶体</p>
+<li>“祝融星”
 <ul>
-<li>
-<p>构成微粒：阴离子和阳离子</p>
+<li>使用8个“天顶”助推器，并使用“能源-M”作为最上级。</li>
+</ul>
 </li>
-<li>
-<p>判断方法</p>
+<li>“天顶-2/3”
 <ul>
-<li>
-<p>熔融状态下能导电的化合物</p>
-</li>
-<li>
-<p>出现Na+，K+，Ba<sub>2</sub>+，Mg<sub>2</sub>+，NH<sub>4</sub>+六种离子的其中一种的一定是离子晶体</p>
-</li>
-<li>
-<p>无任何信息下的含金属元素的（除AlCl<sub>3</sub>）</p>
-</li>
-<li>
-<p>有阳离子和阴离子（只有阳离子：可能为金属晶体）</p>
-</li>
+<li>由“能源”的助推器“天顶-1”发展而来的运载火箭。</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>
-<p>作用力判断</p>
+<h2 id="火箭发动机"><a class="markdownIt-Anchor" href="#火箭发动机"></a> 火箭发动机</h2>
 <ul>
-<li>
-<p>离子晶体中作用力一定有：离子键</p>
-</li>
-<li>
-<p>离子晶体中作用力可能有：共价键</p>
-</li>
-<li>
-<p>熔化时破坏的作用力：离子键</p>
-</li>
+<li>RD-170系列
+<ul>
+<li>RD-170</li>
+<li>RD-171</li>
+<li>RD-171M</li>
+<li>RD-175</li>
+<li>RD-180</li>
+<li>RD-180M</li>
+<li>RD-180V</li>
+<li>RD-191</li>
+<li>RD-151</li>
+<li>RD-193</li>
+<li>RD-120</li>
 </ul>
 </li>
+<li>RD-0120</li>
 </ul>
-<blockquote>
-<p>故可得：氯化钠溶液或熔融氯化钠中没有离子键<br />
-离子化合物熔化只断键，属于物理变化</p>
-</blockquote>
+<h2 id="其它载荷"><a class="markdownIt-Anchor" href="#其它载荷"></a> 其它载荷</h2>
 <ul>
-<li>物理性质（括号中为例外）
-<ul>
-<li>熔沸点较高（原子晶体）</li>
-<li><sub>1</sub>固体不导电，<sub>2</sub>熔融状态能导电，<sub>3</sub>水溶液一般导电（<sub>13</sub>例外：HCl）</li>
-<li>大多易溶于水，难溶于有机溶剂</li>
-</ul>
-</li>
-<li>热稳定性
-<ul>
-<li>例：碳酸盐：X<sup>2+</sup>+CO<sub>3</sub><sup>2-</sup>=XO+CO<sub>2</sub>
-<ul>
-<li>分解温度：MgCO<sub>3</sub>&lt;CaCO<sub>3</sub>&lt;SrCO<sub>3</sub>&lt;BaCO<sub>3</sub></li>
-<li>原因：X-O键越强，越容易把O<sup>2-</sup>从CO<sub>3</sub><sup>2-</sup>中脱离出来</li>
-<li>写法：碳酸盐分解本质为CO<sub>3</sub><sup>2-</sup>生成CO<sub>2</sub>和O<sup>2-</sup>,Mg<sup>2</sup>半径最小，与O<sup>2-</sup>结合能力最强，故MgCO<sub>3</sub>最易分解</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>常见离子晶体
-<ul>
-<li>
-<p>NaCl型</p>
-<ul>
-<li>面心立方堆积</li>
-<li>一个晶胞平均含4个Na<sup>+</sup>和4个Cl<sup>-</sup></li>
-<li>Na<sup>+</sup>的配位数为6，Cl<sup>-</sup>的配位数为6</li>
-<li>离Na<sup>+</sup>周围最近的Cl<sup>-</sup>构成的空间构型为空间正八面体</li>
-<li>在每个Na<sup>+</sup>周围最近且等距离的Na<sup>+</sup>有12个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有12个</li>
-<li>配位数为6（在所有八面体空隙插入原子）</li>
-</ul>
-</li>
-<li>
-<p>CsCl型</p>
-<ul>
-<li>
-<p>体心立方堆积</p>
-</li>
-<li>
-<p>一个晶胞平均含1个Cs<sup>+</sup>和1个Cl<sup>-</sup></p>
-</li>
-<li>
-<p>Cs<sup>+</sup>的配位数为8，Cl的配位数为8</p>
-</li>
-<li>
-<p>在每个Cs<sup>+</sup>周围最近且等距离的Cs<sup>+</sup>有6个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有6个</p>
-</li>
-</ul>
-</li>
-<li>
-<p>ZnS型（闪锌矿型）</p>
-<ul>
-<li>类金刚石堆积</li>
-<li>一个ZnS晶胞中含4个Zn<sup>2+</sup>和4个S<sup>2-</sup></li>
-<li>Zn<sup>2+</sup>的配位数是，S<sup>2-</sup>的配位数是</li>
-<li>Zn<sup>2+</sup>形成8个四面体空隙，S<sup>2-</sup>填入其中4个四面体空隙，空隙填充率50%</li>
-<li>在每个Zn<sup>2+</sup>周围最近且等距离的Zn<sup>2+</sup>有6个，在每个S<sup>2-</sup>周围最近且等距离的S<sup>2-</sup>有6个</li>
-<li>Zn<sup>2+</sup>与S<sup>2-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a(体对角线的四等分点)</li>
-<li>配位数为4（在互不相邻的四面体空隙插入原子）</li>
-</ul>
-</li>
-<li>
-<p>CaF<sub>2</sub>型</p>
-<ul>
-<li>面心立方堆积</li>
-</ul>
-</li>
-<li>
-<p>一个晶胞含4个Ca<sup>2+</sup>和8个F<sup>-</sup></p>
-<ul>
-<li>Ca<sup>2+</sup>的配位数为8，F<sup>-</sup>的配位数为4</li>
-</ul>
-</li>
-<li>
-<p>Ca<sup>2+</sup>形成8个四面体空隙，F<sup>-</sup>填入其中8个四面体空隙，空隙填充率100%</p>
-<ul>
-<li>在每个Ca<sup>2+</sup>周围最近且等距离的Ca<sup>2+</sup>有12个，在每个F<sup>-</sup>周围最近且等距离的F<sup>-</sup>有6个</li>
-</ul>
-</li>
-<li>
-<p>Ca<sup>2+</sup>与F<sup>-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a</p>
-<ul>
-<li>配位数为4（在所有四面体空隙插入原子）</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>NaCl</th>
-<th>CsCl</th>
-<th>ZnS</th>
-<th>CaF<sub>2</sub></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/NaCl-estructura_cristalina.svg"  width="200px"/></td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/CsCl_polyhedra.png"  width="200px"/></td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Sphalerite-unit-cell-3D-balls.png"  width="200px"/></td>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Fluorite-unit-cell-3D-balls.png"  width="200px"/></td>
-</tr>
-</tbody>
-</table>
-<h2 id="原子晶体"><a class="markdownIt-Anchor" href="#原子晶体"></a> 原子晶体</h2>
-<ul>
-<li>
-<p>共价键：原子间通过共用电子对形成的化学键</p>
-<ul>
-<li>
-<p>成键微粒：原子</p>
-</li>
-<li>
-<p>共价键形成的本质：当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</p>
-</li>
-<li>
-<p>具有饱和性。</p>
-</li>
-<li>
-<p>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</p>
-</li>
-</ul>
-</li>
-<li>
-<p>共价键的参数</p>
-<ul>
-<li>键能：拆开1mol共价键所吸收的能量\形成1mol共价键所释放的能量。</li>
-<li>键长：两个成键原子的核间距离叫做该化学键的键长（约等于成键两原子半径之和）</li>
-<li>键角：多原子分子中的两个共价键之间的夹角。</li>
-</ul>
-</li>
-<li>
-<p>共价键的分类</p>
-<ul>
-<li>形成共价键的原子轨道重叠方式
-<ul>
-<li>σ键	“头碰头”重叠</li>
-<li>π键	“肩并肩”重叠</li>
-</ul>
-</li>
-<li>形成共价键的电子对是否偏移
-<ul>
-<li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
-<li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
-</ul>
-</li>
-<li>原子间共用电子对的数目
-<ul>
-<li>
-<p>单键	原子间有一对共用电子对</p>
-</li>
-<li>
-<p>双键	原子间有两对共用电子对</p>
-</li>
-<li>
-<p>三键	原子间有三对共用电子对</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>σ键</p>
-<ul>
-<li>
-<p>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠</p>
-</li>
-<li>
-<p>类别</p>
-<ul>
-<li>s-sσ键：由两个s原子轨道重叠形成的σ键（无方向性）</li>
-<li>s-pσ键：由一个s原子轨道和一个p原子轨道重叠形成的σ键</li>
-<li>p-pσ键：由两个p原子轨道重叠形成的σ键</li>
-</ul>
-</li>
-<li>
-<p>特征</p>
-<ul>
-<li>
-<p>形成σ键的原子轨道重叠程度较大，故较稳定</p>
-</li>
-<li>
-<p>以形成σ键的两原子核的连线为轴，任何一个原子均可以旋转，并不破坏σ键的结构</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>π键</p>
-<ul>
-<li>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>示意图</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="/" class="lazyload" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Pi-Bond.svg"  width="200px"/></td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>
-<p>分类</p>
-<ul>
-<li>
-<p>定域π键：两原子间形成的π键</p>
-<blockquote>
-<p>例：N<sub>2</sub> 2个π键</p>
-</blockquote>
-</li>
-<li>
-<p>离域π键：多原子间形成的π键</p>
-<p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
-<ul>
-<li>
-<p>a：成键原子数（偶数，且≥4）</p>
-</li>
-<li>
-<p>b：成键电子数</p>
-</li>
-</ul>
-<blockquote>
-<p>例：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>3</mn><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_3^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（CO<sub>2</sub>，O<sub>3</sub>），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>4</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_4^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>5</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_5^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>6</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_6^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（苯）</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li>
-<p>特征</p>
-<ul>
-<li>形成π键时电子云重叠程度比σ键小，故较不稳定。</li>
-<li>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p><strong>特别提醒</strong><br></p>
-<ol>
-<li>单键为σ键；双键或三键，其中一个为σ键，其余为π键。<br></li>
-<li>配位键为一种特殊的共价键，形成配位键的条件是成键原子一方(A)能够提供孤电子对，另一方(B)具有能够接受孤电子对的空轨道，可表示为A―→B。。<br></li>
-<li>s轨道形成的共价键全部是σ键；杂化轨道形成的共价键全部为σ键。</li>
-</ol>
-</blockquote>
-<h2 id="立方晶胞各物理量的计算"><a class="markdownIt-Anchor" href="#立方晶胞各物理量的计算"></a> 立方晶胞各物理量的计算</h2>
-<p><strong>a<sup>3</sup>×ρ×N<sub>A</sub>＝n×M</strong></p>
-<blockquote>
-<ul>
-<li>a:晶胞棱长</li>
-<li>ρ:密度</li>
-<li>N<sub>A</sub>:阿伏加德罗常数的值</li>
-<li>n:1mol晶胞中所含晶体的物质的量</li>
-<li>M:晶体的摩尔质量</li>
-</ul>
-</blockquote>
-<h2 id="熔沸点比较规律"><a class="markdownIt-Anchor" href="#熔沸点比较规律"></a> 熔沸点比较规律</h2>
-<ul>
-<li>不同类型晶体的熔、沸点高低一般规律
-<ul>
-<li>原子晶体&gt;离子晶体&gt;分子晶体，</li>
-<li>金属晶体的熔、沸点差别很大，如钨、铂等熔点很高，汞、铯等熔点很低。</li>
-</ul>
-</li>
-<li>同类晶体：
-<ul>
-<li>原子晶体：看成键原子半径和，半径和越小，晶体的熔、沸点越高、硬度越大。</li>
-<li>离子晶体：依据静电原理进行分析，一般地说，阴、阳离子的电荷数越多，离子半径越小，则离子键越强，相应地晶格能越大，熔、沸点越高。</li>
-<li>分子晶体：组成和结构相似的物质，相对分子质量越大，熔沸点越高(若分子间存在氢键，则含有氢键的熔、沸点高些)。<br><br />
-组成和结构不相似的分子晶体(相对分子质量接近)，分子的极性越大，其熔、沸点越高。如CO&gt;N<sub>2</sub>，CH<sub>3</sub>OH&gt;CH<sub>3</sub>CH<sub>3</sub>。</li>
-<li>金属晶体：金属离子半径越小，离子电荷数越多，金属键越强，金属熔、 沸点就越高。如熔、沸点：Al&gt;Mg&gt;Na。</li>
-</ul>
-</li>
+<li>“极地”号</li>
 </ul>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>航天</category>
       </categories>
       <tags>
-        <tag>学习笔记</tag>
-        <tag>化学</tag>
+        <tag>航天</tag>
+        <tag>暴风雪-能源</tag>
       </tags>
   </entry>
   <entry>
@@ -747,7 +264,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
   <entry>
     <title>“云”上合唱团</title>
     <url>/2020-04-16-choir-on-cloud.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br><span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br />
+<span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
 <p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
 <div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
       <categories>
@@ -757,214 +275,6 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
         <tag>FZYZ</tag>
         <tag>测试</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <url>/2020-04-14-BINGPICTURES.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
-            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
-          </div>
-<div class="note info">
-            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv日榜" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
-          </div>
-
-<h1 id="顺带一提"><a href="#顺带一提" class="headerlink" title="顺带一提"></a>顺带一提</h1><ul>
-<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
-<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
-</ul>
-<h1 id="card-bingpicture-pug内容"><a href="#card-bingpicture-pug内容" class="headerlink" title="card_bingpicture.pug内容"></a><code>card_bingpicture.pug</code>内容</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
-<h1 id="index-pug添加"><a href="#index-pug添加" class="headerlink" title="index.pug添加"></a><code>index.pug</code>添加</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
-<h1 id="butterfly-yml添加"><a href="#butterfly-yml添加" class="headerlink" title="butterfly.yml添加"></a><code>butterfly.yml</code>添加</h1><p><code>card_bingpicture: true</code></p>
-<h1 id="ZH-CN-yml添加"><a href="#ZH-CN-yml添加" class="headerlink" title="ZH-CN.yml添加"></a><code>ZH-CN.yml</code>添加</h1><p><code>card_bingpicture: Bing每日图片</code></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>“暴风雪”计划：大纲（持续补充）</title>
-    <url>/2020-04-17-BURAN.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p>
-<p>项目的核心为“暴风雪”号航天飞机。</p>
-<h1 id="大纲"><a href="#大纲" class="headerlink" title="大纲"></a>大纲</h1><h2 id="运载工具"><a href="#运载工具" class="headerlink" title="运载工具"></a>运载工具</h2><ul>
-<li>Myasishchev VM-T（Мясищев ВМ-Т «Атлант»）<ul>
-<li>米亚-4型轰炸机的变种，用于运输“暴风雪”号模型及“能源”火箭的组件。</li>
-</ul>
-</li>
-<li>AN-225(Ан-225 « Мрия »)<ul>
-<li>至今为止世界上载重量最大的运输机，用于运输“暴风雪”号航天飞机。<h2 id="发射场——拜科努尔航天发射场（Космодром-Байконур）"><a href="#发射场——拜科努尔航天发射场（Космодром-Байконур）" class="headerlink" title="发射场——拜科努尔航天发射场（Космодром Байконур）"></a>发射场——拜科努尔航天发射场（Космодром Байконур）</h2></li>
-</ul>
-</li>
-<li>UKSS/第250号站点（УниверсальныйКомплексСтенд-Старт）<ul>
-<li>该发射台建于70年代末，可兼做测试台。唯一一次在250号上进行的发射为“能源”的首飞。</li>
-</ul>
-</li>
-<li>第110号站点<ul>
-<li>该发射台上进行过五次发射任务：四次失败的N1火箭发射任务，以及一次成功的“能源-暴风雪”任务。</li>
-</ul>
-</li>
-<li>“周年纪念日”机场/第251号站点（”Юбилейный”）<ul>
-<li>位于拜科努尔发射场的机场，被用于运输航天组件及“暴风雪”的着陆设施。</li>
-</ul>
-</li>
-<li>第112号站点<ul>
-<li>最开始为组装N1火箭而被建造，后被用于维护航天飞机和组装“暴风雪-能源”复合体，1K1“暴风雪”在此存放，并在2002年被倒塌的机库屋顶摧毁。</li>
-</ul>
-</li>
-<li>第254号站点<ul>
-<li>在飞行任务后，用于维修、翻新航天飞机。<h2 id="航天飞机"><a href="#航天飞机" class="headerlink" title="航天飞机"></a>航天飞机</h2><h3 id="量产型"><a href="#量产型" class="headerlink" title="量产型"></a>量产型</h3></li>
-</ul>
-</li>
-<li>11F35 1K “暴风雪”（Буран）（1.01）<ul>
-<li>唯一飞行过的量产型号。在2002年于哈萨克斯坦被因暴风雪而倒塌的机棚摧毁。</li>
-</ul>
-</li>
-<li>11F35 2K “小鸟”/“风暴”（Птичка/Буря）（1.02）<ul>
-<li>量产型二号机，1988年开始建造，目前位于拜科努尔发射场的112A站点（112-MZK组装大楼）。</li>
-</ul>
-</li>
-<li>11F35 3K “贝加尔湖”（Байкал）（2.01）<ul>
-<li>量产型三号机，为前两架的改进版本，现位于莫斯科郊外茄科夫斯基的飞行博物馆。</li>
-</ul>
-</li>
-<li>11F35 4K （2.02）<ul>
-<li>量产型四号机，被拆解。</li>
-</ul>
-</li>
-<li>11F35 5K （2.03）<ul>
-<li>量产型五号机，被拆解。<h3 id="试验机"><a href="#试验机" class="headerlink" title="试验机"></a>试验机</h3></li>
-</ul>
-</li>
-<li>BOR/БОР(Беспилотный Орбитальный Ракетоплан, 无人驾驶轨道火箭飞机）<ul>
-<li>BOR-1<ul>
-<li>（以米格-105为蓝本的）全木制（？）试验机，于1969年7月15日被发射至亚轨道，在以13,000 km / h的速度进入大气层时被烧毁。</li>
-</ul>
-</li>
-<li>BOR-2<ul>
-<li>1:3全金属试验机，发射过四次，编号101-104。</li>
-</ul>
-</li>
-<li>BOR-3<ul>
-<li>1:3全金属试验机，发射过两次，编号301-302。</li>
-</ul>
-</li>
-<li>BOR-4<ul>
-<li>米格-105的1:2模型，发射过至少5次（另外还有2次未证实的发射记录），编号为BOR-4C,“宇宙”-1374/1445/1517/1614。</li>
-</ul>
-</li>
-<li>BOR-5<ul>
-<li>“暴风雪”的1:8模型，发射过5次，编号501-505。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>空中及静态试验机<ul>
-<li>OK-M/OK-ML-1/BST-001（0.01）<ul>
-<li>静态强度测试机。后被移至高尔基中央文化休闲公园。在2014年7月5-6日被移至俄罗斯国家经济展览中心以庆祝国家经济成就展（前身为苏联国民经济成就展）举办75周年。</li>
-</ul>
-</li>
-<li>OK-GLI/BST-002（0.02）<ul>
-<li>水平飞行测试机，进行过25（24？）次空中飞行和9次地面飞行。现位于德国施派尔技术博物馆中。</li>
-</ul>
-</li>
-<li>OK-KS（0.03）<ul>
-<li>电控、电力系统测试机。现位于RKK Energia的安全控制中心？（ICC）</li>
-</ul>
-</li>
-<li>OK-MT/OK-ML-1（0.04）<ul>
-<li>尺寸-重量拟合测试模型，现位于拜科努尔发射场的博物馆。</li>
-</ul>
-</li>
-<li>OK-M005（0.05）<ul>
-<li>热-振动-强度测试机。位于莫斯科中央空气流体动力学研究院。</li>
-</ul>
-</li>
-<li>OK-TVI（0.06）<ul>
-<li>热-真空测试模型。位于莫斯科东北的佩列斯韦特的НИИХИММАШ测试厂房。</li>
-</ul>
-</li>
-<li>OK-M008（0.08）<ul>
-<li>医学研究。在测试弹射座椅的可靠性后，该机就被送到莫斯科第29医院，后被转移至莫斯科附近的宇航员培训中心。目前位于（FMBA所属的？）第83临床医院辖区内。</li>
-</ul>
-</li>
-<li>OK-TVA（0.15）<ul>
-<li>发射前操作（加油，装配等）测试机。现在和1.02“小鸟”一起躺在拜科努尔112A站点的80号大楼。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="能源火箭家族"><a href="#能源火箭家族" class="headerlink" title="能源火箭家族"></a>能源火箭家族</h2><ul>
-<li>“能源”<ul>
-<li>芯级：4台RD-0120</li>
-<li>“天顶”助推器数：4</li>
-</ul>
-</li>
-<li>“能源-M”<ul>
-<li>芯级：1台RD-0120</li>
-<li>“天顶”助推器数：2或4</li>
-</ul>
-</li>
-<li>“能源-2”/Ураган<ul>
-<li>从芯级到助推皆采用滑翔方式进行回收。</li>
-</ul>
-</li>
-<li>“祝融星”<ul>
-<li>使用8个“天顶”助推器，并使用“能源-M”作为最上级。</li>
-</ul>
-</li>
-<li>“天顶-2/3”<ul>
-<li>由“能源”的助推器“天顶-1”发展而来的运载火箭。</li>
-</ul>
-</li>
-</ul>
-<h2 id="火箭发动机"><a href="#火箭发动机" class="headerlink" title="火箭发动机"></a>火箭发动机</h2><ul>
-<li>RD-170系列<ul>
-<li>RD-170</li>
-<li>RD-171</li>
-<li>RD-171M</li>
-<li>RD-175</li>
-<li>RD-180</li>
-<li>RD-180M</li>
-<li>RD-180V</li>
-<li>RD-191</li>
-<li>RD-151</li>
-<li>RD-193</li>
-<li>RD-120</li>
-</ul>
-</li>
-<li>RD-0120<h2 id="其它载荷"><a href="#其它载荷" class="headerlink" title="其它载荷"></a>其它载荷</h2></li>
-<li>“极地”号</li>
-</ul>
-]]></content>
-      <categories>
-        <category>航天</category>
-      </categories>
-      <tags>
-        <tag>航天</tag>
-        <tag>暴风雪-能源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我是谁</title>
-    <url>/2020-04-01-/who-am-i.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 align = "center">FZDSLR</h1>
-<h2 align = "center">一只学生党</h2>
-<img src="/" class="lazyload" data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"   alt="望" />
-
-<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
-
-
-<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
-<center><span class="heimu" title="对，我太菜了"><s>以上都不会（确信）</s></span></center>
-
-<p><strong><center>新浪邮箱<center/></strong></p>
-<center>FZDSLR@sina.com</center>
-
-]]></content>
   </entry>
   <entry>
     <title>动量笔记整理</title>
@@ -1161,6 +471,900 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
         <tag>学习笔记</tag>
         <tag>物理</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>物构知识点（正在学习中）</title>
+    <url>/2020-04-18-wg1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="原子结构与性质"><a class="markdownIt-Anchor" href="#原子结构与性质"></a> 原子结构与性质</h1>
+<h2 id="研究历史"><a class="markdownIt-Anchor" href="#研究历史"></a> 研究历史</h2>
+<ul>
+<li>1808，道尔顿，实心球模型</li>
+<li>1897，汤姆森，葡萄干布丁模型</li>
+<li>1909，卢瑟福，行星模型</li>
+<li>1913，玻尔，玻尔模型</li>
+</ul>
+<h2 id="基态原子的核外电子排布"><a class="markdownIt-Anchor" href="#基态原子的核外电子排布"></a> 基态原子的核外电子排布</h2>
+<h3 id="排布规律"><a class="markdownIt-Anchor" href="#排布规律"></a> 排布规律</h3>
+<ul>
+<li>能量最低原理：原子核外电子总是先占有能量最低的电子轨道。</li>
+<li>泡利不相容原理：每个原子轨道上最多只能容纳2个自旋方向相反的电子</li>
+<li>洪特规则：当电子排布在同一能级的不同轨道时，基态原子中的电子总是优先单独占据一个轨道，而且自旋状态相同</li>
+</ul>
+<h3 id="四种表示方法"><a class="markdownIt-Anchor" href="#四种表示方法"></a> 四种表示方法</h3>
+<ul>
+<li>电子排布式</li>
+</ul>
+<blockquote>
+<p>例： Cr：1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>3d<sup>5</sup>4s<sup>1</p>
+</blockquote>
+<ul>
+<li>简化表示式</li>
+</ul>
+<blockquote>
+<p>例：Cu：[Ar]3d<sup>10</sup>4s<sup>1</sup></p>
+</blockquote>
+<ul>
+<li>价电子排布式</li>
+</ul>
+<blockquote>
+<p>例：Fe：3d<sup>6</sup>4s<sup>2</sup></p>
+</blockquote>
+<ul>
+<li>电子排布图</li>
+</ul>
+<blockquote>
+<p>例：<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/%E6%8D%95%E8%8E%B765661.png" alt="" /></p>
+</blockquote>
+<p>​</p>
+<h3 id="原子轨道"><a class="markdownIt-Anchor" href="#原子轨道"></a> 原子轨道</h3>
+<ul>
+<li>电子层</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>由内至外电子层顺序</th>
+<th>电子层符号</th>
+<th>亚电子层数目</th>
+<th>原子轨道数目n<sup>2</sup></th>
+<th>可容纳电子数目2n<sup>2</sup></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>K</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>L</td>
+<td>2</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>3</td>
+<td>M</td>
+<td>3</td>
+<td>9</td>
+<td>18</td>
+</tr>
+<tr>
+<td>4</td>
+<td>N</td>
+<td>4</td>
+<td>16</td>
+<td>32</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>原子轨道</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>由内至外顺序</th>
+<th>名称</th>
+<th>形状</th>
+<th>伸展方向</th>
+<th>可容纳电子数目</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>s</td>
+<td>球形</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>p</td>
+<td>纺锤形</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>3</td>
+<td>d</td>
+<td>复杂</td>
+<td>5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>4</td>
+<td>f</td>
+<td>复杂</td>
+<td>7</td>
+<td>14</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>示意图<br />
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/yuanziguidao.svg" width="40%" height="40%" /></li>
+</ul>
+<h2 id="元素第一电离能和电负性及其变化规律"><a class="markdownIt-Anchor" href="#元素第一电离能和电负性及其变化规律"></a> 元素第一电离能和电负性及其变化规律</h2>
+<ul>
+<li>电负性： 衡量元素在化合物中吸引电子的能力。
+<ul>
+<li>氟的电负性为4.0</li>
+<li>变化规律：
+<ul>
+<li>同周期（从左到右）：依次增大</li>
+<li>同主族（自上而下）：依次减小</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>第一电离能: 某元素的气态原子失去一个电子形成+1价气态阳离子所需的最低能量，用符号*I<sub>1</sub>*表示
+<ul>
+<li>变化规律：
+<ul>
+<li>同周期（从左到右）：增大趋势(注意ⅡA、ⅤA的特殊性)</li>
+<li>同主族（自上而下）：依次减小</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>同周期元素，ⅡA族(np<sup>0</sup>)和ⅤA族(ns<sup>2</sup>np<sup>3</sup>)，因p轨道处于全空或半满状态，比较稳定，所以其第一电离能大于同周期右侧相 邻的ⅢA族、ⅥA族元素，如第一电离能Mg&gt;Al，P&gt;S。</p>
+</blockquote>
+<ul>
+<li>元素周期表中区的划分</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>区</th>
+<th>族</th>
+<th>最外层电子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>s区</td>
+<td>ⅠA、ⅡA两族元素</td>
+<td>ns<sup>1-2</sup></td>
+</tr>
+<tr>
+<td>p区</td>
+<td>ⅢA-ⅦA族元素及0族元素</td>
+<td>ns<sup>2</sup>np<sup>1-6</sup></td>
+</tr>
+<tr>
+<td>d区</td>
+<td>ⅢB-ⅦB,Ⅷ族</td>
+<td>(n-1)d<sup>1-9</sup>ns<sup>1-2</sup></td>
+</tr>
+<tr>
+<td>ds区</td>
+<td>ⅠB、ⅡB族</td>
+<td>(n-1)d<sup>10</sup>ns<sup>1-2</sup></td>
+</tr>
+<tr>
+<td>f区</td>
+<td>镧系、锕系元素</td>
+<td>(n-2)f<sup>0-14</sup>(n-1)d<sup>0-2</sup>ns<sup>2</sup></td>
+</tr>
+</tbody>
+</table>
+<h1 id="晶体结构与性质"><a class="markdownIt-Anchor" href="#晶体结构与性质"></a> 晶体结构与性质</h1>
+<h2 id="分类"><a class="markdownIt-Anchor" href="#分类"></a> 分类</h2>
+<table>
+<thead>
+<tr>
+<th>类别</th>
+<th>粒子间作用力</th>
+<th>特征</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>分子晶体</td>
+<td>分子间作用力（范德华力、氢键）</td>
+<td>低熔沸点</td>
+</tr>
+<tr>
+<td>离子晶体</td>
+<td>离子键</td>
+<td>较高熔沸点，在水溶液/熔融能导电</td>
+</tr>
+<tr>
+<td>原子晶体</td>
+<td>共价键</td>
+<td>高熔沸点</td>
+</tr>
+<tr>
+<td>金属晶体</td>
+<td>金属键</td>
+<td>导电、传热、延展性</td>
+</tr>
+</tbody>
+</table>
+<h2 id="金属晶体"><a class="markdownIt-Anchor" href="#金属晶体"></a> 金属晶体</h2>
+<ul>
+<li>
+<p>金属键：金属阳离子和自由电子之间强烈的相互作用</p>
+<ul>
+<li>
+<p>存在于金属单质/合金/金属簇化合物中</p>
+</li>
+<li>
+<p>金属键没有方向性——延展性</p>
+</li>
+<li>
+<p>自由电子在外电场作用下定向移动——导电性</p>
+</li>
+<li>
+<p>通过自由电子的运动把能量从温度高的地方向温度低的地方传递——导热性</p>
+</li>
+<li>
+<p>金属离子半径越小，离子电荷数越多，金属键越强，金属熔、沸点就越高。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>金属晶体堆积模型</p>
+<ul>
+<li>密置层和非密置层
+<ul>
+<li>非密置层：每个圆球和其他四个球相切</li>
+<li>密置层：每个圆球和其他六个球相切</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>类别</th>
+<th>例子</th>
+<th>示意图</th>
+<th>晶胞占有原子数</th>
+<th>原子半径r与立方体边长a的关系</th>
+<th>配位数</th>
+<th>空间利用率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>简单立方堆积</td>
+<td>钋（Po）</td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattic_simple_cubic.svg" width="200px"/></td>
+<td>1</td>
+<td>a=2r</td>
+<td>6</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>π</mi><mn>6</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{π}{6}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.040392em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">π</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>≈52%</td>
+</tr>
+<tr>
+<td>体心立方堆积</td>
+<td>钠、钾、铬、钼、钨</td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Cubic-body-centered.svg" width="200px"/></td>
+<td>2</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mn>3</mn></msqrt><mi>a</mi></mrow><annotation encoding="application/x-tex">\sqrt{3}a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.13278em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.90722em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord">3</span></span></span><span style="top:-2.86722em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.13278em;"><span></span></span></span></span></span><span class="mord mathdefault">a</span></span></span></span>=4r</td>
+<td>8</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>8</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{3}}{8}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">8</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">3</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈68%</td>
+</tr>
+<tr>
+<td>面心立方堆积</td>
+<td>金、银、铜、铅</td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattice_face_centered_cubic.svg" width="200px"/></td>
+<td>4</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mi>a</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{2}a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault">a</span></span></span></span>=2r</td>
+<td>12</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>6</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{6}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈74%</td>
+</tr>
+<tr>
+<td>六方立方堆积</td>
+<td>镁、锌、钛</td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Hexagonal_close_packed.svg" width="200px"/></td>
+<td>2</td>
+<td></td>
+<td>12</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>2</mn></msqrt><mn>6</mn></mfrac><mi>π</mi></mrow><annotation encoding="application/x-tex">\frac{\sqrt{2}}{6}π</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;"><span class="mord mtight">2</span></span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">π</span></span></span></span>≈74%</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>关于面心和六方的一些图片</li>
+</ul>
+<blockquote>
+<p>左面心，右六方</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Close_packing.svg" width="500px"/>
+</blockquote>
+<h2 id="离子晶体"><a class="markdownIt-Anchor" href="#离子晶体"></a> 离子晶体</h2>
+<ul>
+<li>
+<p>离子键：阴阳离子之间的强烈的相互作用</p>
+<ul>
+<li>没有方向性和饱和性</li>
+<li>含有离子键的化合物就是离子化合物</li>
+<li>包括引力和斥力</li>
+</ul>
+</li>
+<li>
+<p>晶格能<em>U</em>：拆开1mol离子晶体使之形成气态阳离子和气态阴离子时所需的能量。</p>
+<ul>
+<li>晶格能越大，表明离子晶体中的离子键越强。</li>
+<li>一般而言，晶格能越大，离子晶体的熔点越高，硬度越大。</li>
+<li>影响因素：阴阳离子的电荷数越多，离子间的核间距越小，晶格能越大</li>
+</ul>
+</li>
+<li>
+<p>离子配位数：一种离子周围紧邻的带相反电荷的离子数目。</p>
+<ul>
+<li>离子晶体中离子的配位数主要取决于阴、阳离子的相对大小。</li>
+</ul>
+</li>
+<li>
+<p>离子晶体：由阴阳离子通过离子键结合而成的晶体</p>
+<ul>
+<li>
+<p>构成微粒：阴离子和阳离子</p>
+</li>
+<li>
+<p>判断方法</p>
+<ul>
+<li>
+<p>熔融状态下能导电的化合物</p>
+</li>
+<li>
+<p>出现Na+，K+，Ba<sub>2</sub>+，Mg<sub>2</sub>+，NH<sub>4</sub>+六种离子的其中一种的一定是离子晶体</p>
+</li>
+<li>
+<p>无任何信息下的含金属元素的（除AlCl<sub>3</sub>）</p>
+</li>
+<li>
+<p>有阳离子和阴离子（只有阳离子：可能为金属晶体）</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>作用力判断</p>
+<ul>
+<li>
+<p>离子晶体中作用力一定有：离子键</p>
+</li>
+<li>
+<p>离子晶体中作用力可能有：共价键</p>
+</li>
+<li>
+<p>熔化时破坏的作用力：离子键</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>故可得：氯化钠溶液或熔融氯化钠中没有离子键<br />
+离子化合物熔化只断键，属于物理变化</p>
+</blockquote>
+<ul>
+<li>物理性质（括号中为例外）
+<ul>
+<li>熔沸点较高（原子晶体）</li>
+<li><sub>1</sub>固体不导电，<sub>2</sub>熔融状态能导电，<sub>3</sub>水溶液一般导电（<sub>13</sub>例外：HCl）</li>
+<li>大多易溶于水，难溶于有机溶剂</li>
+</ul>
+</li>
+<li>热稳定性
+<ul>
+<li>例：碳酸盐：X<sup>2+</sup>+CO<sub>3</sub><sup>2-</sup>=XO+CO<sub>2</sub>
+<ul>
+<li>分解温度：MgCO<sub>3</sub>&lt;CaCO<sub>3</sub>&lt;SrCO<sub>3</sub>&lt;BaCO<sub>3</sub></li>
+<li>原因：X-O键越强，越容易把O<sup>2-</sup>从CO<sub>3</sub><sup>2-</sup>中脱离出来</li>
+<li>写法：碳酸盐分解本质为CO<sub>3</sub><sup>2-</sup>生成CO<sub>2</sub>和O<sup>2-</sup>,Mg<sup>2</sup>半径最小，与O<sup>2-</sup>结合能力最强，故MgCO<sub>3</sub>最易分解</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>常见离子晶体
+<ul>
+<li>
+<p>NaCl型</p>
+<ul>
+<li>面心立方堆积</li>
+<li>一个晶胞平均含4个Na<sup>+</sup>和4个Cl<sup>-</sup></li>
+<li>Na<sup>+</sup>的配位数为6，Cl<sup>-</sup>的配位数为6</li>
+<li>离Na<sup>+</sup>周围最近的Cl<sup>-</sup>构成的空间构型为空间正八面体</li>
+<li>在每个Na<sup>+</sup>周围最近且等距离的Na<sup>+</sup>有12个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有12个</li>
+<li>配位数为6（在所有八面体空隙插入原子）</li>
+</ul>
+</li>
+<li>
+<p>CsCl型</p>
+<ul>
+<li>
+<p>体心立方堆积</p>
+</li>
+<li>
+<p>一个晶胞平均含1个Cs<sup>+</sup>和1个Cl<sup>-</sup></p>
+</li>
+<li>
+<p>Cs<sup>+</sup>的配位数为8，Cl的配位数为8</p>
+</li>
+<li>
+<p>在每个Cs<sup>+</sup>周围最近且等距离的Cs<sup>+</sup>有6个，在每个Cl<sup>-</sup>周围最近且等距离的Cl<sup>-</sup>有6个</p>
+</li>
+</ul>
+</li>
+<li>
+<p>ZnS型（闪锌矿型）</p>
+<ul>
+<li>类金刚石堆积</li>
+<li>一个ZnS晶胞中含4个Zn<sup>2+</sup>和4个S<sup>2-</sup></li>
+<li>Zn<sup>2+</sup>的配位数是，S<sup>2-</sup>的配位数是</li>
+<li>Zn<sup>2+</sup>形成8个四面体空隙，S<sup>2-</sup>填入其中4个四面体空隙，空隙填充率50%</li>
+<li>在每个Zn<sup>2+</sup>周围最近且等距离的Zn<sup>2+</sup>有6个，在每个S<sup>2-</sup>周围最近且等距离的S<sup>2-</sup>有6个</li>
+<li>Zn<sup>2+</sup>与S<sup>2-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a(体对角线的四等分点)</li>
+<li>配位数为4（在互不相邻的四面体空隙插入原子）</li>
+</ul>
+</li>
+<li>
+<p>CaF<sub>2</sub>型</p>
+<ul>
+<li>面心立方堆积</li>
+</ul>
+</li>
+<li>
+<p>一个晶胞含4个Ca<sup>2+</sup>和8个F<sup>-</sup></p>
+<ul>
+<li>Ca<sup>2+</sup>的配位数为8，F<sup>-</sup>的配位数为4</li>
+</ul>
+</li>
+<li>
+<p>Ca<sup>2+</sup>形成8个四面体空隙，F<sup>-</sup>填入其中8个四面体空隙，空隙填充率100%</p>
+<ul>
+<li>在每个Ca<sup>2+</sup>周围最近且等距离的Ca<sup>2+</sup>有12个，在每个F<sup>-</sup>周围最近且等距离的F<sup>-</sup>有6个</li>
+</ul>
+</li>
+<li>
+<p>Ca<sup>2+</sup>与F<sup>-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a</p>
+<ul>
+<li>配位数为4（在所有四面体空隙插入原子）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>NaCl</th>
+<th>CsCl</th>
+<th>ZnS</th>
+<th>CaF<sub>2</sub></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/NaCl-estructura_cristalina.svg" width="200px"/></td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/CsCl_polyhedra.png" width="200px"/></td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Sphalerite-unit-cell-3D-balls.png" width="200px"/></td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Fluorite-unit-cell-3D-balls.png" width="200px"/></td>
+</tr>
+</tbody>
+</table>
+<h2 id="原子晶体"><a class="markdownIt-Anchor" href="#原子晶体"></a> 原子晶体</h2>
+<ul>
+<li>
+<p>共价键：原子间通过共用电子对形成的化学键</p>
+<ul>
+<li>
+<p>成键微粒：原子</p>
+</li>
+<li>
+<p>共价键形成的本质：当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</p>
+</li>
+<li>
+<p>具有饱和性。</p>
+</li>
+<li>
+<p>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</p>
+</li>
+</ul>
+</li>
+<li>
+<p>共价键的参数</p>
+<ul>
+<li>键能：拆开1mol共价键所吸收的能量\形成1mol共价键所释放的能量。</li>
+<li>键长：两个成键原子的核间距离叫做该化学键的键长（约等于成键两原子半径之和）</li>
+<li>键角：多原子分子中的两个共价键之间的夹角。</li>
+</ul>
+</li>
+<li>
+<p>共价键的分类</p>
+<ul>
+<li>形成共价键的原子轨道重叠方式
+<ul>
+<li>σ键	“头碰头”重叠</li>
+<li>π键	“肩并肩”重叠</li>
+</ul>
+</li>
+<li>形成共价键的电子对是否偏移
+<ul>
+<li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
+<li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
+</ul>
+</li>
+<li>原子间共用电子对的数目
+<ul>
+<li>
+<p>单键	原子间有一对共用电子对</p>
+</li>
+<li>
+<p>双键	原子间有两对共用电子对</p>
+</li>
+<li>
+<p>三键	原子间有三对共用电子对</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>σ键</p>
+<ul>
+<li>
+<p>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠</p>
+</li>
+<li>
+<p>类别</p>
+<ul>
+<li>s-sσ键：由两个s原子轨道重叠形成的σ键（无方向性）</li>
+<li>s-pσ键：由一个s原子轨道和一个p原子轨道重叠形成的σ键</li>
+<li>p-pσ键：由两个p原子轨道重叠形成的σ键</li>
+</ul>
+</li>
+<li>
+<p>特征</p>
+<ul>
+<li>
+<p>形成σ键的原子轨道重叠程度较大，故较稳定</p>
+</li>
+<li>
+<p>以形成σ键的两原子核的连线为轴，任何一个原子均可以旋转，并不破坏σ键的结构</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>π键</p>
+<ul>
+<li>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>示意图</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Pi-Bond.svg" width="200px"/></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<p>分类</p>
+<ul>
+<li>
+<p>定域π键：两原子间形成的π键</p>
+<blockquote>
+<p>例：N<sub>2</sub> 2个π键</p>
+</blockquote>
+</li>
+<li>
+<p>离域π键：多原子间形成的π键</p>
+<p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
+<ul>
+<li>
+<p>a：成键原子数（偶数，且≥4）</p>
+</li>
+<li>
+<p>b：成键电子数</p>
+</li>
+</ul>
+<blockquote>
+<p>例：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>3</mn><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_3^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（CO<sub>2</sub>，O<sub>3</sub>），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>4</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_4^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>5</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_5^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>6</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_6^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（苯）</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p>特征</p>
+<ul>
+<li>形成π键时电子云重叠程度比σ键小，故较不稳定。</li>
+<li>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>特别提醒</strong><br></p>
+<ol>
+<li>单键为σ键；双键或三键，其中一个为σ键，其余为π键。<br></li>
+<li>配位键为一种特殊的共价键，形成配位键的条件是成键原子一方(A)能够提供孤电子对，另一方(B)具有能够接受孤电子对的空轨道，可表示为A―→B。。<br></li>
+<li>s轨道形成的共价键全部是σ键；杂化轨道形成的共价键全部为σ键。</li>
+</ol>
+</blockquote>
+<h2 id="立方晶胞各物理量的计算"><a class="markdownIt-Anchor" href="#立方晶胞各物理量的计算"></a> 立方晶胞各物理量的计算</h2>
+<p><strong>a<sup>3</sup>×ρ×N<sub>A</sub>＝n×M</strong></p>
+<blockquote>
+<ul>
+<li>a:晶胞棱长</li>
+<li>ρ:密度</li>
+<li>N<sub>A</sub>:阿伏加德罗常数的值</li>
+<li>n:1mol晶胞中所含晶体的物质的量</li>
+<li>M:晶体的摩尔质量</li>
+</ul>
+</blockquote>
+<h2 id="熔沸点比较规律"><a class="markdownIt-Anchor" href="#熔沸点比较规律"></a> 熔沸点比较规律</h2>
+<ul>
+<li>不同类型晶体的熔、沸点高低一般规律
+<ul>
+<li>原子晶体&gt;离子晶体&gt;分子晶体，</li>
+<li>金属晶体的熔、沸点差别很大，如钨、铂等熔点很高，汞、铯等熔点很低。</li>
+</ul>
+</li>
+<li>同类晶体：
+<ul>
+<li>原子晶体：看成键原子半径和，半径和越小，晶体的熔、沸点越高、硬度越大。</li>
+<li>离子晶体：依据静电原理进行分析，一般地说，阴、阳离子的电荷数越多，离子半径越小，则离子键越强，相应地晶格能越大，熔、沸点越高。</li>
+<li>分子晶体：组成和结构相似的物质，相对分子质量越大，熔沸点越高(若分子间存在氢键，则含有氢键的熔、沸点高些)。<br><br />
+组成和结构不相似的分子晶体(相对分子质量接近)，分子的极性越大，其熔、沸点越高。如CO&gt;N<sub>2</sub>，CH<sub>3</sub>OH&gt;CH<sub>3</sub>CH<sub>3</sub>。</li>
+<li>金属晶体：金属离子半径越小，离子电荷数越多，金属键越强，金属熔、 沸点就越高。如熔、沸点：Al&gt;Mg&gt;Na。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>化学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>补充单词7-12</title>
+    <url>/2020-05-06-yybc2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="补充单词-7"><a class="markdownIt-Anchor" href="#补充单词-7"></a> 补充单词 7</h1>
+<p>snorkel vi. 戴潜水通气管潜水 n. 潜水艇或潜水者的通气管</p>
+<p>aquarium n. 水族馆；养鱼箱</p>
+<p>anecdote n. 奇闻，轶事</p>
+<p>Clancy 克兰西 男名</p>
+<p>baleen n. 鲸须</p>
+<p>baleen whale 须鲸</p>
+<p>annual adj. 每年的 n. 年刊</p>
+<p>migration n. 迁徙</p>
+<p>witness vt. 目击 n. 目击者</p>
+<p>accommodation n. 住宿</p>
+<p>shore n. 岸</p>
+<p>offshore adv. &amp; adj. 近海(的)； 离岸(的)</p>
+<p>opposite prep. 在…对面 adj. 相对的，相反的</p>
+<p>yell vi. &amp; n. 大叫，呼喊</p>
+<p>pause vi. &amp; n. 暂停，中止</p>
+<p>oar n. 桨</p>
+<p>telescope n. 望远镜</p>
+<p>teamwork n. 协作，配合</p>
+<p>blow-hole (鲸鱼的)鼻孔</p>
+<p>dive vi. &amp; n. 跳水</p>
+<p>flee vi. &amp; vt. 逃跑 — fled — fled</p>
+<p>harpoon n. 鱼叉</p>
+<p>drag vt. 拖，拉</p>
+<p>depth n. 深度</p>
+<p>meantime adv. 其间，同时</p>
+<p>in the meantime 在此其间；与此同时</p>
+<p>lip n. 一片嘴唇</p>
+<p>overboard adv. 越过船舷进入水中</p>
+<p>urge vt. 催促</p>
+<p>abandon vt. 放弃，遗弃</p>
+<p>shark n. 鲨鱼</p>
+<h1 id="补充单词-8"><a class="markdownIt-Anchor" href="#补充单词-8"></a> 补充单词 8</h1>
+<p>dimension n. 维(数), 方面，侧面</p>
+<p>reflect vi. 思考； vt. 映射，反射，思考</p>
+<p>pure adj. 纯的，纯洁的</p>
+<p>cell n. 细胞，(蜂房的)巣室</p>
+<p>aware adj. 意识到的，知道的</p>
+<p>be/become aware of 对…知道的；意识到…</p>
+<p>vivid adj. 生动的，鲜明的</p>
+<p>neat adj. 整齐的，匀称的</p>
+<p>seaweed n. 海草，海藻</p>
+<p>narrow adj. 狭窄的，狭隘的</p>
+<p>flashlight n. 手电筒，闪光灯</p>
+<p>upside down 上下翻转</p>
+<p>suck vt. &amp; vi. 吮吸</p>
+<p>sea-slug n. 海蛞蝓</p>
+<p>turtle n. 海龟</p>
+<p>eel n. 鳗，鳝</p>
+<p>sharp adj. 锋利的，锐利的</p>
+<p>tasty adj. 好吃的，可口的</p>
+<p>giant adj. 巨人的；巨大的 n. 巨人；伟人</p>
+<p>clam n. 蛤</p>
+<p>grey adj. &amp; n. 灰色的</p>
+<p>scare vt. 恐吓 vi. 受惊吓</p>
+<p>(be) scared to death 吓死了</p>
+<p>shallow adj. 浅的，肤浅的</p>
+<p>steep adj. 陡峭的</p>
+<p>boundary n. 界限，分界线</p>
+<h1 id="补充单词-9"><a class="markdownIt-Anchor" href="#补充单词-9"></a> 补充单词 9</h1>
+<p>help (…) out 帮助某人摆脱困境</p>
+<p>relationship n. 关系</p>
+<p>conservation n. 保存，保护</p>
+<p>iceberg n. 冰山</p>
+<p>jog vi. &amp; n. 慢跑</p>
+<p>seaside n. &amp; adj. 海边(的)</p>
+<p>net n. 网，网状物</p>
+<p>target n. 目标，靶，受批评的对象</p>
+<p>tide n. 潮汐，潮水，潮流</p>
+<p>driftnet n. 流网</p>
+<p>Antarctic adj. 南极的</p>
+<p>the Antarctic 南极洲</p>
+<p>awesome adj. 使人敬畏的，令人敬畏的</p>
+<p>leap vi. &amp; n. 跳跃 leap – leapt – leapt ; leap – leaped – leaped</p>
+<p>seal n. 海豹，封条，印章</p>
+<p>refund vt. 退还，偿还； n. 退款</p>
+<p>pension n. 养老金，退休金</p>
+<p>pensioner n. 领取养老金的人</p>
+<h1 id="补充单词10"><a class="markdownIt-Anchor" href="#补充单词10"></a> 补充单词10</h1>
+<p>airmail n. 航空邮件</p>
+<p>Papua New Guinea 巴布亚新几内亚</p>
+<p>fortnight n. 两星期</p>
+<p>hear from 接到……的信</p>
+<p>be dying to do sth 非常渴望做某事</p>
+<p>roof n. 屋顶； 车顶</p>
+<p>muddy adj. 泥泞的</p>
+<p>textbook n. 教科书；课本</p>
+<p>concept n. 观念；概念</p>
+<p>bucket n. 水桶</p>
+<p>the other day 不久前的一天</p>
+<p>weekly adj.&amp;adv. 每周（的）</p>
+<p>bubble vi. 起泡；沸腾</p>
+<p>relevant adj. 有关的；切题的</p>
+<p>remote adj. 遥远的；偏僻的</p>
+<p>ridge n. 山脊；屋脊</p>
+<p>weed n. 杂草 vt.&amp;vi. 除杂草</p>
+<p>hut n. 棚屋；小屋</p>
+<h1 id="补充单词11"><a class="markdownIt-Anchor" href="#补充单词11"></a> 补充单词11</h1>
+<p>rectangle n.矩形;长方形</p>
+<p>rectangular  adj.长方形的;矩形的</p>
+<p>adjust  vi. &amp; vt.调整; (使)适合</p>
+<p>platform n.台;平台;讲台; (火车站的)月台</p>
+<p>broom n.扫帚</p>
+<p>tin n.锡</p>
+<p>jar n.罐;广口瓶</p>
+<p>sniff  vt. &amp; vi.嗅;闻;用鼻子吸</p>
+<p>participate  vi.参与;参加</p>
+<p>interpreter  n.作口译的人</p>
+<p>grill  n.烤架;大平底锅vt.烧烤;炙烤</p>
+<p>dry out (使浸水等之物)完全变干;干透</p>
+<p>△leftover  n. 剩余物;残留物;剩饭adj.剩余的</p>
+<p>△evil  adj.邪恶的n.邪恶;罪恶</p>
+<p>dry up (指河流、井等)干涸</p>
+<p>otherwise  conj.否则;不然adv.用别的方法;其他方面</p>
+<p>privilege  n.特权;特别优待</p>
+<p>paperwork  n.文书工作</p>
+<p>arrangement  n.安排;排列</p>
+<p>toast vt.烤(面包等);敬酒n.烤面包(片);吐司面包;干杯</p>
+<p>comb  n.梳子vi.梳(发)</p>
+<p>astronaut  n.宇航员;太空人</p>
+<p>angle  n.角;角度</p>
+<p>catalogue  n.目录</p>
+<p>donate  vt.捐赠</p>
+<p>voluntary  adj.自愿的;志愿的;无偿的</p>
+<p>in need 在困难中;在危急中</p>
+<p>purchase  vt. &amp;n.买;购买</p>
+<p>anniversary  n.周年纪念(日)</p>
+<p>seed n.种子;萌芽</p>
+<p>seedling n. 秧苗；树苗</p>
+<p>vaccination n. 接种疫苗</p>
+<p>loan n. 贷款</p>
+<p>sew vi. (用针线)缝vt.缝制;缝合</p>
+<p>sewing machine缝纫机</p>
+<p>△supplement  n.增补的事物;补充;附录;增刊</p>
+<p>ox  n. (pl： oxen)公牛</p>
+<p>△plough  vi.犁(地);耕(地)</p>
+<p>trunk  n.树干;躯干;大衣箱</p>
+<p>trunk library箱式(柜式)图书馆</p>
+<p>tractor  n.拖拉机;牵引机</p>
+<p>Kenya   n.肯尼亚(非洲国家)</p>
+<h1 id="补充单词12"><a class="markdownIt-Anchor" href="#补充单词12"></a> 补充单词12</h1>
+<p>△Bangladesh n.孟加拉国(亚洲国家)</p>
+<p>click vi. &amp; vt. (使)发出咔嗒声n.咔嗒声</p>
+<p>tailor n.裁缝 vt.剪裁;缝制(衣服)</p>
+<p>△Tanzania n.坦桑尼亚(东非国家)</p>
+<p>△economic adj.经济的;经济学的</p>
+<p>political adj.政治的;政党的</p>
+<p>△Nepal n.尼泊尔(亚洲国家)</p>
+<p>△Uganda n.乌干达(东非国家)</p>
+<p>distribute vt.分配;分发</p>
+<p>distribution n.分配;分发;分布状态</p>
+<p>△financial adj.财务的;金融的;财政的.</p>
+<p>security n.安全;保护;保障</p>
+<p>operate vi.工作;运转vt.操作</p>
+<p>△Sudan n.苏丹(非洲国家)</p>
+<p>clinic n.门诊部;小诊所</p>
+<p>△Malawi n.马拉维(非洲国家)</p>
+<h1 id="原图片"><a class="markdownIt-Anchor" href="#原图片"></a> 原图片</h1>
+<p><a href="/VOSTOK/ENGLISH1.html">补充11和12的原图片</a></p>
+<hr />
+<p><span class="heimu" title="Что?">ПОЛЮС-Ц-0506-1</span></p>
+]]></content>
   </entry>
   <entry>
     <title>机械振动与机械波</title>
@@ -1385,169 +1589,16 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
       </tags>
   </entry>
   <entry>
-    <title>补充单词7-12</title>
-    <url>/2020-05-06-yybc2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="补充单词-7"><a class="markdownIt-Anchor" href="#补充单词-7"></a> 补充单词 7</h1>
-<p>snorkel vi. 戴潜水通气管潜水 n. 潜水艇或潜水者的通气管</p>
-<p>aquarium n. 水族馆；养鱼箱</p>
-<p>anecdote n. 奇闻，轶事</p>
-<p>Clancy 克兰西 男名</p>
-<p>baleen n. 鲸须</p>
-<p>baleen whale 须鲸</p>
-<p>annual adj. 每年的 n. 年刊</p>
-<p>migration n. 迁徙</p>
-<p>witness vt. 目击 n. 目击者</p>
-<p>accommodation n. 住宿</p>
-<p>shore n. 岸</p>
-<p>offshore adv. &amp; adj. 近海(的)； 离岸(的)</p>
-<p>opposite prep. 在…对面 adj. 相对的，相反的</p>
-<p>yell vi. &amp; n. 大叫，呼喊</p>
-<p>pause vi. &amp; n. 暂停，中止</p>
-<p>oar n. 桨</p>
-<p>telescope n. 望远镜</p>
-<p>teamwork n. 协作，配合</p>
-<p>blow-hole (鲸鱼的)鼻孔</p>
-<p>dive vi. &amp; n. 跳水</p>
-<p>flee vi. &amp; vt. 逃跑 — fled — fled</p>
-<p>harpoon n. 鱼叉</p>
-<p>drag vt. 拖，拉</p>
-<p>depth n. 深度</p>
-<p>meantime adv. 其间，同时</p>
-<p>in the meantime 在此其间；与此同时</p>
-<p>lip n. 一片嘴唇</p>
-<p>overboard adv. 越过船舷进入水中</p>
-<p>urge vt. 催促</p>
-<p>abandon vt. 放弃，遗弃</p>
-<p>shark n. 鲨鱼</p>
-<h1 id="补充单词-8"><a class="markdownIt-Anchor" href="#补充单词-8"></a> 补充单词 8</h1>
-<p>dimension n. 维(数), 方面，侧面</p>
-<p>reflect vi. 思考； vt. 映射，反射，思考</p>
-<p>pure adj. 纯的，纯洁的</p>
-<p>cell n. 细胞，(蜂房的)巣室</p>
-<p>aware adj. 意识到的，知道的</p>
-<p>be/become aware of 对…知道的；意识到…</p>
-<p>vivid adj. 生动的，鲜明的</p>
-<p>neat adj. 整齐的，匀称的</p>
-<p>seaweed n. 海草，海藻</p>
-<p>narrow adj. 狭窄的，狭隘的</p>
-<p>flashlight n. 手电筒，闪光灯</p>
-<p>upside down 上下翻转</p>
-<p>suck vt. &amp; vi. 吮吸</p>
-<p>sea-slug n. 海蛞蝓</p>
-<p>turtle n. 海龟</p>
-<p>eel n. 鳗，鳝</p>
-<p>sharp adj. 锋利的，锐利的</p>
-<p>tasty adj. 好吃的，可口的</p>
-<p>giant adj. 巨人的；巨大的 n. 巨人；伟人</p>
-<p>clam n. 蛤</p>
-<p>grey adj. &amp; n. 灰色的</p>
-<p>scare vt. 恐吓 vi. 受惊吓</p>
-<p>(be) scared to death 吓死了</p>
-<p>shallow adj. 浅的，肤浅的</p>
-<p>steep adj. 陡峭的</p>
-<p>boundary n. 界限，分界线</p>
-<h1 id="补充单词-9"><a class="markdownIt-Anchor" href="#补充单词-9"></a> 补充单词 9</h1>
-<p>help (…) out 帮助某人摆脱困境</p>
-<p>relationship n. 关系</p>
-<p>conservation n. 保存，保护</p>
-<p>iceberg n. 冰山</p>
-<p>jog vi. &amp; n. 慢跑</p>
-<p>seaside n. &amp; adj. 海边(的)</p>
-<p>net n. 网，网状物</p>
-<p>target n. 目标，靶，受批评的对象</p>
-<p>tide n. 潮汐，潮水，潮流</p>
-<p>driftnet n. 流网</p>
-<p>Antarctic adj. 南极的</p>
-<p>the Antarctic 南极洲</p>
-<p>awesome adj. 使人敬畏的，令人敬畏的</p>
-<p>leap vi. &amp; n. 跳跃 leap – leapt – leapt ; leap – leaped – leaped</p>
-<p>seal n. 海豹，封条，印章</p>
-<p>refund vt. 退还，偿还； n. 退款</p>
-<p>pension n. 养老金，退休金</p>
-<p>pensioner n. 领取养老金的人</p>
-<h1 id="补充单词10"><a class="markdownIt-Anchor" href="#补充单词10"></a> 补充单词10</h1>
-<p>airmail n. 航空邮件</p>
-<p>Papua New Guinea 巴布亚新几内亚</p>
-<p>fortnight n. 两星期</p>
-<p>hear from 接到……的信</p>
-<p>be dying to do sth 非常渴望做某事</p>
-<p>roof n. 屋顶； 车顶</p>
-<p>muddy adj. 泥泞的</p>
-<p>textbook n. 教科书；课本</p>
-<p>concept n. 观念；概念</p>
-<p>bucket n. 水桶</p>
-<p>the other day 不久前的一天</p>
-<p>weekly adj.&amp;adv. 每周（的）</p>
-<p>bubble vi. 起泡；沸腾</p>
-<p>relevant adj. 有关的；切题的</p>
-<p>remote adj. 遥远的；偏僻的</p>
-<p>ridge n. 山脊；屋脊</p>
-<p>weed n. 杂草 vt.&amp;vi. 除杂草</p>
-<p>hut n. 棚屋；小屋</p>
-<h1 id="补充单词11"><a class="markdownIt-Anchor" href="#补充单词11"></a> 补充单词11</h1>
-<p>rectangle n.矩形;长方形</p>
-<p>rectangular  adj.长方形的;矩形的</p>
-<p>adjust  vi. &amp; vt.调整; (使)适合</p>
-<p>platform n.台;平台;讲台; (火车站的)月台</p>
-<p>broom n.扫帚</p>
-<p>tin n.锡</p>
-<p>jar n.罐;广口瓶</p>
-<p>sniff  vt. &amp; vi.嗅;闻;用鼻子吸</p>
-<p>participate  vi.参与;参加</p>
-<p>interpreter  n.作口译的人</p>
-<p>grill  n.烤架;大平底锅vt.烧烤;炙烤</p>
-<p>dry out (使浸水等之物)完全变干;干透</p>
-<p>△leftover  n. 剩余物;残留物;剩饭adj.剩余的</p>
-<p>△evil  adj.邪恶的n.邪恶;罪恶</p>
-<p>dry up (指河流、井等)干涸</p>
-<p>otherwise  conj.否则;不然adv.用别的方法;其他方面</p>
-<p>privilege  n.特权;特别优待</p>
-<p>paperwork  n.文书工作</p>
-<p>arrangement  n.安排;排列</p>
-<p>toast vt.烤(面包等);敬酒n.烤面包(片);吐司面包;干杯</p>
-<p>comb  n.梳子vi.梳(发)</p>
-<p>astronaut  n.宇航员;太空人</p>
-<p>angle  n.角;角度</p>
-<p>catalogue  n.目录</p>
-<p>donate  vt.捐赠</p>
-<p>voluntary  adj.自愿的;志愿的;无偿的</p>
-<p>in need 在困难中;在危急中</p>
-<p>purchase  vt. &amp;n.买;购买</p>
-<p>anniversary  n.周年纪念(日)</p>
-<p>seed n.种子;萌芽</p>
-<p>seedling n. 秧苗；树苗</p>
-<p>vaccination n. 接种疫苗</p>
-<p>loan n. 贷款</p>
-<p>sew vi. (用针线)缝vt.缝制;缝合</p>
-<p>sewing machine缝纫机</p>
-<p>△supplement  n.增补的事物;补充;附录;增刊</p>
-<p>ox  n. (pl： oxen)公牛</p>
-<p>△plough  vi.犁(地);耕(地)</p>
-<p>trunk  n.树干;躯干;大衣箱</p>
-<p>trunk library箱式(柜式)图书馆</p>
-<p>tractor  n.拖拉机;牵引机</p>
-<p>Kenya   n.肯尼亚(非洲国家)</p>
-<h1 id="补充单词12"><a class="markdownIt-Anchor" href="#补充单词12"></a> 补充单词12</h1>
-<p>△Bangladesh n.孟加拉国(亚洲国家)</p>
-<p>click vi. &amp; vt. (使)发出咔嗒声n.咔嗒声</p>
-<p>tailor n.裁缝 vt.剪裁;缝制(衣服)</p>
-<p>△Tanzania n.坦桑尼亚(东非国家)</p>
-<p>△economic adj.经济的;经济学的</p>
-<p>political adj.政治的;政党的</p>
-<p>△Nepal n.尼泊尔(亚洲国家)</p>
-<p>△Uganda n.乌干达(东非国家)</p>
-<p>distribute vt.分配;分发</p>
-<p>distribution n.分配;分发;分布状态</p>
-<p>△financial adj.财务的;金融的;财政的.</p>
-<p>security n.安全;保护;保障</p>
-<p>operate vi.工作;运转vt.操作</p>
-<p>△Sudan n.苏丹(非洲国家)</p>
-<p>clinic n.门诊部;小诊所</p>
-<p>△Malawi n.马拉维(非洲国家)</p>
-<h1 id="原图片"><a class="markdownIt-Anchor" href="#原图片"></a> 原图片</h1>
-<p><a href="/VOSTOK/ENGLISH1.html">补充11和12的原图片</a></p>
-<hr />
-<p><span class="heimu" title="Что?">ПОЛЮС-Ц-0506-1</span></p>
+    <title>我是谁</title>
+    <url>/2020-04-01-/who-am-i.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 align = "center">FZDSLR</h1>
+<h2 align = "center">一只学生党</h2>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"  alt="望" />
+<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
+<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
+<center><span class="heimu" title="对，我太菜了"><s>以上都不会（确信）</s></span></center>
+<p><strong><center>新浪邮箱<center/></strong></p>
+<center>FZDSLR@sina.com</center>
 ]]></content>
   </entry>
 </search>
