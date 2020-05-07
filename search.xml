@@ -1046,28 +1046,66 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <li>
 <p>共价键的分类</p>
 <ul>
-<li>形成共价键的原子轨道重叠方式
+<li>
+<p>形成共价键的原子轨道重叠方式</p>
 <ul>
 <li>σ键	“头碰头”重叠</li>
 <li>π键	“肩并肩”重叠</li>
 </ul>
 </li>
-<li>形成共价键的电子对是否偏移
+<li>
+<p>形成共价键的电子对是否偏移</p>
 <ul>
 <li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
 <li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
 </ul>
 </li>
-<li>原子间共用电子对的数目
+<li>
+<p>原子间共用电子对的数目</p>
+<ul>
+<li>单键	原子间有一对共用电子对</li>
+<li>双键	原子间有两对共用电子对</li>
+<li>三键	原子间有三对共用电子对</li>
+</ul>
+</li>
+<li>
+<p>成键电子的来源</p>
 <ul>
 <li>
-<p>单键	原子间有一对共用电子对</p>
+<p>普通共价键：成键的两个原子乙方提供具有单电子的轨道，另一方也提供具有单电子的轨道而形成的共价键</p>
 </li>
 <li>
-<p>双键	原子间有两对共用电子对</p>
+<p>配位键：成键的两个原子或离子一方提供孤电子对，另一方提供空轨道而形成的共价键</p>
+<ul>
+<li>形成条件：一个原子提供孤对电子。另一原子提供空轨道</li>
+<li>表示方法：\ce A \to B</li>
+</ul>
 </li>
 <li>
-<p>三键	原子间有三对共用电子对</p>
+<p>粒子分类</p>
+<ul>
+<li>
+<p>提供空轨道：中心原子/离子：</p>
+<ul>
+<li>H<sup>+</sup></li>
+<li>ⅢA： B、Al</li>
+<li>过渡金属：Ag<sup>+</sup>、Zn<sup>2+</sup>、Cu<sup>2+</sup>、Fe<sup>2+</sup>、Fe<sup>3+</sup>等</li>
+</ul>
+</li>
+<li>
+<p>提供孤对电子：配体</p>
+<ul>
+<li>ⅦA： F<sup>-</sup>、Cl<sup>-</sup>、Br<sup>-</sup>、I<sup>-</sup></li>
+</ul>
+</li>
+<li>
+<p>ⅥA： H<sub>2</sub>O、OH<sup>-</sup>、OCN<sup>-</sup></p>
+<ul>
+<li>ⅤA： NH<sub>3</sub>、N<sub>2</sub>H<sub>4</sub>、乙二胺（\ce NH_2-CH_2-CH_2-NH_3)</li>
+<li>ⅣA： CO、CN<sup>-</sup></li>
+</ul>
+</li>
+</ul>
 </li>
 </ul>
 </li>
@@ -1129,7 +1167,7 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 <li>
 <p>离域π键：多原子间形成的π键</p>
-<p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
+<p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\Pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
 <ul>
 <li>
 <p>a：成键原子数（偶数，且≥4）</p>
@@ -1139,16 +1177,36 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 </ul>
 <blockquote>
-<p>例：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>3</mn><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_3^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（CO<sub>2</sub>，O<sub>3</sub>），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>4</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_4^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>5</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_5^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi>π</mi><mn>6</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\pi_6^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（苯）</p>
+<p>例：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mn>3</mn><mn>4</mn></msubsup></mrow><annotation encoding="application/x-tex">\Pi_3^4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（CO<sub>2</sub>，O<sub>3</sub>），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mn>4</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\Pi_4^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">4</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mn>5</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\Pi_5^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mn>6</mn><mn>6</mn></msubsup></mrow><annotation encoding="application/x-tex">\Pi_6^6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0622159999999998em;vertical-align:-0.24810799999999997em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-2.4518920000000004em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">6</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24810799999999997em;"><span></span></span></span></span></span></span></span></span></span>（苯）</p>
 </blockquote>
+<p>形成条件</p>
+<ul>
+<li>这些原子多数处于同一平面上</li>
+</ul>
 </li>
 </ul>
 </li>
 <li>
+<p>这些原子有相互平行的p轨道</p>
+</li>
+<li>
+<p>p轨道上的电子总数小于p轨道数的两倍</p>
+</li>
+<li>
 <p>特征</p>
 <ul>
-<li>形成π键时电子云重叠程度比σ键小，故较不稳定。</li>
-<li>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</li>
+<li>
+<p>形成π键时电子云重叠程度比σ键小，故较不稳定，且键长较σ键短。</p>
+<blockquote>
+<p>“键长越短，键能越大”只适用于两个键都是σ键的情况下<br></p>
+</blockquote>
+<blockquote>
+<p>有机物中C可形成单键、双键、叁键，但S难以形成双键、叁键：S原子半径大，“肩并肩”重合形成轨道重叠低，难以形成π键。</p>
+</blockquote>
+</li>
+<li>
+<p>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</p>
+</li>
 </ul>
 </li>
 </ul>
