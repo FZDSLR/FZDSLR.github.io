@@ -709,36 +709,33 @@
 </tbody>
 </table>
 <h2 id="金属晶体"><a class="markdownIt-Anchor" href="#金属晶体"></a> 金属晶体</h2>
+<h3 id="金属键"><a class="markdownIt-Anchor" href="#金属键"></a> 金属键</h3>
 <ul>
 <li>
-<p>金属键：金属阳离子和自由电子之间强烈的相互作用</p>
-<ul>
+<p>金属阳离子和自由电子之间强烈的相互作用</p>
+</li>
 <li>
 <p>存在于金属单质/合金/金属簇化合物中</p>
 </li>
 <li>
-<p>金属键没有方向性——延展性</p>
+<p>金属键没有方向性——<strong>延展性</strong></p>
 </li>
 <li>
-<p>自由电子在外电场作用下定向移动——导电性</p>
+<p>自由电子在外电场作用下定向移动——<strong>导电性</strong></p>
 </li>
 <li>
-<p>通过自由电子的运动把能量从温度高的地方向温度低的地方传递——导热性</p>
+<p>通过自由电子的运动把能量从温度高的地方向温度低的地方传递——<strong>导热性</strong></p>
 </li>
 <li>
 <p>金属离子半径越小，离子电荷数越多，金属键越强，金属熔、沸点就越高。</p>
 </li>
 </ul>
-</li>
-<li>
-<p>金属晶体堆积模型</p>
+<h3 id="金属晶体堆积模型"><a class="markdownIt-Anchor" href="#金属晶体堆积模型"></a> 金属晶体堆积模型</h3>
 <ul>
 <li>密置层和非密置层
 <ul>
 <li>非密置层：每个圆球和其他四个球相切</li>
 <li>密置层：每个圆球和其他六个球相切</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -831,32 +828,30 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Close_packing.svg" width="500px"/>
 </blockquote>
 <h2 id="离子晶体"><a class="markdownIt-Anchor" href="#离子晶体"></a> 离子晶体</h2>
+<h3 id="离子键"><a class="markdownIt-Anchor" href="#离子键"></a> 离子键</h3>
 <ul>
-<li>
-<p>离子键：阴阳离子之间的强烈的相互作用</p>
-<ul>
+<li><strong>阴阳离子之间的强烈的相互作用</strong></li>
 <li>没有方向性和饱和性</li>
 <li>含有离子键的化合物就是离子化合物</li>
 <li>包括引力和斥力</li>
 </ul>
-</li>
-<li>
-<p>晶格能<em>U</em>：拆开1mol离子晶体使之形成气态阳离子和气态阴离子时所需的能量。</p>
+<h3 id="晶格能u"><a class="markdownIt-Anchor" href="#晶格能u"></a> 晶格能<em>U</em></h3>
 <ul>
+<li><strong>拆开1mol离子晶体使之形成气态阳离子和气态阴离子时所需的能量。</strong></li>
 <li>晶格能越大，表明离子晶体中的离子键越强。</li>
 <li>一般而言，晶格能越大，离子晶体的熔点越高，硬度越大。</li>
 <li>影响因素：阴阳离子的电荷数越多，离子间的核间距越小，晶格能越大</li>
 </ul>
-</li>
-<li>
-<p>离子配位数：一种离子周围紧邻的带相反电荷的离子数目。</p>
+<h3 id="离子配位数"><a class="markdownIt-Anchor" href="#离子配位数"></a> 离子配位数</h3>
 <ul>
+<li><strong>一种离子周围紧邻的带相反电荷的离子数目。</strong></li>
 <li>离子晶体中离子的配位数主要取决于阴、阳离子的相对大小。</li>
 </ul>
-</li>
-<li>
-<p>离子晶体：由阴阳离子通过离子键结合而成的晶体</p>
+<h3 id="离子晶体-2"><a class="markdownIt-Anchor" href="#离子晶体-2"></a> 离子晶体</h3>
 <ul>
+<li>
+<p><strong>由阴阳离子通过离子键结合而成的晶体</strong></p>
+</li>
 <li>
 <p>构成微粒：阴离子和阳离子</p>
 </li>
@@ -874,8 +869,6 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 <li>
 <p>有阳离子和阴离子（只有阳离子：可能为金属晶体）</p>
-</li>
-</ul>
 </li>
 </ul>
 </li>
@@ -917,7 +910,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 </ul>
 </li>
-<li>常见离子晶体
+</ul>
+<h3 id="常见离子晶体"><a class="markdownIt-Anchor" href="#常见离子晶体"></a> 常见离子晶体</h3>
 <ul>
 <li>
 <p>NaCl型</p>
@@ -969,32 +963,18 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <p>CaF<sub>2</sub>型</p>
 <ul>
 <li>面心立方堆积</li>
-</ul>
-</li>
-<li>
-<p>一个晶胞含4个Ca<sup>2+</sup>和8个F<sup>-</sup></p>
-<ul>
+<li>一个晶胞含4个Ca<sup>2+</sup>和8个F<sup>-</sup></li>
 <li>Ca<sup>2+</sup>的配位数为8，F<sup>-</sup>的配位数为4</li>
-</ul>
-</li>
-<li>
-<p>Ca<sup>2+</sup>形成8个四面体空隙，F<sup>-</sup>填入其中8个四面体空隙，空隙填充率100%</p>
-<ul>
+<li>Ca<sup>2+</sup>形成8个四面体空隙，F<sup>-</sup>填入其中8个四面体空隙，空隙填充率100%</li>
 <li>在每个Ca<sup>2+</sup>周围最近且等距离的Ca<sup>2+</sup>有12个，在每个F<sup>-</sup>周围最近且等距离的F<sup>-</sup>有6个</li>
-</ul>
-</li>
-<li>
-<p>Ca<sup>2+</sup>与F<sup>-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+<li>Ca<sup>2+</sup>与F<sup>-</sup>的最近距离为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac{\sqrt3}{4}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3829999999999998em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0379999999999998em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.3990085em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord sqrt mtight"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.912845em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mtight" style="padding-left:0.833em;">3</span></span><span style="top:-2.872845em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail mtight" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
 -10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
 -50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
 35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
 -221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
 s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a</p>
-<ul>
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.12715500000000002em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>a</li>
 <li>配位数为4（在所有四面体空隙插入原子）</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
@@ -1017,10 +997,11 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </tbody>
 </table>
 <h2 id="原子晶体"><a class="markdownIt-Anchor" href="#原子晶体"></a> 原子晶体</h2>
+<h3 id="共价键"><a class="markdownIt-Anchor" href="#共价键"></a> 共价键</h3>
 <ul>
 <li>
-<p>共价键：原子间通过共用电子对形成的化学键</p>
-<ul>
+<p><strong>原子间通过共用电子对形成的化学键</strong></p>
+</li>
 <li>
 <p>成键微粒：原子</p>
 </li>
@@ -1034,89 +1015,18 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <p>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</p>
 </li>
 </ul>
-</li>
-<li>
-<p>共价键的参数</p>
+<h4 id="共价键的参数"><a class="markdownIt-Anchor" href="#共价键的参数"></a> 共价键的参数</h4>
 <ul>
-<li>键能：拆开1mol共价键所吸收的能量\形成1mol共价键所释放的能量。</li>
+<li>键能：拆开1mol共价键所吸收的能量 或 形成1mol共价键所释放的能量。</li>
 <li>键长：两个成键原子的核间距离叫做该化学键的键长（约等于成键两原子半径之和）</li>
 <li>键角：多原子分子中的两个共价键之间的夹角。</li>
 </ul>
-</li>
-<li>
-<p>共价键的分类</p>
+<h4 id="共价键的分类"><a class="markdownIt-Anchor" href="#共价键的分类"></a> 共价键的分类</h4>
+<h5 id="形成共价键的原子轨道重叠方式"><a class="markdownIt-Anchor" href="#形成共价键的原子轨道重叠方式"></a> 形成共价键的原子轨道重叠方式</h5>
+<h6 id="σ键头碰头重叠"><a class="markdownIt-Anchor" href="#σ键头碰头重叠"></a> σ键：“头碰头”重叠</h6>
 <ul>
-<li>
-<p>形成共价键的原子轨道重叠方式</p>
+<li>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠
 <ul>
-<li>σ键	“头碰头”重叠</li>
-<li>π键	“肩并肩”重叠</li>
-</ul>
-</li>
-<li>
-<p>形成共价键的电子对是否偏移</p>
-<ul>
-<li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
-<li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
-</ul>
-</li>
-<li>
-<p>原子间共用电子对的数目</p>
-<ul>
-<li>单键	原子间有一对共用电子对</li>
-<li>双键	原子间有两对共用电子对</li>
-<li>三键	原子间有三对共用电子对</li>
-</ul>
-</li>
-<li>
-<p>成键电子的来源</p>
-<ul>
-<li>
-<p>普通共价键：成键的两个原子乙方提供具有单电子的轨道，另一方也提供具有单电子的轨道而形成的共价键</p>
-</li>
-<li>
-<p>配位键：成键的两个原子或离子一方提供孤电子对，另一方提供空轨道而形成的共价键</p>
-<ul>
-<li>形成条件：一个原子提供孤对电子。另一原子提供空轨道</li>
-<li>表示方法：\ce A \to B</li>
-</ul>
-</li>
-<li>
-<p>粒子分类</p>
-<ul>
-<li>
-<p>提供空轨道：中心原子/离子：</p>
-<ul>
-<li>H<sup>+</sup></li>
-<li>ⅢA： B、Al</li>
-<li>过渡金属：Ag<sup>+</sup>、Zn<sup>2+</sup>、Cu<sup>2+</sup>、Fe<sup>2+</sup>、Fe<sup>3+</sup>等</li>
-</ul>
-</li>
-<li>
-<p>提供孤对电子：配体</p>
-<ul>
-<li>ⅦA： F<sup>-</sup>、Cl<sup>-</sup>、Br<sup>-</sup>、I<sup>-</sup></li>
-</ul>
-</li>
-<li>
-<p>ⅥA： H<sub>2</sub>O、OH<sup>-</sup>、OCN<sup>-</sup></p>
-<ul>
-<li>ⅤA： NH<sub>3</sub>、N<sub>2</sub>H<sub>4</sub>、乙二胺（\ce NH_2-CH_2-CH_2-NH_3)</li>
-<li>ⅣA： CO、CN<sup>-</sup></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>σ键</p>
-<ul>
-<li>
-<p>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠</p>
-</li>
 <li>
 <p>类别</p>
 <ul>
@@ -1138,11 +1048,11 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </li>
 </ul>
 </li>
-<li>
-<p>π键</p>
-<ul>
-<li>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</li>
 </ul>
+<h6 id="π键肩并肩重叠"><a class="markdownIt-Anchor" href="#π键肩并肩重叠"></a> π键：“肩并肩”重叠</h6>
+<ul>
+<li>
+<p>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</p>
 <table>
 <thead>
 <tr>
@@ -1155,16 +1065,17 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 </tr>
 </tbody>
 </table>
-<ul>
+</li>
 <li>
 <p>分类</p>
 <ul>
-<li>
-<p>定域π键：两原子间形成的π键</p>
+<li>定域π键：两原子间形成的π键</li>
+</ul>
 <blockquote>
 <p>例：N<sub>2</sub> 2个π键</p>
 </blockquote>
-</li>
+<br>
+<ul>
 <li>
 <p>离域π键：多原子间形成的π键</p>
 <p>表达方式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msubsup><mi mathvariant="normal">Π</mi><mi>a</mi><mi>b</mi></msubsup></mrow><annotation encoding="application/x-tex">\Pi_a^b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.096108em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord">Π</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.849108em;"><span style="top:-2.4530000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">a</span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">b</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></p>
@@ -1182,42 +1093,99 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <p>形成条件</p>
 <ul>
 <li>这些原子多数处于同一平面上</li>
+<li>这些原子有相互平行的p轨道</li>
+<li>p轨道上的电子总数小于p轨道数的两倍</li>
 </ul>
 </li>
 </ul>
-</li>
-<li>
-<p>这些原子有相互平行的p轨道</p>
-</li>
-<li>
-<p>p轨道上的电子总数小于p轨道数的两倍</p>
 </li>
 <li>
 <p>特征</p>
 <ul>
-<li>
-<p>形成π键时电子云重叠程度比σ键小，故较不稳定，且键长较σ键短。</p>
+<li>形成π键时电子云重叠程度比σ键小，故较不稳定，且键长较σ键短。</li>
+</ul>
 <blockquote>
 <p>“键长越短，键能越大”只适用于两个键都是σ键的情况下<br></p>
 </blockquote>
 <blockquote>
 <p>有机物中C可形成单键、双键、叁键，但S难以形成双键、叁键：S原子半径大，“肩并肩”重合形成轨道重叠低，难以形成π键。</p>
 </blockquote>
+<ul>
+<li>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</li>
+</ul>
+</li>
+</ul>
+<h5 id="形成共价键的电子对是否偏移"><a class="markdownIt-Anchor" href="#形成共价键的电子对是否偏移"></a> 形成共价键的电子对是否偏移</h5>
+<ul>
+<li>极性键	共用电子对发生偏移（组成共价键的两个原子不同）</li>
+<li>非极性键	共用电子对不发生偏移（组成两个共价键的原子相同）</li>
+</ul>
+<h5 id="原子间共用电子对的数目"><a class="markdownIt-Anchor" href="#原子间共用电子对的数目"></a> 原子间共用电子对的数目</h5>
+<ul>
+<li>单键	原子间有一对共用电子对</li>
+<li>双键	原子间有两对共用电子对</li>
+<li>三键	原子间有三对共用电子对</li>
+</ul>
+<h5 id="成键电子的来源"><a class="markdownIt-Anchor" href="#成键电子的来源"></a> 成键电子的来源</h5>
+<ul>
+<li>
+<p>普通共价键：成键的两个原子乙方提供具有单电子的轨道，另一方也提供具有单电子的轨道而形成的共价键</p>
 </li>
 <li>
-<p>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</p>
+<p><strong>配位键</strong>：成键的两个原子或离子一方提供孤电子对，另一方提供空轨道而形成的共价键</p>
+<ul>
+<li>
+<p>形成条件：一个原子提供孤对电子。另一原子提供空轨道</p>
 </li>
+<li>
+<p>表示方法：\ce A \to B</p>
+<ul>
+<li>
+<p>强弱比较：电负性</p>
+<blockquote>
+<p>例：NH<sub>3</sub>中N有孤对电子，可以形成配位键；NF<sub>3</sub>中N也有孤对电子，但无法形成配位键的原因：F电负性比N强，NF<sub>3</sub>中N周围电子云密度低，故NF<sub>3</sub>中N难以提供孤对电子，形成配位键。</p>
+</blockquote>
+<ul>
+<li>粒子分类</li>
+</ul>
+</li>
+<li>
+<p>提供空轨道：中心原子/离子：</p>
+<ul>
+<li>H<sup>+</sup></li>
+<li>ⅢA： B、Al</li>
+<li>过渡金属：Ag<sup>+</sup>、Zn<sup>2+</sup>、Cu<sup>2+</sup>、Fe<sup>2+</sup>、Fe<sup>3+</sup>等</li>
+</ul>
+</li>
+<li>
+<p>提供孤对电子：配体</p>
+<ul>
+<li>ⅦA： F<sup>-</sup>、Cl<sup>-</sup>、Br<sup>-</sup>、I<sup>-</sup></li>
+<li>ⅥA： H<sub>2</sub>O、OH<sup>-</sup>、OCN<sup>-</sup></li>
+<li>ⅤA： NH<sub>3</sub>、N<sub>2</sub>H<sub>4</sub>、乙二胺（\ce {NH_2-CH_2-CH_2-NH_3})</li>
+<li>ⅣA： CO、CN<sup>-</sup></li>
 </ul>
 </li>
 </ul>
 </li>
 </ul>
 <blockquote>
+<p>八电子稳定结构：最外层电子数+共价键数目</p>
+</blockquote>
+</li>
+</ul>
+<blockquote>
 <p><strong>特别提醒</strong><br></p>
 <ol>
-<li>单键为σ键；双键或三键，其中一个为σ键，其余为π键。<br></li>
-<li>配位键为一种特殊的共价键，形成配位键的条件是成键原子一方(A)能够提供孤电子对，另一方(B)具有能够接受孤电子对的空轨道，可表示为A―→B。。<br></li>
-<li>s轨道形成的共价键全部是σ键；杂化轨道形成的共价键全部为σ键。</li>
+<li>
+<p>单键为σ键；双键或三键，其中一个为σ键，其余为π键。<br></p>
+</li>
+<li>
+<p>配位键为一种特殊的共价键，形成配位键的条件是成键原子一方(A)能够提供孤电子对，另一方(B)具有能够接受孤电子对的空轨道，可表示为A―→B。。<br></p>
+</li>
+<li>
+<p>s轨道形成的共价键全部是σ键；杂化轨道形成的共价键全部为σ键。</p>
+</li>
 </ol>
 </blockquote>
 <h2 id="立方晶胞各物理量的计算"><a class="markdownIt-Anchor" href="#立方晶胞各物理量的计算"></a> 立方晶胞各物理量的计算</h2>
