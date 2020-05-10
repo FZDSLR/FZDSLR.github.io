@@ -3573,6 +3573,49 @@ img {
     max-width: 1300px;
   }
 }
+.heimu,
+.heimu a,
+a .heimu,
+.heimu a.new {
+  background-color: #252525;
+  color: #252525;
+  text-shadow: none;
+}
+.heimu:hover,
+.heimu:active,
+.heimu:hover .heimu,
+.heimu:active .heimu {
+  color: #fff !important;
+}
+.heimu:hover a,
+a:hover .heimu,
+.heimu:active a,
+a:active .heimu {
+  color: #add8e6 !important;
+}
+.heimu:hover .new,
+.heimu .new:hover,
+.new:hover .heimu,
+.heimu:active .new,
+.heimu .new:active,
+.new:active .heimu {
+  color: #ba0000 !important;
+}
+.blurry {
+  color: transparent;
+  text-shadow: 0 0 15px #666;
+  -webkit-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -moz-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -o-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -ms-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -webkit-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -moz-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+  -o-transition: text-shadow 2s cubic-bezier(0, 1, 0, 1);
+}
+.blurry:hover {
+  text-shadow: 0 0 0 #666;
+}
 .relatedPosts {
   margin-top: 1rem;
 }
