@@ -1,894 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <url>/2020-04-14-BINGPICTURES.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
-            <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
-          </div>
-<div class="note info">
-            <p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv%E6%97%A5%E6%A6%9C" target="_blank" rel="noopener">添加PIXIV组件的方法</a></p>
-          </div>
-<h1 id="顺带一提"><a class="markdownIt-Anchor" href="#顺带一提"></a> 顺带一提</h1>
-<ul>
-<li>本页面的封面图即为<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">Bing每日图片</a>。</li>
-<li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li>
-</ul>
-<h1 id="card_bingpicturepug内容"><a class="markdownIt-Anchor" href="#card_bingpicturepug内容"></a> <code>card_bingpicture.pug</code>内容</h1>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden&#x3D;&quot;true&quot;)</span><br><span class="line">    span&#x3D; _p(&#39;aside.card_bingpicture&#39;)</span><br><span class="line">  img(src&#x3D;&#39;https:&#x2F;&#x2F;api.dujin.org&#x2F;bing&#x2F;1366.php&#39;, width&#x3D;&#39;99%&#39;)</span><br></pre></td></tr></table></figure>
-<h1 id="indexpug添加"><a class="markdownIt-Anchor" href="#indexpug添加"></a> <code>index.pug</code>添加</h1>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include .&#x2F;card_bingpicture.pug</span><br></pre></td></tr></table></figure>
-<h1 id="butterflyyml添加"><a class="markdownIt-Anchor" href="#butterflyyml添加"></a> <code>butterfly.yml</code>添加</h1>
-<p><code>card_bingpicture: true</code></p>
-<h1 id="zh-cnyml添加"><a class="markdownIt-Anchor" href="#zh-cnyml添加"></a> <code>ZH-CN.yml</code>添加</h1>
-<p><code>card_bingpicture: Bing每日图片</code></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>“暴风雪”计划：大纲（持续补充）</title>
-    <url>/2020-04-17-BURAN.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
-<p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p>
-<p>项目的核心为“暴风雪”号航天飞机。</p>
-<h1 id="大纲"><a class="markdownIt-Anchor" href="#大纲"></a> 大纲</h1>
-<h2 id="运载工具"><a class="markdownIt-Anchor" href="#运载工具"></a> 运载工具</h2>
-<ul>
-<li>Myasishchev VM-T（Мясищев ВМ-Т «Атлант»）
-<ul>
-<li>米亚-4型轰炸机的变种，用于运输“暴风雪”号模型及“能源”火箭的组件。</li>
-</ul>
-</li>
-<li>AN-225(Ан-225 « Мрия »)
-<ul>
-<li>至今为止世界上载重量最大的运输机，用于运输“暴风雪”号航天飞机。</li>
-</ul>
-</li>
-</ul>
-<h2 id="发射场拜科努尔航天发射场космодром-байконур"><a class="markdownIt-Anchor" href="#发射场拜科努尔航天发射场космодром-байконур"></a> 发射场——拜科努尔航天发射场（Космодром Байконур）</h2>
-<ul>
-<li>UKSS/第250号站点（УниверсальныйКомплексСтенд-Старт）
-<ul>
-<li>该发射台建于70年代末，可兼做测试台。唯一一次在250号上进行的发射为“能源”的首飞。</li>
-</ul>
-</li>
-<li>第110号站点
-<ul>
-<li>该发射台上进行过五次发射任务：四次失败的N1火箭发射任务，以及一次成功的“能源-暴风雪”任务。</li>
-</ul>
-</li>
-<li>“周年纪念日”机场/第251号站点（“Юбилейный”）
-<ul>
-<li>位于拜科努尔发射场的机场，被用于运输航天组件及“暴风雪”的着陆设施。</li>
-</ul>
-</li>
-<li>第112号站点
-<ul>
-<li>最开始为组装N1火箭而被建造，后被用于维护航天飞机和组装“暴风雪-能源”复合体，1K1“暴风雪”在此存放，并在2002年被倒塌的机库屋顶摧毁。</li>
-</ul>
-</li>
-<li>第254号站点
-<ul>
-<li>在飞行任务后，用于维修、翻新航天飞机。</li>
-</ul>
-</li>
-</ul>
-<h2 id="航天飞机"><a class="markdownIt-Anchor" href="#航天飞机"></a> 航天飞机</h2>
-<h3 id="量产型"><a class="markdownIt-Anchor" href="#量产型"></a> 量产型</h3>
-<ul>
-<li>11F35 1K “暴风雪”（Буран）（1.01）
-<ul>
-<li>唯一飞行过的量产型号。在2002年于哈萨克斯坦被因暴风雪而倒塌的机棚摧毁。</li>
-</ul>
-</li>
-<li>11F35 2K “小鸟”/“风暴”（Птичка/Буря）（1.02）
-<ul>
-<li>量产型二号机，1988年开始建造，目前位于拜科努尔发射场的112A站点（112-MZK组装大楼）。</li>
-</ul>
-</li>
-<li>11F35 3K “贝加尔湖”（Байкал）（2.01）
-<ul>
-<li>量产型三号机，为前两架的改进版本，现位于莫斯科郊外茄科夫斯基的飞行博物馆。</li>
-</ul>
-</li>
-<li>11F35 4K （2.02）
-<ul>
-<li>量产型四号机，被拆解。</li>
-</ul>
-</li>
-<li>11F35 5K （2.03）
-<ul>
-<li>量产型五号机，被拆解。</li>
-</ul>
-</li>
-</ul>
-<h3 id="试验机"><a class="markdownIt-Anchor" href="#试验机"></a> 试验机</h3>
-<ul>
-<li>BOR/БОР(Беспилотный Орбитальный Ракетоплан, 无人驾驶轨道火箭飞机）
-<ul>
-<li>BOR-1
-<ul>
-<li>（以米格-105为蓝本的）全木制（？）试验机，于1969年7月15日被发射至亚轨道，在以13,000 km / h的速度进入大气层时被烧毁。</li>
-</ul>
-</li>
-<li>BOR-2
-<ul>
-<li>1:3全金属试验机，发射过四次，编号101-104。</li>
-</ul>
-</li>
-<li>BOR-3
-<ul>
-<li>1:3全金属试验机，发射过两次，编号301-302。</li>
-</ul>
-</li>
-<li>BOR-4
-<ul>
-<li>米格-105的1:2模型，发射过至少5次（另外还有2次未证实的发射记录），编号为BOR-4C,“宇宙”-1374/1445/1517/1614。</li>
-</ul>
-</li>
-<li>BOR-5
-<ul>
-<li>“暴风雪”的1:8模型，发射过5次，编号501-505。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>空中及静态试验机
-<ul>
-<li>OK-M/OK-ML-1/BST-001（0.01）
-<ul>
-<li>静态强度测试机。后被移至高尔基中央文化休闲公园。在2014年7月5-6日被移至俄罗斯国家经济展览中心以庆祝国家经济成就展（前身为苏联国民经济成就展）举办75周年。</li>
-</ul>
-</li>
-<li>OK-GLI/BST-002（0.02）
-<ul>
-<li>水平飞行测试机，进行过25（24？）次空中飞行和9次地面飞行。现位于德国施派尔技术博物馆中。</li>
-</ul>
-</li>
-<li>OK-KS（0.03）
-<ul>
-<li>电控、电力系统测试机。现位于RKK Energia的安全控制中心？（ICC）</li>
-</ul>
-</li>
-<li>OK-MT/OK-ML-1（0.04）
-<ul>
-<li>尺寸-重量拟合测试模型，现位于拜科努尔发射场的博物馆。</li>
-</ul>
-</li>
-<li>OK-M005（0.05）
-<ul>
-<li>热-振动-强度测试机。位于莫斯科中央空气流体动力学研究院。</li>
-</ul>
-</li>
-<li>OK-TVI（0.06）
-<ul>
-<li>热-真空测试模型。位于莫斯科东北的佩列斯韦特的НИИХИММАШ测试厂房。</li>
-</ul>
-</li>
-<li>OK-M008（0.08）
-<ul>
-<li>医学研究。在测试弹射座椅的可靠性后，该机就被送到莫斯科第29医院，后被转移至莫斯科附近的宇航员培训中心。目前位于（FMBA所属的？）第83临床医院辖区内。</li>
-</ul>
-</li>
-<li>OK-TVA（0.15）
-<ul>
-<li>发射前操作（加油，装配等）测试机。现在和1.02“小鸟”一起躺在拜科努尔112A站点的80号大楼。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="能源火箭家族"><a class="markdownIt-Anchor" href="#能源火箭家族"></a> 能源火箭家族</h2>
-<ul>
-<li>“能源”
-<ul>
-<li>芯级：4台RD-0120</li>
-<li>“天顶”助推器数：4</li>
-</ul>
-</li>
-<li>“能源-M”
-<ul>
-<li>芯级：1台RD-0120</li>
-<li>“天顶”助推器数：2或4</li>
-</ul>
-</li>
-<li>“能源-2”/Ураган
-<ul>
-<li>从芯级到助推皆采用滑翔方式进行回收。</li>
-</ul>
-</li>
-<li>“祝融星”
-<ul>
-<li>使用8个“天顶”助推器，并使用“能源-M”作为最上级。</li>
-</ul>
-</li>
-<li>“天顶-2/3”
-<ul>
-<li>由“能源”的助推器“天顶-1”发展而来的运载火箭。</li>
-</ul>
-</li>
-</ul>
-<h2 id="火箭发动机"><a class="markdownIt-Anchor" href="#火箭发动机"></a> 火箭发动机</h2>
-<ul>
-<li>RD-170系列
-<ul>
-<li>RD-170</li>
-<li>RD-171</li>
-<li>RD-171M</li>
-<li>RD-175</li>
-<li>RD-180</li>
-<li>RD-180M</li>
-<li>RD-180V</li>
-<li>RD-191</li>
-<li>RD-151</li>
-<li>RD-193</li>
-<li>RD-120</li>
-</ul>
-</li>
-<li>RD-0120</li>
-</ul>
-<h2 id="其它载荷"><a class="markdownIt-Anchor" href="#其它载荷"></a> 其它载荷</h2>
-<ul>
-<li>“极地”号</li>
-</ul>
-]]></content>
-      <categories>
-        <category>航天</category>
-      </categories>
-      <tags>
-        <tag>航天</tag>
-        <tag>暴风雪-能源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FZDSLR的第一篇博客</title>
-    <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><ul>
-<li>
-<p>此网站托管于Github</p>
-</li>
-<li>
-<p>以后可能会发一点比较杂乱的东西</p>
-</li>
-<li>
-<p>正在摸索网站用法ing</p>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>“云”上合唱团</title>
-    <url>/2020-04-16-choir-on-cloud.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br />
-<span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
-<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
-      <categories>
-        <category>FZYZ</category>
-      </categories>
-      <tags>
-        <tag>FZYZ</tag>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动量笔记整理</title>
-    <url>/2020-04-21-dongliang1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="动量"><a class="markdownIt-Anchor" href="#动量"></a> 动量</h1>
-<h2 id="动量-动能-动量变化量的比较"><a class="markdownIt-Anchor" href="#动量-动能-动量变化量的比较"></a> 动量、动能、动量变化量的比较</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>动量</th>
-<th>动能</th>
-<th>动量的变化量</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>定义</td>
-<td>物体的质量和速度的乘积</td>
-<td>物体由于运动而具有的能量</td>
-<td>物体末动量与初动量的矢量差</td>
-</tr>
-<tr>
-<td>定义式</td>
-<td><em>p</em>＝<em>mv</em></td>
-<td><em>E<sub>k</sub></em>= <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>mv<sup>2</sup></td>
-<td><em>Δp</em>＝<em>p</em>′－<em>p</em></td>
-</tr>
-<tr>
-<td>矢标性</td>
-<td>矢量</td>
-<td>标量</td>
-<td>矢量</td>
-</tr>
-<tr>
-<td>特点</td>
-<td>状态量</td>
-<td>状态量</td>
-<td>过程量</td>
-</tr>
-</tbody>
-</table>
-<h2 id="动量的性质"><a class="markdownIt-Anchor" href="#动量的性质"></a> 动量的性质</h2>
-<ul>
-<li>
-<p>矢量性：方向与瞬时速度方向相同．</p>
-</li>
-<li>
-<p>瞬时性：动量是描述物体运动状态的量，是针对某一时刻而言的．</p>
-</li>
-<li>
-<p>相对性：大小与参考系的选取有关，通常情况是指相对地面的动量．</p>
-</li>
-</ul>
-<h2 id="动量守恒条件"><a class="markdownIt-Anchor" href="#动量守恒条件"></a> 动量守恒条件</h2>
-<ul>
-<li>
-<p>理想守恒：系统不受外力或所受外力的合力为零，则系统动量守恒．</p>
-</li>
-<li>
-<p>近似守恒：系统受到的合力不为零，但当内力远大于外力时，系统的动量可近似看成守恒．</p>
-</li>
-<li>
-<p>分方向守恒：系统在某个方向上所受合力为零时，系统在该方向上动量守恒．</p>
-</li>
-</ul>
-<h2 id="动量守恒定律的表达式"><a class="markdownIt-Anchor" href="#动量守恒定律的表达式"></a> 动量守恒定律的表达式</h2>
-<p><em>m</em>1<em>v</em>1＋<em>m</em>2<em>v</em>2＝<em>m</em>1<em>v</em>1′＋<em>m</em>2<em>v</em>2′</p>
-<p><em>Δ</em> <em>p</em>1＝－<em>Δ</em> <em>p</em>2.</p>
-<h2 id="动量守恒定律的特点"><a class="markdownIt-Anchor" href="#动量守恒定律的特点"></a> 动量守恒定律的特点</h2>
-<ul>
-<li>
-<p>矢量性：表达式中涉及的都是矢量，需要首先选取正方向，分清各物体初、末动量的正、负。</p>
-</li>
-<li>
-<p>瞬时性：动量是状态量，动量守恒指对应每一时刻的总动量都和初时刻的总动量相等。不同时刻的动量不能相加。</p>
-</li>
-<li>
-<p>同时性：动量是状态量，具有瞬时性，动量守恒定律指的是相互作用的物体构成的物体系在任一时刻的总动量都相同．</p>
-</li>
-<li>
-<p>普适性：它不仅适用于两个物体组成的系统，也适用于多个物体组成的系统；不仅适用于宏观物体组成的系统，对微观粒子组成的系统也适用。</p>
-</li>
-</ul>
-<h2 id="应用动量守恒定律解题的步骤"><a class="markdownIt-Anchor" href="#应用动量守恒定律解题的步骤"></a> 应用动量守恒定律解题的步骤</h2>
-<ul>
-<li>
-<p>明确研究对象，确定系统的组成(系统包括哪几个物体及研究的过程)；</p>
-</li>
-<li>
-<p>进行受力分析，判断系统动量是否守恒(或某一方向上动量是否守恒)；</p>
-</li>
-<li>
-<p>规定正方向，确定初、末状态动量；</p>
-</li>
-<li>
-<p>由动量守恒定律列出方程</p>
-</li>
-<li>
-<p>代入数据，求出结果，必要时讨论说明</p>
-</li>
-</ul>
-<h2 id="动量守恒定律应用-弹性碰撞和非弹性碰撞"><a class="markdownIt-Anchor" href="#动量守恒定律应用-弹性碰撞和非弹性碰撞"></a> 动量守恒定律应用 弹性碰撞和非弹性碰撞</h2>
-<h3 id="碰撞的种类和特点"><a class="markdownIt-Anchor" href="#碰撞的种类和特点"></a> 碰撞的种类和特点</h3>
-<ul>
-<li>
-<p>机械能是否守恒</p>
-<table>
-<thead>
-<tr>
-<th>弹性碰撞</th>
-<th>动量守恒，机械能守恒</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>非弹性碰撞</strong></td>
-<td><strong>动量守恒，机械能有损失</strong></td>
-</tr>
-<tr>
-<td><strong>完全非弹性碰撞</strong></td>
-<td><strong>动量守恒，机械能损失最大</strong></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>碰撞前后动量是否共线</p>
-<table>
-<thead>
-<tr>
-<th>对心碰撞(正碰)</th>
-<th>碰撞前后速度共线</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>非对心碰撞(斜碰)</strong></td>
-<td><strong>碰撞前后速度不共线</strong></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-<h3 id="碰撞现象满足的规律"><a class="markdownIt-Anchor" href="#碰撞现象满足的规律"></a> 碰撞现象满足的规律</h3>
-<ul>
-<li>
-<p>动量守恒定律．</p>
-</li>
-<li>
-<p>机械能不增加</p>
-</li>
-<li>
-<p>速度要合理：若碰前两物体同向运动，则应有<em>v</em>后&gt;<em>v</em>前，碰后原来在前的物体速度一定增大，若碰后两物体同向运动，则应有<em>v</em>前′≥<em>v</em>后′；碰前两物体相向运动，碰后两物体的运动方向不可能都不改变</p>
-</li>
-</ul>
-<h3 id="弹性碰撞的规律"><a class="markdownIt-Anchor" href="#弹性碰撞的规律"></a> 弹性碰撞的规律</h3>
-<p>质量为<em>m<sub>1</sub></em>，速度为 <em>v<sub>1</sub></em> 的小球与质量为 <em>m<sub>2</sub></em> 的静止小球发生正面弹性碰撞</p>
-<p>则：</p>
-<ul>
-<li>
-<p><em>m<sub>1</sub>v<sub>1</sub></em>=<em>m<sub>1</sub>v<sub>1</sub>’</em>+<em>m<sub>2</sub>v<sub>2</sub>’</em></p>
-</li>
-<li>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub><sup>2</sup></em>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub>’<sup>2</sup></em>+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>2</sub>v<sub>2</sub>’<sup>2</sup></em></p>
-</li>
-</ul>
-<p>可得：</p>
-<ul>
-<li>
-<p><em>v<sub>1</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>−</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {m_1-m_2} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.263531em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8184309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">−</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
-</li>
-<li>
-<p><em>v<sub>2</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {2m} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2902079999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
-</li>
-</ul>
-<p>即：</p>
-<ol>
-<li>
-<p>当两球质量相等时，<em>v</em><sub>1</sub>′＝0，<em>v</em><sub>2</sub>′＝<em>v</em><sub>1</sub>，两球碰撞后交换速度 <s>置换反应</s></p>
-</li>
-<li>
-<p>当质量大的球碰质量小的球时，<em>v</em><sub>1</sub>′&gt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后两球都向前运动</p>
-</li>
-<li>
-<p>当质量小的球碰质量大的球时，<em>v</em><sub>1</sub>′&lt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后质量小的球被反弹回来</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>补充单词7-12</title>
-    <url>/2020-05-06-yybc2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="补充单词-7"><a class="markdownIt-Anchor" href="#补充单词-7"></a> 补充单词 7</h1>
-<p>snorkel vi. 戴潜水通气管潜水 n. 潜水艇或潜水者的通气管</p>
-<p>aquarium n. 水族馆；养鱼箱</p>
-<p>anecdote n. 奇闻，轶事</p>
-<p>Clancy 克兰西 男名</p>
-<p>baleen n. 鲸须</p>
-<p>baleen whale 须鲸</p>
-<p>annual adj. 每年的 n. 年刊</p>
-<p>migration n. 迁徙</p>
-<p>witness vt. 目击 n. 目击者</p>
-<p>accommodation n. 住宿</p>
-<p>shore n. 岸</p>
-<p>offshore adv. &amp; adj. 近海(的)； 离岸(的)</p>
-<p>opposite prep. 在…对面 adj. 相对的，相反的</p>
-<p>yell vi. &amp; n. 大叫，呼喊</p>
-<p>pause vi. &amp; n. 暂停，中止</p>
-<p>oar n. 桨</p>
-<p>telescope n. 望远镜</p>
-<p>teamwork n. 协作，配合</p>
-<p>blow-hole (鲸鱼的)鼻孔</p>
-<p>dive vi. &amp; n. 跳水</p>
-<p>flee vi. &amp; vt. 逃跑 — fled — fled</p>
-<p>harpoon n. 鱼叉</p>
-<p>drag vt. 拖，拉</p>
-<p>depth n. 深度</p>
-<p>meantime adv. 其间，同时</p>
-<p>in the meantime 在此其间；与此同时</p>
-<p>lip n. 一片嘴唇</p>
-<p>overboard adv. 越过船舷进入水中</p>
-<p>urge vt. 催促</p>
-<p>abandon vt. 放弃，遗弃</p>
-<p>shark n. 鲨鱼</p>
-<h1 id="补充单词-8"><a class="markdownIt-Anchor" href="#补充单词-8"></a> 补充单词 8</h1>
-<p>dimension n. 维(数), 方面，侧面</p>
-<p>reflect vi. 思考； vt. 映射，反射，思考</p>
-<p>pure adj. 纯的，纯洁的</p>
-<p>cell n. 细胞，(蜂房的)巣室</p>
-<p>aware adj. 意识到的，知道的</p>
-<p>be/become aware of 对…知道的；意识到…</p>
-<p>vivid adj. 生动的，鲜明的</p>
-<p>neat adj. 整齐的，匀称的</p>
-<p>seaweed n. 海草，海藻</p>
-<p>narrow adj. 狭窄的，狭隘的</p>
-<p>flashlight n. 手电筒，闪光灯</p>
-<p>upside down 上下翻转</p>
-<p>suck vt. &amp; vi. 吮吸</p>
-<p>sea-slug n. 海蛞蝓</p>
-<p>turtle n. 海龟</p>
-<p>eel n. 鳗，鳝</p>
-<p>sharp adj. 锋利的，锐利的</p>
-<p>tasty adj. 好吃的，可口的</p>
-<p>giant adj. 巨人的；巨大的 n. 巨人；伟人</p>
-<p>clam n. 蛤</p>
-<p>grey adj. &amp; n. 灰色的</p>
-<p>scare vt. 恐吓 vi. 受惊吓</p>
-<p>(be) scared to death 吓死了</p>
-<p>shallow adj. 浅的，肤浅的</p>
-<p>steep adj. 陡峭的</p>
-<p>boundary n. 界限，分界线</p>
-<h1 id="补充单词-9"><a class="markdownIt-Anchor" href="#补充单词-9"></a> 补充单词 9</h1>
-<p>help (…) out 帮助某人摆脱困境</p>
-<p>relationship n. 关系</p>
-<p>conservation n. 保存，保护</p>
-<p>iceberg n. 冰山</p>
-<p>jog vi. &amp; n. 慢跑</p>
-<p>seaside n. &amp; adj. 海边(的)</p>
-<p>net n. 网，网状物</p>
-<p>target n. 目标，靶，受批评的对象</p>
-<p>tide n. 潮汐，潮水，潮流</p>
-<p>driftnet n. 流网</p>
-<p>Antarctic adj. 南极的</p>
-<p>the Antarctic 南极洲</p>
-<p>awesome adj. 使人敬畏的，令人敬畏的</p>
-<p>leap vi. &amp; n. 跳跃 leap – leapt – leapt ; leap – leaped – leaped</p>
-<p>seal n. 海豹，封条，印章</p>
-<p>refund vt. 退还，偿还； n. 退款</p>
-<p>pension n. 养老金，退休金</p>
-<p>pensioner n. 领取养老金的人</p>
-<h1 id="补充单词10"><a class="markdownIt-Anchor" href="#补充单词10"></a> 补充单词10</h1>
-<p>airmail n. 航空邮件</p>
-<p>Papua New Guinea 巴布亚新几内亚</p>
-<p>fortnight n. 两星期</p>
-<p>hear from 接到……的信</p>
-<p>be dying to do sth 非常渴望做某事</p>
-<p>roof n. 屋顶； 车顶</p>
-<p>muddy adj. 泥泞的</p>
-<p>textbook n. 教科书；课本</p>
-<p>concept n. 观念；概念</p>
-<p>bucket n. 水桶</p>
-<p>the other day 不久前的一天</p>
-<p>weekly adj.&amp;adv. 每周（的）</p>
-<p>bubble vi. 起泡；沸腾</p>
-<p>relevant adj. 有关的；切题的</p>
-<p>remote adj. 遥远的；偏僻的</p>
-<p>ridge n. 山脊；屋脊</p>
-<p>weed n. 杂草 vt.&amp;vi. 除杂草</p>
-<p>hut n. 棚屋；小屋</p>
-<h1 id="补充单词11"><a class="markdownIt-Anchor" href="#补充单词11"></a> 补充单词11</h1>
-<p>rectangle n.矩形;长方形</p>
-<p>rectangular  adj.长方形的;矩形的</p>
-<p>adjust  vi. &amp; vt.调整; (使)适合</p>
-<p>platform n.台;平台;讲台; (火车站的)月台</p>
-<p>broom n.扫帚</p>
-<p>tin n.锡</p>
-<p>jar n.罐;广口瓶</p>
-<p>sniff  vt. &amp; vi.嗅;闻;用鼻子吸</p>
-<p>participate  vi.参与;参加</p>
-<p>interpreter  n.作口译的人</p>
-<p>grill  n.烤架;大平底锅vt.烧烤;炙烤</p>
-<p>dry out (使浸水等之物)完全变干;干透</p>
-<p>△leftover  n. 剩余物;残留物;剩饭adj.剩余的</p>
-<p>△evil  adj.邪恶的n.邪恶;罪恶</p>
-<p>dry up (指河流、井等)干涸</p>
-<p>otherwise  conj.否则;不然adv.用别的方法;其他方面</p>
-<p>privilege  n.特权;特别优待</p>
-<p>paperwork  n.文书工作</p>
-<p>arrangement  n.安排;排列</p>
-<p>toast vt.烤(面包等);敬酒n.烤面包(片);吐司面包;干杯</p>
-<p>comb  n.梳子vi.梳(发)</p>
-<p>astronaut  n.宇航员;太空人</p>
-<p>angle  n.角;角度</p>
-<p>catalogue  n.目录</p>
-<p>donate  vt.捐赠</p>
-<p>voluntary  adj.自愿的;志愿的;无偿的</p>
-<p>in need 在困难中;在危急中</p>
-<p>purchase  vt. &amp;n.买;购买</p>
-<p>anniversary  n.周年纪念(日)</p>
-<p>seed n.种子;萌芽</p>
-<p>seedling n. 秧苗；树苗</p>
-<p>vaccination n. 接种疫苗</p>
-<p>loan n. 贷款</p>
-<p>sew vi. (用针线)缝vt.缝制;缝合</p>
-<p>sewing machine缝纫机</p>
-<p>△supplement  n.增补的事物;补充;附录;增刊</p>
-<p>ox  n. (pl： oxen)公牛</p>
-<p>△plough  vi.犁(地);耕(地)</p>
-<p>trunk  n.树干;躯干;大衣箱</p>
-<p>trunk library箱式(柜式)图书馆</p>
-<p>tractor  n.拖拉机;牵引机</p>
-<p>Kenya   n.肯尼亚(非洲国家)</p>
-<h1 id="补充单词12"><a class="markdownIt-Anchor" href="#补充单词12"></a> 补充单词12</h1>
-<p>△Bangladesh n.孟加拉国(亚洲国家)</p>
-<p>click vi. &amp; vt. (使)发出咔嗒声n.咔嗒声</p>
-<p>tailor n.裁缝 vt.剪裁;缝制(衣服)</p>
-<p>△Tanzania n.坦桑尼亚(东非国家)</p>
-<p>△economic adj.经济的;经济学的</p>
-<p>political adj.政治的;政党的</p>
-<p>△Nepal n.尼泊尔(亚洲国家)</p>
-<p>△Uganda n.乌干达(东非国家)</p>
-<p>distribute vt.分配;分发</p>
-<p>distribution n.分配;分发;分布状态</p>
-<p>△financial adj.财务的;金融的;财政的.</p>
-<p>security n.安全;保护;保障</p>
-<p>operate vi.工作;运转vt.操作</p>
-<p>△Sudan n.苏丹(非洲国家)</p>
-<p>clinic n.门诊部;小诊所</p>
-<p>△Malawi n.马拉维(非洲国家)</p>
-<h1 id="原图片"><a class="markdownIt-Anchor" href="#原图片"></a> 原图片</h1>
-<p><a href="/VOSTOK/ENGLISH1.html">补充11和12的原图片</a></p>
-<hr />
-<p><span class="heimu" title="Что?">ПОЛЮС-Ц-0506-1</span></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>机械振动与机械波</title>
-    <url>/2020-05-01-zhengdong1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="机械振动"><a class="markdownIt-Anchor" href="#机械振动"></a> 机械振动</h2>
-<h3 id="简谐运动"><a class="markdownIt-Anchor" href="#简谐运动"></a> 简谐运动</h3>
-<ul>
-<li>
-<p>动力学特征：<em>F=-kx</em></p>
-</li>
-<li>
-<p>运动学特征：<em>x,v,a</em>均按正弦或余弦规律发生周期性变化(注意<em>v</em>、<em>a</em>的变化趋势相反)</p>
-</li>
-<li>
-<p>能量特征：系统的机械能守恒，振幅A不变</p>
-</li>
-<li>
-<p>简谐运动的运动学表达式：<em>x</em>＝<em>A</em>sin (<em>ωt</em>＋<em>φ</em>)，其中<em>A</em>代表振幅，<em>ω</em>＝<em>2πf</em>表示简谐运动的快慢，(<em>ωt</em>＋<em>φ</em>)代表简谐运动的相位，<em>φ</em>叫做初相</p>
-</li>
-</ul>
-<h3 id="单摆"><a class="markdownIt-Anchor" href="#单摆"></a> 单摆</h3>
-<ul>
-<li>视为简谐运动的条件：摆角小于5°</li>
-<li>周期公式：<em>T</em> = <em>2π</em> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msqrt><mfrac><mi>l</mi><mi>g</mi></mfrac></msqrt></mrow><annotation encoding="application/x-tex">\sqrt{\frac{l}{g}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.8399999999999999em;vertical-align:-0.6555000000000001em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1844999999999999em;"><span class="svg-align" style="top:-3.8em;"><span class="pstrut" style="height:3.8em;"></span><span class="mord" style="padding-left:1em;"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">g</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.01968em;">l</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.1445em;"><span class="pstrut" style="height:3.8em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.8800000000000001em;"><svg width='400em' height='1.8800000000000001em' viewBox='0 0 400000 1944' preserveAspectRatio='xMinYMin slice'><path d='M1001,80H400000v40H1013.1s-83.4,268,-264.1,840c-180.7,
-572,-277,876.3,-289,913c-4.7,4.7,-12.7,7,-24,7s-12,0,-12,0c-1.3,-3.3,-3.7,-11.7,
--7,-25c-35.3,-125.3,-106.7,-373.3,-214,-744c-10,12,-21,25,-33,39s-32,39,-32,39
-c-6,-5.3,-15,-14,-27,-26s25,-30,25,-30c26.7,-32.7,52,-63,76,-91s52,-60,52,-60
-s208,722,208,722c56,-175.3,126.3,-397.3,211,-666c84.7,-268.7,153.8,-488.2,207.5,
--658.5c53.7,-170.3,84.5,-266.8,92.5,-289.5c4,-6.7,10,-10,18,-10z
-M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.6555000000000001em;"><span></span></span></span></span></span></span></span></span></li>
-<li>单摆的等时性：单摆的振动周期取决于摆长<em>l</em>和重力加速度<em>g</em>，与振幅和振子(小球)质量都没有关系</li>
-</ul>
-<h3 id="受迫振动与共振"><a class="markdownIt-Anchor" href="#受迫振动与共振"></a> 受迫振动与共振</h3>
-<ul>
-<li>
-<p>受迫振动：系统在驱动力作用下的振动．做受迫振动的物体，它的周期(或频率)等于驱动力的周期(或频率)，而与物体的固有周期(或频率)无关</p>
-</li>
-<li>
-<p>共振：做受迫振动的物体，它的固有频率与驱动力的频率越接近，其振幅就越大，当二者相等时，振幅达到最大，这就是共振现象</p>
-</li>
-</ul>
-<h3 id="对比"><a class="markdownIt-Anchor" href="#对比"></a> 对比</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>自由振动</th>
-<th>受迫振动</th>
-<th>共振</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>受力情况</td>
-<td>仅受回复力</td>
-<td>受驱动力作用</td>
-<td>受驱动力作用</td>
-</tr>
-<tr>
-<td>振动周期或频率</td>
-<td>由系统本身性质决定，即固有周期<em>T</em><sub>0</sub>或固有频率<em>f</em><sub>0</sub></td>
-<td>由驱动力的周期或频率决定，即<em>T</em>＝<em>T</em><sub>驱</sub>或<em>f</em>＝<em>f</em><sub>驱</sub></td>
-<td><em>T</em><sub>驱</sub>＝<em>T</em><sub>0</sub>或<em>f</em><sub>驱</sub>＝<em>f</em><sub>0</sub></td>
-</tr>
-<tr>
-<td>振动能量</td>
-<td>振动物体的机械能不变</td>
-<td>由产生驱动力的物体提供</td>
-<td>振动物体获得的能量最大</td>
-</tr>
-<tr>
-<td>常见例子</td>
-<td>弹簧振子或单摆  (<em>θ</em>≤5°)</td>
-<td>机械工作时底座发生的振动</td>
-<td>共振筛、声 音的共鸣等</td>
-</tr>
-</tbody>
-</table>
-<h2 id="机械波"><a class="markdownIt-Anchor" href="#机械波"></a> 机械波</h2>
-<ul>
-<li>形成条件： 波源与介质</li>
-</ul>
-<h3 id="特点"><a class="markdownIt-Anchor" href="#特点"></a> 特点</h3>
-<ol>
-<li>机械波传播的只是振动的形式和能量，质点只在各自的平衡位置附近做简谐运动，并不随波迁移。</li>
-<li>介质中各质点的振幅相同，振动周期和频率都与波源的振动周期和频率相同。</li>
-<li>各质点开始振动(即起振)的方向均相同。</li>
-<li>一个周期内，质点完成一次全振动，通过的路程为4<em>A</em>，位移为零。</li>
-</ol>
-<h3 id="波速-波长及频率"><a class="markdownIt-Anchor" href="#波速-波长及频率"></a> 波速、波长及频率</h3>
-<ul>
-<li>
-<p>波长：在波动中，振动相位总是相同的两个相邻质点间的距离，用<em>λ</em>表示．</p>
-</li>
-<li>
-<p>波速：波在介质中的传播速度．由介质本身的性质决定；波速的计算公式：<em>v</em>＝<em>λ</em> <em>T</em>或<em>v</em> = <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>x</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>t</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{Δx}{Δt}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>。</p>
-</li>
-<li>
-<p>频率：由波源决定，等于波源的振动频率．</p>
-</li>
-<li>
-<p>波长、波速和频率的关系：<em>v</em>＝<em>f</em> <em>λ</em>.</p>
-<pre><code>特别提醒：机械波从一种介质进入另一种介质，频率不变，波速、波长都改变．
-</code></pre>
-</li>
-</ul>
-<h3 id="波的干涉和衍射"><a class="markdownIt-Anchor" href="#波的干涉和衍射"></a> 波的干涉和衍射</h3>
-<ul>
-<li>
-<p>产生稳定干涉的条件：频率相同的两列同性质的波相遇．</p>
-</li>
-<li>
-<p>现象：两列波相遇时，某些区域振动总是加强，某些区域振动总是减弱，且加强区和减弱区互相间隔．</p>
-</li>
-<li>
-<p>对两个完全相同的波源产生的干涉来说，凡到两波源的路程差为一个波长整数倍时，振动加强；凡到两波源的路程差为半个波长的奇数倍时，振动减弱．</p>
-</li>
-<li>
-<p>产生明显衍射现象的条件：障碍物或孔(缝)的尺寸跟波长差不多，或者比波长更小．</p>
-</li>
-</ul>
-<h3 id="多普勒效应"><a class="markdownIt-Anchor" href="#多普勒效应"></a> 多普勒效应</h3>
-<ul>
-<li>
-<p>波源不动：观察者向波源运动，接收频率增大；观察者背离波源运动，接收频率减小</p>
-</li>
-<li>
-<p>观察者不动：波源向观察者运动，接收频率增大；波源背离观察者运动，接收频率减小</p>
-<p><strong>总之</strong></p>
-<p>当波源与观察者相互靠近时，观察者接收到的频率变大，当波源与观察者相互远离时，观察者接收到的频率变小。</p>
-</li>
-</ul>
-<h2 id="方法"><a class="markdownIt-Anchor" href="#方法"></a> 方法</h2>
-<h3 id="质点的振动方向与波的传播方向的互判方法"><a class="markdownIt-Anchor" href="#质点的振动方向与波的传播方向的互判方法"></a> 质点的振动方向与波的传播方向的互判方法</h3>
-<ul>
-<li>
-<p>上下坡法</p>
-<p>沿波的传播方向看，“上坡”的点向下运动，“下坡”的点向上运动，简称“上坡下，下坡上”。</p>
-</li>
-<li>
-<p>带动法</p>
-<p>在质点<em>P</em>靠近波源一方附近的图象上另找一点<em>P</em>′，若<em>P</em>′在<em>P</em>上方，则<em>P</em>向上运动，若<em>P</em>′在<em>P</em>下方，则<em>P</em>向下运动．</p>
-</li>
-<li>
-<p>微平移法<br />
-作出经微小时间Δt后的波形，就知道了各质点经过Δt时间到达的位置，也就知道了此刻质点的振动方向。</p>
-</li>
-</ul>
-<h3 id="振动图象与波动图像"><a class="markdownIt-Anchor" href="#振动图象与波动图像"></a> 振动图象与波动图像</h3>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>振动图象</th>
-<th>波动图象</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>研究对象</td>
-<td>振动质点</td>
-<td>沿波传播方向的所有质点</td>
-</tr>
-<tr>
-<td>研究内容</td>
-<td>质点的位移随时间的变化规律</td>
-<td>某时刻所有质点的空间分布规律</td>
-</tr>
-<tr>
-<td>物理意义</td>
-<td>表示同一质点在各时刻的位移</td>
-<td>表示某时刻各质点的位移</td>
-</tr>
-<tr>
-<td>图象信息</td>
-<td>(1)质点振动周期  (2)质点振幅  (3)某一质点在各时刻的位移  (4)各时刻速度、加速度的方向</td>
-<td>(1)波长、振幅  (2)任意一质点在该时刻的位移  (3)任意一质点在该时刻的加速度方向  (4)传播方向、振动方向的互判</td>
-</tr>
-<tr>
-<td>图象变化</td>
-<td>随时间推移，图象延续，但已有形状不变</td>
-<td>随时间推移，波形沿传播方向平移</td>
-</tr>
-<tr>
-<td>一完整曲线占横坐标的距离</td>
-<td>表示一个周期</td>
-<td>表示一个波长</td>
-</tr>
-</tbody>
-</table>
-<h3 id="波的干涉-衍射-多普勒效应"><a class="markdownIt-Anchor" href="#波的干涉-衍射-多普勒效应"></a> 波的干涉、衍射、多普勒效应</h3>
-<h4 id="波的干涉中振动加强点和减弱点的判断"><a class="markdownIt-Anchor" href="#波的干涉中振动加强点和减弱点的判断"></a> 波的干涉中振动加强点和减弱点的判断</h4>
-<p>某质点的振动是加强还是减弱，取决于该点到两相干波源的距离之差Δ<em>x</em>.</p>
-<ul>
-<li>当两波源振动步调一致时</li>
-</ul>
-<p>若Δ<em>x</em>＝<em>nλ</em>(<em>n</em>＝0,1,2，…)，则振动加强；</p>
-<p>若Δ<em>x</em>＝(2<em>n</em>＋1)<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>λ</mi><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {λ}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">λ</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>，则振动减弱．</p>
-<ul>
-<li>当两波源振动步调相反时</li>
-</ul>
-<p>若Δ<em>x</em>＝(2<em>n</em>＋1)<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>λ</mi><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {λ}{2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">λ</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> (<em>n</em>＝0,1,2，…)，则振动加强；</p>
-<p>若Δ<em>x</em>＝<em>nλ</em>(<em>n</em>＝0,1,2，…)，则振动减弱．</p>
-<h4 id="波的衍射现象"><a class="markdownIt-Anchor" href="#波的衍射现象"></a> 波的衍射现象</h4>
-<p>波的衍射现象是指波能绕过障碍物继续传播的现象，产生明显衍射现象的条件是缝、孔的宽度或障碍物的尺寸跟波长相差不大或者小于波长．</p>
-<h3 id="波的多解问题"><a class="markdownIt-Anchor" href="#波的多解问题"></a> 波的多解问题</h3>
-<ul>
-<li>
-<p>周期性：时间周期性：时间间隔Δt与周期T的关系不明确；空间周期性：波传播距离Δx与波长λ的关系不明确．</p>
-</li>
-<li>
-<p>双向性：传播方向双向性：波的传播方向不确定；振动方向双向性：质点振动方向不确定．</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我是谁</title>
-    <url>/2020-04-01-/who-am-i.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 align = "center">FZDSLR</h1>
-<h2 align = "center">一只学生党</h2>
-<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"  alt="望" />
-<center>来自<ruby>FZYZ<rp>（</rp><rt><span class="heimu" title="白条警告">建平村体校</span></rt><rp>）</rp></ruby></center>
-<center>航空航天/生物/VN/计算机入门/军事/历史/摄影</center>
-<center><span class="heimu" title="对，我太菜了"><s>以上都不会（确信）</s></span></center>
-<p><strong><center>新浪邮箱<center/></strong></p>
-<center>FZDSLR@sina.com</center>
-]]></content>
-  </entry>
-  <entry>
-    <title>物构知识点（正在学习中）</title>
-    <url>/2020-04-18-wg1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note warning">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>物构知识点（正在学习中） | FZDSLR</title><meta name="description" content="由于Hexo渲染器不支持渲染化学式，故该页面使用Typora渲染，目录等暂不可用。            原子结构与性质研究历史1808，道尔顿，实心球模型1897，汤姆森，葡萄干布丁模型1909，卢瑟福，根据α粒子的散射实验，提出原子结构的有核模型1913，玻尔，玻尔模型基态原子的核外电子排布电子云用小点的疏密来描述电子在该区域内出现的机会的大小排布规律能量最低原理：原"><meta name="keywords" content="学习笔记,化学"><meta name="author" content="FZDSLR"><meta name="copyright" content="FZDSLR"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/LOGO-haihui-JC-TB.ico"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="物构知识点（正在学习中）"><meta name="twitter:description" content="由于Hexo渲染器不支持渲染化学式，故该页面使用Typora渲染，目录等暂不可用。            原子结构与性质研究历史1808，道尔顿，实心球模型1897，汤姆森，葡萄干布丁模型1909，卢瑟福，根据α粒子的散射实验，提出原子结构的有核模型1913，玻尔，玻尔模型基态原子的核外电子排布电子云用小点的疏密来描述电子在该区域内出现的机会的大小排布规律能量最低原理：原"><meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/a_1.png"><meta property="og:type" content="article"><meta property="og:title" content="物构知识点（正在学习中）"><meta property="og:url" content="http://fzdslr.github.io/2020-04-18-wg1.html"><meta property="og:site_name" content="FZDSLR"><meta property="og:description" content="由于Hexo渲染器不支持渲染化学式，故该页面使用Typora渲染，目录等暂不可用。            原子结构与性质研究历史1808，道尔顿，实心球模型1897，汤姆森，葡萄干布丁模型1909，卢瑟福，根据α粒子的散射实验，提出原子结构的有核模型1913，玻尔，玻尔模型基态原子的核外电子排布电子云用小点的疏密来描述电子在该区域内出现的机会的大小排布规律能量最低原理：原"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/a_1.png"><meta property="article:published_time" content="2020-04-18T15:00:00.000Z"><meta property="article:modified_time" content="2020-05-12T15:13:50.888Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = 'false'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://fzdslr.github.io/2020-04-18-wg1.html"><link rel="prev" title="动量笔记整理" href="http://fzdslr.github.io/2020-04-21-dongliang1.html"><link rel="next" title="“暴风雪”计划：大纲（持续补充）" href="http://fzdslr.github.io/2020-04-17-BURAN.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  translate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="FZDSLR" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="/img/1.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">9</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">8</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">4</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-object-ungroup" aria-hidden="true"></i><span> 音像</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> 相册</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-link" aria-hidden="true"></i><span> 链接</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/blogfriend"><i class="fa-fw fa fa-handshake-o"></i><span> 友链</span></a></li><li><a class="site-page" href="/link/space"><i class="fa-fw fa fa-wpexplorer"></i><span> 航天</span></a></li><li><a class="site-page" href="/link/papercraft"><i class="fa-fw fa fa-paper-plane-o"></i><span> 纸模</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/2020-04-01-/who-am-i.html"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></div></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/a_1.png)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">FZDSLR</a></span><span class="pull_right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-object-ungroup" aria-hidden="true"></i><span> 音像</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/photos/"><i class="fa-fw fa fa-picture-o"></i><span> 相册</span></a></li><li><a class="site-page" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page"><i class="fa-fw fa fa-link" aria-hidden="true"></i><span> 链接</span><i class="fa fa-chevron-down menus-expand" aria-hidden="true"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/blogfriend"><i class="fa-fw fa fa-handshake-o"></i><span> 友链</span></a></li><li><a class="site-page" href="/link/space"><i class="fa-fw fa fa-wpexplorer"></i><span> 航天</span></a></li><li><a class="site-page" href="/link/papercraft"><i class="fa-fw fa fa-paper-plane-o"></i><span> 纸模</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/2020-04-01-/who-am-i.html"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">物构知识点（正在学习中）</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-04-18 23:00:00"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-04-18</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-05-12 23:13:50"><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-12</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"><span class="post-meta__separator">|</span><i class="post-meta__icon fa fa-comment-o" aria-hidden="true"></i><span>评论数:</span><a href="/2020-04-18-wg1.html#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2020-04-18-wg1.html" itemprop="commentCount"></span></a></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><div class="note warning">
             <p>由于Hexo渲染器不支持渲染化学式，故该页面使用Typora渲染，目录等暂不可用。</p>
           </div>
 </p><h1><a name="原子结构与性质" class="md-header-anchor"></a><span>原子结构与性质</span></h1><h2><a name="研究历史" class="md-header-anchor"></a><span>研究历史</span></h2><ul><li><span>1808，道尔顿，实心球模型</span></li><li><span>1897，汤姆森，葡萄干布丁模型</span></li><li><span>1909，卢瑟福，根据α粒子的散射实验，提出原子结构的有核模型</span></li><li><span>1913，玻尔，玻尔模型</span></li></ul><h2><a name="基态原子的核外电子排布" class="md-header-anchor"></a><span>基态原子的核外电子排布</span></h2><h3><a name="电子云" class="md-header-anchor"></a><span>电子云</span></h3><ul><li><span>用小点的疏密来描述电子在该区域内出现的机会的大小</span></li></ul><h3><a name="排布规律" class="md-header-anchor"></a><span>排布规律</span></h3><ul><li><span>能量最低原理：原子核外电子总是先占有能量最低的电子轨道。</span></li><li><span>泡利不相容原理：每个原子轨道上最多只能容纳2个自旋方向相反的电子</span></li><li><span>洪特规则：当电子排布在同一能级的不同轨道时，基态原子中的电子总是优先单独占据一个轨道，而且自旋状态相同</span></li></ul><h3><a name="四种表示方法" class="md-header-anchor"></a><span>四种表示方法</span></h3><ul><li><span>电子排布式     </span></li></ul><blockquote><p><span>例： Cr：1s</span><sup><span>2</span></sup><span>2s</span><sup><span>2</span></sup><span>2p</span><sup><span>6</span></sup><span>3s</span><sup><span>2</span></sup><span>3p</span><sup><span>6</span></sup><span>3d</span><sup><span>5</span></sup><span>4s</span><sup><span>1</span></p></blockquote><ul><li><span>简化表示式</span></li></ul><blockquote><p><span>例：Cu：[Ar]3d</span><sup><span>10</span></sup><span>4s</span><sup><span>1</span></sup></p></blockquote><ul><li><span>价电子排布式</span></li></ul><blockquote><p><span>例：Fe：3d</span><sup><span>6</span></sup><span>4s</span><sup><span>2</span></sup></p></blockquote><ul><li><span>电子排布图</span></li></ul><blockquote><p><span>例：</span><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/捕获65661.png" referrerpolicy="no-referrer"></p></blockquote><p><span>          </span></p><h3><a name="原子轨道" class="md-header-anchor"></a><span>原子轨道</span></h3><ul><li><span>电子层</span></li></ul><figure><table><thead><tr><th><span>由内至外电子层顺序</span></th><th><span>电子层符号</span></th><th><span>亚电子层数目</span></th><th><span>原子轨道数目n</span><sup><span>2</span></sup></th><th><span>可容纳电子数目2n</span><sup><span>2</span></sup></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>K</span></td><td><span>1</span></td><td><span>1</span></td><td><span>2</span></td></tr><tr><td><span>2</span></td><td><span>L</span></td><td><span>2</span></td><td><span>4</span></td><td><span>8</span></td></tr><tr><td><span>3</span></td><td><span>M</span></td><td><span>3</span></td><td><span>9</span></td><td><span>18</span></td></tr><tr><td><span>4</span></td><td><span>N</span></td><td><span>4</span></td><td><span>16</span></td><td><span>32</span></td></tr></tbody></table></figure><ul><li><span>原子轨道</span></li></ul><figure><table><thead><tr><th><span>由内至外顺序</span></th><th><span>名称</span></th><th><span>形状</span></th><th><span>伸展方向</span></th><th><span>可容纳电子数目</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>s</span></td><td><span>球形</span></td><td><span>1</span></td><td><span>2</span></td></tr><tr><td><span>2</span></td><td><span>p</span></td><td><span>纺锤形</span></td><td><span>3</span></td><td><span>6</span></td></tr><tr><td><span>3</span></td><td><span>d</span></td><td><span>复杂</span></td><td><span>5</span></td><td><span>10</span></td></tr><tr><td><span>4</span></td><td><span>f</span></td><td><span>复杂</span></td><td><span>7</span></td><td><span>14</span></td></tr></tbody></table></figure><ul><li><span>示意图</span>
 <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/yuanziguidao.svg" width="40%" height="40%" /></li></ul><h2><a name="元素第一电离能和电负性及其变化规律" class="md-header-anchor"></a><span>元素第一电离能和电负性及其变化规律</span></h2><ul><li><p><span>电负性： 衡量元素在化合物中吸引电子的能力。</span></p><ul><li><p><span>氟的电负性为4.0</span></p></li><li><p><span>变化规律：</span></p><ul><li><span>同周期（从左到右）：依次增大</span></li><li><span>同主族（自上而下）：依次减小     </span></li></ul></li></ul></li><li><p><span>第一电离能: 某元素的气态原子失去一个电子形成+1价气态阳离子所需的最低能量，用符号</span><em><span>I</span><sub><span>1</span></sub></em><span>表示</span></p><ul><li><p><span>变化规律：</span></p><ul><li><span>同周期（从左到右）：增大趋势(注意ⅡA、ⅤA的特殊性)</span></li><li><span>同主族（自上而下）：依次减小 </span></li></ul></li></ul></li></ul><blockquote><p><span>同周期元素，ⅡA族(np</span><sup><span>0</span></sup><span>)和ⅤA族(ns</span><sup><span>2</span></sup><span>np</span><sup><span>3</span></sup><span>)，因p轨道处于全空或半满状态，比较稳定，所以其第一电离能大于同周期右侧相 邻的ⅢA族、ⅥA族元素，如第一电离能Mg&gt;Al，P&gt;S。</span></p></blockquote><p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/第一电离能.png" width="750px"/></p><ul><li><span>元素周期表中区的划分</span></li></ul><figure><table><thead><tr><th><span>区</span></th><th><span>族</span></th><th><span>最外层电子</span></th></tr></thead><tbody><tr><td><span>s区</span></td><td><span>ⅠA、ⅡA两族元素</span></td><td><span>ns</span><sup><span>1-2</span></sup></td></tr><tr><td><span>p区</span></td><td><span>ⅢA-ⅦA族元素及0族元素</span></td><td><span>ns</span><sup><span>2</span></sup><span>np</span><sup><span>1-6</span></sup></td></tr><tr><td><span>d区</span></td><td><span>ⅢB-ⅦB,Ⅷ族</span></td><td><span>(n-1)d</span><sup><span>1-9</span></sup><span>ns</span><sup><span>1-2</span></sup></td></tr><tr><td><span>ds区</span></td><td><span>ⅠB、ⅡB族</span></td><td><span>(n-1)d</span><sup><span>10</span></sup><span>ns</span><sup><span>1-2</span></sup></td></tr><tr><td><span>f区</span></td><td><span>镧系、锕系元素</span></td><td><span>(n-2)f</span><sup><span>0-14</span></sup><span>(n-1)d</span><sup><span>0-2</span></sup><span>ns</span><sup><span>2</span></sup></td></tr></tbody></table></figure><p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/元素分区1.svg" width="800px"/></p><h1><a name="晶体结构与性质" class="md-header-anchor"></a><span>晶体结构与性质</span></h1><h2><a name="分类" class="md-header-anchor"></a><span>分类</span></h2><figure><table><thead><tr><th><span>类别</span></th><th><span>粒子间作用力</span></th><th><span>特征</span></th></tr></thead><tbody><tr><td><span>分子晶体</span></td><td><span>分子间作用力（范德华力、氢键）</span></td><td><span>低熔沸点</span></td></tr><tr><td><span>离子晶体</span></td><td><span>离子键</span></td><td><span>较高熔沸点，在水溶液/熔融能导电</span></td></tr><tr><td><span>原子晶体</span></td><td><span>共价键</span></td><td><span>高熔沸点</span></td></tr><tr><td><span>金属晶体</span></td><td><span>金属键</span></td><td><span>导电、传热、延展性</span></td></tr></tbody></table></figure><h2><a name="金属晶体" class="md-header-anchor"></a><span>金属晶体</span></h2><h3><a name="金属键" class="md-header-anchor"></a><span>金属键</span></h3><ul><li><strong><span>金属阳离子和自由电子之间强烈的相互作用</span></strong></li><li><span>存在于金属单质/合金/金属簇化合物中 </span></li><li><span>金属键没有方向性——</span><strong><span>延展性</span></strong></li><li><span>自由电子在外电场作用下定向移动——</span><strong><span>导电性</span></strong></li><li><span>通过自由电子的运动把能量从温度高的地方向温度低的地方传递——</span><strong><span>导热性</span></strong></li><li><span>金属离子半径越小，离子电荷数越多，金属键越强，金属熔、沸点就越高。</span></li></ul><h3><a name="金属晶体堆积模型" class="md-header-anchor"></a><span>金属晶体堆积模型</span></h3><ul><li><p><span>密置层和非密置层</span></p><ul><li><span>非密置层：每个圆球和其他四个球相切</span></li><li><span>密置层：每个圆球和其他六个球相切</span></li></ul></li><li><p><span>（金属的）原子化热</span></p><ul><li><span>1mol金属固体完全气化成相互远离的气态原子时吸收的能量</span></li></ul></li></ul><figure><table><thead><tr><th><span>类别</span></th><th><span>例子</span></th><th><span>示意图</span></th><th><span>晶胞占有原子数</span></th><th><span>原子半径r与立方体边长a的关系</span></th><th><span>配位数</span></th><th><span>空间利用率</span></th></tr></thead><tbody><tr><td><span>简单立方堆积</span></td><td><span>钋（Po）</span></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattic_simple_cubic.svg" width="200px"/></td><td><span>1</span></td><td><span>a=2r</span></td><td><span>6</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.772ex" height="2.928ex" viewBox="0 -806.1 763.1 1260.5" role="img" focusable="false" style="vertical-align: -1.055ex;"><defs><path stroke-width="0" id="E1-MJMATHI-3C0" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path><path stroke-width="0" id="E1-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="523" height="60" x="0" y="220"></rect><use transform="scale(0.707)" xlink:href="#E1-MJMATHI-3C0" x="84" y="582"></use><use transform="scale(0.707)" xlink:href="#E1-MJMAIN-36" x="119" y="-531"></use></g></g></svg></span><script type="math/tex">\frac{π}{6}</script><span>≈52%</span></td></tr><tr><td><span>体心立方堆积</span></td><td><span>钠、钾、铬、钼、钨</span></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Cubic-body-centered.svg" width="200px"/></td><td><span>2</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.325ex" height="2.811ex" viewBox="0 -956.9 1862 1210.2" role="img" focusable="false" style="vertical-align: -0.588ex;"><defs><path stroke-width="0" id="E2-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path stroke-width="0" id="E2-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E2-MJMATHI-61" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E2-MJMAIN-221A" x="0" y="43"></use><rect stroke="none" width="500" height="60" x="833" y="783"></rect><use xlink:href="#E2-MJMAIN-33" x="833" y="0"></use><use xlink:href="#E2-MJMATHI-61" x="1333" y="0"></use></g></svg></span><script type="math/tex">\sqrt{3}a</script><span>=4r</span></td><td><span>8</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.356ex" height="3.861ex" viewBox="0 -1208.2 1875.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex; margin-right: -0.007ex;"><defs><path stroke-width="0" id="E3-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path stroke-width="0" id="E3-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E3-MJMAIN-38" d="M70 417T70 494T124 618T248 666Q319 666 374 624T429 515Q429 485 418 459T392 417T361 389T335 371T324 363L338 354Q352 344 366 334T382 323Q457 264 457 174Q457 95 399 37T249 -22Q159 -22 101 29T43 155Q43 263 172 335L154 348Q133 361 127 368Q70 417 70 494ZM286 386L292 390Q298 394 301 396T311 403T323 413T334 425T345 438T355 454T364 471T369 491T371 513Q371 556 342 586T275 624Q268 625 242 625Q201 625 165 599T128 534Q128 511 141 492T167 463T217 431Q224 426 228 424L286 386ZM250 21Q308 21 350 55T392 137Q392 154 387 169T375 194T353 216T330 234T301 253T274 270Q260 279 244 289T218 306L210 311Q204 311 181 294T133 239T107 157Q107 98 150 60T250 21Z"></path><path stroke-width="0" id="E3-MJMATHI-3C0" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,525)"><use transform="scale(0.707)" xlink:href="#E3-MJMAIN-221A" x="0" y="28"></use><rect stroke="none" width="353" height="42" x="589" y="543"></rect><use transform="scale(0.707)" xlink:href="#E3-MJMAIN-33" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E3-MJMAIN-38" x="501" y="-531"></use></g><use xlink:href="#E3-MJMATHI-3C0" x="1302" y="0"></use></g></svg></span><script type="math/tex">\frac{\sqrt{3}}{8}π</script><span>≈68%</span></td></tr><tr><td><span>面心立方堆积</span></td><td><span>金、银、铜、铅</span></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Lattice_face_centered_cubic.svg" width="200px"/></td><td><span>4</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.254ex" height="3.861ex" viewBox="0 -1208.2 1831.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex;"><defs><path stroke-width="0" id="E4-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E4-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E4-MJMATHI-61" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,517)"><use transform="scale(0.707)" xlink:href="#E4-MJMAIN-221A" x="0" y="39"></use><rect stroke="none" width="353" height="42" x="589" y="551"></rect><use transform="scale(0.707)" xlink:href="#E4-MJMAIN-32" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E4-MJMAIN-32" x="501" y="-531"></use></g><use xlink:href="#E4-MJMATHI-61" x="1302" y="0"></use></g></svg></span><script type="math/tex">\frac{\sqrt{2}}{2}a</script><span>=2r</span></td><td><span>12</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.356ex" height="3.861ex" viewBox="0 -1208.2 1875.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex; margin-right: -0.007ex;"><defs><path stroke-width="0" id="E6-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E6-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E6-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path stroke-width="0" id="E6-MJMATHI-3C0" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,517)"><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-221A" x="0" y="39"></use><rect stroke="none" width="353" height="42" x="589" y="551"></rect><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-36" x="501" y="-531"></use></g><use xlink:href="#E6-MJMATHI-3C0" x="1302" y="0"></use></g></svg></span><script type="math/tex">\frac{\sqrt{2}}{6}π</script><span>≈74%</span></td></tr><tr><td><span>六方立方堆积</span></td><td><span>镁、锌、钛</span></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Hexagonal_close_packed.svg" width="200px"/></td><td><span>2</span></td><td>&nbsp;</td><td><span>12</span></td><td><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.356ex" height="3.861ex" viewBox="0 -1208.2 1875.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex; margin-right: -0.007ex;"><defs><path stroke-width="0" id="E6-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E6-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E6-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path stroke-width="0" id="E6-MJMATHI-3C0" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,517)"><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-221A" x="0" y="39"></use><rect stroke="none" width="353" height="42" x="589" y="551"></rect><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-32" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E6-MJMAIN-36" x="501" y="-531"></use></g><use xlink:href="#E6-MJMATHI-3C0" x="1302" y="0"></use></g></svg></span><script type="math/tex">\frac{\sqrt{2}}{6}π</script><span>≈74%</span></td></tr></tbody></table></figure><ul><li><span>关于面心和六方的一些图片</span></li></ul><blockquote><p><span>左面心，右六方</span></p><p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Close_packing.svg" width="500px"/></p></blockquote><h2><a name="离子晶体" class="md-header-anchor"></a><span>离子晶体</span></h2><h3><a name="离子键" class="md-header-anchor"></a><span>离子键</span></h3><ul><li><strong><span>阴阳离子之间的强烈的相互作用</span></strong></li><li><span>没有方向性和饱和性</span></li><li><span>含有离子键的化合物就是离子化合物</span></li><li><span>包括引力和斥力</span></li></ul><h3><a name="晶格能u" class="md-header-anchor"></a><span>晶格能</span><em><span>U</span></em></h3><ul><li><strong><span>拆开1mol离子晶体使之形成气态阳离子和气态阴离子时所需的能量。</span></strong></li><li><span>晶格能越大，表明离子晶体中的离子键越强。</span></li><li><span>一般而言，晶格能越大，离子晶体的熔点越高，硬度越大。</span></li><li><span>影响因素：阴阳离子的电荷数越多，离子间的核间距越小，晶格能越大</span></li></ul><h3><a name="离子配位数" class="md-header-anchor"></a><span>离子配位数</span></h3><ul><li><strong><span>一种离子周围紧邻的带相反电荷的离子数目。</span></strong></li><li><span>离子晶体中离子的配位数主要取决于阴、阳离子的相对大小。</span></li></ul><h3><a name="离子晶体-n306" class="md-header-anchor"></a><span>离子晶体</span></h3><ul><li><p><strong><span>由阴阳离子通过离子键结合而成的晶体</span></strong></p></li><li><p><span>构成微粒：阴离子和阳离子</span></p></li><li><p><span>判断方法</span></p><ul><li><span>熔融状态下能导电的化合物</span></li><li><span>出现Na</span><sup><span>+</span></sup><span>，K</span><sup><span>+</span></sup><span>，Ba</span><sub><span>2</span></sub><sup><span>+</span></sup><span>，Mg</span><sub><span>2</span></sub><sup><span>+</span></sup><span>，NH</span><sub><span>4</span></sub><sup><span>+</span></sup><span>六种离子的其中一种的一定是离子晶体</span></li><li><span>无任何信息下的含金属元素的（除AlCl</span><sub><span>3</span></sub><span>）</span></li><li><span>有阳离子和阴离子（只有阳离子：可能为金属晶体）</span></li></ul></li><li><p><span>作用力判断</span></p><ul><li><span>离子晶体中作用力一定有：离子键</span></li><li><span>离子晶体中作用力可能有：共价键</span></li><li><span>熔化时破坏的作用力：离子键</span></li></ul></li></ul><blockquote><p><span>故可得：氯化钠溶液或熔融氯化钠中没有离子键</span>
 <span>离子化合物熔化只断键，属于物理变化</span></p></blockquote><ul><li><p><span>物理性质（括号中为例外）</span></p><ul><li><span>熔沸点较高（原子晶体）</span></li><li><sub><span>1</span></sub><span>固体不导电，</span><sub><span>2</span></sub><span>熔融状态能导电，</span><sub><span>3</span></sub><span>水溶液一般导电（</span><sub><span>13</span></sub><span>例外：HCl）</span></li><li><span>大多易溶于水，难溶于有机溶剂</span></li></ul></li><li><p><span>热稳定性</span></p><ul><li><p><span>例：碳酸盐：X</span><sup><span>2+</span></sup><span>+CO</span><sub><span>3</span></sub><sup><span>2-</span></sup><span>=XO+CO</span><sub><span>2</span></sub></p><ul><li><span>分解温度：MgCO</span><sub><span>3</span></sub><span>&lt;CaCO</span><sub><span>3</span></sub><span>&lt;SrCO</span><sub><span>3</span></sub><span>&lt;BaCO</span><sub><span>3</span></sub></li><li><span>原因：X-O键越强，越容易把O</span><sup><span>2-</span></sup><span>从CO</span><sub><span>3</span></sub><sup><span>2-</span></sup><span>中脱离出来</span></li><li><span>写法：碳酸盐分解本质为CO</span><sub><span>3</span></sub><sup><span>2-</span></sup><span>生成CO</span><sub><span>2</span></sub><span>和O</span><sup><span>2-</span></sup><span>,Mg</span><sup><span>2</span></sup><span>半径最小，与O</span><sup><span>2-</span></sup><span>结合能力最强，故MgCO</span><sub><span>3</span></sub><span>最易分解</span></li></ul></li></ul></li></ul><h3><a name="常见离子晶体" class="md-header-anchor"></a><span>常见离子晶体</span></h3><figure><table><thead><tr><th><span>类型</span></th><th><span>NaCl</span></th><th><span>CsCl</span></th><th><span>ZnS</span></th><th><span>CaF</span><sub><span>2</span></sub></th></tr></thead><tbody><tr><td><span>示意图</span></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/NaCl-estructura_cristalina.svg" width="200px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/CsCl_polyhedra.png" width="200px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Sphalerite-unit-cell-3D-balls.png" width="200px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Fluorite-unit-cell-3D-balls.png" width="200px"/></td></tr><tr><td><span>堆积方式</span></td><td><span>面心立方堆积</span></td><td><span>体心立方堆积</span></td><td><span>类金刚石堆积</span></td><td><span>面心立方堆积</span></td></tr><tr><td><span>离子数目</span></td><td><span>4个Na</span><sup><span>+</span></sup><span>和4个Cl</span><sup><span>-</span></sup></td><td><span>1个Cs</span><sup><span>+</span></sup><span>和1个Cl</span><sup><span>-</span></sup></td><td><span>4个Zn</span><sup><span>2+</span></sup><span>和4个S</span><sup><span>2-</span></sup></td><td><span>4个Ca</span><sup><span>2+</span></sup><span>和8个F</span><sup><span>-</span></sup></td></tr><tr><td><span>离子配位数</span></td><td><span>Na</span><sup><span>+</span></sup><span>的配位数为6，Cl</span><sup><span>-</span></sup><span>的配位数为6</span></td><td><span>Cs</span><sup><span>+</span></sup><span>的配位数为8，Cl的配位数为8</span></td><td><span>Zn</span><sup><span>2+</span></sup><span>的配位数是4，S</span><sup><span>2-</span></sup><span>的配位数是4</span></td><td><span>Ca</span><sup><span>2+</span></sup><span>的配位数为8，F</span><sup><span>-</span></sup><span>的配位数为4</span></td></tr><tr><td><span>最近同离子数</span></td><td><span>在每个Na</span><sup><span>+</span></sup><span>周围最近且等距离的Na</span><sup><span>+</span></sup><span>有12个，在每个Cl</span><sup><span>-</span></sup><span>周围最近且等距离的Cl</span><sup><span>-</span></sup><span>有12个</span></td><td><span>在每个Cs</span><sup><span>+</span></sup><span>周围最近且等距离的Cs</span><sup><span>+</span></sup><span>有6个，在每个Cl</span><sup><span>-</span></sup><span>周围最近且等距离的Cl</span><sup><span>-</span></sup><span>有6个</span></td><td><span>在每个Zn</span><sup><span>2+</span></sup><span>周围最近且等距离的Zn</span><sup><span>2+</span></sup><span>有6个，在每个S</span><sup><span>2-</span></sup><span>周围最近且等距离的S</span><sup><span>2-</span></sup><span>有6个</span></td><td><span>在每个Ca</span><sup><span>2+</span></sup><span>周围最近且等距离的Ca</span><sup><span>2+</span></sup><span>有12个，在每个F</span><sup><span>-</span></sup><span>周围最近且等距离的F</span><sup><span>-</span></sup><span>有6个</span></td></tr><tr><td><span>配位数</span></td><td><span>6（在所有八面体空隙插入原子）</span></td><td>&nbsp;</td><td><span>4（在互不相邻的四面体空隙插入原子）</span></td><td><span>4（在所有四面体空隙插入原子）</span></td></tr><tr><td><span>阴阳离子最近距离</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>Zn</span><sup><span>2+</span></sup><span>与S</span><sup><span>2-</span></sup><span>的最近距离为</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.025ex" height="3.861ex" viewBox="0 -1208.2 1302.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex;"><defs><path stroke-width="0" id="E8-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path stroke-width="0" id="E8-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E8-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,525)"><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-221A" x="0" y="28"></use><rect stroke="none" width="353" height="42" x="589" y="543"></rect><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-33" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-34" x="501" y="-542"></use></g></g></svg></span><script type="math/tex">\frac{\sqrt3}{4}</script><span>a(体对角线的四等分点)</span></td><td><span>Ca</span><sup><span>2+</span></sup><span>与F</span><sup><span>-</span></sup><span>的最近距离为</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.025ex" height="3.861ex" viewBox="0 -1208.2 1302.6 1662.6" role="img" focusable="false" style="vertical-align: -1.055ex;"><defs><path stroke-width="0" id="E8-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path stroke-width="0" id="E8-MJMAIN-221A" d="M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z"></path><path stroke-width="0" id="E8-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(120,0)"><rect stroke="none" width="1062" height="60" x="0" y="220"></rect><g transform="translate(59,525)"><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-221A" x="0" y="28"></use><rect stroke="none" width="353" height="42" x="589" y="543"></rect><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-33" x="833" y="0"></use></g><use transform="scale(0.707)" xlink:href="#E8-MJMAIN-34" x="501" y="-542"></use></g></g></svg></span><script type="math/tex">\frac{\sqrt3}{4}</script><span>a</span></td></tr><tr><td><span>空隙填充</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>Zn</span><sup><span>2+</span></sup><span>形成8个四面体空隙，S</span><sup><span>2-</span></sup><span>填入其中4个四面体空隙，空隙填充率50%</span></td><td><span>Ca</span><sup><span>2+</span></sup><span>形成8个四面体空隙，F</span><sup><span>-</span></sup><span>填入其中8个四面体空隙，空隙填充率100%</span></td></tr><tr><td><span>其他</span></td><td><span>离Na</span><sup><span>+</span></sup><span>周围最近的Cl</span><sup><span>-</span></sup><span>构成的空间构型为空间正八面体</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name="原子晶体" class="md-header-anchor"></a><span>原子晶体 </span></h2><h3><a name="共价键" class="md-header-anchor"></a><span>共价键</span></h3><ul><li><strong><span>原子间通过共用电子对形成的化学键</span></strong></li><li><span>成键微粒：原子</span></li><li><span>共价键形成的本质：当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</span></li><li><span>具有饱和性。</span></li><li><span>具有方向性。（s轨道和s轨道重叠形成的共价键无方向性）</span></li></ul><h4><a name="共价键的参数" class="md-header-anchor"></a><span>共价键的参数</span></h4><ul><li><span>键能：拆开1mol共价键所吸收的能量 或 形成1mol共价键所释放的能量。</span></li><li><span>键长：两个成键原子的核间距离叫做该化学键的键长（约等于成键两原子半径之和）</span></li><li><span>键角：多原子分子中的两个共价键之间的夹角。</span></li></ul><h4><a name="共价键的分类" class="md-header-anchor"></a><span>共价键的分类</span></h4><h5><a name="形成共价键的原子轨道重叠方式" class="md-header-anchor"></a><span>形成共价键的原子轨道重叠方式</span></h5><h6><a name="σ键头碰头重叠" class="md-header-anchor"></a><span>σ键：“头碰头”重叠</span></h6><ul><li><p><span>形成：沿键轴方向以“头碰头”的方式发生原子轨道（电子云）重叠    </span></p><ul><li><p><span>类别</span></p><ul><li><span>s-sσ键：由两个s原子轨道重叠形成的σ键（无方向性）</span></li><li><span>s-pσ键：由一个s原子轨道和一个p原子轨道重叠形成的σ键</span></li><li><span>p-pσ键：由两个p原子轨道重叠形成的σ键</span></li></ul></li><li><p><span>特征</span></p><ul><li><span>形成σ键的原子轨道重叠程度较大，故较稳定</span></li><li><span>以形成σ键的两原子核的连线为轴，任何一个原子均可以旋转，并不破坏σ键的结构</span></li></ul></li></ul></li></ul><h6><a name="π键肩并肩重叠" class="md-header-anchor"></a><span>π键：“肩并肩”重叠</span></h6><ul><li><p><span>形成：两个原子的电子以“肩并肩”的方式发生原子轨道重叠。</span></p><figure><table><thead><tr><th><span>示意图</span></th></tr></thead><tbody><tr><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Pi-Bond.svg" width="200px"/></td></tr></tbody></table></figure></li><li><p><span>分类</span></p><ul><li><span>定域π键：两原子间形成的π键</span></li></ul><blockquote><p><span>例：N</span><sub><span>2</span></sub><span> 2个π键</span></p></blockquote><br><ul><li><p><span>离域π键：多原子间形成的π键</span></p><p><span>表达方式：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.843ex" height="2.694ex" viewBox="0 -906.7 1224.1 1160" role="img" focusable="false" style="vertical-align: -0.588ex;"><defs><path stroke-width="0" id="E9-MJMAIN-3A0" d="M128 619Q121 626 117 628T101 631T58 634H25V680H724V634H691Q651 633 640 631T622 619V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V634H232V348L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E9-MJMATHI-62" d="M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z"></path><path stroke-width="0" id="E9-MJMATHI-61" d="M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E9-MJMAIN-3A0" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E9-MJMATHI-62" x="1060" y="498"></use><use transform="scale(0.707)" xlink:href="#E9-MJMATHI-61" x="1060" y="-209"></use></g></svg></span><script type="math/tex">\Pi_a^b</script></p><ul><li><span>a：成键原子数（偶数，且≥4）</span></li><li><span>b：成键电子数 </span></li></ul><blockquote><p><span>例：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.795ex" height="3.044ex" viewBox="0 -906.7 1203.6 1310.7" role="img" focusable="false" style="vertical-align: -0.938ex;"><defs><path stroke-width="0" id="E10-MJMAIN-3A0" d="M128 619Q121 626 117 628T101 631T58 634H25V680H724V634H691Q651 633 640 631T622 619V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V634H232V348L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E10-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path><path stroke-width="0" id="E10-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E10-MJMAIN-3A0" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-34" x="1060" y="487"></use><use transform="scale(0.707)" xlink:href="#E10-MJMAIN-33" x="1060" y="-433"></use></g></svg></span><script type="math/tex">\Pi_3^4</script><span>（CO</span><sub><span>2</span></sub><span>，O</span><sub><span>3</span></sub><span>），</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.795ex" height="3.044ex" viewBox="0 -906.7 1203.6 1310.7" role="img" focusable="false" style="vertical-align: -0.938ex;"><defs><path stroke-width="0" id="E11-MJMAIN-3A0" d="M128 619Q121 626 117 628T101 631T58 634H25V680H724V634H691Q651 633 640 631T622 619V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V634H232V348L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E11-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path stroke-width="0" id="E11-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E11-MJMAIN-3A0" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E11-MJMAIN-36" x="1060" y="509"></use><use transform="scale(0.707)" xlink:href="#E11-MJMAIN-34" x="1060" y="-445"></use></g></svg></span><script type="math/tex">\Pi_4^6</script><span>，</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.795ex" height="3.044ex" viewBox="0 -906.7 1203.6 1310.7" role="img" focusable="false" style="vertical-align: -0.938ex;"><defs><path stroke-width="0" id="E12-MJMAIN-3A0" d="M128 619Q121 626 117 628T101 631T58 634H25V680H724V634H691Q651 633 640 631T622 619V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V634H232V348L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E12-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path><path stroke-width="0" id="E12-MJMAIN-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E12-MJMAIN-3A0" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E12-MJMAIN-36" x="1060" y="509"></use><use transform="scale(0.707)" xlink:href="#E12-MJMAIN-35" x="1060" y="-434"></use></g></svg></span><script type="math/tex">\Pi_5^6</script><span>，</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.795ex" height="3.044ex" viewBox="0 -906.7 1203.6 1310.7" role="img" focusable="false" style="vertical-align: -0.938ex;"><defs><path stroke-width="0" id="E13-MJMAIN-3A0" d="M128 619Q121 626 117 628T101 631T58 634H25V680H724V634H691Q651 633 640 631T622 619V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V634H232V348L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E13-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E13-MJMAIN-3A0" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E13-MJMAIN-36" x="1060" y="509"></use><use transform="scale(0.707)" xlink:href="#E13-MJMAIN-36" x="1060" y="-434"></use></g></svg></span><script type="math/tex">\Pi_6^6</script><span>（苯）</span></p></blockquote><p><span>形成条件</span></p><ul><li><span>这些原子多数处于同一平面上</span></li><li><span>这些原子有相互平行的p轨道</span></li><li><span>p轨道上的电子总数小于p轨道数的两倍</span></li></ul></li></ul></li><li><p><span>特征</span></p><ul><li><span>形成π键时电子云重叠程度比σ键小，故较不稳定，且键长较σ键短。</span></li></ul><blockquote><p><span>“键长越短，键能越大”只适用于两个键都是σ键的情况下</span><br></p></blockquote><blockquote><p><span>有机物中C可形成单键、双键、叁键，但S难以形成双键、叁键：S原子半径大，“肩并肩”重合形成轨道重叠低，难以形成π键。</span></p></blockquote><ul><li><span>以形成π键的两个原子核的连线为轴，任意一个原子并不能单独旋转。</span></li></ul></li></ul><h5><a name="形成共价键的电子对是否偏移" class="md-header-anchor"></a><span>形成共价键的电子对是否偏移</span></h5><ul><li><span>极性键</span><span>	</span><span>共用电子对发生偏移（组成共价键的两个原子不同）</span></li><li><span>非极性键</span><span>	</span><span>共用电子对不发生偏移（组成两个共价键的原子相同）</span></li></ul><h5><a name="原子间共用电子对的数目" class="md-header-anchor"></a><span>原子间共用电子对的数目</span></h5><ul><li><span>单键</span><span>	</span><span>原子间有一对共用电子对</span></li><li><span>双键</span><span>	</span><span>原子间有两对共用电子对</span></li><li><span>三键</span><span>	</span><span>原子间有三对共用电子对</span></li></ul><h5><a name="成键电子的来源" class="md-header-anchor"></a><span>成键电子的来源</span></h5><ul><li><p><span>普通共价键：成键的两个原子乙方提供具有单电子的轨道，另一方也提供具有单电子的轨道而形成的共价键</span></p></li><li><p><strong><span>配位键</span></strong><span>：成键的两个原子或离子一方提供孤电子对，另一方提供空轨道而形成的共价键</span></p><ul><li><p><span>形成条件：一个原子提供孤对电子。另一原子提供空轨道</span></p></li><li><p><span>表示方法：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.118ex" height="2.11ex" viewBox="0 -806.1 3064.6 908.7" role="img" focusable="false" style="vertical-align: -0.238ex;"><defs><path stroke-width="0" id="E14-MJMAIN-41" d="M255 0Q240 3 140 3Q48 3 39 0H32V46H47Q119 49 139 88Q140 91 192 245T295 553T348 708Q351 716 366 716H376Q396 715 400 709Q402 707 508 390L617 67Q624 54 636 51T687 46H717V0H708Q699 3 581 3Q458 3 437 0H427V46H440Q510 46 510 64Q510 66 486 138L462 209H229L209 150Q189 91 189 85Q189 72 209 59T259 46H264V0H255ZM447 255L345 557L244 256Q244 255 345 255H447Z"></path><path stroke-width="0" id="E14-MJMAIN-2192" d="M56 237T56 250T70 270H835Q719 357 692 493Q692 494 692 496T691 499Q691 511 708 511H711Q720 511 723 510T729 506T732 497T735 481T743 456Q765 389 816 336T935 261Q944 258 944 250Q944 244 939 241T915 231T877 212Q836 186 806 152T761 85T740 35T732 4Q730 -6 727 -8T711 -11Q691 -11 691 0Q691 7 696 25Q728 151 835 230H70Q56 237 56 250Z"></path><path stroke-width="0" id="E14-MJMATHI-42" d="M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E14-MJMAIN-41" x="0" y="0"></use><use xlink:href="#E14-MJMAIN-2192" x="1027" y="0"></use><use xlink:href="#E14-MJMATHI-42" x="2305" y="0"></use></g></svg></span><script type="math/tex">\ce A \to B</script></p><ul><li><p><span>强弱比较：电负性</span></p><blockquote><p><span>例：NH</span><sub><span>3</span></sub><span>中N有孤对电子，可以形成配位键；NF</span><sub><span>3</span></sub><span>中N也有孤对电子，但无法形成配位键的原因：F电负性比N强，NF</span><sub><span>3</span></sub><span>中N周围电子云密度低，故NF</span><sub><span>3</span></sub><span>中N难以提供孤对电子，形成配位键。</span></p></blockquote><ul><li><span>粒子分类</span></li></ul></li><li><p><span>提供空轨道：中心原子/离子：</span></p><ul><li><span>H</span><sup><span>+</span></sup></li><li><span>ⅢA： B、Al</span></li><li><span>过渡金属：Ag</span><sup><span>+</span></sup><span>、Zn</span><sup><span>2+</span></sup><span>、Cu</span><sup><span>2+</span></sup><span>、Fe</span><sup><span>2+</span></sup><span>、Fe</span><sup><span>3+</span></sup><span>等</span></li></ul></li><li><p><span>提供孤对电子：配体</span></p><ul><li><span>ⅦA： F</span><sup><span>-</span></sup><span>、Cl</span><sup><span>-</span></sup><span>、Br</span><sup><span>-</span></sup><span>、I</span><sup><span>-</span></sup></li><li><span>ⅥA： H</span><sub><span>2</span></sub><span>O、OH</span><sup><span>-</span></sup><span>、OCN</span><sup><span>-</span></sup></li><li><span>ⅤA： NH</span><sub><span>3</span></sub><span>、N</span><sub><span>2</span></sub><span>H</span><sub><span>4</span></sub><span>、乙二胺（</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="24.365ex" height="2.461ex" viewBox="0 -806.1 10490.7 1059.4" role="img" focusable="false" style="vertical-align: -0.588ex; margin-right: -0.925ex;"><defs><path stroke-width="0" id="E15-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path><path stroke-width="0" id="E15-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E15-MJMATHI-58" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path><path stroke-width="0" id="E15-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E15-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E15-MJMAIN-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"></path><path stroke-width="0" id="E15-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E15-MJMAIN-4E" x="0" y="0"></use><use xlink:href="#E15-MJMAIN-48" x="750" y="0"></use><g transform="translate(1500,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E15-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E15-MJMAIN-2212" x="1953" y="0"></use><g transform="translate(2731,0)"><use xlink:href="#E15-MJMAIN-43" x="0" y="0"></use><use xlink:href="#E15-MJMAIN-48" x="722" y="0"></use></g><g transform="translate(4203,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E15-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E15-MJMAIN-2212" x="4657" y="0"></use><g transform="translate(5435,0)"><use xlink:href="#E15-MJMAIN-43" x="0" y="0"></use><use xlink:href="#E15-MJMAIN-48" x="722" y="0"></use></g><g transform="translate(6907,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E15-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E15-MJMAIN-2212" x="7360" y="0"></use><g transform="translate(8138,0)"><use xlink:href="#E15-MJMAIN-4E" x="0" y="0"></use><use xlink:href="#E15-MJMAIN-48" x="750" y="0"></use></g><g transform="translate(9638,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E15-MJMAIN-33" x="0" y="0"></use></g></g></g></g></svg></span><script type="math/tex">\ce {NH_2-CH_2-CH_2-NH_3}</script><span>)</span></li><li><span>ⅣA： CO、CN</span><sup><span>-</span></sup></li></ul></li></ul></li></ul><blockquote><p><span>八电子稳定结构：最外层电子数+共价键数目</span></p></blockquote></li></ul><blockquote><p><strong><span>特别提醒</span></strong><br></p><ol start='' ><li><span>单键为σ键；双键或三键，其中一个为σ键，其余为π键。</span><br></li><li><span>配位键为一种特殊的共价键，形成配位键的条件是成键原子一方(A)能够提供孤电子对，另一方(B)具有能够接受孤电子对的空轨道，可表示为A―→B。。</span><br></li><li><span>s轨道形成的共价键全部是σ键；杂化轨道形成的共价键全部为σ键。</span></li></ol></blockquote><h3><a name="原子晶体-n576" class="md-header-anchor"></a><span>原子晶体</span></h3><p><span>晶体中所有原子都是通过共价键结合的晶体</span></p><h2><a name="分子晶体" class="md-header-anchor"></a><span>分子晶体</span></h2><h3><a name="范德华力" class="md-header-anchor"></a><span>范德华力</span></h3><ul><li><p><span>把分子聚集在一起的作用力</span></p></li><li><p><span>特征：</span></p><ul><li><span>无方向性、饱和性</span></li><li><span>分子间作用力（范德华力和氢键）比化学键弱（范德华力约比化学键键能小1-2个数量级。</span></li></ul></li><li><p><span>判断：所有的分子晶体中都存在范德华力，随着三态变化，范德华力会相应变化。</span></p></li><li><p><span>影响因素：组成和结构相似时，</span><strong><span>M</span></strong><span>越大，范德华力越强，分子晶体的熔沸点越高。</span></p></li><li><p><span>主要影响物质的熔沸点。</span></p></li></ul><h3><a name="氢键" class="md-header-anchor"></a><span>氢键</span></h3><ul><li><p><strong><span>由已经与电负性很强且原子半径很小的原子形成共价键的氢原子与另一个分子中电负性很强原子半径很小且有孤对电子的原子之间的作用力。</span></strong></p></li><li><p><span>表达方法：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="8.967ex" height="2.11ex" viewBox="0 -755.9 3860.8 908.7" role="img" focusable="false" style="vertical-align: -0.355ex;"><defs><path stroke-width="0" id="E16-MJMAIN-58" d="M270 0Q252 3 141 3Q46 3 31 0H23V46H40Q129 50 161 88Q165 94 244 216T324 339Q324 341 235 480T143 622Q133 631 119 634T57 637H37V683H46Q64 680 172 680Q297 680 318 683H329V637H324Q307 637 286 632T263 621Q263 618 322 525T384 431Q385 431 437 511T489 593Q490 595 490 599Q490 611 477 622T436 637H428V683H437Q455 680 566 680Q661 680 676 683H684V637H667Q585 634 551 599Q548 596 478 491Q412 388 412 387Q412 385 514 225T620 62Q628 53 642 50T695 46H726V0H717Q699 3 591 3Q466 3 445 0H434V46H440Q454 46 476 51T499 64Q499 67 463 124T390 238L353 295L350 292Q348 290 343 283T331 265T312 236T286 195Q219 88 218 84Q218 70 234 59T272 46H280V0H270Z"></path><path stroke-width="0" id="E16-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E16-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E16-MJMAIN-2D" d="M11 179V252H277V179H11Z"></path><path stroke-width="0" id="E16-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E16-MJMAIN-58" x="0" y="0"></use><use xlink:href="#E16-MJMAIN-2212" x="750" y="0"></use><use xlink:href="#E16-MJMAIN-48" x="1528" y="0"></use><g transform="translate(2278,0)"><g></g><g><g transform="translate(0,111)"><g transform="translate(111,0)"><use transform="scale(0.5)" xlink:href="#E16-MJMAIN-2D" x="0" y="0"></use><use transform="scale(0.5)" xlink:href="#E16-MJMAIN-2D" x="444" y="0"></use><use transform="scale(0.5)" xlink:href="#E16-MJMAIN-2D" x="888" y="0"></use></g></g></g></g><use xlink:href="#E16-MJMAIN-59" x="3110" y="0"></use></g></svg></span><script type="math/tex">\ce{X\bond{-}H\bond{~}Y}</script></p><blockquote><p><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.291ex" height="2.11ex" viewBox="0 -755.9 2278 908.7" role="img" focusable="false" style="vertical-align: -0.355ex;"><defs><path stroke-width="0" id="E17-MJMAIN-58" d="M270 0Q252 3 141 3Q46 3 31 0H23V46H40Q129 50 161 88Q165 94 244 216T324 339Q324 341 235 480T143 622Q133 631 119 634T57 637H37V683H46Q64 680 172 680Q297 680 318 683H329V637H324Q307 637 286 632T263 621Q263 618 322 525T384 431Q385 431 437 511T489 593Q490 595 490 599Q490 611 477 622T436 637H428V683H437Q455 680 566 680Q661 680 676 683H684V637H667Q585 634 551 599Q548 596 478 491Q412 388 412 387Q412 385 514 225T620 62Q628 53 642 50T695 46H726V0H717Q699 3 591 3Q466 3 445 0H434V46H440Q454 46 476 51T499 64Q499 67 463 124T390 238L353 295L350 292Q348 290 343 283T331 265T312 236T286 195Q219 88 218 84Q218 70 234 59T272 46H280V0H270Z"></path><path stroke-width="0" id="E17-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E17-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E17-MJMAIN-58" x="0" y="0"></use><use xlink:href="#E17-MJMAIN-2212" x="750" y="0"></use><use xlink:href="#E17-MJMAIN-48" x="1528" y="0"></use></g></svg></span><script type="math/tex">\ce{X\bond{-}H}</script><span>：氢给予基</span></p></blockquote><blockquote><p><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E23-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-59" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{Y}</script><span>：氢接受基 （自身无法形成氢键，但可与外界分子形成氢键）</span></p></blockquote><ul><li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E19-MJMAIN-58" d="M270 0Q252 3 141 3Q46 3 31 0H23V46H40Q129 50 161 88Q165 94 244 216T324 339Q324 341 235 480T143 622Q133 631 119 634T57 637H37V683H46Q64 680 172 680Q297 680 318 683H329V637H324Q307 637 286 632T263 621Q263 618 322 525T384 431Q385 431 437 511T489 593Q490 595 490 599Q490 611 477 622T436 637H428V683H437Q455 680 566 680Q661 680 676 683H684V637H667Q585 634 551 599Q548 596 478 491Q412 388 412 387Q412 385 514 225T620 62Q628 53 642 50T695 46H726V0H717Q699 3 591 3Q466 3 445 0H434V46H440Q454 46 476 51T499 64Q499 67 463 124T390 238L353 295L350 292Q348 290 343 283T331 265T312 236T286 195Q219 88 218 84Q218 70 234 59T272 46H280V0H270Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E19-MJMAIN-58" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{X}</script><span>与</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E23-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-59" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{Y}</script><span>均为N、O、F中的一种</span></li><li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E23-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-59" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{Y}</script><span>必有孤对电子</span></li><li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E23-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-59" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{Y}</script><span>必须为N、O、F且</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E23-MJMAIN-59" d="M518 0Q497 3 374 3Q253 3 232 0H221V46H254Q313 47 321 58Q324 62 324 167V273L221 446Q117 620 114 623Q106 631 91 634T31 637H11V683H20Q29 680 148 680Q273 680 294 683H305V637H287Q239 636 236 621Q236 619 321 475L407 332L483 460Q502 492 527 534Q563 594 563 604Q563 632 517 637H508V683H517H525Q533 683 545 683T571 682T600 681T626 681Q695 681 731 683H738V637H723Q640 633 613 588Q612 587 517 427L425 273V169V95Q425 66 428 59T444 49Q459 46 506 46H528V0H518Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-59" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{Y}</script><span>连在什么分子上不重要</span></li></ul></li><li><p><span>特征</span></p><ul><li><span>氢键不属于化学键，是一种分子间作用力，氢键键能很小，约为化学键的十分之几，但比范德华力强</span></li><li><span>氢键具有一定的方向性与饱和性</span></li></ul></li><li><p><span>应用</span></p><ol start='' ><li><p><span>存在</span></p><ul><li><span>给予基、接受基： </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="38.472ex" height="2.577ex" viewBox="0 -806.1 16564.5 1109.7" role="img" focusable="false" style="vertical-align: -0.705ex;"><defs><path stroke-width="0" id="E24-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path><path stroke-width="0" id="E24-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E24-MJMATHI-58" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path><path stroke-width="0" id="E24-MJMAIN-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"></path><path stroke-width="0" id="E24-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E24-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path><path stroke-width="0" id="E24-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E24-MJMAIN-4F" d="M56 340Q56 423 86 494T164 610T270 680T388 705Q521 705 621 601T722 341Q722 260 693 191T617 75T510 4T388 -22T267 3T160 74T85 189T56 340ZM467 647Q426 665 388 665Q360 665 331 654T269 620T213 549T179 439Q174 411 174 354Q174 144 277 61Q327 20 385 20H389H391Q474 20 537 99Q603 188 603 354Q603 411 598 439Q577 592 467 647Z"></path><path stroke-width="0" id="E24-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E24-MJMAIN-4E" x="0" y="0"></use><use xlink:href="#E24-MJMAIN-48" x="750" y="0"></use><g transform="translate(1500,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E24-MJMAIN-33" x="0" y="0"></use></g></g></g><g transform="translate(1953,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><use xlink:href="#E24-MJMAIN-4E" x="2735" y="0"></use><g transform="translate(3485,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E24-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E24-MJMAIN-48" x="3939" y="0"></use><g transform="translate(4689,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E24-MJMAIN-34" x="0" y="0"></use></g></g></g><g transform="translate(5142,0)"><g></g><g transform="translate(0,-150)"><g><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(35.539) matrix(1 0 0 -1 0 0)">、</text></g></g></g><use xlink:href="#E24-MJMAIN-2212" x="5795" y="0"></use><g transform="translate(6573,0)"><use xlink:href="#E24-MJMAIN-4E" x="0" y="0"></use><use xlink:href="#E24-MJMAIN-48" x="750" y="0"></use></g><g transform="translate(8073,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E24-MJMAIN-32" x="0" y="0"></use></g></g></g><g transform="translate(8527,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><use xlink:href="#E24-MJMAIN-48" x="9309" y="0"></use><g transform="translate(10059,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E24-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E24-MJMAIN-4F" x="10513" y="0"></use><g transform="translate(11291,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><use xlink:href="#E24-MJMAIN-2212" x="12073" y="0"></use><g transform="translate(12851,0)"><use xlink:href="#E24-MJMAIN-4F" x="0" y="0"></use><use xlink:href="#E24-MJMAIN-48" x="778" y="0"></use></g><g transform="translate(14379,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><g transform="translate(15161,0)"><use xlink:href="#E24-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E24-MJMAIN-46" x="750" y="0"></use></g></g></svg></span><script type="math/tex">\ce{NH_3、N_2H4_、-NH_2 、H_2O、-OH 、HF}</script><span>（自身分子间也可形成氢键）</span></li><li><span>给予基： </span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="15.786ex" height="2.811ex" viewBox="0 -956.9 6796.6 1210.2" role="img" focusable="false" style="vertical-align: -0.588ex;"><defs><path stroke-width="0" id="E25-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path><path stroke-width="0" id="E25-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E25-MJMATHI-58" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path><path stroke-width="0" id="E25-MJMAIN-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"></path><path stroke-width="0" id="E25-MJMAIN-2B" d="M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z"></path><path stroke-width="0" id="E25-MJMAIN-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path><path stroke-width="0" id="E25-MJMAIN-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E25-MJMAIN-4E" x="0" y="0"></use><use xlink:href="#E25-MJMAIN-48" x="750" y="0"></use><g transform="translate(1500,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-34" x="0" y="0"></use></g></g></g><g transform="translate(1953,0)"><g></g><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-2B" x="0" y="579"></use></g><g transform="translate(2603,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><use xlink:href="#E25-MJMAIN-4E" x="3385" y="0"></use><g transform="translate(4135,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-32" x="0" y="0"></use></g></g></g><use xlink:href="#E25-MJMAIN-48" x="4589" y="0"></use><g transform="translate(5339,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-36" x="0" y="0"></use></g></g></g><g transform="translate(5792,0)"><g></g><g transform="translate(0,409)"><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-32" x="0" y="0"></use><use transform="scale(0.707)" xlink:href="#E25-MJMAIN-2B" x="500" y="0"></use></g></g></g></svg></span><script type="math/tex">\ce{NH_4^+、N_2H_6^2+}</script></li><li><span>接受基：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="12.682ex" height="2.344ex" viewBox="0 -806.1 5460.5 1009.2" role="img" focusable="false" style="vertical-align: -0.472ex;"><defs><path stroke-width="0" id="E26-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E26-MJMAIN-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"></path><path stroke-width="0" id="E26-MJMAIN-6C" d="M42 46H56Q95 46 103 60V68Q103 77 103 91T103 124T104 167T104 217T104 272T104 329Q104 366 104 407T104 482T104 542T103 586T103 603Q100 622 89 628T44 637H26V660Q26 683 28 683L38 684Q48 685 67 686T104 688Q121 689 141 690T171 693T182 694H185V379Q185 62 186 60Q190 52 198 49Q219 46 247 46H263V0H255L232 1Q209 2 183 2T145 3T107 3T57 1L34 0H26V46H42Z"></path><path stroke-width="0" id="E26-MJMAIN-42" d="M131 622Q124 629 120 631T104 634T61 637H28V683H229H267H346Q423 683 459 678T531 651Q574 627 599 590T624 512Q624 461 583 419T476 360L466 357Q539 348 595 302T651 187Q651 119 600 67T469 3Q456 1 242 0H28V46H61Q103 47 112 49T131 61V622ZM511 513Q511 560 485 594T416 636Q415 636 403 636T371 636T333 637Q266 637 251 636T232 628Q229 624 229 499V374H312L396 375L406 377Q410 378 417 380T442 393T474 417T499 456T511 513ZM537 188Q537 239 509 282T430 336L329 337H229V200V116Q229 57 234 52Q240 47 334 47H383Q425 47 443 53Q486 67 511 104T537 188Z"></path><path stroke-width="0" id="E26-MJMAIN-72" d="M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z"></path><path stroke-width="0" id="E26-MJMAIN-49" d="M328 0Q307 3 180 3T32 0H21V46H43Q92 46 106 49T126 60Q128 63 128 342Q128 620 126 623Q122 628 118 630T96 635T43 637H21V683H32Q53 680 180 680T328 683H339V637H317Q268 637 254 634T234 623Q232 620 232 342Q232 63 234 60Q238 55 242 53T264 48T317 46H339V0H328Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E26-MJMAIN-46" x="0" y="0"></use><g transform="translate(653,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><g transform="translate(1435,0)"><use xlink:href="#E26-MJMAIN-43" x="0" y="0"></use><use xlink:href="#E26-MJMAIN-6C" x="722" y="0"></use></g><g transform="translate(2435,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><g transform="translate(3217,0)"><use xlink:href="#E26-MJMAIN-42" x="0" y="0"></use><use xlink:href="#E26-MJMAIN-72" x="708" y="0"></use></g><g transform="translate(4317,0)"><text font-family="STIXGeneral,'Arial Unicode MS',serif" stroke="none" transform="scale(50.259) matrix(1 0 0 -1 0 0)">、</text></g><use xlink:href="#E26-MJMAIN-49" x="5099" y="0"></use></g></svg></span><script type="math/tex">\ce{F、Cl、Br、I}</script></li></ul></li><li><p><span>熔沸点判断</span></p><ol start='' ><li><p><span>分子间氢键&gt;无氢键&gt;分子内氢键</span></p></li><li><p><span>都为分子间氢键时</span></p><ul><li><span>氢键数目：一般数目越多，熔沸点越高</span></li><li><span>氢键极性（键能）：氢键极性越高，氢键键能越强</span></li></ul></li></ol><blockquote><p><span>分子间氢键</span></p></blockquote><figure><table><thead><tr><th><span>水杨醛（邻羟基苯甲醛）</span></th><th><span>对羟基苯甲醛</span></th></tr></thead><tbody><tr><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/邻硝基苯甲醛.png" width="250px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/对硝基苯甲醛.png" width="250px"/></td></tr><tr><td><span>分子内部可形成氢键</span></td><td><span>分子内部不可形成氢键</span></td></tr></tbody></table></figure><figure><table><thead><tr><th><span>硝酸</span></th><th><span>邻硝基苯酚</span></th></tr></thead><tbody><tr><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/硝酸根.png" width="250px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/邻硝基苯酚.svg" width="250px"/></td></tr></tbody></table></figure><blockquote><p><span>例：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="11.873ex" height="2.227ex" viewBox="0 -806.1 5112 958.9" role="img" focusable="false" style="vertical-align: -0.355ex;"><defs><path stroke-width="0" id="E27-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E27-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E27-MJMAIN-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"></path><path stroke-width="0" id="E27-MJMAIN-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"></path><path stroke-width="0" id="E27-MJMAIN-2261" d="M56 444Q56 457 70 464H707Q722 456 722 444Q722 430 706 424H72Q56 429 56 444ZM56 237T56 250T70 270H707Q722 262 722 250T707 230H70Q56 237 56 250ZM56 56Q56 71 72 76H706Q722 70 722 56Q722 44 707 36H70Q56 43 56 56Z"></path><path stroke-width="0" id="E27-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E27-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E27-MJMAIN-2212" x="750" y="0"></use><use xlink:href="#E27-MJMAIN-53" x="1528" y="0"></use><use xlink:href="#E27-MJMAIN-2212" x="2084" y="0"></use><use xlink:href="#E27-MJMAIN-43" x="2862" y="0"></use><use xlink:href="#E27-MJMAIN-2261" x="3584" y="0"></use><use xlink:href="#E27-MJMAIN-4E" x="4362" y="0"></use></g></svg></span><script type="math/tex">\ce{H\bond{-}S\bond{-}C\bond{3}N}</script><span>与</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="11.873ex" height="2.227ex" viewBox="0 -806.1 5112 958.9" role="img" focusable="false" style="vertical-align: -0.355ex;"><defs><path stroke-width="0" id="E28-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E28-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E28-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path><path stroke-width="0" id="E28-MJMAIN-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path><path stroke-width="0" id="E28-MJMAIN-43" d="M56 342Q56 428 89 500T174 615T283 681T391 705Q394 705 400 705T408 704Q499 704 569 636L582 624L612 663Q639 700 643 704Q644 704 647 704T653 705H657Q660 705 666 699V419L660 413H626Q620 419 619 430Q610 512 571 572T476 651Q457 658 426 658Q322 658 252 588Q173 509 173 342Q173 221 211 151Q232 111 263 84T328 45T384 29T428 24Q517 24 571 93T626 244Q626 251 632 257H660L666 251V236Q661 133 590 56T403 -21Q262 -21 159 83T56 342Z"></path><path stroke-width="0" id="E28-MJMAIN-53" d="M55 507Q55 590 112 647T243 704H257Q342 704 405 641L426 672Q431 679 436 687T446 700L449 704Q450 704 453 704T459 705H463Q466 705 472 699V462L466 456H448Q437 456 435 459T430 479Q413 605 329 646Q292 662 254 662Q201 662 168 626T135 542Q135 508 152 480T200 435Q210 431 286 412T370 389Q427 367 463 314T500 191Q500 110 448 45T301 -21Q245 -21 201 -4T140 27L122 41Q118 36 107 21T87 -7T78 -21Q76 -22 68 -22H64Q61 -22 55 -16V101Q55 220 56 222Q58 227 76 227H89Q95 221 95 214Q95 182 105 151T139 90T205 42T305 24Q352 24 386 62T420 155Q420 198 398 233T340 281Q284 295 266 300Q261 301 239 306T206 314T174 325T141 343T112 367T85 402Q55 451 55 507Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E28-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E28-MJMAIN-2212" x="750" y="0"></use><use xlink:href="#E28-MJMAIN-4E" x="1528" y="0"></use><use xlink:href="#E28-MJMAIN-3D" x="2278" y="0"></use><use xlink:href="#E28-MJMAIN-43" x="3056" y="0"></use><use xlink:href="#E28-MJMAIN-3D" x="3778" y="0"></use><use xlink:href="#E28-MJMAIN-53" x="4556" y="0"></use></g></svg></span><script type="math/tex">\ce{H\bond{1}N\bond{2}C\bond{2}S}</script><span>相比，后者熔沸点更高的原因：后者</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E29-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E29-MJMAIN-48" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{H}</script><span>与</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.742ex" height="1.877ex" viewBox="0 -755.9 750 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E30-MJMAIN-4E" d="M42 46Q74 48 94 56T118 69T128 86V634H124Q114 637 52 637H25V683H232L235 680Q237 679 322 554T493 303L578 178V598Q572 608 568 613T544 627T492 637H475V683H483Q498 680 600 680Q706 680 715 683H724V637H707Q634 633 622 598L621 302V6L614 0H600Q585 0 582 3T481 150T282 443T171 605V345L172 86Q183 50 257 46H274V0H265Q250 3 150 3Q48 3 33 0H25V46H42Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E30-MJMAIN-4E" x="0" y="0"></use></g></svg></span><script type="math/tex">\ce{N}</script><span>相连，可形成分子间氢键。</span></p></blockquote></li><li><p><span>“缔合问题”</span></p><blockquote><p><span>问：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.259ex" height="1.877ex" viewBox="0 -755.9 1403 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E34-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E34-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E34-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E34-MJMAIN-46" x="750" y="0"></use></g></svg></span><script type="math/tex">\ce{HF}</script><span>分子经常写成</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.044ex" height="2.577ex" viewBox="0 -806.1 3033 1109.7" role="img" focusable="false" style="vertical-align: -0.705ex; margin-right: -0.761ex;"><defs><path stroke-width="0" id="E35-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path><path stroke-width="0" id="E35-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E35-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E35-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path><path stroke-width="0" id="E35-MJMATHI-58" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path><path stroke-width="0" id="E35-MJMATHI-6E" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E35-MJMAIN-28" x="0" y="0"></use><g transform="translate(389,0)"><use xlink:href="#E35-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E35-MJMAIN-46" x="750" y="0"></use></g><use xlink:href="#E35-MJMAIN-29" x="1792" y="0"></use><g transform="translate(2181,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E35-MJMATHI-6E" x="0" y="0"></use></g></g></g></g></svg></span><script type="math/tex">\ce{(HF)_n}</script><span>/</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.259ex" height="1.877ex" viewBox="0 -755.9 1403 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E34-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E34-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E34-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E34-MJMAIN-46" x="750" y="0"></use></g></svg></span><script type="math/tex">\ce{HF}</script><span>相对分子质量测量值比理论值大的原因</span></p><p><span>答：</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.259ex" height="1.877ex" viewBox="0 -755.9 1403 808.1" role="img" focusable="false" style="vertical-align: -0.121ex;"><defs><path stroke-width="0" id="E34-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E34-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E34-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E34-MJMAIN-46" x="750" y="0"></use></g></svg></span><script type="math/tex">\ce{HF}</script><span>分子间存在氢键。形成</span><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.044ex" height="2.577ex" viewBox="0 -806.1 3033 1109.7" role="img" focusable="false" style="vertical-align: -0.705ex; margin-right: -0.761ex;"><defs><path stroke-width="0" id="E35-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path><path stroke-width="0" id="E35-MJMAIN-48" d="M128 622Q121 629 117 631T101 634T58 637H25V683H36Q57 680 180 680Q315 680 324 683H335V637H302Q262 636 251 634T233 622L232 500V378H517V622Q510 629 506 631T490 634T447 637H414V683H425Q446 680 569 680Q704 680 713 683H724V637H691Q651 636 640 634T622 622V61Q628 51 639 49T691 46H724V0H713Q692 3 569 3Q434 3 425 0H414V46H447Q489 47 498 49T517 61V332H232V197L233 61Q239 51 250 49T302 46H335V0H324Q303 3 180 3Q45 3 36 0H25V46H58Q100 47 109 49T128 61V622Z"></path><path stroke-width="0" id="E35-MJMAIN-46" d="M128 619Q121 626 117 628T101 631T58 634H25V680H582V676Q584 670 596 560T610 444V440H570V444Q563 493 561 501Q555 538 543 563T516 601T477 622T431 631T374 633H334H286Q252 633 244 631T233 621Q232 619 232 490V363H284Q287 363 303 363T327 364T349 367T372 373T389 385Q407 403 410 459V480H450V200H410V221Q407 276 389 296Q381 303 371 307T348 313T327 316T303 317T284 317H232V189L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path><path stroke-width="0" id="E35-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path><path stroke-width="0" id="E35-MJMATHI-58" d="M42 0H40Q26 0 26 11Q26 15 29 27Q33 41 36 43T55 46Q141 49 190 98Q200 108 306 224T411 342Q302 620 297 625Q288 636 234 637H206Q200 643 200 645T202 664Q206 677 212 683H226Q260 681 347 681Q380 681 408 681T453 682T473 682Q490 682 490 671Q490 670 488 658Q484 643 481 640T465 637Q434 634 411 620L488 426L541 485Q646 598 646 610Q646 628 622 635Q617 635 609 637Q594 637 594 648Q594 650 596 664Q600 677 606 683H618Q619 683 643 683T697 681T738 680Q828 680 837 683H845Q852 676 852 672Q850 647 840 637H824Q790 636 763 628T722 611T698 593L687 584Q687 585 592 480L505 384Q505 383 536 304T601 142T638 56Q648 47 699 46Q734 46 734 37Q734 35 732 23Q728 7 725 4T711 1Q708 1 678 1T589 2Q528 2 496 2T461 1Q444 1 444 10Q444 11 446 25Q448 35 450 39T455 44T464 46T480 47T506 54Q523 62 523 64Q522 64 476 181L429 299Q241 95 236 84Q232 76 232 72Q232 53 261 47Q262 47 267 47T273 46Q276 46 277 46T280 45T283 42T284 35Q284 26 282 19Q279 6 276 4T261 1Q258 1 243 1T201 2T142 2Q64 2 42 0Z"></path><path stroke-width="0" id="E35-MJMATHI-6E" d="M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E35-MJMAIN-28" x="0" y="0"></use><g transform="translate(389,0)"><use xlink:href="#E35-MJMAIN-48" x="0" y="0"></use><use xlink:href="#E35-MJMAIN-46" x="750" y="0"></use></g><use xlink:href="#E35-MJMAIN-29" x="1792" y="0"></use><g transform="translate(2181,0)"><g></g><g transform="translate(0,-150)"><g><use transform="scale(0.707)" xlink:href="#E35-MJMATHI-6E" x="0" y="0"></use></g></g></g></g></svg></span><script type="math/tex">\ce{(HF)_n}</script><span>缔合分子。</span></p></blockquote><figure><table><thead><tr><th style='text-align:center;' ><span>二聚甲酸</span></th><th><span>四聚甲醇</span></th></tr></thead><tbody><tr><td style='text-align:center;' ><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/二聚甲酸.svg" width="200px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/四聚甲醇.png" width="200px"/></td></tr></tbody></table></figure></li></ol></li></ul><h2><a name="晶体小结" class="md-header-anchor"></a><span>晶体小结</span></h2><figure><table><thead><tr><th>&nbsp;</th><th><span>离子键</span></th><th><span>共价键</span></th><th><span>金属键</span></th></tr></thead><tbody><tr><td><span>定义</span></td><td><span>阴阳离子之间的强烈的相互作用</span></td><td><span>原子间通过共用电子对形成的化学键</span></td><td><span>金属阳离子和自由电子之间强烈的相互作用</span></td></tr><tr><td><span>微粒</span></td><td><span>阴离子和阳离子</span></td><td><span>原子</span></td><td><span>金属阳离子和电子</span></td></tr><tr><td><span>本质</span></td><td><span>当阴阳离子之间的静电引力和静电斥力达到平衡时，阴阳离子保持一定的平衡核间距，整个体系达到能量最低状态。</span></td><td><span>当成键原子相接近时，原子轨道发生重叠，自旋方向相反的未成对电子形成共用电子对。两原子核间的电子密度增加，体系的能量降低。</span></td><td><span>金属原子的部分或全部外围电子受原子核的束缚比较弱，在金属晶体内部可以从原子上“脱落”下来，形成自由流动的电子。失去部分或全部外围电子形成的金属离子与自由电子间存在强烈相互作用。</span></td></tr><tr><td><span>特征</span></td><td><span>没有方向性、饱和性</span></td><td><span>有方向性、饱和性</span></td><td><span>没有方向性、饱和性</span></td></tr><tr><td><span>强弱判断</span></td><td><span>阴阳离子的电荷数越多，离子间的核间距越小，晶格能越大，离子键越强</span></td><td><span>键长、类型</span></td><td><span>金属离子半径越小，离子电荷数越多，金属键越强</span></td></tr><tr><td><span>影响性质</span></td><td><span>离子晶体熔沸点</span></td><td><span>分子晶体熔沸点，分子稳定性</span></td><td><span>金属熔沸点，延展性，导电性，导热性</span></td></tr></tbody></table></figure><p>&nbsp;</p><h2><a name="立方晶胞各物理量的计算" class="md-header-anchor"></a><span>立方晶胞各物理量的计算</span></h2><p><strong><span>a</span><sup><span>3</span></sup><span>×ρ×N</span><sub><span>A</span></sub><span>＝n×M</span></strong></p><blockquote><ul><li><span>a:晶胞棱长</span></li><li><span>ρ:密度</span></li><li><span>N</span><sub><span>A</span></sub><span>:阿伏加德罗常数的值</span></li><li><span>n:1mol晶胞中所含晶体的物质的量</span></li><li><span>M:晶体的摩尔质量</span></li></ul></blockquote><h2><a name="熔沸点比较规律" class="md-header-anchor"></a><span>熔沸点比较规律</span></h2><ul><li><p><span>不同类型晶体的熔、沸点高低一般规律</span></p><ul><li><span>原子晶体&gt;离子晶体&gt;分子晶体，</span></li><li><span>金属晶体的熔、沸点差别很大，如钨、铂等熔点很高，汞、铯等熔点很低。</span></li></ul></li><li><p><span>同类晶体：</span></p><ul><li><span>原子晶体：看成键原子半径和，半径和越小，晶体的熔、沸点越高、硬度越大。</span></li><li><span>离子晶体：依据静电原理进行分析，一般地说，阴、阳离子的电荷数越多，离子半径越小，则离子键越强，相应地晶格能越大，熔、沸点越高。</span></li><li><span>分子晶体：组成和结构相似的物质，相对分子质量越大，熔沸点越高(若分子间存在氢键，则含有氢键的熔、沸点高些)。</span><br>
-<span>组成和结构不相似的分子晶体(相对分子质量接近)，分子的极性越大，其熔、沸点越高。如CO&gt;N</span><sub><span>2</span></sub><span>，CH</span><sub><span>3</span></sub><span>OH&gt;CH</span><sub><span>3</span></sub><span>CH</span><sub><span>3</span></sub><span>。</span></li><li><span>金属晶体：金属离子半径越小，离子电荷数越多，金属键越强，金属熔、 沸点就越高。如熔、沸点：Al&gt;Mg&gt;Na。</span></li></ul></li></ul><p>&nbsp;</p><p>&nbsp;</p></div>]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>化学</tag>
-      </tags>
-  </entry>
-</search>
+<span>组成和结构不相似的分子晶体(相对分子质量接近)，分子的极性越大，其熔、沸点越高。如CO&gt;N</span><sub><span>2</span></sub><span>，CH</span><sub><span>3</span></sub><span>OH&gt;CH</span><sub><span>3</span></sub><span>CH</span><sub><span>3</span></sub><span>。</span></li><li><span>金属晶体：金属离子半径越小，离子电荷数越多，金属键越强，金属熔、 沸点就越高。如熔、沸点：Al&gt;Mg&gt;Na。</span></li></ul></li></ul><p>&nbsp;</p><p>&nbsp;</p></div></div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">FZDSLR</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://fzdslr.github.io/2020-04-18-wg1.html">http://fzdslr.github.io/2020-04-18-wg1.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://fzdslr.github.io" target="_blank">FZDSLR</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a><a class="post-meta__tags" href="/tags/%E5%8C%96%E5%AD%A6/">化学</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/MSNWHJ1-1_01.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull_left"><a href="/2020-04-21-dongliang1.html"><img class="prev_cover" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/DTSG6011.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">动量笔记整理</div></div></a></div><div class="next-post pull_right"><a href="/2020-04-17-BURAN.html"><img class="next_cover" data-src="https://i.loli.net/2020/04/17/fks6XrFiDK2McGu.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">“暴风雪”计划：大纲（持续补充）</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fa fa-fw fa-thumbs-up" aria-hidden="true"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020-04-21-dongliang1.html" title="动量笔记整理"><img class="relatedPosts_cover" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/DTSG6011.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-04-21</div><div class="relatedPosts_title">动量笔记整理</div></div></a></div><div class="relatedPosts_item"><a href="/2020-05-01-zhengdong1.html" title="机械振动与机械波"><img class="relatedPosts_cover" data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/b200501.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 2020-05-01</div><div class="relatedPosts_title">机械振动与机械波</div></div></a></div></div><div class="clear_both"></div></div><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var requestSetting = function (from,set) {
+  var from = from
+  var setting = set.split(',').filter(function(item){
+  return from.indexOf(item) > -1
+  });
+  setting = setting.length == 0 ? from :setting;
+  return setting
+}
+
+var guestInfo = requestSetting(['nick','mail','link'],'nick,mail,link')
+var requiredFields = requestSetting(['nick','mail','link'],'nick,mail')
+
+window.valine = new Valine({
+  el:'#vcomment',
+  appId: '8YLh6S3itvIGTTXNIHN7KMPy-gzGzoHsz',
+  appKey: 'S9lMsNFQgROyrbGSuiAiX0y1',
+  notify: false,
+  verify: false,
+  placeholder: '留下你的声音……',
+  avatar: 'monsterid',
+  meta: guestInfo,
+  pageSize: '10',
+  lang: 'en',
+  recordIP: false,
+  serverURLs: '',
+  emojiCDN: '',
+  emojiMaps: "",
+  enableQQ: false,
+  requiredFields: requiredFields
+});</script></div></article></main><footer id="footer" style="background-image: url(https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/a_1.png)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2020 By FZDSLR</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noopener" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><script src="/js/search/local-search.js"></script></body></html>
