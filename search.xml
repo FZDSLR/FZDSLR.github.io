@@ -1023,7 +1023,7 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
 <li>同主族（自上而下）：依次减小 </li>
 </ul>
 </li>
-<li><p>一般来说，金属元素的电负性大于非金属元素的电负性</p>
+<li><p>一般来说，金属元素的电负性小于非金属元素的电负性</p>
 </li>
 </ul>
 <blockquote><p>电负性<span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="4.646ex" height="2.577ex" viewBox="0 -956.9 2000.2 1109.7" role="img" focusable="false" style="vertical-align: 0px; margin-bottom: -0.355ex;"><defs><path stroke-width="0" id="E1-MJMAIN-21BD" d="M55 256Q56 264 62 270H929Q944 261 944 250T929 230H148Q149 229 165 215T196 185T231 145T270 87T303 16Q309 -1 306 -5Q304 -11 288 -11Q279 -11 276 -10T269 -4T264 10T253 36T231 75Q172 173 69 235Q59 242 57 245T55 256Z"></path><path stroke-width="0" id="E1-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path><path stroke-width="0" id="E1-MJMAIN-21C0" d="M691 500Q691 511 711 511Q720 511 723 510T730 504T735 490T746 464T768 425Q796 378 835 339T897 285T933 263Q941 258 942 256T944 245T937 230H70Q56 237 56 250T70 270H852Q802 308 762 364T707 455T691 500Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><g transform="translate(277,0)"><g><use xlink:href="#E1-MJMAIN-21BD" x="0" y="0"></use><use xlink:href="#E1-MJMAIN-2212" x="666" y="0"></use></g><g transform="translate(0,200)"><use xlink:href="#E1-MJMAIN-2212" x="0" y="0"></use><use xlink:href="#E1-MJMAIN-21C0" x="444" y="0"></use></g></g></g></svg></span><script type="math/tex">\ce{<=>}</script>化合价</p>
@@ -1128,7 +1128,7 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
 <li><p>判断方法</p>
 <ul>
 <li>熔融状态下能导电的化合物</li>
-<li>出现Na<sup>+</sup>，K<sup>+</sup>，Ba<sub>2</sub><sup>+</sup>，Mg<sub>2</sub><sup>+</sup>，NH<sub>4</sub><sup>+</sup>六种离子的其中一种的一定是离子晶体</li>
+<li>出现Na<sup>+</sup>，K<sup>+</sup>，Ba<sup>2+</sup>，Mg<sup>2+</sup>，NH<sub>4</sub><sup>+</sup>六种离子的其中一种的一定是离子晶体</li>
 <li>无任何信息下的含金属元素的（除AlCl<sub>3</sub>）</li>
 <li>有阳离子和阴离子（只有阳离子：可能为金属晶体）</li>
 </ul>
@@ -1434,6 +1434,81 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
 组成和结构不相似的分子晶体(相对分子质量接近)，分子的极性越大，其熔、沸点越高。如CO&gt;N<sub>2</sub>，CH<sub>3</sub>OH&gt;CH<sub>3</sub>CH<sub>3</sub>。</li>
 <li>金属晶体：金属离子半径越小，离子电荷数越多，金属键越强，金属熔、 沸点就越高。如熔、沸点：Al&gt;Mg&gt;Na。</li>
 </ul>
+</li>
+</ul>
+<h1>分子空间结构和物质性质</h1>
+<h2>杂化和空间构型</h2>
+<h3>杂化轨道理论</h3>
+<ul>
+<li><p>概念：原子在形成分子时，为增强成键能力，同一个原子中能量相近（s、p、d）的几个原子轨道可以相互叠加进行重新组合，形成能量、形状和方向与原轨道不同的新的原子轨道。这种原子轨道重新组合的过程称为原子轨道的杂化，所形成的新的原子轨道称为杂化轨道</p>
+</li>
+<li><p>注意</p>
+<ul>
+<li>只有在形成分子的过程中，中心原子能量相同，原子轨道才能进行杂化。孤立的原子不可能发生杂化。</li>
+<li>只有能量相近的轨道才能互相杂化。</li>
+<li>杂化前后，原子轨道的总数不变。</li>
+<li>杂化轨道只用于放形成σ键的电子或孤电子对，不能放形成π键的电子。</li>
+</ul>
+</li>
+<li><p>最常见的杂化轨道类型</p>
+<figure><table>
+<thead>
+<tr><th>基本类型</th><th>sp</th><th>sp<sup>2</sup></th><th>sp<sup>3</sup></th></tr></thead>
+<tbody><tr><td>杂化轨道数目</td><td>2</td><td>3</td><td>4</td></tr><tr><td>杂化轨道间的夹角</td><td>180°</td><td>120°</td><td>109.5°</td></tr><tr><td>示意图</td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/sp-1.svg" width="150px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/sp2-1.svg" width="150px"/></td><td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/ch/sp3-1.svg" width="150px"/></td></tr><tr><td>杂化轨道的空间构型</td><td>直线</td><td>平面正三角形</td><td>空间正四面体</td></tr><tr><td>分子的空间构型</td><td>直线型</td><td>V型（2个配位原子） 例：SO<sub>2</sub><br>平面正三角型（3个配位原子） 例：BF<sub>3</sub></td><td>V型（2个配位原子） 例：H<sub>2</sub>O<br>三角锥结构（3个配位原子） 例：NH<sub>3</sub><br> 四面体结构（4个配位原子）</td></tr></tbody>
+</table></figure>
+</li>
+<li><p>杂化轨道数目的具体算法</p>
+<ol start='' >
+<li><p>价层电子对互斥理论</p>
+<ul>
+<li><strong>中心原子的价电子对数</strong>=中心原子的杂化轨道数目=<font color="#9d2933" >中心原子周围的σ键键数</font> +<font color="#0c8918" >中心原子的孤电子对数</font>。</li>
+<li><font color="#9d2933" >中心原子周围的σ键键数</font>=（中心原子价电子数 + 配位电子数）÷2</li>
+<li><font color="#0c8918" >中心原子的孤电子对数</font>=中心原子价电子数 - 中心原子成键数目</li>
+<li>判断杂化轨道数目的步骤：配位原子数、孤对电子数→杂化轨道数或价层电子对数→杂化类型</li>
+</ul>
+<blockquote><p>碳原子杂化类型</p>
+<ul>
+<li>周围都是单键→sp<sup>3</sup></li>
+<li>周围出现一个双键→sp<sup>2</sup></li>
+<li>周围出现一个叁键→sp</li>
+</ul>
+</blockquote>
+</li>
+<li><p>利用配位原子数推杂化类型</p>
+<ul>
+<li>配位原子数为4→sp<sup>3</sup></li>
+<li>配位原子数为3→sp<sup>3</sup>/sp<sup>2</sup></li>
+<li>配位原子数为2→sp<sup>3</sup>/sp<sup>2</sup>/sp</li>
+</ul>
+</li>
+<li><p>利用空间构型推杂化类型</p>
+<ul>
+<li>四面体形→sp<sup>3</sup></li>
+<li>三角锥形→sp<sup>3</sup></li>
+<li>平面三角形→sp<sup>2</sup></li>
+<li>直线形→sp</li>
+<li>V形→sp/sp<sup>3</sup></li>
+<li><em>八面体形→sp<sup>3</sup>d</em></li>
+<li><em>三角双锥→sp<sup>3</sup>d</em></li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>分子构型的键角</p>
+<p><span style='color:red'>孤对电子</span>对<span style='color:red'>孤对电子</span>的排斥力&gt;<span style='color:red'>孤对电子</span>对<span style='color:green'>成键电子</span>的排斥力&gt;<span style='color:green'>成键电子</span>对<span style='color:green'>成键电子</span>的排斥力</p>
+<ol start='' >
+<li><p><strong>判断杂化类型，若不同</strong></p>
+<p>sp&gt;sp<sup>2</sup>&gt;sp<sup>3</sup></p>
+</li>
+<li><p><strong>看孤对电子数</strong></p>
+<p>孤对电子数越多，则键角越小。</p>
+</li>
+<li><p><strong>看中心原子或配位原子电负性</strong></p>
+<p>中心原子电负性越大，键角越大；配位原子电负性越大，键角越小。</p>
+</li>
+</ol>
+</li>
+<li><p>分子的极性</p>
 </li>
 </ul>
 ]]></content>
