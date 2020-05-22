@@ -1520,4 +1520,53 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
         <tag>化学</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Key社Gal中OMV文件的转码方法</title>
+    <url>/2020-05-22-key-omv.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>自己在网上找<code>OMV</code>文件的转码找了很久，在此留个档。</p>
+<h1 id="什么是omv文件"><a class="markdownIt-Anchor" href="#什么是omv文件"></a> 什么是<code>OMV</code>文件？</h1>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/ef_butterfly02.gif" alt="效果演示" /></p>
+<p>本篇文章中提到的<code>OMV</code>文件，是如Key社的Galgame中的带alpha通道的动态图文件。</p>
+<p>这类效果对于制作静止系MAD之类的东西<strong>非常有用</strong><span class="heimu" title="嘿嘿嘿">不然我解包这个干吗</span></p>
+<h1 id="实现方法"><a class="markdownIt-Anchor" href="#实现方法"></a> 实现方法</h1>
+<p>主要借助<code>SiglusExtract</code>下的<code>Omv2Avi.exe</code>。</p>
+<h2 id="下载工具"><a class="markdownIt-Anchor" href="#下载工具"></a> 下载工具</h2>
+<p><code>SiglusExtract</code>的Github项目地址为：<code>https://github.com/xmoeproject/SiglusExtract</code></p>
+<p>如果速度太慢的话，推荐使用<a href="https://githubd.com/#/" target="_blank" rel="noopener">GitHubd</a>进行下载。</p>
+<h2 id="开始转码"><a class="markdownIt-Anchor" href="#开始转码"></a> 开始转码！</h2>
+<ol>
+<li>
+<p>打开 <code>SiglusExtract\tools</code>，找到<code>Omv2Avi.exe</code></p>
+</li>
+<li>
+<p>找到Galgame的OMV文件，将其拖拽到<code>Omv2Avi.exe</code>上</p>
+</li>
+<li>
+<p>应该会跳出一个窗口，这表明正在转码</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/OMVTOAVI1.jpg"/>
+</li>
+<li>
+<p>然后就可以在该<code>OMV</code>文件目录下发现同名的<code>AVI</code>文件了。</p>
+</li>
+</ol>
+<h1 id="注意"><a class="markdownIt-Anchor" href="#注意"></a> 注意！</h1>
+<ol>
+<li>
+<p>转出来的<code>AVI</code>文件体积巨大，如果硬盘空间很小很小很小的谨慎使用.</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/OMVTOAVI2.PNG"/>
+</li>
+<li>
+<p>转出的<code>AVI</code>并不完美（可能是软件本身的问题w），可能会有一些格式上的问题（导到Pr里各种报错不过还能用233）。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>GALGAME</tag>
+        <tag>技术</tag>
+      </tags>
+  </entry>
 </search>

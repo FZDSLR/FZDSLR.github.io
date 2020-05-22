@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fzdslr.github.io/"/>
-  <updated>2020-05-06T09:26:19.598Z</updated>
+  <updated>2020-05-22T14:51:30.384Z</updated>
   <id>http://fzdslr.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Key社Gal中OMV文件的转码方法</title>
+    <link href="http://fzdslr.github.io/2020-05-22-key-omv.html"/>
+    <id>http://fzdslr.github.io/2020-05-22-key-omv.html</id>
+    <published>2020-05-22T14:00:00.000Z</published>
+    <updated>2020-05-22T14:51:30.384Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://fzdslr.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="GALGAME" scheme="http://fzdslr.github.io/tags/GALGAME/"/>
+    
+      <category term="技术" scheme="http://fzdslr.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>补充单词7-12</title>
