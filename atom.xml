@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fzdslr.github.io/"/>
-  <updated>2020-06-29T15:32:35.164Z</updated>
+  <updated>2020-07-11T16:14:56.492Z</updated>
   <id>http://fzdslr.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在黑莓9900上使用XPRSS查看RSS消息（扫尾篇）</title>
+    <link href="http://fzdslr.github.io/2020-07-12-xprss-3.html"/>
+    <id>http://fzdslr.github.io/2020-07-12-xprss-3.html</id>
+    <published>2020-07-11T16:00:00.000Z</published>
+    <updated>2020-07-11T16:14:56.492Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="几个痛点"><a class="markdownIt-Anchor" href="#几个痛点"></a> 几个痛点</h1><p>XPRSS的问题主要体现在以下几点：</p><ol><li><p>黑底白字，且无法更改字体大小。</p><p>阅读中文这种单字信息量比较大的文字还好，RSS源的语言是英文的时候，那显示效果就…</p><p>天知道开发者是怎么忍得了这种显示方式的。<span class="heimu" title="你知道的太多了">可能这就是开发者的癖好吧</span></p></li><li><p>超链接经常被诡异地拉长，且很多时候无法点击。</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-2.jpg" style="zoom:50%;" /></li><li><p>使用和自带浏览器相同的安全性设置。</p></li><li><p>必须要点进单个源后才能得知源的更新情况。</p></li><li><p>无法加载一些<code>css</code>和<code>js</code>，导致文章无法显示（比如本博客的RSS源）</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-1.jpg" style="zoom:50%;" /></li></ol><p>不过，这些问题都是小事情，毕竟黑莓9900，啊，能用就行<span class="heimu" title="你知道的太多了">(确信</span></p><h1 id="一些小功能"><a class="markdownIt-Anchor" href="#一些小功能"></a> 一些小功能</h1><h2 id="在网站上寻找rss源以及批量添加rss源"><a class="markdownIt-Anchor" href="#在网站上寻找rss源以及批量添加rss源"></a> 在网站上寻找RSS源，以及批量添加RSS源</h2><p>在添加RSS源时，我们通常只使用<code>Add Feed</code>中的<code>Enter a feed URL.</code>选框。在这里顺便讲一讲下面的三个框是干什么用的。</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS4.jpg" style="zoom:50%;" /><p>如果在<code>Enter a web address.</code>里填上一个网站地址，再点击<code>Search for feeds</code>，那么XPRSS会在该页面自动寻找RSS源的地址，并解析到XPRSS中。</p><p>在<code>Enter an OPML URL.</code>填上一个（有着几个RSS源地址的）<code>OPML</code>文件的地址，可用于批量导入RSS订阅源。</p><blockquote><p>这里提供<code>OPML</code>文件测试，该文件由<a href="https://www.zhihu.com/question/19580096/answer/119486747" target="_blank" rel="noopener">Ricky</a>提供，不过由于众所周知的原因，现在<code>https://raw.githubusercontent.com/</code>无法访问，所以我把它转移了一下。现地址为<code>https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/OPML.xml</code>。</p></blockquote><p>最后的<code>Enter a topic</code>似乎可以将搜索引擎的搜索结果转换为RSS条目的形式，不过Google和Yahoo在国内都连不上，Bing虽然可以生成源，但源里面不会有任何条目出现。<strong>总而言之，这个功能完全没法用。</strong></p><h2 id="缓存"><a class="markdownIt-Anchor" href="#缓存"></a> 缓存</h2><p>在<code>Options</code>-<code>Local Cache</code>中可以开启文章缓存，这样即使是在没网的时候，你也可以阅读之前的文章。</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-3.jpg" style="zoom:50%;" /><p>需要注意的是</p><ul><li>不能针对单一源修改缓存数目。</li><li>文章中的外链图片将不会被缓存。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Blackberry" scheme="http://fzdslr.github.io/categories/Blackberry/"/>
+    
+    
+      <category term="Blackberry" scheme="http://fzdslr.github.io/tags/Blackberry/"/>
+    
+      <category term="RSS" scheme="http://fzdslr.github.io/tags/RSS/"/>
+    
+  </entry>
   
   <entry>
     <title>在黑莓9900上使用XPRSS查看RSS消息（进阶篇）</title>
