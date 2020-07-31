@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>FZDSLR的第一篇博客</title>
-    <url>/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
+    <url>/blog/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><ul>
 <li>
 <p>此网站托管于Github</p>
@@ -17,8 +17,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>“云”上合唱团</title>
+    <url>/blog/2020-04-16-choir-on-cloud.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br />
+<span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
+<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
+      <categories>
+        <category>FZYZ</category>
+      </categories>
+      <tags>
+        <tag>FZYZ</tag>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <url>/2020-04-14-BINGPICTURES.html</url>
+    <url>/blog/2020-04-14-BINGPICTURES.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
             <p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/" target="_blank" rel="noopener">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html" target="_blank" rel="noopener">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p>
           </div>
@@ -47,23 +62,204 @@
       </tags>
   </entry>
   <entry>
-    <title>“云”上合唱团</title>
-    <url>/2020-04-16-choir-on-cloud.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>为合唱团打CALL！<br />
-<span class="heimu" title="你知道的太多了">顺便测试一下hexo-tag-dplayer</span></p>
-<p><span class="heimu" title="你知道的太多了"><s>另：ZYF我男神</s></span></p>
-<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"loop":false,"screenshot":false,"video":{"url":"https://vod-xhpfm.zhongguowangshi.com/NewsVideo/202004/aafbf9cabe744b8a82f06b063864a15d.mp4"},"danmaku":{"api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> ]]></content>
+    <title>动量笔记整理</title>
+    <url>/blog/2020-04-21-dongliang1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="动量"><a class="markdownIt-Anchor" href="#动量"></a> 动量</h1>
+<h2 id="动量-动能-动量变化量的比较"><a class="markdownIt-Anchor" href="#动量-动能-动量变化量的比较"></a> 动量、动能、动量变化量的比较</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>动量</th>
+<th>动能</th>
+<th>动量的变化量</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>定义</td>
+<td>物体的质量和速度的乘积</td>
+<td>物体由于运动而具有的能量</td>
+<td>物体末动量与初动量的矢量差</td>
+</tr>
+<tr>
+<td>定义式</td>
+<td><em>p</em>＝<em>mv</em></td>
+<td><em>E<sub>k</sub></em>= <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>mv<sup>2</sup></td>
+<td><em>Δp</em>＝<em>p</em>′－<em>p</em></td>
+</tr>
+<tr>
+<td>矢标性</td>
+<td>矢量</td>
+<td>标量</td>
+<td>矢量</td>
+</tr>
+<tr>
+<td>特点</td>
+<td>状态量</td>
+<td>状态量</td>
+<td>过程量</td>
+</tr>
+</tbody>
+</table>
+<h2 id="动量的性质"><a class="markdownIt-Anchor" href="#动量的性质"></a> 动量的性质</h2>
+<ul>
+<li>
+<p>矢量性：方向与瞬时速度方向相同．</p>
+</li>
+<li>
+<p>瞬时性：动量是描述物体运动状态的量，是针对某一时刻而言的．</p>
+</li>
+<li>
+<p>相对性：大小与参考系的选取有关，通常情况是指相对地面的动量．</p>
+</li>
+</ul>
+<h2 id="动量守恒条件"><a class="markdownIt-Anchor" href="#动量守恒条件"></a> 动量守恒条件</h2>
+<ul>
+<li>
+<p>理想守恒：系统不受外力或所受外力的合力为零，则系统动量守恒．</p>
+</li>
+<li>
+<p>近似守恒：系统受到的合力不为零，但当内力远大于外力时，系统的动量可近似看成守恒．</p>
+</li>
+<li>
+<p>分方向守恒：系统在某个方向上所受合力为零时，系统在该方向上动量守恒．</p>
+</li>
+</ul>
+<h2 id="动量守恒定律的表达式"><a class="markdownIt-Anchor" href="#动量守恒定律的表达式"></a> 动量守恒定律的表达式</h2>
+<p><em>m</em>1<em>v</em>1＋<em>m</em>2<em>v</em>2＝<em>m</em>1<em>v</em>1′＋<em>m</em>2<em>v</em>2′</p>
+<p><em>Δ</em> <em>p</em>1＝－<em>Δ</em> <em>p</em>2.</p>
+<h2 id="动量守恒定律的特点"><a class="markdownIt-Anchor" href="#动量守恒定律的特点"></a> 动量守恒定律的特点</h2>
+<ul>
+<li>
+<p>矢量性：表达式中涉及的都是矢量，需要首先选取正方向，分清各物体初、末动量的正、负。</p>
+</li>
+<li>
+<p>瞬时性：动量是状态量，动量守恒指对应每一时刻的总动量都和初时刻的总动量相等。不同时刻的动量不能相加。</p>
+</li>
+<li>
+<p>同时性：动量是状态量，具有瞬时性，动量守恒定律指的是相互作用的物体构成的物体系在任一时刻的总动量都相同．</p>
+</li>
+<li>
+<p>普适性：它不仅适用于两个物体组成的系统，也适用于多个物体组成的系统；不仅适用于宏观物体组成的系统，对微观粒子组成的系统也适用。</p>
+</li>
+</ul>
+<h2 id="应用动量守恒定律解题的步骤"><a class="markdownIt-Anchor" href="#应用动量守恒定律解题的步骤"></a> 应用动量守恒定律解题的步骤</h2>
+<ul>
+<li>
+<p>明确研究对象，确定系统的组成(系统包括哪几个物体及研究的过程)；</p>
+</li>
+<li>
+<p>进行受力分析，判断系统动量是否守恒(或某一方向上动量是否守恒)；</p>
+</li>
+<li>
+<p>规定正方向，确定初、末状态动量；</p>
+</li>
+<li>
+<p>由动量守恒定律列出方程</p>
+</li>
+<li>
+<p>代入数据，求出结果，必要时讨论说明</p>
+</li>
+</ul>
+<h2 id="动量守恒定律应用-弹性碰撞和非弹性碰撞"><a class="markdownIt-Anchor" href="#动量守恒定律应用-弹性碰撞和非弹性碰撞"></a> 动量守恒定律应用 弹性碰撞和非弹性碰撞</h2>
+<h3 id="碰撞的种类和特点"><a class="markdownIt-Anchor" href="#碰撞的种类和特点"></a> 碰撞的种类和特点</h3>
+<ul>
+<li>
+<p>机械能是否守恒</p>
+<table>
+<thead>
+<tr>
+<th>弹性碰撞</th>
+<th>动量守恒，机械能守恒</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>非弹性碰撞</strong></td>
+<td><strong>动量守恒，机械能有损失</strong></td>
+</tr>
+<tr>
+<td><strong>完全非弹性碰撞</strong></td>
+<td><strong>动量守恒，机械能损失最大</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>碰撞前后动量是否共线</p>
+<table>
+<thead>
+<tr>
+<th>对心碰撞(正碰)</th>
+<th>碰撞前后速度共线</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>非对心碰撞(斜碰)</strong></td>
+<td><strong>碰撞前后速度不共线</strong></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="碰撞现象满足的规律"><a class="markdownIt-Anchor" href="#碰撞现象满足的规律"></a> 碰撞现象满足的规律</h3>
+<ul>
+<li>
+<p>动量守恒定律．</p>
+</li>
+<li>
+<p>机械能不增加</p>
+</li>
+<li>
+<p>速度要合理：若碰前两物体同向运动，则应有<em>v</em>后&gt;<em>v</em>前，碰后原来在前的物体速度一定增大，若碰后两物体同向运动，则应有<em>v</em>前′≥<em>v</em>后′；碰前两物体相向运动，碰后两物体的运动方向不可能都不改变</p>
+</li>
+</ul>
+<h3 id="弹性碰撞的规律"><a class="markdownIt-Anchor" href="#弹性碰撞的规律"></a> 弹性碰撞的规律</h3>
+<p>质量为<em>m<sub>1</sub></em>，速度为 <em>v<sub>1</sub></em> 的小球与质量为 <em>m<sub>2</sub></em> 的静止小球发生正面弹性碰撞</p>
+<p>则：</p>
+<ul>
+<li>
+<p><em>m<sub>1</sub>v<sub>1</sub></em>=<em>m<sub>1</sub>v<sub>1</sub>’</em>+<em>m<sub>2</sub>v<sub>2</sub>’</em></p>
+</li>
+<li>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub><sup>2</sup></em>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub>’<sup>2</sup></em>+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>2</sub>v<sub>2</sub>’<sup>2</sup></em></p>
+</li>
+</ul>
+<p>可得：</p>
+<ul>
+<li>
+<p><em>v<sub>1</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>−</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {m_1-m_2} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.263531em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8184309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">−</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
+</li>
+<li>
+<p><em>v<sub>2</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {2m} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2902079999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
+</li>
+</ul>
+<p>即：</p>
+<ol>
+<li>
+<p>当两球质量相等时，<em>v</em><sub>1</sub>′＝0，<em>v</em><sub>2</sub>′＝<em>v</em><sub>1</sub>，两球碰撞后交换速度 <s>置换反应</s></p>
+</li>
+<li>
+<p>当质量大的球碰质量小的球时，<em>v</em><sub>1</sub>′&gt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后两球都向前运动</p>
+</li>
+<li>
+<p>当质量小的球碰质量大的球时，<em>v</em><sub>1</sub>′&lt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后质量小的球被反弹回来</p>
+</li>
+</ol>
+]]></content>
       <categories>
-        <category>FZYZ</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>FZYZ</tag>
-        <tag>测试</tag>
+        <tag>学习笔记</tag>
+        <tag>物理</tag>
       </tags>
   </entry>
   <entry>
     <title>“暴风雪”计划：大纲（持续补充）</title>
-    <url>/2020-04-17-BURAN.html</url>
+    <url>/blog/2020-04-17-BURAN.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h1>
 <p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p>
 <p>项目的核心为“暴风雪”号航天飞机。</p>
@@ -277,204 +473,8 @@
       </tags>
   </entry>
   <entry>
-    <title>动量笔记整理</title>
-    <url>/2020-04-21-dongliang1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="动量"><a class="markdownIt-Anchor" href="#动量"></a> 动量</h1>
-<h2 id="动量-动能-动量变化量的比较"><a class="markdownIt-Anchor" href="#动量-动能-动量变化量的比较"></a> 动量、动能、动量变化量的比较</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>动量</th>
-<th>动能</th>
-<th>动量的变化量</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>定义</td>
-<td>物体的质量和速度的乘积</td>
-<td>物体由于运动而具有的能量</td>
-<td>物体末动量与初动量的矢量差</td>
-</tr>
-<tr>
-<td>定义式</td>
-<td><em>p</em>＝<em>mv</em></td>
-<td><em>E<sub>k</sub></em>= <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>mv<sup>2</sup></td>
-<td><em>Δp</em>＝<em>p</em>′－<em>p</em></td>
-</tr>
-<tr>
-<td>矢标性</td>
-<td>矢量</td>
-<td>标量</td>
-<td>矢量</td>
-</tr>
-<tr>
-<td>特点</td>
-<td>状态量</td>
-<td>状态量</td>
-<td>过程量</td>
-</tr>
-</tbody>
-</table>
-<h2 id="动量的性质"><a class="markdownIt-Anchor" href="#动量的性质"></a> 动量的性质</h2>
-<ul>
-<li>
-<p>矢量性：方向与瞬时速度方向相同．</p>
-</li>
-<li>
-<p>瞬时性：动量是描述物体运动状态的量，是针对某一时刻而言的．</p>
-</li>
-<li>
-<p>相对性：大小与参考系的选取有关，通常情况是指相对地面的动量．</p>
-</li>
-</ul>
-<h2 id="动量守恒条件"><a class="markdownIt-Anchor" href="#动量守恒条件"></a> 动量守恒条件</h2>
-<ul>
-<li>
-<p>理想守恒：系统不受外力或所受外力的合力为零，则系统动量守恒．</p>
-</li>
-<li>
-<p>近似守恒：系统受到的合力不为零，但当内力远大于外力时，系统的动量可近似看成守恒．</p>
-</li>
-<li>
-<p>分方向守恒：系统在某个方向上所受合力为零时，系统在该方向上动量守恒．</p>
-</li>
-</ul>
-<h2 id="动量守恒定律的表达式"><a class="markdownIt-Anchor" href="#动量守恒定律的表达式"></a> 动量守恒定律的表达式</h2>
-<p><em>m</em>1<em>v</em>1＋<em>m</em>2<em>v</em>2＝<em>m</em>1<em>v</em>1′＋<em>m</em>2<em>v</em>2′</p>
-<p><em>Δ</em> <em>p</em>1＝－<em>Δ</em> <em>p</em>2.</p>
-<h2 id="动量守恒定律的特点"><a class="markdownIt-Anchor" href="#动量守恒定律的特点"></a> 动量守恒定律的特点</h2>
-<ul>
-<li>
-<p>矢量性：表达式中涉及的都是矢量，需要首先选取正方向，分清各物体初、末动量的正、负。</p>
-</li>
-<li>
-<p>瞬时性：动量是状态量，动量守恒指对应每一时刻的总动量都和初时刻的总动量相等。不同时刻的动量不能相加。</p>
-</li>
-<li>
-<p>同时性：动量是状态量，具有瞬时性，动量守恒定律指的是相互作用的物体构成的物体系在任一时刻的总动量都相同．</p>
-</li>
-<li>
-<p>普适性：它不仅适用于两个物体组成的系统，也适用于多个物体组成的系统；不仅适用于宏观物体组成的系统，对微观粒子组成的系统也适用。</p>
-</li>
-</ul>
-<h2 id="应用动量守恒定律解题的步骤"><a class="markdownIt-Anchor" href="#应用动量守恒定律解题的步骤"></a> 应用动量守恒定律解题的步骤</h2>
-<ul>
-<li>
-<p>明确研究对象，确定系统的组成(系统包括哪几个物体及研究的过程)；</p>
-</li>
-<li>
-<p>进行受力分析，判断系统动量是否守恒(或某一方向上动量是否守恒)；</p>
-</li>
-<li>
-<p>规定正方向，确定初、末状态动量；</p>
-</li>
-<li>
-<p>由动量守恒定律列出方程</p>
-</li>
-<li>
-<p>代入数据，求出结果，必要时讨论说明</p>
-</li>
-</ul>
-<h2 id="动量守恒定律应用-弹性碰撞和非弹性碰撞"><a class="markdownIt-Anchor" href="#动量守恒定律应用-弹性碰撞和非弹性碰撞"></a> 动量守恒定律应用 弹性碰撞和非弹性碰撞</h2>
-<h3 id="碰撞的种类和特点"><a class="markdownIt-Anchor" href="#碰撞的种类和特点"></a> 碰撞的种类和特点</h3>
-<ul>
-<li>
-<p>机械能是否守恒</p>
-<table>
-<thead>
-<tr>
-<th>弹性碰撞</th>
-<th>动量守恒，机械能守恒</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>非弹性碰撞</strong></td>
-<td><strong>动量守恒，机械能有损失</strong></td>
-</tr>
-<tr>
-<td><strong>完全非弹性碰撞</strong></td>
-<td><strong>动量守恒，机械能损失最大</strong></td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>碰撞前后动量是否共线</p>
-<table>
-<thead>
-<tr>
-<th>对心碰撞(正碰)</th>
-<th>碰撞前后速度共线</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>非对心碰撞(斜碰)</strong></td>
-<td><strong>碰撞前后速度不共线</strong></td>
-</tr>
-</tbody>
-</table>
-</li>
-</ul>
-<h3 id="碰撞现象满足的规律"><a class="markdownIt-Anchor" href="#碰撞现象满足的规律"></a> 碰撞现象满足的规律</h3>
-<ul>
-<li>
-<p>动量守恒定律．</p>
-</li>
-<li>
-<p>机械能不增加</p>
-</li>
-<li>
-<p>速度要合理：若碰前两物体同向运动，则应有<em>v</em>后&gt;<em>v</em>前，碰后原来在前的物体速度一定增大，若碰后两物体同向运动，则应有<em>v</em>前′≥<em>v</em>后′；碰前两物体相向运动，碰后两物体的运动方向不可能都不改变</p>
-</li>
-</ul>
-<h3 id="弹性碰撞的规律"><a class="markdownIt-Anchor" href="#弹性碰撞的规律"></a> 弹性碰撞的规律</h3>
-<p>质量为<em>m<sub>1</sub></em>，速度为 <em>v<sub>1</sub></em> 的小球与质量为 <em>m<sub>2</sub></em> 的静止小球发生正面弹性碰撞</p>
-<p>则：</p>
-<ul>
-<li>
-<p><em>m<sub>1</sub>v<sub>1</sub></em>=<em>m<sub>1</sub>v<sub>1</sub>’</em>+<em>m<sub>2</sub>v<sub>2</sub>’</em></p>
-</li>
-<li>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub><sup>2</sup></em>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>1</sub>v<sub>1</sub>’<sup>2</sup></em>+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><annotation encoding="application/x-tex">\frac {1} {2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span><em>m<sub>2</sub>v<sub>2</sub>’<sup>2</sup></em></p>
-</li>
-</ul>
-<p>可得：</p>
-<ul>
-<li>
-<p><em>v<sub>1</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>−</mo><msub><mi>m</mi><mn>2</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {m_1-m_2} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.263531em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8184309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">−</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
-</li>
-<li>
-<p><em>v<sub>2</sub>’</em>=<em><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mn>2</mn><mi>m</mi></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac {2m} {m_1+m_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2902079999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mbin mtight">+</span><span class="mord mtight"><span class="mord mathdefault mtight">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:0em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></em> <em>v<sub>1</sub></em></p>
-</li>
-</ul>
-<p>即：</p>
-<ol>
-<li>
-<p>当两球质量相等时，<em>v</em><sub>1</sub>′＝0，<em>v</em><sub>2</sub>′＝<em>v</em><sub>1</sub>，两球碰撞后交换速度 <s>置换反应</s></p>
-</li>
-<li>
-<p>当质量大的球碰质量小的球时，<em>v</em><sub>1</sub>′&gt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后两球都向前运动</p>
-</li>
-<li>
-<p>当质量小的球碰质量大的球时，<em>v</em><sub>1</sub>′&lt;0，<em>v</em><sub>2</sub>′&gt;0，碰撞后质量小的球被反弹回来</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>物理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Key社Gal中OMV文件的转码方法</title>
-    <url>/2020-05-22-key-omv.html</url>
+    <url>/blog/2020-05-22-key-omv.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
 <p>自己在网上找<code>OMV</code>文件的转码找了很久，在此留个档。</p>
 <h1 id="什么是omv文件"><a class="markdownIt-Anchor" href="#什么是omv文件"></a> 什么是<code>OMV</code>文件？</h1>
@@ -522,174 +522,356 @@
       </tags>
   </entry>
   <entry>
-    <title>补充单词7-12</title>
-    <url>/2020-05-06-yybc2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="补充单词-7"><a class="markdownIt-Anchor" href="#补充单词-7"></a> 补充单词 7</h1>
-<p>snorkel vi. 戴潜水通气管潜水 n. 潜水艇或潜水者的通气管</p>
-<p>aquarium n. 水族馆；养鱼箱</p>
-<p>anecdote n. 奇闻，轶事</p>
-<p>Clancy 克兰西 男名</p>
-<p>baleen n. 鲸须</p>
-<p>baleen whale 须鲸</p>
-<p>annual adj. 每年的 n. 年刊</p>
-<p>migration n. 迁徙</p>
-<p>witness vt. 目击 n. 目击者</p>
-<p>accommodation n. 住宿</p>
-<p>shore n. 岸</p>
-<p>offshore adv. &amp; adj. 近海(的)； 离岸(的)</p>
-<p>opposite prep. 在…对面 adj. 相对的，相反的</p>
-<p>yell vi. &amp; n. 大叫，呼喊</p>
-<p>pause vi. &amp; n. 暂停，中止</p>
-<p>oar n. 桨</p>
-<p>telescope n. 望远镜</p>
-<p>teamwork n. 协作，配合</p>
-<p>blow-hole (鲸鱼的)鼻孔</p>
-<p>dive vi. &amp; n. 跳水</p>
-<p>flee vi. &amp; vt. 逃跑 — fled — fled</p>
-<p>harpoon n. 鱼叉</p>
-<p>drag vt. 拖，拉</p>
-<p>depth n. 深度</p>
-<p>meantime adv. 其间，同时</p>
-<p>in the meantime 在此其间；与此同时</p>
-<p>lip n. 一片嘴唇</p>
-<p>overboard adv. 越过船舷进入水中</p>
-<p>urge vt. 催促</p>
-<p>abandon vt. 放弃，遗弃</p>
-<p>shark n. 鲨鱼</p>
-<h1 id="补充单词-8"><a class="markdownIt-Anchor" href="#补充单词-8"></a> 补充单词 8</h1>
-<p>dimension n. 维(数), 方面，侧面</p>
-<p>reflect vi. 思考； vt. 映射，反射，思考</p>
-<p>pure adj. 纯的，纯洁的</p>
-<p>cell n. 细胞，(蜂房的)巣室</p>
-<p>aware adj. 意识到的，知道的</p>
-<p>be/become aware of 对…知道的；意识到…</p>
-<p>vivid adj. 生动的，鲜明的</p>
-<p>neat adj. 整齐的，匀称的</p>
-<p>seaweed n. 海草，海藻</p>
-<p>narrow adj. 狭窄的，狭隘的</p>
-<p>flashlight n. 手电筒，闪光灯</p>
-<p>upside down 上下翻转</p>
-<p>suck vt. &amp; vi. 吮吸</p>
-<p>sea-slug n. 海蛞蝓</p>
-<p>turtle n. 海龟</p>
-<p>eel n. 鳗，鳝</p>
-<p>sharp adj. 锋利的，锐利的</p>
-<p>tasty adj. 好吃的，可口的</p>
-<p>giant adj. 巨人的；巨大的 n. 巨人；伟人</p>
-<p>clam n. 蛤</p>
-<p>grey adj. &amp; n. 灰色的</p>
-<p>scare vt. 恐吓 vi. 受惊吓</p>
-<p>(be) scared to death 吓死了</p>
-<p>shallow adj. 浅的，肤浅的</p>
-<p>steep adj. 陡峭的</p>
-<p>boundary n. 界限，分界线</p>
-<h1 id="补充单词-9"><a class="markdownIt-Anchor" href="#补充单词-9"></a> 补充单词 9</h1>
-<p>help (…) out 帮助某人摆脱困境</p>
-<p>relationship n. 关系</p>
-<p>conservation n. 保存，保护</p>
-<p>iceberg n. 冰山</p>
-<p>jog vi. &amp; n. 慢跑</p>
-<p>seaside n. &amp; adj. 海边(的)</p>
-<p>net n. 网，网状物</p>
-<p>target n. 目标，靶，受批评的对象</p>
-<p>tide n. 潮汐，潮水，潮流</p>
-<p>driftnet n. 流网</p>
-<p>Antarctic adj. 南极的</p>
-<p>the Antarctic 南极洲</p>
-<p>awesome adj. 使人敬畏的，令人敬畏的</p>
-<p>leap vi. &amp; n. 跳跃 leap – leapt – leapt ; leap – leaped – leaped</p>
-<p>seal n. 海豹，封条，印章</p>
-<p>refund vt. 退还，偿还； n. 退款</p>
-<p>pension n. 养老金，退休金</p>
-<p>pensioner n. 领取养老金的人</p>
-<h1 id="补充单词10"><a class="markdownIt-Anchor" href="#补充单词10"></a> 补充单词10</h1>
-<p>airmail n. 航空邮件</p>
-<p>Papua New Guinea 巴布亚新几内亚</p>
-<p>fortnight n. 两星期</p>
-<p>hear from 接到……的信</p>
-<p>be dying to do sth 非常渴望做某事</p>
-<p>roof n. 屋顶； 车顶</p>
-<p>muddy adj. 泥泞的</p>
-<p>textbook n. 教科书；课本</p>
-<p>concept n. 观念；概念</p>
-<p>bucket n. 水桶</p>
-<p>the other day 不久前的一天</p>
-<p>weekly adj.&amp;adv. 每周（的）</p>
-<p>bubble vi. 起泡；沸腾</p>
-<p>relevant adj. 有关的；切题的</p>
-<p>remote adj. 遥远的；偏僻的</p>
-<p>ridge n. 山脊；屋脊</p>
-<p>weed n. 杂草 vt.&amp;vi. 除杂草</p>
-<p>hut n. 棚屋；小屋</p>
-<h1 id="补充单词11"><a class="markdownIt-Anchor" href="#补充单词11"></a> 补充单词11</h1>
-<p>rectangle n.矩形;长方形</p>
-<p>rectangular  adj.长方形的;矩形的</p>
-<p>adjust  vi. &amp; vt.调整; (使)适合</p>
-<p>platform n.台;平台;讲台; (火车站的)月台</p>
-<p>broom n.扫帚</p>
-<p>tin n.锡</p>
-<p>jar n.罐;广口瓶</p>
-<p>sniff  vt. &amp; vi.嗅;闻;用鼻子吸</p>
-<p>participate  vi.参与;参加</p>
-<p>interpreter  n.作口译的人</p>
-<p>grill  n.烤架;大平底锅vt.烧烤;炙烤</p>
-<p>dry out (使浸水等之物)完全变干;干透</p>
-<p>△leftover  n. 剩余物;残留物;剩饭adj.剩余的</p>
-<p>△evil  adj.邪恶的n.邪恶;罪恶</p>
-<p>dry up (指河流、井等)干涸</p>
-<p>otherwise  conj.否则;不然adv.用别的方法;其他方面</p>
-<p>privilege  n.特权;特别优待</p>
-<p>paperwork  n.文书工作</p>
-<p>arrangement  n.安排;排列</p>
-<p>toast vt.烤(面包等);敬酒n.烤面包(片);吐司面包;干杯</p>
-<p>comb  n.梳子vi.梳(发)</p>
-<p>astronaut  n.宇航员;太空人</p>
-<p>angle  n.角;角度</p>
-<p>catalogue  n.目录</p>
-<p>donate  vt.捐赠</p>
-<p>voluntary  adj.自愿的;志愿的;无偿的</p>
-<p>in need 在困难中;在危急中</p>
-<p>purchase  vt. &amp;n.买;购买</p>
-<p>anniversary  n.周年纪念(日)</p>
-<p>seed n.种子;萌芽</p>
-<p>seedling n. 秧苗；树苗</p>
-<p>vaccination n. 接种疫苗</p>
-<p>loan n. 贷款</p>
-<p>sew vi. (用针线)缝vt.缝制;缝合</p>
-<p>sewing machine缝纫机</p>
-<p>△supplement  n.增补的事物;补充;附录;增刊</p>
-<p>ox  n. (pl： oxen)公牛</p>
-<p>△plough  vi.犁(地);耕(地)</p>
-<p>trunk  n.树干;躯干;大衣箱</p>
-<p>trunk library箱式(柜式)图书馆</p>
-<p>tractor  n.拖拉机;牵引机</p>
-<p>Kenya   n.肯尼亚(非洲国家)</p>
-<h1 id="补充单词12"><a class="markdownIt-Anchor" href="#补充单词12"></a> 补充单词12</h1>
-<p>△Bangladesh n.孟加拉国(亚洲国家)</p>
-<p>click vi. &amp; vt. (使)发出咔嗒声n.咔嗒声</p>
-<p>tailor n.裁缝 vt.剪裁;缝制(衣服)</p>
-<p>△Tanzania n.坦桑尼亚(东非国家)</p>
-<p>△economic adj.经济的;经济学的</p>
-<p>political adj.政治的;政党的</p>
-<p>△Nepal n.尼泊尔(亚洲国家)</p>
-<p>△Uganda n.乌干达(东非国家)</p>
-<p>distribute vt.分配;分发</p>
-<p>distribution n.分配;分发;分布状态</p>
-<p>△financial adj.财务的;金融的;财政的.</p>
-<p>security n.安全;保护;保障</p>
-<p>operate vi.工作;运转vt.操作</p>
-<p>△Sudan n.苏丹(非洲国家)</p>
-<p>clinic n.门诊部;小诊所</p>
-<p>△Malawi n.马拉维(非洲国家)</p>
-<h1 id="原图片"><a class="markdownIt-Anchor" href="#原图片"></a> 原图片</h1>
-<p><a href="/VOSTOK/ENGLISH1.html">补充11和12的原图片</a></p>
-<hr />
-<p><span class="heimu" title="Что?">ПОЛЮС-Ц-0506-1</span></p>
+    <title>热学</title>
+    <url>/blog/2020-07-19-rexue.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="分子动理论-内能"><a class="markdownIt-Anchor" href="#分子动理论-内能"></a> 分子动理论 内能</h1>
+<ul>
+<li>多数分子大小的数量级为10<sup>-10</sup>m。</li>
+<li>一般分子质量的数量级为10<sup>-26</sup>kg。</li>
+</ul>
+<h2 id="分子永不停息地做无规则运动"><a class="markdownIt-Anchor" href="#分子永不停息地做无规则运动"></a> 分子永不停息地做无规则运动</h2>
+<ul>
+<li>扩散现象</li>
+<li>布朗运动</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>布朗运动</th>
+<th>热运动</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>活动主体</td>
+<td>固体小颗粒</td>
+<td>分子</td>
+</tr>
+<tr>
+<td>区别</td>
+<td>是固体小颗粒的运动，是比分子大得多的分子团的运动，较大的颗粒不做布朗运动，但它本身的以及周围的分子仍在做热运动</td>
+<td>是指分子的运动，分子无论大小都做热运动，热运动不能通过光学显微镜直接观察到</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>共同点：都是永不停息的无规则运动，都随温度的升高而变得更加激烈，都是肉眼所不能看见的</li>
+<li>联系：布朗运动是由于小颗粒受到周围分子做热运动的撞击力而引起的，它是分子做无规则运动的反映</li>
+</ul>
+<h3 id="分子间存在相互作用力"><a class="markdownIt-Anchor" href="#分子间存在相互作用力"></a> 分子间存在相互作用力</h3>
+<ul>
+<li>分子间同时存在引力和斥力，实际表现的分子力是它们的合力．</li>
+<li>引力和斥力都随分子间距离的增大而减小，但斥力比引力变化得快．</li>
+</ul>
+<h3 id="温度和内能"><a class="markdownIt-Anchor" href="#温度和内能"></a> 温度和内能</h3>
+<ul>
+<li>当分子力做正功时，分子势能减小；当分子力做负功时，分子势能增大．</li>
+<li>从分子动理论观点来看，温度是物体分子热运动平均动能的标志，温度越高，分子的平均动能就越大；反之亦然．注意同一温度下，不同物质分子的平均动能都相同，但由于不同物质的分子质量不尽相同，所以分子运动的平均速率不尽相同。</li>
+<li>决定物体内能的是物体中所含分子的摩尔数、温度和体积三个因素。</li>
+</ul>
+<p>分子质量：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>m</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">m_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>M</mi><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{M}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3176359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi>ρ</mi><msub><mi>v</mi><mi>m</mi></msub></mrow><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{ρv_m}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.192805em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7475em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.03588em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<p>分子体积：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">V_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>V</mi><mi>m</mi></msub><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{V_m}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3337359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>M</mi><mrow><mi>ρ</mi><msub><mi>N</mi><mi>A</mi></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{M}{ρN_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3534389999999998em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<p>分子数：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>V</mi><msub><mi>V</mi><mi>M</mi></msub></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{V}{V_M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3176359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>m</mi><mrow><mi>ρ</mi><msub><mi>V</mi><mi>m</mi></msub></mrow></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{m}{ρV_m}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1764999999999999em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>m</mi><mi>M</mi></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{m}{M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.040392em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi>ρ</mi><mi>V</mi></mrow><mi>M</mi></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{ρV}{M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.269439em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.924439em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></p>
+<p>固体、液体：球体模型，分子直径d=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mroot><mfrac><mrow><mn>6</mn><msub><mi>V</mi><mn>0</mn></msub></mrow><mi>π</mi></mfrac><mn>3</mn></mroot></mrow><annotation encoding="application/x-tex">\sqrt[3]{\frac{6V_0}{\pi}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.84em;vertical-align:-0.5832844999999998em;"></span><span class="mord sqrt"><span class="root"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7262786000000003em;"><span style="top:-2.9040586000000004em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size6 size1 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2567155000000003em;"><span class="svg-align" style="top:-3.8em;"><span class="pstrut" style="height:3.8em;"></span><span class="mord" style="padding-left:1em;"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">π</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.2167155000000003em;"><span class="pstrut" style="height:3.8em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.8800000000000001em;"><svg width='400em' height='1.8800000000000001em' viewBox='0 0 400000 1944' preserveAspectRatio='xMinYMin slice'><path d='M1001,80H400000v40H1013.1s-83.4,268,-264.1,840c-180.7,
+572,-277,876.3,-289,913c-4.7,4.7,-12.7,7,-24,7s-12,0,-12,0c-1.3,-3.3,-3.7,-11.7,
+-7,-25c-35.3,-125.3,-106.7,-373.3,-214,-744c-10,12,-21,25,-33,39s-32,39,-32,39
+c-6,-5.3,-15,-14,-27,-26s25,-30,25,-30c26.7,-32.7,52,-63,76,-91s52,-60,52,-60
+s208,722,208,722c56,-175.3,126.3,-397.3,211,-666c84.7,-268.7,153.8,-488.2,207.5,
+-658.5c53.7,-170.3,84.5,-266.8,92.5,-289.5c4,-6.7,10,-10,18,-10z
+M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.5832844999999998em;"><span></span></span></span></span></span></span></span></span></p>
+<p>气体：立方体模型，相邻分子间平均距离d=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mroot><msub><mi>V</mi><mn>0</mn></msub><mn>3</mn></mroot></mrow><annotation encoding="application/x-tex">\sqrt[3]{V_0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.18833500000000003em;"></span><span class="mord sqrt"><span class="root"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.720218em;"><span style="top:-2.897998em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size6 size1 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.851665em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.811665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.18833500000000003em;"><span></span></span></span></span></span></span></span></span></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>玻意耳定律</th>
+<th>查理定律</th>
+<th>盖—吕萨克定律</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td>一定质量的某种气体，在温度不变的情况下，压强与体积成反比</td>
+<td>一定质量的某种气体，在体积不变的情况下，压强与热力学温度成正比</td>
+<td>一定质量的某种气体，在压强不变的情况下，其体积与热力学温度成正比</td>
+</tr>
+<tr>
+<td>表  达  式</td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>1</mn></msub><msub><mi>V</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">p_1V_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>＝<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>2</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">p_2V_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>P</mi><mn>1</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_1}{P_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{T_1}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></td>
+<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>V</mi><mn>1</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{V_1}{V_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{T_1}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></td>
+</tr>
+</tbody>
+</table>
+<p>一定质量的理想气体状态方程:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>V</mi><mn>1</mn></msub></mrow><msub><mi>T</mi><mn>1</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_1V_1}{T_1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mn>2</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mrow><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_2V_2}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>V</mi></mrow><annotation encoding="application/x-tex">pV</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mi>R</mi><mi>T</mi></mrow><annotation encoding="application/x-tex">nRT</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span></p>
 ]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>学习笔记</tag>
+        <tag>物理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在黑莓9900上使用XPRSS查看RSS消息</title>
+    <url>/blog/2020-06-13-xprss-1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>对黑莓9900这台名不副实的“智能机”进行各种折腾，实乃无奈之举（苦逼高中生.jpg）。在一年的使用过后，也积累了一些非常实用（折腾无比）的技巧和工具。</p>
+<p>鉴于黑莓的可怜巴巴的浏览器，可怜巴巴的内存，可怜巴巴的证书，可怜巴巴的生态环境，可怜巴巴的屏幕，等等。总之，在9900上打开新闻网站是一件十分令人恼火的事情，因为您可能遭遇如下情况：</p>
+<ol>
+<li>通讯故障。服务器可能正忙，请稍后重试。如果问题仍然存在，请与服务提供商联系。</li>
+<li>无法使用当前的安全性设置进行连接。请与服务提供商联系。</li>
+<li>在打开网页时，由于网页相对于您的浏览器过于复杂，导致闪退或卡死。</li>
+<li>花了n（n&gt;3）分钟打开网页</li>
+</ol>
+<p>千辛万苦，终于打开网页后</p>
+<ul>
+<li>超链接无响应</li>
+<li>字体极小</li>
+<li>网页不会自适应屏幕，以至于不得不不断左右移动光标</li>
+</ul>
+<p>等等。</p>
+<p>即使顺利地看完了新闻，这个过程所花掉的时间也是相当可观的。</p>
+<p>怎么办呢？</p>
+<p>这时就要请出这个重量级工具——RSS阅读器。</p>
+<h1 id="什么是rss"><a class="markdownIt-Anchor" href="#什么是rss"></a> 什么是RSS</h1>
+<p>引用一下维基百科的解释：</p>
+<blockquote>
+<p>RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。</p>
+</blockquote>
+<p>举个例子。我们打开 <a href="http://www.people.com.cn/rss/finance.xml" target="_blank" rel="noopener">人民网财经频道的RSS源</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;item&gt;</span><br><span class="line">&lt;title&gt;</span><br><span class="line">&lt;![CDATA[ 商务部：帮助外贸企业渡难关、保市场、保订单 ]]&gt;</span><br><span class="line">&lt;&#x2F;title&gt;</span><br><span class="line">&lt;link&gt;http:&#x2F;&#x2F;finance.people.com.cn&#x2F;n1&#x2F;2020&#x2F;0612&#x2F;c1004-31745306.html&lt;&#x2F;link&gt;</span><br><span class="line">&lt;pubDate&gt;2020-06-12&lt;&#x2F;pubDate&gt;</span><br><span class="line">&lt;author&gt;人民网&lt;&#x2F;author&gt;</span><br><span class="line">&lt;description&gt;</span><br><span class="line">&lt;![CDATA[ &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 人民网北京6月12日电 （孙阳）1-5月，受疫情影响，我国进出口总额11.54万亿元人民币，下降4.9%。其中，出口6.2万亿元，下降4.7%；进口5.34万亿元，下降5.2%。5月当月，我国进出口总额2.47万亿元，下降4.9%。其中，出口1.46万亿元，增长1.4%；进口1.01万亿元，下降12.7%。商务部外贸司负责人表示，1-5月，外贸运行主要呈现以下特点：&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 一是对新兴市场出口好于整体。对新兴市场出口下降2.9%，降幅好于整体1.9个百分点，占比提升0.9个百分点至49.7%。其中，对东盟出口增长2.8%，增幅好于整体7.5个百分点，占比提升1个百分点至15.1%。对传统市场出口下降6.5%，占比下降至50.3%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 二是民营企业出口占比提升。民营企业出口微降0.3%，降幅好于整体4.4个百分点，展现较强韧性和活力，占比提升2.4个百分点至52.9%。国有企业、外资企业出口分别下降8.4%、9.4%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 三是机电产品出口好于整体。机电产品出口下降4.0%，降幅小于整体0.7个百分点，占比达61.1%。其中，集成电路、电脑出口增长14.5%、1.8%。劳动密集型产品受境外疫情影响较大，服装、箱包、鞋、玩具、家具等产品出口合计下降20.3%。防疫物资成为出口增长的亮点。口罩带动纺织品增长25.5%，医疗器械、中药材增长33%、8%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 四是中西部地区出口占比提升。中西部地区出口下降0.2%，降幅好于整体4.5个百分点，占比提升0.8个百分点至18.4%。东部地区出口下降5.7%，降幅深于整体1个百分点，占比下降至81.6%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 五是主要大宗商品进口量增价跌。受国际市场需求疲软影响，大宗商品价格普遍下跌。原油、天然气、铜、煤炭、大豆等进口价格分别下降21.2%、14.7%、6.3%、4.7%、1.7%，进口量分别增长5.2%、1.9%、12.4%、16.8%、6.8%。仅这些商品价格下跌就拉低进口增速3个百分点。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 今年以来，为应对疫情对我国外贸发展造成的冲击，国务院及时出台一系列稳外贸政策措施，主要包括完善出口退税政策、增加外贸信贷投放、加大出口信用保险支持、增设跨境综试区、支持出口转内销等方面，商务部会同各地方、各部门狠抓政策落实，帮助企业纾困解难，抢市场抓订单，努力将疫情对外贸影响降到最低。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 当前，全球疫情仍在恶化，新增病例数屡创新高，世界经济严重衰退，国际需求急剧萎缩。虽然一些国家和地区“带疫解封”，但需求恢复仍需时日，我国外贸发展面临的不确定性、不稳定性因素显著增多，风险和挑战前所未有，下行压力进一步加大。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 商务部外贸司负责人介绍说，下一步，商务部将按照党中央、国务院决策部署，扎实做好“六稳”工作，全面落实“六保”任务，帮助外贸企业渡难关、保市场、保订单，保障产业链供应链稳定，在网上办好第127届广交会，支持加工贸易出口转内销，加快跨境电商等贸易新业态发展，积极扩大进口，推进贸易高质量发展，全力以赴完成进出口促稳提质目标任务，为决胜全面建成小康社会、打赢脱贫攻坚战作出积极贡献。&lt;&#x2F;p&gt; ]]&gt;</span><br><span class="line">&lt;&#x2F;description&gt;</span><br><span class="line">&lt;&#x2F;item&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>本条RSS节选于2020.06.12</p>
+</blockquote>
+<p>夹在<code>&lt;item&gt;</code>和<code>&lt;/item&gt;</code>之间的就是一条新闻。它包括：</p>
+<ul>
+<li><code>&lt;title&gt;</code>：标题</li>
+<li><code>&lt;link&gt;</code>：新闻链接</li>
+<li><code>&lt;pubDate&gt;</code>：发布时间</li>
+<li><code>&lt;author&gt;</code>：编者</li>
+<li><code>&lt;descripton&gt;</code>：内容</li>
+</ul>
+<p>可以看到，这些要素恰好可以构成一篇新闻。</p>
+<p>RSS阅读器，可以通过读取这些信息，进行渲染，从而将整理后的信息呈现出来。</p>
+<h1 id="安装xprss"><a class="markdownIt-Anchor" href="#安装xprss"></a> 安装XPRSS</h1>
+<p>首先，我们需要有一个RSS阅读器。这里介绍黑莓应用商店中的一款RSS阅读器——XPRSS。</p>
+<p>直接在<code>BlackBerry App World</code>的搜索框中输入<code>XPRSS</code>，看到后按流程安装即可。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS0.jpg" alt="" /></p>
+<h1 id="开始使用"><a class="markdownIt-Anchor" href="#开始使用"></a> 开始使用！</h1>
+<h2 id="网络设置"><a class="markdownIt-Anchor" href="#网络设置"></a> 网络设置</h2>
+<p>这个RSS阅读器，老实说，体验并不是特别好，至少Bug这种东西有着不少，不过黑莓9900嘛…能用就行。</p>
+<p>首先，在打开APP之前，请务必在<code>选项/网络和连接/移动网络</code>中把<code>数据服务</code>设置为<code>开</code>，不然之后阅读器会提示<code>Network Unavailable</code>。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS01.jpg" alt="开启数据服务" /></p>
+<p>如果你像我一样，是个套餐里连1b流量都没有的学生党<s>（然而其实有10Mb）</s>，那么为了防止意外的流量消耗，那么打开APP，按一下黑莓键，在弹出的左侧菜单中选择<code>Options/Network Settings</code>，然后只勾上<code>Wifi</code>。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS2.jpg" alt="只勾选Wifi" /></p>
+<h2 id="分类"><a class="markdownIt-Anchor" href="#分类"></a> 分类</h2>
+<p>在XPRSS中，RSS源被归类在分类下。</p>
+<p>不出意料的话，在刚刚安装完软件后，XPRSS会自动创建好一些分类。</p>
+<p>如果想对分类进行操作，那么请按下黑莓键以调出菜单，抑或长按分类以调出简略版菜单。</p>
+<ul>
+<li>
+<p>Add Category：增加分类</p>
+</li>
+<li>
+<p>Delete Category：删除分类</p>
+</li>
+<li>
+<p>Edit Category：编辑分类</p>
+<blockquote>
+<p>Edit Category中有两栏。<code>Category Title</code>中填标题名称，<code>Category Thumbnail</code>中选择图标。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3.jpg" alt="" /></p>
+</blockquote>
+</li>
+<li>
+<p>Move up：向上移动</p>
+</li>
+<li>
+<p>Move down：向下移动</p>
+</li>
+</ul>
+<p><strong>务必注意！<strong>删除分类时</strong>不会再次询问！不会再次询问！不会再次询问！</strong></p>
+<p>这意味着如果手滑点到<code>Delete Category</code>，那么光标所停留的分类将被<strong>直接删除</strong>，没有挽回的余地。</p>
+<p>但后果严重吗？老实说，如果你时间充裕，后果也没多严重，不过是再创建一个分类，再<strong>一个一个</strong>解析RSS源地址、添加到分类而已。不过，<br><strong>时间就是金钱啊，同志！</strong></p>
+<p>所以我强烈推荐创建一个空分类，在执行一些操作（主要是退出程序），需要调出菜单时，把光标移到那个分类上面，再进行操作。这样即使不小心点到了<code>Delete Category</code>，所损失的也不过是花掉15s就能重建的空分类而已。</p>
+<h2 id="添加源"><a class="markdownIt-Anchor" href="#添加源"></a> 添加源</h2>
+<p>按下黑莓键，调出菜单，选择<code>Add Feed</code>，开始添加源。</p>
+<p>不出意料的话，弹出的界面中会有四个部分。日常使用中主要使用第一个<code>Enter a feed URL.</code>选框。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS4.jpg" alt="" /></p>
+<p>使用方法很简单：把RSS源“如<code>http://www.people.com.cn/rss/finance.xml</code>”填写至选框中，然后点击<code>Validate</code>，出现新界面后，编辑标题和分类，然后点击<code>Save</code>，该RSS源就添加至分类目录下了。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS5.jpg" alt="" /></p>
+<h2 id="阅读源"><a class="markdownIt-Anchor" href="#阅读源"></a> 阅读源</h2>
+<p>打开分类，找到你所添加的源，直接打开，即可看到新闻列表。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS7.jpg" alt="" /></p>
+<p>点击新闻以观看。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS8.jpg" alt="" /></p>
+<h2 id="一些可用的官方源"><a class="markdownIt-Anchor" href="#一些可用的官方源"></a> 一些可用的官方源</h2>
+<h3 id="人民网"><a class="markdownIt-Anchor" href="#人民网"></a> 人民网</h3>
+<p>国内新闻：<code>http://www.people.com.cn/rss/politics.xml</code></p>
+<p>国际新闻：<code>http://www.people.com.cn/rss/world.xml</code></p>
+<p>经济新闻：<code>http://www.people.com.cn/rss/finance.xml</code></p>
+<p>体育新闻：<code>http://www.people.com.cn/rss/sports.xml</code></p>
+<p>若需要更多的源，请前往 <a href="http://rss.people.com.cn/" target="_blank" rel="noopener">人民网的RSS页面</a>。</p>
+<h3 id="环球网"><a class="markdownIt-Anchor" href="#环球网"></a> 环球网</h3>
+<p><code>http://rss.huanqiu.com/topnews.xml</code></p>
+<h3 id="知乎每日精选"><a class="markdownIt-Anchor" href="#知乎每日精选"></a> 知乎每日精选</h3>
+<p><code>https://www.zhihu.com/rss</code></p>
+<h3 id="俄罗斯卫星通讯社"><a class="markdownIt-Anchor" href="#俄罗斯卫星通讯社"></a> 俄罗斯卫星通讯社</h3>
+<p><code>http://sputniknews.cn/export/rss2/archive/index.xml</code></p>
+<h3 id="acg批评"><a class="markdownIt-Anchor" href="#acg批评"></a> ACG批评</h3>
+<p><code>http://www.acgpiping.net/feed/</code></p>
+<p>更多的源可以在网上慢慢寻找。</p>
+<h1 id="还有一件事"><a class="markdownIt-Anchor" href="#还有一件事"></a> 还有一件事</h1>
+<p>然而，还有很多网站是不提供RSS订阅服务的。但那并不意味着我们对此无计可施。方法将在下一篇文章中记录。</p>
+]]></content>
+      <categories>
+        <category>Blackberry</category>
+      </categories>
+      <tags>
+        <tag>Blackberry</tag>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在黑莓9900上使用XPRSS查看RSS消息（进阶篇）</title>
+    <url>/blog/2020-06-29-xprss-2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>上一篇文章大致介绍了使用XPRSS订阅RSS消息的方法。但是问题在于：</p>
+<ol>
+<li>由于XPRSS似乎依赖自带的浏览器工作，所以造成一个结果：自带浏览器（由于那巨坑的证书问题）访问不了的网址，XPRSS也访问不了。所以有些网站提供的RSS订阅源是无法被XPRSS打开的。</li>
+<li>还有很多网站不提供RSS订阅服务。</li>
+</ol>
+<p>俗话说，车到山前必有路<s>（不管你们信不信反正我是信的）</s>。面对这些问题，我们仍然可以通过一些非同寻常的方法来解决。</p>
+<h1 id="已有全文rss"><a class="markdownIt-Anchor" href="#已有全文rss"></a> 已有全文RSS？</h1>
+<p>如果已经有了全文RSS，只是因为浏览器的证书问题而无法打开，那么可以使用一款名为<a href="http://www.rssmix.com/" target="_blank" rel="noopener">RSSMix</a>的工具进行转制。</p>
+<p>RSSMix的本职工作，顾名思义，是将多个RSS源的消息混合在一起，形成一个新的RSS源。由于它并不使用<code>HTTPS</code>，因而无证书无效之忧。<s>（没有<code>HTTPS</code>竟然还能成为一种优点233333）</s></p>
+<p>使用方法很简单：将源<strong>分行</strong>填入第一个框中，在<code>Mix Title</code>框中填上新源的名字（不重要，反正在XPRSS里可以改），然后点击<code>Create!</code>，就可以创建出一个新源了。</p>
+<p>如果只想让这个源包含一个RSS源，怎么办呢？这里给出一种方法：</p>
+<ul>
+<li>
+<p>自己写一个<code>xml</code>或者<code>rss</code>文件，注意里面的日期最好够老</p>
+</li>
+<li>
+<p>把文件扔到Github里</p>
+</li>
+<li>
+<p>在RSSMix的界面填写你想显示的源的地址+GitHub中文件的地址</p>
+<blockquote>
+<p>可以使用Jsdelivr的加速服务</p>
+<p>文件位置：<a href="https://cdn.jsdelivr.net/gh/" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/</a><code>用户名</code> /<code>仓库名</code>/<code>文件名</code></p>
+</blockquote>
+</li>
+</ul>
+<p>当然如果懒得折腾，你可以使用<a href="https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/ky1.xml" target="_blank" rel="noopener">我的<code>xml</code>地址</a>。</p>
+<p>PS：RSSMix在你访问新源时才会读取旧源，故大多数情况下你读到的RSS源的时间截止到你上次访问新源的时间。所以如果想阅读新的消息，可以访问一下新源，隔一段时间（一两分钟差不多），再访问一次。</p>
+<p>PSS：当然也可以用它来转发Feed43的源。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/xprss2-zhuti1.jpg" alt="比如这样..." /></p>
+<h1 id="只有摘要"><a class="markdownIt-Anchor" href="#只有摘要"></a> 只有摘要？</h1>
+<p>某些RSS源只有摘要信息，此举意在吸引读者进入源网站访问，或者是利用如<a href="https://feed43.com/" target="_blank" rel="noopener">Feed43</a>之类工具转制的RSS源。</p>
+<p>如果想阅读这些源中的全文消息，那么需要使用RSS全文扩展工具。个人使用的是<a href="http://ftr.fivefilters.org/" target="_blank" rel="noopener">FiveFilters</a>。</p>
+<p>使用方法非常简单：在<code>Enter URL</code>中填写摘要RSS的地址，然后点击``Create Feed`即可。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed//Tec/xprss2-gcz1.jpg" alt="RSSHub——观察者网输出演示" /></p>
+<p>不过该方案似乎无法获得Feed43的全文，这是很遗憾的一点。</p>
+<h1 id="寻找-处理rss源"><a class="markdownIt-Anchor" href="#寻找-处理rss源"></a> 寻找、处理RSS源</h1>
+<p>Github上有人整理了一个<a href="https://github.com/AboutRSS/ALL-about-RSS" target="_blank" rel="noopener">非常全面的工具合集</a>。我也把我现在使用的一些工具列出来。</p>
+<ul>
+<li>
+<p><a href="https://feed43.com/" target="_blank" rel="noopener">Feed43</a>：为不提供RSS的网站制作摘要RSS源。</p>
+</li>
+<li>
+<p><a href="http://ftr.fivefilters.org/" target="_blank" rel="noopener">FiveFilters</a>：摘要RSS转全文RSS。</p>
+</li>
+<li>
+<p><a href="http://www.rssmix.com/" target="_blank" rel="noopener">RSSMix</a>：RSS混合(和代理)工具</p>
+</li>
+<li>
+<p><a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub</a>：提供数目庞大的RSS订阅源。（可惜黑莓9900浏览器打不开，需配合RSSMix和FiveFilters工作）</p>
+<p><a href="https://github.com/DIYgod/RSSHub" target="_blank" rel="noopener">Github地址</a></p>
+</li>
+<li>
+<p><a href="https://rss.lilydjwg.me/" target="_blank" rel="noopener">morerssplz</a>：订阅知乎专栏、动态、话题消息。（需配合RSSMix和FiveFilters工作）</p>
+<p><a href="https://github.com/lilydjwg/morerssplz" target="_blank" rel="noopener">Github地址</a></p>
+</li>
+<li>
+<p><a href="https://feedx.net/" target="_blank" rel="noopener">FeedX</a>：提供国内外媒体的全文RSS，质量上乘，主域名<code>.net</code>由于众所周知的原因不能访问，备用域名几个月一换，推荐使用主域名配合RSSMix订阅。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Blackberry</category>
+      </categories>
+      <tags>
+        <tag>Blackberry</tag>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在黑莓9900上使用XPRSS查看RSS消息（扫尾篇）</title>
+    <url>/blog/2020-07-12-xprss-3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="几个痛点"><a class="markdownIt-Anchor" href="#几个痛点"></a> 几个痛点</h1>
+<p>XPRSS的问题主要体现在以下几点：</p>
+<ol>
+<li>
+<p>黑底白字，且无法更改字体大小。</p>
+<p>阅读中文这种单字信息量比较大的文字还好，RSS源的语言是英文的时候，那显示效果就…</p>
+<p>天知道开发者是怎么忍得了这种显示方式的。<span class="heimu" title="你知道的太多了">可能这就是开发者的癖好吧</span></p>
+</li>
+<li>
+<p>超链接经常被诡异地拉长，且很多时候无法点击。</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-2.jpg" style="zoom:50%;" />
+</li>
+<li>
+<p>使用和自带浏览器相同的安全性设置。</p>
+</li>
+<li>
+<p>必须要点进单个源后才能得知源的更新情况。</p>
+</li>
+<li>
+<p>无法加载一些<code>css</code>和<code>js</code>，导致文章无法显示（比如本博客的RSS源）</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-1.jpg" style="zoom:50%;" />
+</li>
+</ol>
+<p>不过，这些问题都是小事情，毕竟黑莓9900，啊，能用就行<span class="heimu" title="你知道的太多了">(确信</span></p>
+<h1 id="一些小功能"><a class="markdownIt-Anchor" href="#一些小功能"></a> 一些小功能</h1>
+<h2 id="在网站上寻找rss源以及批量添加rss源"><a class="markdownIt-Anchor" href="#在网站上寻找rss源以及批量添加rss源"></a> 在网站上寻找RSS源，以及批量添加RSS源</h2>
+<p>在添加RSS源时，我们通常只使用<code>Add Feed</code>中的<code>Enter a feed URL.</code>选框。在这里顺便讲一讲下面的三个框是干什么用的。</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS4.jpg" style="zoom:50%;" />
+<p>如果在<code>Enter a web address.</code>里填上一个网站地址，再点击<code>Search for feeds</code>，那么XPRSS会在该页面自动寻找RSS源的地址，并解析到XPRSS中。</p>
+<p>在<code>Enter an OPML URL.</code>填上一个（有着几个RSS源地址的）<code>OPML</code>文件的地址，可用于批量导入RSS订阅源。</p>
+<blockquote>
+<p>这里提供<code>OPML</code>文件测试，该文件由<a href="https://www.zhihu.com/question/19580096/answer/119486747" target="_blank" rel="noopener">Ricky</a>提供，不过由于众所周知的原因，现在<code>https://raw.githubusercontent.com/</code>无法访问，所以我把它转移了一下。现地址为<code>https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/OPML.xml</code>。</p>
+</blockquote>
+<p>最后的<code>Enter a topic</code>似乎可以将搜索引擎的搜索结果转换为RSS条目的形式，不过Google和Yahoo在国内都连不上，Bing虽然可以生成源，但源里面不会有任何条目出现。<strong>总而言之，这个功能完全没法用。</strong></p>
+<h2 id="缓存"><a class="markdownIt-Anchor" href="#缓存"></a> 缓存</h2>
+<p>在<code>Options</code>-<code>Local Cache</code>中可以开启文章缓存，这样即使是在没网的时候，你也可以阅读之前的文章。</p>
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-3.jpg" style="zoom:50%;" />
+<p>需要注意的是</p>
+<ul>
+<li>不能针对单一源修改缓存数目。</li>
+<li>文章中的外链图片将不会被缓存。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Blackberry</category>
+      </categories>
+      <tags>
+        <tag>Blackberry</tag>
+        <tag>RSS</tag>
+      </tags>
   </entry>
   <entry>
     <title>机械振动与机械波</title>
-    <url>/2020-05-01-zhengdong1.html</url>
+    <url>/blog/2020-05-01-zhengdong1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="机械振动"><a class="markdownIt-Anchor" href="#机械振动"></a> 机械振动</h2>
 <h3 id="简谐运动"><a class="markdownIt-Anchor" href="#简谐运动"></a> 简谐运动</h3>
 <ul>
@@ -910,128 +1092,174 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
       </tags>
   </entry>
   <entry>
-    <title>在黑莓9900上使用XPRSS查看RSS消息</title>
-    <url>/2020-06-13-xprss-1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
-<p>对黑莓9900这台名不副实的“智能机”进行各种折腾，实乃无奈之举（苦逼高中生.jpg）。在一年的使用过后，也积累了一些非常实用（折腾无比）的技巧和工具。</p>
-<p>鉴于黑莓的可怜巴巴的浏览器，可怜巴巴的内存，可怜巴巴的证书，可怜巴巴的生态环境，可怜巴巴的屏幕，等等。总之，在9900上打开新闻网站是一件十分令人恼火的事情，因为您可能遭遇如下情况：</p>
-<ol>
-<li>通讯故障。服务器可能正忙，请稍后重试。如果问题仍然存在，请与服务提供商联系。</li>
-<li>无法使用当前的安全性设置进行连接。请与服务提供商联系。</li>
-<li>在打开网页时，由于网页相对于您的浏览器过于复杂，导致闪退或卡死。</li>
-<li>花了n（n&gt;3）分钟打开网页</li>
-</ol>
-<p>千辛万苦，终于打开网页后</p>
-<ul>
-<li>超链接无响应</li>
-<li>字体极小</li>
-<li>网页不会自适应屏幕，以至于不得不不断左右移动光标</li>
-</ul>
-<p>等等。</p>
-<p>即使顺利地看完了新闻，这个过程所花掉的时间也是相当可观的。</p>
-<p>怎么办呢？</p>
-<p>这时就要请出这个重量级工具——RSS阅读器。</p>
-<h1 id="什么是rss"><a class="markdownIt-Anchor" href="#什么是rss"></a> 什么是RSS</h1>
-<p>引用一下维基百科的解释：</p>
-<blockquote>
-<p>RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。</p>
-</blockquote>
-<p>举个例子。我们打开 <a href="http://www.people.com.cn/rss/finance.xml" target="_blank" rel="noopener">人民网财经频道的RSS源</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;item&gt;</span><br><span class="line">&lt;title&gt;</span><br><span class="line">&lt;![CDATA[ 商务部：帮助外贸企业渡难关、保市场、保订单 ]]&gt;</span><br><span class="line">&lt;&#x2F;title&gt;</span><br><span class="line">&lt;link&gt;http:&#x2F;&#x2F;finance.people.com.cn&#x2F;n1&#x2F;2020&#x2F;0612&#x2F;c1004-31745306.html&lt;&#x2F;link&gt;</span><br><span class="line">&lt;pubDate&gt;2020-06-12&lt;&#x2F;pubDate&gt;</span><br><span class="line">&lt;author&gt;人民网&lt;&#x2F;author&gt;</span><br><span class="line">&lt;description&gt;</span><br><span class="line">&lt;![CDATA[ &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 人民网北京6月12日电 （孙阳）1-5月，受疫情影响，我国进出口总额11.54万亿元人民币，下降4.9%。其中，出口6.2万亿元，下降4.7%；进口5.34万亿元，下降5.2%。5月当月，我国进出口总额2.47万亿元，下降4.9%。其中，出口1.46万亿元，增长1.4%；进口1.01万亿元，下降12.7%。商务部外贸司负责人表示，1-5月，外贸运行主要呈现以下特点：&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 一是对新兴市场出口好于整体。对新兴市场出口下降2.9%，降幅好于整体1.9个百分点，占比提升0.9个百分点至49.7%。其中，对东盟出口增长2.8%，增幅好于整体7.5个百分点，占比提升1个百分点至15.1%。对传统市场出口下降6.5%，占比下降至50.3%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 二是民营企业出口占比提升。民营企业出口微降0.3%，降幅好于整体4.4个百分点，展现较强韧性和活力，占比提升2.4个百分点至52.9%。国有企业、外资企业出口分别下降8.4%、9.4%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 三是机电产品出口好于整体。机电产品出口下降4.0%，降幅小于整体0.7个百分点，占比达61.1%。其中，集成电路、电脑出口增长14.5%、1.8%。劳动密集型产品受境外疫情影响较大，服装、箱包、鞋、玩具、家具等产品出口合计下降20.3%。防疫物资成为出口增长的亮点。口罩带动纺织品增长25.5%，医疗器械、中药材增长33%、8%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 四是中西部地区出口占比提升。中西部地区出口下降0.2%，降幅好于整体4.5个百分点，占比提升0.8个百分点至18.4%。东部地区出口下降5.7%，降幅深于整体1个百分点，占比下降至81.6%。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 五是主要大宗商品进口量增价跌。受国际市场需求疲软影响，大宗商品价格普遍下跌。原油、天然气、铜、煤炭、大豆等进口价格分别下降21.2%、14.7%、6.3%、4.7%、1.7%，进口量分别增长5.2%、1.9%、12.4%、16.8%、6.8%。仅这些商品价格下跌就拉低进口增速3个百分点。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 今年以来，为应对疫情对我国外贸发展造成的冲击，国务院及时出台一系列稳外贸政策措施，主要包括完善出口退税政策、增加外贸信贷投放、加大出口信用保险支持、增设跨境综试区、支持出口转内销等方面，商务部会同各地方、各部门狠抓政策落实，帮助企业纾困解难，抢市场抓订单，努力将疫情对外贸影响降到最低。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 当前，全球疫情仍在恶化，新增病例数屡创新高，世界经济严重衰退，国际需求急剧萎缩。虽然一些国家和地区“带疫解封”，但需求恢复仍需时日，我国外贸发展面临的不确定性、不稳定性因素显著增多，风险和挑战前所未有，下行压力进一步加大。&lt;&#x2F;p&gt; &lt;p style&#x3D;&quot;text-indent: 2em;&quot;&gt; 商务部外贸司负责人介绍说，下一步，商务部将按照党中央、国务院决策部署，扎实做好“六稳”工作，全面落实“六保”任务，帮助外贸企业渡难关、保市场、保订单，保障产业链供应链稳定，在网上办好第127届广交会，支持加工贸易出口转内销，加快跨境电商等贸易新业态发展，积极扩大进口，推进贸易高质量发展，全力以赴完成进出口促稳提质目标任务，为决胜全面建成小康社会、打赢脱贫攻坚战作出积极贡献。&lt;&#x2F;p&gt; ]]&gt;</span><br><span class="line">&lt;&#x2F;description&gt;</span><br><span class="line">&lt;&#x2F;item&gt;</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>本条RSS节选于2020.06.12</p>
-</blockquote>
-<p>夹在<code>&lt;item&gt;</code>和<code>&lt;/item&gt;</code>之间的就是一条新闻。它包括：</p>
-<ul>
-<li><code>&lt;title&gt;</code>：标题</li>
-<li><code>&lt;link&gt;</code>：新闻链接</li>
-<li><code>&lt;pubDate&gt;</code>：发布时间</li>
-<li><code>&lt;author&gt;</code>：编者</li>
-<li><code>&lt;descripton&gt;</code>：内容</li>
-</ul>
-<p>可以看到，这些要素恰好可以构成一篇新闻。</p>
-<p>RSS阅读器，可以通过读取这些信息，进行渲染，从而将整理后的信息呈现出来。</p>
-<h1 id="安装xprss"><a class="markdownIt-Anchor" href="#安装xprss"></a> 安装XPRSS</h1>
-<p>首先，我们需要有一个RSS阅读器。这里介绍黑莓应用商店中的一款RSS阅读器——XPRSS。</p>
-<p>直接在<code>BlackBerry App World</code>的搜索框中输入<code>XPRSS</code>，看到后按流程安装即可。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS0.jpg" alt="" /></p>
-<h1 id="开始使用"><a class="markdownIt-Anchor" href="#开始使用"></a> 开始使用！</h1>
-<h2 id="网络设置"><a class="markdownIt-Anchor" href="#网络设置"></a> 网络设置</h2>
-<p>这个RSS阅读器，老实说，体验并不是特别好，至少Bug这种东西有着不少，不过黑莓9900嘛…能用就行。</p>
-<p>首先，在打开APP之前，请务必在<code>选项/网络和连接/移动网络</code>中把<code>数据服务</code>设置为<code>开</code>，不然之后阅读器会提示<code>Network Unavailable</code>。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS01.jpg" alt="开启数据服务" /></p>
-<p>如果你像我一样，是个套餐里连1b流量都没有的学生党<s>（然而其实有10Mb）</s>，那么为了防止意外的流量消耗，那么打开APP，按一下黑莓键，在弹出的左侧菜单中选择<code>Options/Network Settings</code>，然后只勾上<code>Wifi</code>。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS2.jpg" alt="只勾选Wifi" /></p>
-<h2 id="分类"><a class="markdownIt-Anchor" href="#分类"></a> 分类</h2>
-<p>在XPRSS中，RSS源被归类在分类下。</p>
-<p>不出意料的话，在刚刚安装完软件后，XPRSS会自动创建好一些分类。</p>
-<p>如果想对分类进行操作，那么请按下黑莓键以调出菜单，抑或长按分类以调出简略版菜单。</p>
-<ul>
-<li>
-<p>Add Category：增加分类</p>
-</li>
-<li>
-<p>Delete Category：删除分类</p>
-</li>
-<li>
-<p>Edit Category：编辑分类</p>
-<blockquote>
-<p>Edit Category中有两栏。<code>Category Title</code>中填标题名称，<code>Category Thumbnail</code>中选择图标。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3.jpg" alt="" /></p>
-</blockquote>
-</li>
-<li>
-<p>Move up：向上移动</p>
-</li>
-<li>
-<p>Move down：向下移动</p>
-</li>
-</ul>
-<p><strong>务必注意！<strong>删除分类时</strong>不会再次询问！不会再次询问！不会再次询问！</strong></p>
-<p>这意味着如果手滑点到<code>Delete Category</code>，那么光标所停留的分类将被<strong>直接删除</strong>，没有挽回的余地。</p>
-<p>但后果严重吗？老实说，如果你时间充裕，后果也没多严重，不过是再创建一个分类，再<strong>一个一个</strong>解析RSS源地址、添加到分类而已。不过，<br><strong>时间就是金钱啊，同志！</strong></p>
-<p>所以我强烈推荐创建一个空分类，在执行一些操作（主要是退出程序），需要调出菜单时，把光标移到那个分类上面，再进行操作。这样即使不小心点到了<code>Delete Category</code>，所损失的也不过是花掉15s就能重建的空分类而已。</p>
-<h2 id="添加源"><a class="markdownIt-Anchor" href="#添加源"></a> 添加源</h2>
-<p>按下黑莓键，调出菜单，选择<code>Add Feed</code>，开始添加源。</p>
-<p>不出意料的话，弹出的界面中会有四个部分。日常使用中主要使用第一个<code>Enter a feed URL.</code>选框。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS4.jpg" alt="" /></p>
-<p>使用方法很简单：把RSS源“如<code>http://www.people.com.cn/rss/finance.xml</code>”填写至选框中，然后点击<code>Validate</code>，出现新界面后，编辑标题和分类，然后点击<code>Save</code>，该RSS源就添加至分类目录下了。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS5.jpg" alt="" /></p>
-<h2 id="阅读源"><a class="markdownIt-Anchor" href="#阅读源"></a> 阅读源</h2>
-<p>打开分类，找到你所添加的源，直接打开，即可看到新闻列表。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS7.jpg" alt="" /></p>
-<p>点击新闻以观看。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS8.jpg" alt="" /></p>
-<h2 id="一些可用的官方源"><a class="markdownIt-Anchor" href="#一些可用的官方源"></a> 一些可用的官方源</h2>
-<h3 id="人民网"><a class="markdownIt-Anchor" href="#人民网"></a> 人民网</h3>
-<p>国内新闻：<code>http://www.people.com.cn/rss/politics.xml</code></p>
-<p>国际新闻：<code>http://www.people.com.cn/rss/world.xml</code></p>
-<p>经济新闻：<code>http://www.people.com.cn/rss/finance.xml</code></p>
-<p>体育新闻：<code>http://www.people.com.cn/rss/sports.xml</code></p>
-<p>若需要更多的源，请前往 <a href="http://rss.people.com.cn/" target="_blank" rel="noopener">人民网的RSS页面</a>。</p>
-<h3 id="环球网"><a class="markdownIt-Anchor" href="#环球网"></a> 环球网</h3>
-<p><code>http://rss.huanqiu.com/topnews.xml</code></p>
-<h3 id="知乎每日精选"><a class="markdownIt-Anchor" href="#知乎每日精选"></a> 知乎每日精选</h3>
-<p><code>https://www.zhihu.com/rss</code></p>
-<h3 id="俄罗斯卫星通讯社"><a class="markdownIt-Anchor" href="#俄罗斯卫星通讯社"></a> 俄罗斯卫星通讯社</h3>
-<p><code>http://sputniknews.cn/export/rss2/archive/index.xml</code></p>
-<h3 id="acg批评"><a class="markdownIt-Anchor" href="#acg批评"></a> ACG批评</h3>
-<p><code>http://www.acgpiping.net/feed/</code></p>
-<p>更多的源可以在网上慢慢寻找。</p>
-<h1 id="还有一件事"><a class="markdownIt-Anchor" href="#还有一件事"></a> 还有一件事</h1>
-<p>然而，还有很多网站是不提供RSS订阅服务的。但那并不意味着我们对此无计可施。方法将在下一篇文章中记录。</p>
+    <title>补充单词7-12</title>
+    <url>/blog/2020-05-06-yybc2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="补充单词-7"><a class="markdownIt-Anchor" href="#补充单词-7"></a> 补充单词 7</h1>
+<p>snorkel vi. 戴潜水通气管潜水 n. 潜水艇或潜水者的通气管</p>
+<p>aquarium n. 水族馆；养鱼箱</p>
+<p>anecdote n. 奇闻，轶事</p>
+<p>Clancy 克兰西 男名</p>
+<p>baleen n. 鲸须</p>
+<p>baleen whale 须鲸</p>
+<p>annual adj. 每年的 n. 年刊</p>
+<p>migration n. 迁徙</p>
+<p>witness vt. 目击 n. 目击者</p>
+<p>accommodation n. 住宿</p>
+<p>shore n. 岸</p>
+<p>offshore adv. &amp; adj. 近海(的)； 离岸(的)</p>
+<p>opposite prep. 在…对面 adj. 相对的，相反的</p>
+<p>yell vi. &amp; n. 大叫，呼喊</p>
+<p>pause vi. &amp; n. 暂停，中止</p>
+<p>oar n. 桨</p>
+<p>telescope n. 望远镜</p>
+<p>teamwork n. 协作，配合</p>
+<p>blow-hole (鲸鱼的)鼻孔</p>
+<p>dive vi. &amp; n. 跳水</p>
+<p>flee vi. &amp; vt. 逃跑 — fled — fled</p>
+<p>harpoon n. 鱼叉</p>
+<p>drag vt. 拖，拉</p>
+<p>depth n. 深度</p>
+<p>meantime adv. 其间，同时</p>
+<p>in the meantime 在此其间；与此同时</p>
+<p>lip n. 一片嘴唇</p>
+<p>overboard adv. 越过船舷进入水中</p>
+<p>urge vt. 催促</p>
+<p>abandon vt. 放弃，遗弃</p>
+<p>shark n. 鲨鱼</p>
+<h1 id="补充单词-8"><a class="markdownIt-Anchor" href="#补充单词-8"></a> 补充单词 8</h1>
+<p>dimension n. 维(数), 方面，侧面</p>
+<p>reflect vi. 思考； vt. 映射，反射，思考</p>
+<p>pure adj. 纯的，纯洁的</p>
+<p>cell n. 细胞，(蜂房的)巣室</p>
+<p>aware adj. 意识到的，知道的</p>
+<p>be/become aware of 对…知道的；意识到…</p>
+<p>vivid adj. 生动的，鲜明的</p>
+<p>neat adj. 整齐的，匀称的</p>
+<p>seaweed n. 海草，海藻</p>
+<p>narrow adj. 狭窄的，狭隘的</p>
+<p>flashlight n. 手电筒，闪光灯</p>
+<p>upside down 上下翻转</p>
+<p>suck vt. &amp; vi. 吮吸</p>
+<p>sea-slug n. 海蛞蝓</p>
+<p>turtle n. 海龟</p>
+<p>eel n. 鳗，鳝</p>
+<p>sharp adj. 锋利的，锐利的</p>
+<p>tasty adj. 好吃的，可口的</p>
+<p>giant adj. 巨人的；巨大的 n. 巨人；伟人</p>
+<p>clam n. 蛤</p>
+<p>grey adj. &amp; n. 灰色的</p>
+<p>scare vt. 恐吓 vi. 受惊吓</p>
+<p>(be) scared to death 吓死了</p>
+<p>shallow adj. 浅的，肤浅的</p>
+<p>steep adj. 陡峭的</p>
+<p>boundary n. 界限，分界线</p>
+<h1 id="补充单词-9"><a class="markdownIt-Anchor" href="#补充单词-9"></a> 补充单词 9</h1>
+<p>help (…) out 帮助某人摆脱困境</p>
+<p>relationship n. 关系</p>
+<p>conservation n. 保存，保护</p>
+<p>iceberg n. 冰山</p>
+<p>jog vi. &amp; n. 慢跑</p>
+<p>seaside n. &amp; adj. 海边(的)</p>
+<p>net n. 网，网状物</p>
+<p>target n. 目标，靶，受批评的对象</p>
+<p>tide n. 潮汐，潮水，潮流</p>
+<p>driftnet n. 流网</p>
+<p>Antarctic adj. 南极的</p>
+<p>the Antarctic 南极洲</p>
+<p>awesome adj. 使人敬畏的，令人敬畏的</p>
+<p>leap vi. &amp; n. 跳跃 leap – leapt – leapt ; leap – leaped – leaped</p>
+<p>seal n. 海豹，封条，印章</p>
+<p>refund vt. 退还，偿还； n. 退款</p>
+<p>pension n. 养老金，退休金</p>
+<p>pensioner n. 领取养老金的人</p>
+<h1 id="补充单词10"><a class="markdownIt-Anchor" href="#补充单词10"></a> 补充单词10</h1>
+<p>airmail n. 航空邮件</p>
+<p>Papua New Guinea 巴布亚新几内亚</p>
+<p>fortnight n. 两星期</p>
+<p>hear from 接到……的信</p>
+<p>be dying to do sth 非常渴望做某事</p>
+<p>roof n. 屋顶； 车顶</p>
+<p>muddy adj. 泥泞的</p>
+<p>textbook n. 教科书；课本</p>
+<p>concept n. 观念；概念</p>
+<p>bucket n. 水桶</p>
+<p>the other day 不久前的一天</p>
+<p>weekly adj.&amp;adv. 每周（的）</p>
+<p>bubble vi. 起泡；沸腾</p>
+<p>relevant adj. 有关的；切题的</p>
+<p>remote adj. 遥远的；偏僻的</p>
+<p>ridge n. 山脊；屋脊</p>
+<p>weed n. 杂草 vt.&amp;vi. 除杂草</p>
+<p>hut n. 棚屋；小屋</p>
+<h1 id="补充单词11"><a class="markdownIt-Anchor" href="#补充单词11"></a> 补充单词11</h1>
+<p>rectangle n.矩形;长方形</p>
+<p>rectangular  adj.长方形的;矩形的</p>
+<p>adjust  vi. &amp; vt.调整; (使)适合</p>
+<p>platform n.台;平台;讲台; (火车站的)月台</p>
+<p>broom n.扫帚</p>
+<p>tin n.锡</p>
+<p>jar n.罐;广口瓶</p>
+<p>sniff  vt. &amp; vi.嗅;闻;用鼻子吸</p>
+<p>participate  vi.参与;参加</p>
+<p>interpreter  n.作口译的人</p>
+<p>grill  n.烤架;大平底锅vt.烧烤;炙烤</p>
+<p>dry out (使浸水等之物)完全变干;干透</p>
+<p>△leftover  n. 剩余物;残留物;剩饭adj.剩余的</p>
+<p>△evil  adj.邪恶的n.邪恶;罪恶</p>
+<p>dry up (指河流、井等)干涸</p>
+<p>otherwise  conj.否则;不然adv.用别的方法;其他方面</p>
+<p>privilege  n.特权;特别优待</p>
+<p>paperwork  n.文书工作</p>
+<p>arrangement  n.安排;排列</p>
+<p>toast vt.烤(面包等);敬酒n.烤面包(片);吐司面包;干杯</p>
+<p>comb  n.梳子vi.梳(发)</p>
+<p>astronaut  n.宇航员;太空人</p>
+<p>angle  n.角;角度</p>
+<p>catalogue  n.目录</p>
+<p>donate  vt.捐赠</p>
+<p>voluntary  adj.自愿的;志愿的;无偿的</p>
+<p>in need 在困难中;在危急中</p>
+<p>purchase  vt. &amp;n.买;购买</p>
+<p>anniversary  n.周年纪念(日)</p>
+<p>seed n.种子;萌芽</p>
+<p>seedling n. 秧苗；树苗</p>
+<p>vaccination n. 接种疫苗</p>
+<p>loan n. 贷款</p>
+<p>sew vi. (用针线)缝vt.缝制;缝合</p>
+<p>sewing machine缝纫机</p>
+<p>△supplement  n.增补的事物;补充;附录;增刊</p>
+<p>ox  n. (pl： oxen)公牛</p>
+<p>△plough  vi.犁(地);耕(地)</p>
+<p>trunk  n.树干;躯干;大衣箱</p>
+<p>trunk library箱式(柜式)图书馆</p>
+<p>tractor  n.拖拉机;牵引机</p>
+<p>Kenya   n.肯尼亚(非洲国家)</p>
+<h1 id="补充单词12"><a class="markdownIt-Anchor" href="#补充单词12"></a> 补充单词12</h1>
+<p>△Bangladesh n.孟加拉国(亚洲国家)</p>
+<p>click vi. &amp; vt. (使)发出咔嗒声n.咔嗒声</p>
+<p>tailor n.裁缝 vt.剪裁;缝制(衣服)</p>
+<p>△Tanzania n.坦桑尼亚(东非国家)</p>
+<p>△economic adj.经济的;经济学的</p>
+<p>political adj.政治的;政党的</p>
+<p>△Nepal n.尼泊尔(亚洲国家)</p>
+<p>△Uganda n.乌干达(东非国家)</p>
+<p>distribute vt.分配;分发</p>
+<p>distribution n.分配;分发;分布状态</p>
+<p>△financial adj.财务的;金融的;财政的.</p>
+<p>security n.安全;保护;保障</p>
+<p>operate vi.工作;运转vt.操作</p>
+<p>△Sudan n.苏丹(非洲国家)</p>
+<p>clinic n.门诊部;小诊所</p>
+<p>△Malawi n.马拉维(非洲国家)</p>
+<h1 id="原图片"><a class="markdownIt-Anchor" href="#原图片"></a> 原图片</h1>
+<p><a href="/VOSTOK/ENGLISH1.html">补充11和12的原图片</a></p>
+<hr />
+<p><span class="heimu" title="Что?">ПОЛЮС-Ц-0506-1</span></p>
 ]]></content>
-      <categories>
-        <category>Blackberry</category>
-      </categories>
-      <tags>
-        <tag>Blackberry</tag>
-        <tag>RSS</tag>
-      </tags>
   </entry>
   <entry>
     <title>我是谁</title>
-    <url>/2020-04-01-/who-am-i.html</url>
+    <url>/blog/2020-04-01-/who-am-i.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 align = "center">FZDSLR</h1>
 <h2 align = "center">一只学生党</h2>
 <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://i.loli.net/2020/04/11/kz9yq54AuSBmlvw.jpg"  alt="望" />
@@ -1044,7 +1272,7 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
   </entry>
   <entry>
     <title>物构知识点（正在学习中）</title>
-    <url>/2020-04-18-wg1.html</url>
+    <url>/blog/2020-04-18-wg1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><div class="note info">
             <p>不断更新中</p>
           </div>
@@ -1801,234 +2029,6 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
       <tags>
         <tag>学习笔记</tag>
         <tag>化学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在黑莓9900上使用XPRSS查看RSS消息（进阶篇）</title>
-    <url>/2020-06-29-xprss-2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
-<p>上一篇文章大致介绍了使用XPRSS订阅RSS消息的方法。但是问题在于：</p>
-<ol>
-<li>由于XPRSS似乎依赖自带的浏览器工作，所以造成一个结果：自带浏览器（由于那巨坑的证书问题）访问不了的网址，XPRSS也访问不了。所以有些网站提供的RSS订阅源是无法被XPRSS打开的。</li>
-<li>还有很多网站不提供RSS订阅服务。</li>
-</ol>
-<p>俗话说，车到山前必有路<s>（不管你们信不信反正我是信的）</s>。面对这些问题，我们仍然可以通过一些非同寻常的方法来解决。</p>
-<h1 id="已有全文rss"><a class="markdownIt-Anchor" href="#已有全文rss"></a> 已有全文RSS？</h1>
-<p>如果已经有了全文RSS，只是因为浏览器的证书问题而无法打开，那么可以使用一款名为<a href="http://www.rssmix.com/" target="_blank" rel="noopener">RSSMix</a>的工具进行转制。</p>
-<p>RSSMix的本职工作，顾名思义，是将多个RSS源的消息混合在一起，形成一个新的RSS源。由于它并不使用<code>HTTPS</code>，因而无证书无效之忧。<s>（没有<code>HTTPS</code>竟然还能成为一种优点233333）</s></p>
-<p>使用方法很简单：将源<strong>分行</strong>填入第一个框中，在<code>Mix Title</code>框中填上新源的名字（不重要，反正在XPRSS里可以改），然后点击<code>Create!</code>，就可以创建出一个新源了。</p>
-<p>如果只想让这个源包含一个RSS源，怎么办呢？这里给出一种方法：</p>
-<ul>
-<li>
-<p>自己写一个<code>xml</code>或者<code>rss</code>文件，注意里面的日期最好够老</p>
-</li>
-<li>
-<p>把文件扔到Github里</p>
-</li>
-<li>
-<p>在RSSMix的界面填写你想显示的源的地址+GitHub中文件的地址</p>
-<blockquote>
-<p>可以使用Jsdelivr的加速服务</p>
-<p>文件位置：<a href="https://cdn.jsdelivr.net/gh/" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/</a><code>用户名</code> /<code>仓库名</code>/<code>文件名</code></p>
-</blockquote>
-</li>
-</ul>
-<p>当然如果懒得折腾，你可以使用<a href="https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/ky1.xml" target="_blank" rel="noopener">我的<code>xml</code>地址</a>。</p>
-<p>PS：RSSMix在你访问新源时才会读取旧源，故大多数情况下你读到的RSS源的时间截止到你上次访问新源的时间。所以如果想阅读新的消息，可以访问一下新源，隔一段时间（一两分钟差不多），再访问一次。</p>
-<p>PSS：当然也可以用它来转发Feed43的源。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/xprss2-zhuti1.jpg" alt="比如这样..." /></p>
-<h1 id="只有摘要"><a class="markdownIt-Anchor" href="#只有摘要"></a> 只有摘要？</h1>
-<p>某些RSS源只有摘要信息，此举意在吸引读者进入源网站访问，或者是利用如<a href="https://feed43.com/" target="_blank" rel="noopener">Feed43</a>之类工具转制的RSS源。</p>
-<p>如果想阅读这些源中的全文消息，那么需要使用RSS全文扩展工具。个人使用的是<a href="http://ftr.fivefilters.org/" target="_blank" rel="noopener">FiveFilters</a>。</p>
-<p>使用方法非常简单：在<code>Enter URL</code>中填写摘要RSS的地址，然后点击``Create Feed`即可。</p>
-<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed//Tec/xprss2-gcz1.jpg" alt="RSSHub——观察者网输出演示" /></p>
-<p>不过该方案似乎无法获得Feed43的全文，这是很遗憾的一点。</p>
-<h1 id="寻找-处理rss源"><a class="markdownIt-Anchor" href="#寻找-处理rss源"></a> 寻找、处理RSS源</h1>
-<p>Github上有人整理了一个<a href="https://github.com/AboutRSS/ALL-about-RSS" target="_blank" rel="noopener">非常全面的工具合集</a>。我也把我现在使用的一些工具列出来。</p>
-<ul>
-<li>
-<p><a href="https://feed43.com/" target="_blank" rel="noopener">Feed43</a>：为不提供RSS的网站制作摘要RSS源。</p>
-</li>
-<li>
-<p><a href="http://ftr.fivefilters.org/" target="_blank" rel="noopener">FiveFilters</a>：摘要RSS转全文RSS。</p>
-</li>
-<li>
-<p><a href="http://www.rssmix.com/" target="_blank" rel="noopener">RSSMix</a>：RSS混合(和代理)工具</p>
-</li>
-<li>
-<p><a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub</a>：提供数目庞大的RSS订阅源。（可惜黑莓9900浏览器打不开，需配合RSSMix和FiveFilters工作）</p>
-<p><a href="https://github.com/DIYgod/RSSHub" target="_blank" rel="noopener">Github地址</a></p>
-</li>
-<li>
-<p><a href="https://rss.lilydjwg.me/" target="_blank" rel="noopener">morerssplz</a>：订阅知乎专栏、动态、话题消息。（需配合RSSMix和FiveFilters工作）</p>
-<p><a href="https://github.com/lilydjwg/morerssplz" target="_blank" rel="noopener">Github地址</a></p>
-</li>
-<li>
-<p><a href="https://feedx.net/" target="_blank" rel="noopener">FeedX</a>：提供国内外媒体的全文RSS，质量上乘，主域名<code>.net</code>由于众所周知的原因不能访问，备用域名几个月一换，推荐使用主域名配合RSSMix订阅。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Blackberry</category>
-      </categories>
-      <tags>
-        <tag>Blackberry</tag>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在黑莓9900上使用XPRSS查看RSS消息（扫尾篇）</title>
-    <url>/2020-07-12-xprss-3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="几个痛点"><a class="markdownIt-Anchor" href="#几个痛点"></a> 几个痛点</h1>
-<p>XPRSS的问题主要体现在以下几点：</p>
-<ol>
-<li>
-<p>黑底白字，且无法更改字体大小。</p>
-<p>阅读中文这种单字信息量比较大的文字还好，RSS源的语言是英文的时候，那显示效果就…</p>
-<p>天知道开发者是怎么忍得了这种显示方式的。<span class="heimu" title="你知道的太多了">可能这就是开发者的癖好吧</span></p>
-</li>
-<li>
-<p>超链接经常被诡异地拉长，且很多时候无法点击。</p>
-<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-2.jpg" style="zoom:50%;" />
-</li>
-<li>
-<p>使用和自带浏览器相同的安全性设置。</p>
-</li>
-<li>
-<p>必须要点进单个源后才能得知源的更新情况。</p>
-</li>
-<li>
-<p>无法加载一些<code>css</code>和<code>js</code>，导致文章无法显示（比如本博客的RSS源）</p>
-<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-1.jpg" style="zoom:50%;" />
-</li>
-</ol>
-<p>不过，这些问题都是小事情，毕竟黑莓9900，啊，能用就行<span class="heimu" title="你知道的太多了">(确信</span></p>
-<h1 id="一些小功能"><a class="markdownIt-Anchor" href="#一些小功能"></a> 一些小功能</h1>
-<h2 id="在网站上寻找rss源以及批量添加rss源"><a class="markdownIt-Anchor" href="#在网站上寻找rss源以及批量添加rss源"></a> 在网站上寻找RSS源，以及批量添加RSS源</h2>
-<p>在添加RSS源时，我们通常只使用<code>Add Feed</code>中的<code>Enter a feed URL.</code>选框。在这里顺便讲一讲下面的三个框是干什么用的。</p>
-<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS4.jpg" style="zoom:50%;" />
-<p>如果在<code>Enter a web address.</code>里填上一个网站地址，再点击<code>Search for feeds</code>，那么XPRSS会在该页面自动寻找RSS源的地址，并解析到XPRSS中。</p>
-<p>在<code>Enter an OPML URL.</code>填上一个（有着几个RSS源地址的）<code>OPML</code>文件的地址，可用于批量导入RSS订阅源。</p>
-<blockquote>
-<p>这里提供<code>OPML</code>文件测试，该文件由<a href="https://www.zhihu.com/question/19580096/answer/119486747" target="_blank" rel="noopener">Ricky</a>提供，不过由于众所周知的原因，现在<code>https://raw.githubusercontent.com/</code>无法访问，所以我把它转移了一下。现地址为<code>https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/OPML.xml</code>。</p>
-</blockquote>
-<p>最后的<code>Enter a topic</code>似乎可以将搜索引擎的搜索结果转换为RSS条目的形式，不过Google和Yahoo在国内都连不上，Bing虽然可以生成源，但源里面不会有任何条目出现。<strong>总而言之，这个功能完全没法用。</strong></p>
-<h2 id="缓存"><a class="markdownIt-Anchor" href="#缓存"></a> 缓存</h2>
-<p>在<code>Options</code>-<code>Local Cache</code>中可以开启文章缓存，这样即使是在没网的时候，你也可以阅读之前的文章。</p>
-<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/XPRSS3-3.jpg" style="zoom:50%;" />
-<p>需要注意的是</p>
-<ul>
-<li>不能针对单一源修改缓存数目。</li>
-<li>文章中的外链图片将不会被缓存。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Blackberry</category>
-      </categories>
-      <tags>
-        <tag>Blackberry</tag>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>热学</title>
-    <url>/2020-07-19-rexue.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="分子动理论-内能"><a class="markdownIt-Anchor" href="#分子动理论-内能"></a> 分子动理论 内能</h1>
-<ul>
-<li>多数分子大小的数量级为10<sup>-10</sup>m。</li>
-<li>一般分子质量的数量级为10<sup>-26</sup>kg。</li>
-</ul>
-<h2 id="分子永不停息地做无规则运动"><a class="markdownIt-Anchor" href="#分子永不停息地做无规则运动"></a> 分子永不停息地做无规则运动</h2>
-<ul>
-<li>扩散现象</li>
-<li>布朗运动</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>布朗运动</th>
-<th>热运动</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>活动主体</td>
-<td>固体小颗粒</td>
-<td>分子</td>
-</tr>
-<tr>
-<td>区别</td>
-<td>是固体小颗粒的运动，是比分子大得多的分子团的运动，较大的颗粒不做布朗运动，但它本身的以及周围的分子仍在做热运动</td>
-<td>是指分子的运动，分子无论大小都做热运动，热运动不能通过光学显微镜直接观察到</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>共同点：都是永不停息的无规则运动，都随温度的升高而变得更加激烈，都是肉眼所不能看见的</li>
-<li>联系：布朗运动是由于小颗粒受到周围分子做热运动的撞击力而引起的，它是分子做无规则运动的反映</li>
-</ul>
-<h3 id="分子间存在相互作用力"><a class="markdownIt-Anchor" href="#分子间存在相互作用力"></a> 分子间存在相互作用力</h3>
-<ul>
-<li>分子间同时存在引力和斥力，实际表现的分子力是它们的合力．</li>
-<li>引力和斥力都随分子间距离的增大而减小，但斥力比引力变化得快．</li>
-</ul>
-<h3 id="温度和内能"><a class="markdownIt-Anchor" href="#温度和内能"></a> 温度和内能</h3>
-<ul>
-<li>当分子力做正功时，分子势能减小；当分子力做负功时，分子势能增大．</li>
-<li>从分子动理论观点来看，温度是物体分子热运动平均动能的标志，温度越高，分子的平均动能就越大；反之亦然．注意同一温度下，不同物质分子的平均动能都相同，但由于不同物质的分子质量不尽相同，所以分子运动的平均速率不尽相同。</li>
-<li>决定物体内能的是物体中所含分子的摩尔数、温度和体积三个因素。</li>
-</ul>
-<p>分子质量：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>m</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">m_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>M</mi><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{M}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3176359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi>ρ</mi><msub><mi>v</mi><mi>m</mi></msub></mrow><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{ρv_m}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.192805em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7475em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.03588em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
-<p>分子体积：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">V_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>V</mi><mi>m</mi></msub><msub><mi>N</mi><mi>A</mi></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{V_m}{N_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3337359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>M</mi><mrow><mi>ρ</mi><msub><mi>N</mi><mi>A</mi></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">\frac{M}{ρN_A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3534389999999998em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.10903em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
-<p>分子数：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>V</mi><msub><mi>V</mi><mi>M</mi></msub></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{V}{V_M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3176359999999998em;vertical-align:-0.44530499999999995em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3567071428571427em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.14329285714285717em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44530499999999995em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>m</mi><mrow><mi>ρ</mi><msub><mi>V</mi><mi>m</mi></msub></mrow></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{m}{ρV_m}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1764999999999999em;vertical-align:-0.481108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.16454285714285719em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>m</mi><mi>M</mi></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{m}{M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.040392em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><mi>ρ</mi><mi>V</mi></mrow><mi>M</mi></mfrac><msub><mi>N</mi><mi>A</mi></msub></mrow><annotation encoding="application/x-tex">\frac{ρV}{M}N_A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.269439em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.924439em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">ρ</span><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">A</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></p>
-<p>固体、液体：球体模型，分子直径d=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mroot><mfrac><mrow><mn>6</mn><msub><mi>V</mi><mn>0</mn></msub></mrow><mi>π</mi></mfrac><mn>3</mn></mroot></mrow><annotation encoding="application/x-tex">\sqrt[3]{\frac{6V_0}{\pi}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.84em;vertical-align:-0.5832844999999998em;"></span><span class="mord sqrt"><span class="root"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7262786000000003em;"><span style="top:-2.9040586000000004em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size6 size1 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2567155000000003em;"><span class="svg-align" style="top:-3.8em;"><span class="pstrut" style="height:3.8em;"></span><span class="mord" style="padding-left:1em;"><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03588em;">π</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.2167155000000003em;"><span class="pstrut" style="height:3.8em;"></span><span class="hide-tail" style="min-width:1.02em;height:1.8800000000000001em;"><svg width='400em' height='1.8800000000000001em' viewBox='0 0 400000 1944' preserveAspectRatio='xMinYMin slice'><path d='M1001,80H400000v40H1013.1s-83.4,268,-264.1,840c-180.7,
-572,-277,876.3,-289,913c-4.7,4.7,-12.7,7,-24,7s-12,0,-12,0c-1.3,-3.3,-3.7,-11.7,
--7,-25c-35.3,-125.3,-106.7,-373.3,-214,-744c-10,12,-21,25,-33,39s-32,39,-32,39
-c-6,-5.3,-15,-14,-27,-26s25,-30,25,-30c26.7,-32.7,52,-63,76,-91s52,-60,52,-60
-s208,722,208,722c56,-175.3,126.3,-397.3,211,-666c84.7,-268.7,153.8,-488.2,207.5,
--658.5c53.7,-170.3,84.5,-266.8,92.5,-289.5c4,-6.7,10,-10,18,-10z
-M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.5832844999999998em;"><span></span></span></span></span></span></span></span></span></p>
-<p>气体：立方体模型，相邻分子间平均距离d=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mroot><msub><mi>V</mi><mn>0</mn></msub><mn>3</mn></mroot></mrow><annotation encoding="application/x-tex">\sqrt[3]{V_0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.18833500000000003em;"></span><span class="mord sqrt"><span class="root"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.720218em;"><span style="top:-2.897998em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size6 size1 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.851665em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-2.811665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
--10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
--50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
-35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
--221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
-s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
-s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.18833500000000003em;"><span></span></span></span></span></span></span></span></span></p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>玻意耳定律</th>
-<th>查理定律</th>
-<th>盖—吕萨克定律</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>内容</td>
-<td>一定质量的某种气体，在温度不变的情况下，压强与体积成反比</td>
-<td>一定质量的某种气体，在体积不变的情况下，压强与热力学温度成正比</td>
-<td>一定质量的某种气体，在压强不变的情况下，其体积与热力学温度成正比</td>
-</tr>
-<tr>
-<td>表  达  式</td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>1</mn></msub><msub><mi>V</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">p_1V_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>＝<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>p</mi><mn>2</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">p_2V_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.22222em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>P</mi><mn>1</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_1}{P_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{T_1}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></td>
-<td><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>V</mi><mn>1</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{V_1}{V_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><msub><mi>T</mi><mn>1</mn></msub><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{T_1}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></td>
-</tr>
-</tbody>
-</table>
-<p>一定质量的理想气体状态方程:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>V</mi><mn>1</mn></msub></mrow><msub><mi>T</mi><mn>1</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_1V_1}{T_1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mrow><msub><mi>P</mi><mn>2</mn></msub><msub><mi>V</mi><mn>2</mn></msub></mrow><msub><mi>T</mi><mn>2</mn></msub></mfrac></mrow><annotation encoding="application/x-tex">\frac{P_2V_2}{T_2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.3335309999999998em;vertical-align:-0.44509999999999994em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8884309999999999em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.4101em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.13889em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.22222em;">V</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31731428571428577em;"><span style="top:-2.357em;margin-left:-0.22222em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.143em;"><span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.44509999999999994em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mi>V</mi></mrow><annotation encoding="application/x-tex">pV</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span></span></span></span>=<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mi>R</mi><mi>T</mi></mrow><annotation encoding="application/x-tex">nRT</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span></span></span></span></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>学习笔记</tag>
-        <tag>物理</tag>
       </tags>
   </entry>
 </search>
