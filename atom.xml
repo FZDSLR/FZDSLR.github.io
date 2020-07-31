@@ -3,11 +3,11 @@
   <title>FZDSLR</title>
   
   
-  <link href="/blog/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://fzdslr.gitee.io/blog/"/>
+  <link href="https://fzdslr.gitee.io/"/>
   <updated>2020-07-19T14:49:25.075Z</updated>
-  <id>https://fzdslr.gitee.io/blog/</id>
+  <id>https://fzdslr.gitee.io/</id>
   
   <author>
     <name>FZDSLR</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>热学</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-07-19-rexue.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-07-19-rexue.html</id>
+    <link href="https://fzdslr.gitee.io/2020-07-19-rexue.html"/>
+    <id>https://fzdslr.gitee.io/2020-07-19-rexue.html</id>
     <published>2020-07-19T15:00:00.000Z</published>
     <updated>2020-07-19T14:49:25.075Z</updated>
     
@@ -38,19 +38,19 @@
     </summary>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="物理" scheme="https://FZDSLR.gitee.io/blog/tags/%E7%89%A9%E7%90%86/"/>
+      <category term="物理" scheme="https://FZDSLR.gitee.io/tags/%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>在黑莓9900上使用XPRSS查看RSS消息（扫尾篇）</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-07-12-xprss-3.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-07-12-xprss-3.html</id>
+    <link href="https://fzdslr.gitee.io/2020-07-12-xprss-3.html"/>
+    <id>https://fzdslr.gitee.io/2020-07-12-xprss-3.html</id>
     <published>2020-07-11T16:00:00.000Z</published>
     <updated>2020-07-11T16:14:56.492Z</updated>
     
@@ -69,19 +69,19 @@
     </summary>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/categories/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/categories/Blackberry/"/>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/tags/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/tags/Blackberry/"/>
     
-      <category term="RSS" scheme="https://FZDSLR.gitee.io/blog/tags/RSS/"/>
+      <category term="RSS" scheme="https://FZDSLR.gitee.io/tags/RSS/"/>
     
   </entry>
   
   <entry>
     <title>在黑莓9900上使用XPRSS查看RSS消息（进阶篇）</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-06-29-xprss-2.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-06-29-xprss-2.html</id>
+    <link href="https://fzdslr.gitee.io/2020-06-29-xprss-2.html"/>
+    <id>https://fzdslr.gitee.io/2020-06-29-xprss-2.html</id>
     <published>2020-06-29T14:30:00.000Z</published>
     <updated>2020-06-29T15:32:35.164Z</updated>
     
@@ -100,19 +100,19 @@
     </summary>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/categories/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/categories/Blackberry/"/>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/tags/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/tags/Blackberry/"/>
     
-      <category term="RSS" scheme="https://FZDSLR.gitee.io/blog/tags/RSS/"/>
+      <category term="RSS" scheme="https://FZDSLR.gitee.io/tags/RSS/"/>
     
   </entry>
   
   <entry>
     <title>在黑莓9900上使用XPRSS查看RSS消息</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-06-13-xprss-1.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-06-13-xprss-1.html</id>
+    <link href="https://fzdslr.gitee.io/2020-06-13-xprss-1.html"/>
+    <id>https://fzdslr.gitee.io/2020-06-13-xprss-1.html</id>
     <published>2020-06-13T12:00:00.000Z</published>
     <updated>2020-06-13T11:58:21.354Z</updated>
     
@@ -131,19 +131,19 @@
     </summary>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/categories/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/categories/Blackberry/"/>
     
     
-      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/blog/tags/Blackberry/"/>
+      <category term="Blackberry" scheme="https://FZDSLR.gitee.io/tags/Blackberry/"/>
     
-      <category term="RSS" scheme="https://FZDSLR.gitee.io/blog/tags/RSS/"/>
+      <category term="RSS" scheme="https://FZDSLR.gitee.io/tags/RSS/"/>
     
   </entry>
   
   <entry>
     <title>Key社Gal中OMV文件的转码方法</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-05-22-key-omv.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-05-22-key-omv.html</id>
+    <link href="https://fzdslr.gitee.io/2020-05-22-key-omv.html"/>
+    <id>https://fzdslr.gitee.io/2020-05-22-key-omv.html</id>
     <published>2020-05-22T14:00:00.000Z</published>
     <updated>2020-05-22T14:51:30.384Z</updated>
     
@@ -162,19 +162,19 @@
     </summary>
     
     
-      <category term="技术" scheme="https://FZDSLR.gitee.io/blog/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://FZDSLR.gitee.io/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="GALGAME" scheme="https://FZDSLR.gitee.io/blog/tags/GALGAME/"/>
+      <category term="GALGAME" scheme="https://FZDSLR.gitee.io/tags/GALGAME/"/>
     
-      <category term="技术" scheme="https://FZDSLR.gitee.io/blog/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://FZDSLR.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>补充单词7-12</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-05-06-yybc2.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-05-06-yybc2.html</id>
+    <link href="https://fzdslr.gitee.io/2020-05-06-yybc2.html"/>
+    <id>https://fzdslr.gitee.io/2020-05-06-yybc2.html</id>
     <published>2020-05-06T09:00:00.000Z</published>
     <updated>2020-05-06T09:26:19.598Z</updated>
     
@@ -198,8 +198,8 @@
   
   <entry>
     <title>机械振动与机械波</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-05-01-zhengdong1.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-05-01-zhengdong1.html</id>
+    <link href="https://fzdslr.gitee.io/2020-05-01-zhengdong1.html"/>
+    <id>https://fzdslr.gitee.io/2020-05-01-zhengdong1.html</id>
     <published>2020-05-01T03:30:00.000Z</published>
     <updated>2020-05-01T03:07:28.094Z</updated>
     
@@ -218,19 +218,19 @@
     </summary>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="物理" scheme="https://FZDSLR.gitee.io/blog/tags/%E7%89%A9%E7%90%86/"/>
+      <category term="物理" scheme="https://FZDSLR.gitee.io/tags/%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>动量笔记整理</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-21-dongliang1.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-21-dongliang1.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-21-dongliang1.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-21-dongliang1.html</id>
     <published>2020-04-21T00:00:00.000Z</published>
     <updated>2020-04-21T03:34:42.437Z</updated>
     
@@ -249,19 +249,19 @@
     </summary>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="物理" scheme="https://FZDSLR.gitee.io/blog/tags/%E7%89%A9%E7%90%86/"/>
+      <category term="物理" scheme="https://FZDSLR.gitee.io/tags/%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>物构知识点（正在学习中）</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-18-wg1.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-18-wg1.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-18-wg1.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-18-wg1.html</id>
     <published>2020-04-18T15:00:00.000Z</published>
     <updated>2020-05-30T11:37:46.426Z</updated>
     
@@ -280,19 +280,19 @@
     </summary>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/blog/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+      <category term="学习笔记" scheme="https://FZDSLR.gitee.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-      <category term="化学" scheme="https://FZDSLR.gitee.io/blog/tags/%E5%8C%96%E5%AD%A6/"/>
+      <category term="化学" scheme="https://FZDSLR.gitee.io/tags/%E5%8C%96%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>“暴风雪”计划：大纲（持续补充）</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-17-BURAN.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-17-BURAN.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-17-BURAN.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-17-BURAN.html</id>
     <published>2020-04-17T04:00:00.000Z</published>
     <updated>2020-04-17T04:07:28.073Z</updated>
     
@@ -305,19 +305,19 @@
     </summary>
     
     
-      <category term="航天" scheme="https://FZDSLR.gitee.io/blog/categories/%E8%88%AA%E5%A4%A9/"/>
+      <category term="航天" scheme="https://FZDSLR.gitee.io/categories/%E8%88%AA%E5%A4%A9/"/>
     
     
-      <category term="航天" scheme="https://FZDSLR.gitee.io/blog/tags/%E8%88%AA%E5%A4%A9/"/>
+      <category term="航天" scheme="https://FZDSLR.gitee.io/tags/%E8%88%AA%E5%A4%A9/"/>
     
-      <category term="暴风雪-能源" scheme="https://FZDSLR.gitee.io/blog/tags/%E6%9A%B4%E9%A3%8E%E9%9B%AA-%E8%83%BD%E6%BA%90/"/>
+      <category term="暴风雪-能源" scheme="https://FZDSLR.gitee.io/tags/%E6%9A%B4%E9%A3%8E%E9%9B%AA-%E8%83%BD%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>“云”上合唱团</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-16-choir-on-cloud.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-16-choir-on-cloud.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-16-choir-on-cloud.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-16-choir-on-cloud.html</id>
     <published>2020-04-16T11:00:00.000Z</published>
     <updated>2020-04-16T10:24:51.842Z</updated>
     
@@ -336,19 +336,19 @@
     </summary>
     
     
-      <category term="FZYZ" scheme="https://FZDSLR.gitee.io/blog/categories/FZYZ/"/>
+      <category term="FZYZ" scheme="https://FZDSLR.gitee.io/categories/FZYZ/"/>
     
     
-      <category term="FZYZ" scheme="https://FZDSLR.gitee.io/blog/tags/FZYZ/"/>
+      <category term="FZYZ" scheme="https://FZDSLR.gitee.io/tags/FZYZ/"/>
     
-      <category term="测试" scheme="https://FZDSLR.gitee.io/blog/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="https://FZDSLR.gitee.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-14-BINGPICTURES.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-14-BINGPICTURES.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-14-BINGPICTURES.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-14-BINGPICTURES.html</id>
     <published>2020-04-14T08:30:00.000Z</published>
     <updated>2020-04-15T08:01:16.521Z</updated>
     
@@ -367,17 +367,17 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://FZDSLR.gitee.io/blog/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://FZDSLR.gitee.io/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="https://FZDSLR.gitee.io/blog/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://FZDSLR.gitee.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>我是谁</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-04-01-/who-am-i.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-04-01-/who-am-i.html</id>
+    <link href="https://fzdslr.gitee.io/2020-04-01-/who-am-i.html"/>
+    <id>https://fzdslr.gitee.io/2020-04-01-/who-am-i.html</id>
     <published>2020-04-01T02:30:23.000Z</published>
     <updated>2020-04-15T07:56:40.119Z</updated>
     
@@ -401,8 +401,8 @@
   
   <entry>
     <title>FZDSLR的第一篇博客</title>
-    <link href="https://fzdslr.gitee.io/blog/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
-    <id>https://fzdslr.gitee.io/blog/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</id>
+    <link href="https://fzdslr.gitee.io/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
+    <id>https://fzdslr.gitee.io/2020-03-31-FZDSLR%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html</id>
     <published>2020-03-31T13:30:57.000Z</published>
     <updated>2020-04-21T03:24:34.694Z</updated>
     
