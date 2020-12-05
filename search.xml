@@ -2416,11 +2416,10 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
 <h1 id="ttrssfeedme"><a class="markdownIt-Anchor" href="#ttrssfeedme"></a> TTRSS+FEEDME</h1>
 <p>好在，提供免费RSS订阅服务的大佬不止一个，在<a href="https://github.com/AboutRSS/ALL-about-RSS#-free-servers" target="_blank" rel="noopener">这里</a>可以找到免费RSS的订阅服务。经过测试，我选择的是<a href="https://www.ioiox.com/" target="_blank" rel="noopener">思有云 - IOIOX</a>提供的 <a href="https://rss.ioiox.com/" target="_blank" rel="noopener">Tiny Tiny RSS 订阅服务</a>，以及安卓端 RSS 阅览器 <a href="https://github.com/seazon/FeedMe" target="_blank" rel="noopener">FeedMe</a> 的3.9.3版本</p>
 <p><a href="https://www.ioiox.com/archives/94.html" target="_blank" rel="noopener">思有云上的 RSS 介绍</a></p>
-<p><a href="http://pan-yz.chaoxing.com/share/info/a9a3c3f955655d53" target="_blank" rel="noopener">FeedMe的3.9.3版本（超星云盘）</a></p>
+<p><a href="https://pan.baidu.com/s/1Fhe5K5ZlWCtpmqkgi145KQ" target="_blank" rel="noopener">FeedMe的3.9.3版本（提取码：oidm ）</a></p>
 <div class="note info">
             <p>在此提供一个测试网址的方法：下载via浏览器的<code>APK</code>安装包，并安装在手机上，使用其访问网址以确认其可用性。</p>
           </div>
-<p>（未完待续）</p>
 ]]></content>
       <categories>
         <category>Blackberry</category>
@@ -2494,6 +2493,173 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
       <tags>
         <tag>学习笔记</tag>
         <tag>生物</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>黑莓Q20——RSS折腾笔记（2）</title>
+    <url>/2020-12-05-BB10_RSS1-2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="基本配置"><a class="markdownIt-Anchor" href="#基本配置"></a> 基本配置</h1>
+<p>现在假设你已经在你的Blackberry 10手机上安装了FeedMe，并且成功地在服务器上注册了Tiny tiny rss账号，那么接下来进入配置部分。</p>
+<h2 id="feedme端的配置"><a class="markdownIt-Anchor" href="#feedme端的配置"></a> FeedMe端的配置</h2>
+<p>首先在启动页面点击“Tiny Tiny RSS”，然后输入地址、账号、密码进行登录操作。然后打开菜单栏中的“设置”进行进一步的操作。</p>
+<h3 id="同步"><a class="markdownIt-Anchor" href="#同步"></a> 同步</h3>
+<ul>
+<li>自动同步：设置同步时间间隔。不建议选择过高的更新频率，一来没什么意义，二来会耗费大量流量。</li>
+<li>移动数据：在此选择是否仅在Wi-Fi下进行一些同步操作。</li>
+<li>中国模式：建议关闭。其黑名单是写死在程序里的。由于该阅读器自3.13版本之后便不再支持Android 5以下系统，所以黑名单无望更新，因而会导致一些可访问的图片无法访问。</li>
+</ul>
+<h3 id="缓存"><a class="markdownIt-Anchor" href="#缓存"></a> 缓存</h3>
+<ul>
+<li>缓存位置：设定缓存位置。建议设定在存储卡（<code>/external_sd/...</code>）上。</li>
+<li>未读条目：设置更新条目数量。</li>
+<li>缓存数量：设置本地缓存条目数量（不宜过多，不然非常卡）</li>
+</ul>
+<h3 id="界面等"><a class="markdownIt-Anchor" href="#界面等"></a> 界面等</h3>
+<p>这个可以依自己喜好进行探索，在此不再赘述。不过有几个需要注意的事项：</p>
+<ol>
+<li>音量键导航在我的Q20上是不起作用的（估计在其它BB10系统的机器上也是如此）</li>
+<li>由于黑莓10系统似乎无法安装第三方字体，所以字体功能也是无效的。</li>
+</ol>
+<h3 id="实验室"><a class="markdownIt-Anchor" href="#实验室"></a> 实验室</h3>
+<ul>
+<li>
+<p>BBKey Quick Actions</p>
+<p>莓友福利。虽然此功能为黑莓的Key系列安卓机设计，但是在BB10系统上，此功能依然可用。我特意在issue里向开发者要了一下快捷键列表，现在贴在下面。</p>
+<ul>
+<li>列表页</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>B</code></td>
+<td>返回</td>
+</tr>
+<tr>
+<td><code>N</code> / <code>SPACE</code></td>
+<td>下一页</td>
+</tr>
+<tr>
+<td><code>A</code></td>
+<td>所有条目/未读条目</td>
+</tr>
+<tr>
+<td><code>P</code> / shift + <code>SPACE</code></td>
+<td>上一页</td>
+</tr>
+<tr>
+<td><code>R</code></td>
+<td>刷新</td>
+</tr>
+<tr>
+<td>double click <code>R</code></td>
+<td>刷新所有</td>
+</tr>
+<tr>
+<td><code>S</code></td>
+<td>搜索</td>
+</tr>
+<tr>
+<td><code>V</code></td>
+<td>查看</td>
+</tr>
+<tr>
+<td><code>C</code></td>
+<td>设置</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>文章页</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>B</code></td>
+<td>返回</td>
+</tr>
+<tr>
+<td><code>P</code> / shift + <code>SPACE</code></td>
+<td>上一页</td>
+</tr>
+<tr>
+<td><code>N</code> / <code>SPACE</code></td>
+<td>下一页</td>
+</tr>
+<tr>
+<td><code>S</code></td>
+<td>加星</td>
+</tr>
+<tr>
+<td>double click <code>S</code></td>
+<td>分享</td>
+</tr>
+<tr>
+<td><code>T</code></td>
+<td>标签</td>
+</tr>
+<tr>
+<td>double click <code>T</code></td>
+<td>todoist</td>
+</tr>
+<tr>
+<td>double click <code>E</code></td>
+<td>evernote</td>
+</tr>
+<tr>
+<td><code>V</code></td>
+<td>查看</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2 id="ttrss端的配置"><a class="markdownIt-Anchor" href="#ttrss端的配置"></a> TTRSS端的配置</h2>
+<p>从右上角进入<code>偏好设置</code>进行进一步操作。</p>
+<h3 id="偏好设置"><a class="markdownIt-Anchor" href="#偏好设置"></a> 偏好设置</h3>
+<ul>
+<li>主题： 选择一款你所喜爱的主题。<span class="heimu" title="我知道的太少了">或者自己写css</span></li>
+</ul>
+<h3 id="插件"><a class="markdownIt-Anchor" href="#插件"></a> 插件</h3>
+<p>建议开启<code>mercury_fulltext</code>插件，以获取摘要RSS中文章的全文。点击其右方的小勾开启插件，然后在<code>信息源</code>栏目中的最下面的<code>Mercury Fulltext settings (mercury_fulltext)</code>一栏去添加需要获取全文的RSS源。</p>
+<h3 id="信息源"><a class="markdownIt-Anchor" href="#信息源"></a> 信息源</h3>
+<p>在此管理信息源、进行增减信息源、导入导出OPML文件等操作。</p>
+<blockquote>
+<p>效果对比</p>
+<table>
+<thead>
+<tr>
+<th>RSS Savvy</th>
+<th>FeedMe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/BB10/IMG_20201017_220811.png" alt="" /></td>
+<td><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/BB10/BB10-FeedMe2.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Blackberry</category>
+      </categories>
+      <tags>
+        <tag>Blackberry</tag>
+        <tag>RSS</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
 </search>
