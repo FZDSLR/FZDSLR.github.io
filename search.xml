@@ -2662,4 +2662,103 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
         <tag>技术</tag>
       </tags>
   </entry>
+  <entry>
+    <title>拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装</title>
+    <url>/2021-02-11-Manjaro-1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1 id="前言"><a class="markdownIt-Anchor" href="#前言"></a> 前言</h1>
+<p>我为什么要装一个Linux系统呢？</p>
+<p>原因非常简单——手上这台2016年的笔记本实在是卡的不行了。</p>
+<p>卡到什么程度呢？卸载个软件都会概率死机，常年CPU占用100%，内存——好吧还算比较健康吧——当然是比较。</p>
+<p>于是经过一番寻找。我选择安装Manjaro这个发行版与Xfce桌面环境，原因同上。总的来说，安装与配置过程还算是比较简单的，也并没有踩太多坑。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-06_17-14-39.png" alt="初步配置效果" /></p>
+<h1 id="准备"><a class="markdownIt-Anchor" href="#准备"></a> 准备</h1>
+<h2 id="下载镜像"><a class="markdownIt-Anchor" href="#下载镜像"></a> 下载镜像</h2>
+<p>在 <a href="https://manjaro.org/download/" target="_blank" rel="noopener">Manjaro 的下载页面</a>下载镜像。</p>
+<h2 id="制作启动盘"><a class="markdownIt-Anchor" href="#制作启动盘"></a> 制作启动盘</h2>
+<h3 id="下载rufus"><a class="markdownIt-Anchor" href="#下载rufus"></a> 下载Rufus</h3>
+<p>前往<a href="http://rufus.ie/" target="_blank" rel="noopener">Rufus的官方页面</a>下载启动盘制作工具。</p>
+<p>需要注意的是，由于新版本不支持以DD模式写入镜像，故请下载旧版本。</p>
+<h3 id="写入镜像"><a class="markdownIt-Anchor" href="#写入镜像"></a> 写入镜像</h3>
+<p>将一个大于8G的U盘插入电脑的USB接口，然后打开Rufus，在其中选择U盘与镜像文件，在随后弹出的写入方式选择页面中<strong>务必选择</strong>＂以DD方式写入＂。</p>
+<h2 id="电脑设置"><a class="markdownIt-Anchor" href="#电脑设置"></a> 电脑设置</h2>
+<h3 id="windows"><a class="markdownIt-Anchor" href="#windows"></a> Windows</h3>
+<p>在Windows 10中关闭＂快速启动＂。</p>
+<h3 id="bios"><a class="markdownIt-Anchor" href="#bios"></a> BIOS</h3>
+<p>在BIOS中关闭＂安全模式＂，并在启动顺序设置中将U盘启动（我这边是USB HDD）调整至首位。此时确认启动盘已经插在电脑上，然后保存配置。</p>
+<h1 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h1>
+<p>进入欢迎页面（似乎是一个LiveCD系统），然后按部就班地进行配置。以下是一些记录。</p>
+<h2 id="地区"><a class="markdownIt-Anchor" href="#地区"></a> 地区</h2>
+<p>Asia/shanghai</p>
+<h2 id="分区"><a class="markdownIt-Anchor" href="#分区"></a> 分区</h2>
+<p>由于我选择同时使用双系统，故选择了＂手动分区＂。<br />
+我给了 Manjaro 40GB的空间。我是这么手动分区的：</p>
+<ul>
+<li>保留Windows的引导分区（一般为Fat32格式，大小一百至几百M），并在之上挂载boot/efi，标签打上efi</li>
+<li>给 /boot 512M。</li>
+<li>给 / 20G以上，不然构建某些软件时（如WPS）会因空间不足而无法安装。</li>
+<li>swap 看需求，我用这台机子也就是轻度使用而已，所以没分。</li>
+<li>剩下的全给 /home</li>
+</ul>
+<h2 id="坐等安装"><a class="markdownIt-Anchor" href="#坐等安装"></a> 坐等安装</h2>
+<p>如果进度条卡在93％，那么只要关掉网络，一切都会好起来的（意味深）</p>
+<h2 id="安装完成"><a class="markdownIt-Anchor" href="#安装完成"></a> 安装完成！</h2>
+<p>然后直接重启</p>
+<h1 id="配置xfce下"><a class="markdownIt-Anchor" href="#配置xfce下"></a> 配置（Xfce下）</h1>
+<p>虽然常听说Linux需要使用许多命令行，但经过初步使用，我发现许多操作其实完全可以使用图形化界面解决。下面就是一个不怎么会命令行还经常输入错误的菜鸟的配置过程。</p>
+<h2 id="做好安装软件的准备吧"><a class="markdownIt-Anchor" href="#做好安装软件的准备吧"></a> 做好安装软件的准备吧！</h2>
+<p>打开<code>添加/删除软件</code>，在<code>首选项</code>里将AUR栏下的<code>启用AUR支持</code>打开。之后应该会有一堆更新提示，全部更新完后Manjaro应该会提示重启，重启完后就可以正式安装东西了。</p>
+<h2 id="软件合集偶尔更新ing"><a class="markdownIt-Anchor" href="#软件合集偶尔更新ing"></a> 软件合集（偶尔更新ing）</h2>
+<h3 id="wps"><a class="markdownIt-Anchor" href="#wps"></a> WPS</h3>
+<p>良心软件，在Linux端没有广告，并可以登录与同步。请于<a href="https://wiki.archlinux.org/index.php/WPS_Office_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)" target="_blank" rel="noopener">ArchWiki上WPS的说明文档</a>查看详细注意事项。<br />
+这玩意儿安装包不大，但构建起来超级慢且占用空间，请耐心等待。</p>
+<h3 id="fcitx"><a class="markdownIt-Anchor" href="#fcitx"></a> Fcitx</h3>
+<p>简单而好用的输入法。<a href="https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)" target="_blank" rel="noopener">ArchWiki上Fcitx的说明文档</a></p>
+<h3 id="plank"><a class="markdownIt-Anchor" href="#plank"></a> Plank</h3>
+<p>悬浮窗（Dock）部件。小巧而好看，但有几点要注意：</p>
+<ul>
+<li>在命令行中输入<code>plank --preferences</code>来唤出设置页面。</li>
+<li>如果出现一条让人感到不幸福的阴影线，在<code>窗口管理器微调</code>中关闭Dock的阴影。</li>
+<li>若想在开机时启动，在启动项中添加，名称随意，命令为<code>plank</code>。</li>
+</ul>
+<h3 id="typora"><a class="markdownIt-Anchor" href="#typora"></a> Typora</h3>
+<p>Markdown编辑器。有多好用，懂的都懂。</p>
+<h3 id="stellarium"><a class="markdownIt-Anchor" href="#stellarium"></a> Stellarium</h3>
+<p>天文与摄影爱好者的必备软件，功能极为强大。</p>
+<h3 id="inkscape"><a class="markdownIt-Anchor" href="#inkscape"></a> Inkscape</h3>
+<p>矢量图绘制软件。远没有AI好用，不过有总比没有好。</p>
+<h3 id="listen-1"><a class="markdownIt-Anchor" href="#listen-1"></a> Listen 1</h3>
+<p>在一处搜索和播放来自多个主流音乐网站的歌曲！<a href="https://github.com/listen1/listen1_desktop" target="_blank" rel="noopener">Github上的桌面端项目主页</a></p>
+<h3 id="网易云音乐"><a class="markdownIt-Anchor" href="#网易云音乐"></a> 网易云音乐</h3>
+<p>网易云的Linux版本。功能有一定缺失，而且有点卡（对我而言），不过总体符合预期。</p>
+<h3 id="appimage-launcher"><a class="markdownIt-Anchor" href="#appimage-launcher"></a> AppImage Launcher</h3>
+<p>可以方便地将Appimage格式的程序统一放置并呈现在应用程序菜单中。</p>
+<h3 id="qq-for-linux"><a class="markdownIt-Anchor" href="#qq-for-linux"></a> QQ For Linux</h3>
+<p>低情商：Linux端的QQ丑的离谱</p>
+<p>高情商：腾讯是想复刻2008年的经典吗？</p>
+<p>我纯粹是因为Wine跑起来CPU占用直接100%才用原生版本的，不然谁会正经使用这玩意儿…</p>
+<h3 id="gimp"><a class="markdownIt-Anchor" href="#gimp"></a> Gimp</h3>
+<p>系统自带的图像处理程序。够用。</p>
+<h3 id="steam"><a class="markdownIt-Anchor" href="#steam"></a> Steam</h3>
+<p>Manjaro自带。支持Linux的游戏虽然少，但还是有一些的。像战争雷霆，P社的各种甲级战犯<s>培养</s>模拟器等理论上都可以运行。一些Galgame（ONS引擎的）也可以运行（比如水仙1、2）。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-11_20-42-40.png" alt="水仙的中文补丁得自己打" /></p>
+<h2 id="旁门左道"><a class="markdownIt-Anchor" href="#旁门左道"></a> 旁门左道</h2>
+<h3 id="右侧面板的实现"><a class="markdownIt-Anchor" href="#右侧面板的实现"></a> 右侧面板的实现</h3>
+<p>右击下端的面板（在WIndows上似乎叫任务栏，这不重要），选择<code>面板-面板首选项</code>，点击“面板0”旁边的加号，新建面板。</p>
+<p>显示栏。面板模式选择“桌面栏”，自动隐藏面板选择“智能”。</p>
+<p>至于项目栏…我的项目栏长这样。</p>
+<p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-09_23-42-59.png" alt="" /></p>
+<p>为什么有了电池监视器又列出一个电量管理插件呢？因为前者可以直接显示电量的百分比，而后者有一个非常方便的功能——把鼠标指针放在图标上，滚动鼠标滚轮，即可调节屏幕亮度。<s>所以为什么它不叫“亮度管理插件”呢？我很好奇。</s></p>
+<p>这里面大部分的东西可以通过右键菜单中的“属性”调节，这个就属于仁者见仁的东西了。比如向我这种交换分区一点没给的，就没有必要显示swap占用了。</p>
+<p>顺带一提，这里<code>Whisker菜单</code>里的设置是独特的，它不会影响左下角（默认情况下）的<code>Whisker菜单</code>的设置。这就意味着它可以充当一个简单的应用程序收藏夹。</p>
+<h3 id="工作区设置不同壁纸"><a class="markdownIt-Anchor" href="#工作区设置不同壁纸"></a> 工作区设置不同壁纸</h3>
+<p>在桌面右击，选择“桌面设置”，取消<code>应用到所有工作区</code>，然后就可以为每个工作区设置独特的壁纸了。</p>
+<p>有什么用吗？没啥用，不过很有趣。<s>或许能满足一些绅士在ghs和正经工作之间快速切换的需求。</s></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
 </search>
