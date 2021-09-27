@@ -1,0 +1,238 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装 | FZDSLR</title><meta name="keywords" content="技术"><meta name="author" content="FZDSLR"><meta name="copyright" content="FZDSLR"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="前言 我为什么要装一个Linux系统呢？ 原因非常简单——手上这台2016年的笔记本实在是卡的不行了。 卡到什么程度呢？卸载个软件都会概率死机，常年CPU占用100%，内存——好吧还算比较健康吧——当然是比较。 于是经过一番寻找。我选择安装Manjaro这个发行版与Xfce桌面环境，原因同上。总的来说，安装与配置过程还算是比较简单的，也并没有踩太多坑。  准备 下载镜像 在 Manjaro 的下载">
+<meta property="og:type" content="article">
+<meta property="og:title" content="拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装">
+<meta property="og:url" content="http://blog.fzdslr.cn/2021-02-11-Manjaro-1.html">
+<meta property="og:site_name" content="FZDSLR">
+<meta property="og:description" content="前言 我为什么要装一个Linux系统呢？ 原因非常简单——手上这台2016年的笔记本实在是卡的不行了。 卡到什么程度呢？卸载个软件都会概率死机，常年CPU占用100%，内存——好吧还算比较健康吧——当然是比较。 于是经过一番寻找。我选择安装Manjaro这个发行版与Xfce桌面环境，原因同上。总的来说，安装与配置过程还算是比较简单的，也并没有踩太多坑。  准备 下载镜像 在 Manjaro 的下载">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/截图_2021-02-06_17-14-39.png">
+<meta property="article:published_time" content="2021-02-11T14:00:00.000Z">
+<meta property="article:modified_time" content="2021-02-11T13:57:18.556Z">
+<meta property="article:author" content="FZDSLR">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/截图_2021-02-06_17-14-39.png"><link rel="shortcut icon" href="/img/LOGO-haihui-JC-TB.ico"><link rel="canonical" href="http://blog.fzdslr.cn/2021-02-11-Manjaro-1"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-02-11 21:57:18'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FZDSLR/WDCK-1/extra1.css"><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/1.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/daily/"><i class="fa-fw fas fa-sticky-note"></i><span> 一些记录</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-object-ungroup"></i><span> 音像</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-link"></i><span> 链接</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/blogfriend/"><i class="fa-fw fas fa-handshake"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/space/"><i class="fa-fw fas fa-rocket"></i><span> 航天</span></a></li><li><a class="site-page child" href="/link/papercraft/"><i class="fa-fw fas fa-paper-plane"></i><span> 纸模</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/who-am-i.html"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/截图_2021-02-06_17-14-39.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">FZDSLR</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/daily/"><i class="fa-fw fas fa-sticky-note"></i><span> 一些记录</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-object-ungroup"></i><span> 音像</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/photos/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li><li><a class="site-page child" href="/music/"><i class="fa-fw fa fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fa fa-link"></i><span> 链接</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/blogfriend/"><i class="fa-fw fas fa-handshake"></i><span> 友链</span></a></li><li><a class="site-page child" href="/link/space/"><i class="fa-fw fas fa-rocket"></i><span> 航天</span></a></li><li><a class="site-page child" href="/link/papercraft/"><i class="fa-fw fas fa-paper-plane"></i><span> 纸模</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/who-am-i.html"><i class="fa-fw fa fa-user-circle"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-02-11T14:00:00.000Z" title="发表于 2021-02-11 22:00:00">2021-02-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-02-11T13:57:18.556Z" title="更新于 2021-02-11 21:57:18">2021-02-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1>前言</h1>
+<p>我为什么要装一个Linux系统呢？</p>
+<p>原因非常简单——手上这台2016年的笔记本实在是卡的不行了。</p>
+<p>卡到什么程度呢？卸载个软件都会概率死机，常年CPU占用100%，内存——好吧还算比较健康吧——当然是比较。</p>
+<p>于是经过一番寻找。我选择安装Manjaro这个发行版与Xfce桌面环境，原因同上。总的来说，安装与配置过程还算是比较简单的，也并没有踩太多坑。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-06_17-14-39.png" alt="初步配置效果"></p>
+<h1>准备</h1>
+<h2 id="下载镜像">下载镜像</h2>
+<p>在 <a target="_blank" rel="noopener" href="https://manjaro.org/download/">Manjaro 的下载页面</a>下载镜像。</p>
+<h2 id="制作启动盘">制作启动盘</h2>
+<h3 id="下载Rufus">下载Rufus</h3>
+<p>前往<a target="_blank" rel="noopener" href="http://rufus.ie/">Rufus的官方页面</a>下载启动盘制作工具。</p>
+<p>需要注意的是，由于新版本不支持以DD模式写入镜像，故请下载旧版本。</p>
+<h3 id="写入镜像">写入镜像</h3>
+<p>将一个大于8G的U盘插入电脑的USB接口，然后打开Rufus，在其中选择U盘与镜像文件，在随后弹出的写入方式选择页面中<strong>务必选择</strong>＂以DD方式写入＂。</p>
+<h2 id="电脑设置">电脑设置</h2>
+<h3 id="Windows">Windows</h3>
+<p>在Windows 10中关闭＂快速启动＂。</p>
+<h3 id="BIOS">BIOS</h3>
+<p>在BIOS中关闭＂安全模式＂，并在启动顺序设置中将U盘启动（我这边是USB HDD）调整至首位。此时确认启动盘已经插在电脑上，然后保存配置。</p>
+<h1>安装</h1>
+<p>进入欢迎页面（似乎是一个LiveCD系统），然后按部就班地进行配置。以下是一些记录。</p>
+<h2 id="地区">地区</h2>
+<p>Asia/shanghai</p>
+<h2 id="分区">分区</h2>
+<p>由于我选择同时使用双系统，故选择了＂手动分区＂。<br>
+我给了 Manjaro 40GB的空间。我是这么手动分区的：</p>
+<ul>
+<li>保留Windows的引导分区（一般为Fat32格式，大小一百至几百M），并在之上挂载boot/efi，标签打上efi</li>
+<li>给 /boot 512M。</li>
+<li>给 / 20G以上，不然构建某些软件时（如WPS）会因空间不足而无法安装。</li>
+<li>swap 看需求，我用这台机子也就是轻度使用而已，所以没分。</li>
+<li>剩下的全给 /home</li>
+</ul>
+<h2 id="坐等安装">坐等安装</h2>
+<p>如果进度条卡在93％，那么只要关掉网络，一切都会好起来的（意味深）</p>
+<h2 id="安装完成！">安装完成！</h2>
+<p>然后直接重启</p>
+<h1>配置（Xfce下）</h1>
+<p>虽然常听说Linux需要使用许多命令行，但经过初步使用，我发现许多操作其实完全可以使用图形化界面解决。下面就是一个不怎么会命令行还经常输入错误的菜鸟的配置过程。</p>
+<h2 id="做好安装软件的准备吧！">做好安装软件的准备吧！</h2>
+<p>打开<code>添加/删除软件</code>，在<code>首选项</code>里将AUR栏下的<code>启用AUR支持</code>打开。之后应该会有一堆更新提示，全部更新完后Manjaro应该会提示重启，重启完后就可以正式安装东西了。</p>
+<h2 id="软件合集（偶尔更新ing）">软件合集（偶尔更新ing）</h2>
+<h3 id="WPS">WPS</h3>
+<p>良心软件，在Linux端没有广告，并可以登录与同步。请于<a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/WPS_Office_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">ArchWiki上WPS的说明文档</a>查看详细注意事项。<br>
+这玩意儿安装包不大，但构建起来超级慢且占用空间，请耐心等待。</p>
+<h3 id="Fcitx">Fcitx</h3>
+<p>简单而好用的输入法。<a target="_blank" rel="noopener" href="https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">ArchWiki上Fcitx的说明文档</a></p>
+<h3 id="Plank">Plank</h3>
+<p>悬浮窗（Dock）部件。小巧而好看，但有几点要注意：</p>
+<ul>
+<li>在命令行中输入<code>plank --preferences</code>来唤出设置页面。</li>
+<li>如果出现一条让人感到不幸福的阴影线，在<code>窗口管理器微调</code>中关闭Dock的阴影。</li>
+<li>若想在开机时启动，在启动项中添加，名称随意，命令为<code>plank</code>。</li>
+</ul>
+<h3 id="Typora">Typora</h3>
+<p>Markdown编辑器。有多好用，懂的都懂。</p>
+<h3 id="Stellarium">Stellarium</h3>
+<p>天文与摄影爱好者的必备软件，功能极为强大。</p>
+<h3 id="Inkscape">Inkscape</h3>
+<p>矢量图绘制软件。远没有AI好用，不过有总比没有好。</p>
+<h3 id="Listen-1">Listen 1</h3>
+<p>在一处搜索和播放来自多个主流音乐网站的歌曲！<a target="_blank" rel="noopener" href="https://github.com/listen1/listen1_desktop">Github上的桌面端项目主页</a></p>
+<h3 id="网易云音乐">网易云音乐</h3>
+<p>网易云的Linux版本。功能有一定缺失，而且有点卡（对我而言），不过总体符合预期。</p>
+<h3 id="AppImage-Launcher">AppImage Launcher</h3>
+<p>可以方便地将Appimage格式的程序统一放置并呈现在应用程序菜单中。</p>
+<h3 id="QQ-For-Linux">QQ For Linux</h3>
+<p>低情商：Linux端的QQ丑的离谱</p>
+<p>高情商：腾讯是想复刻2008年的经典吗？</p>
+<p>我纯粹是因为Wine跑起来CPU占用直接100%才用原生版本的，不然谁会正经使用这玩意儿…</p>
+<h3 id="Gimp">Gimp</h3>
+<p>系统自带的图像处理程序。够用。</p>
+<h3 id="Steam">Steam</h3>
+<p>Manjaro自带。支持Linux的游戏虽然少，但还是有一些的。像战争雷霆，P社的各种甲级战犯<s>培养</s>模拟器等理论上都可以运行。一些Galgame（ONS引擎的）也可以运行（比如水仙1、2）。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-11_20-42-40.png" alt="水仙的中文补丁得自己打"></p>
+<h2 id="旁门左道">旁门左道</h2>
+<h3 id="右侧面板的实现">右侧面板的实现</h3>
+<p>右击下端的面板（在WIndows上似乎叫任务栏，这不重要），选择<code>面板-面板首选项</code>，点击“面板0”旁边的加号，新建面板。</p>
+<p>显示栏。面板模式选择“桌面栏”，自动隐藏面板选择“智能”。</p>
+<p>至于项目栏…我的项目栏长这样。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-02-09_23-42-59.png" alt=""></p>
+<p>为什么有了电池监视器又列出一个电量管理插件呢？因为前者可以直接显示电量的百分比，而后者有一个非常方便的功能——把鼠标指针放在图标上，滚动鼠标滚轮，即可调节屏幕亮度。<s>所以为什么它不叫“亮度管理插件”呢？我很好奇。</s></p>
+<p>这里面大部分的东西可以通过右键菜单中的“属性”调节，这个就属于仁者见仁的东西了。比如向我这种交换分区一点没给的，就没有必要显示swap占用了。</p>
+<p>顺带一提，这里<code>Whisker菜单</code>里的设置是独特的，它不会影响左下角（默认情况下）的<code>Whisker菜单</code>的设置。这就意味着它可以充当一个简单的应用程序收藏夹。</p>
+<h3 id="工作区设置不同壁纸">工作区设置不同壁纸</h3>
+<p>在桌面右击，选择“桌面设置”，取消<code>应用到所有工作区</code>，然后就可以为每个工作区设置独特的壁纸了。</p>
+<p>有什么用吗？没啥用，不过很有趣。<s>或许能满足一些绅士在ghs和正经工作之间快速切换的需求。</s></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">FZDSLR</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://blog.fzdslr.cn/2021-02-11-Manjaro-1.html">http://blog.fzdslr.cn/2021-02-11-Manjaro-1.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://blog.FZDSLR.cn" target="_blank">FZDSLR</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%8A%80%E6%9C%AF/">技术</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/截图_2021-02-06_17-14-39.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021-08-29-manjaro-2.html"><img class="prev-cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-08-29_23-16-36.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Manjaro及Xfce的一些魔改记录</div></div></a></div><div class="next-post pull-right"><a href="/2020-12-05-BB10_RSS1-2.html"><img class="next-cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/BB10/BB-2.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">黑莓Q20——RSS折腾笔记（2）</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2020-10-17-BB10_RSS1-1.html" title="黑莓Q20——RSS折腾笔记（1）"><img class="cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/BB10/IMG_20201013_221335.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-10-17</div><div class="title">黑莓Q20——RSS折腾笔记（1）</div></div></a></div><div><a href="/2020-12-05-BB10_RSS1-2.html" title="黑莓Q20——RSS折腾笔记（2）"><img class="cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/BB10/BB-2.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-05</div><div class="title">黑莓Q20——RSS折腾笔记（2）</div></div></a></div><div><a href="/2020-05-22-key-omv.html" title="Key社Gal中OMV文件的转码方法"><img class="cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/acg/SP/bg201e.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-05-22</div><div class="title">Key社Gal中OMV文件的转码方法</div></div></a></div><div><a href="/2021-08-29-manjaro-2.html" title="Manjaro及Xfce的一些魔改记录"><img class="cover" src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-08-29_23-16-36.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-08-29</div><div class="title">Manjaro及Xfce的一些魔改记录</div></div></a></div><div><a href="/2021-09-12-setPicSite.html" title="使用自己的域名访问 Github 上的资源"><img class="cover" src="https://cdn1.fzdslr.cn/Pic/cover/wp2258508-1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-09-12</div><div class="title">使用自己的域名访问 Github 上的资源</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/1.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">FZDSLR</div><div class="author-info__description">Auferstanden aus Ruinen</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">20</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="mailto:fzdslr@outlook.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/359353323" target="_blank" title="Bilibili"><i class="fa fa-caret-square-o-right"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">欢迎来到 FZDSLR 的小站！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">2.</span> <span class="toc-text">准备</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F"><span class="toc-number">2.1.</span> <span class="toc-text">下载镜像</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%B6%E4%BD%9C%E5%90%AF%E5%8A%A8%E7%9B%98"><span class="toc-number">2.2.</span> <span class="toc-text">制作启动盘</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BDRufus"><span class="toc-number">2.2.1.</span> <span class="toc-text">下载Rufus</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%99%E5%85%A5%E9%95%9C%E5%83%8F"><span class="toc-number">2.2.2.</span> <span class="toc-text">写入镜像</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%B5%E8%84%91%E8%AE%BE%E7%BD%AE"><span class="toc-number">2.3.</span> <span class="toc-text">电脑设置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Windows"><span class="toc-number">2.3.1.</span> <span class="toc-text">Windows</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#BIOS"><span class="toc-number">2.3.2.</span> <span class="toc-text">BIOS</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">3.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%B0%E5%8C%BA"><span class="toc-number">3.1.</span> <span class="toc-text">地区</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%8C%BA"><span class="toc-number">3.2.</span> <span class="toc-text">分区</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9D%90%E7%AD%89%E5%AE%89%E8%A3%85"><span class="toc-number">3.3.</span> <span class="toc-text">坐等安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90%EF%BC%81"><span class="toc-number">3.4.</span> <span class="toc-text">安装完成！</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">4.</span> <span class="toc-text">配置（Xfce下）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%9A%E5%A5%BD%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6%E7%9A%84%E5%87%86%E5%A4%87%E5%90%A7%EF%BC%81"><span class="toc-number">4.1.</span> <span class="toc-text">做好安装软件的准备吧！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%90%88%E9%9B%86%EF%BC%88%E5%81%B6%E5%B0%94%E6%9B%B4%E6%96%B0ing%EF%BC%89"><span class="toc-number">4.2.</span> <span class="toc-text">软件合集（偶尔更新ing）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#WPS"><span class="toc-number">4.2.1.</span> <span class="toc-text">WPS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Fcitx"><span class="toc-number">4.2.2.</span> <span class="toc-text">Fcitx</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Plank"><span class="toc-number">4.2.3.</span> <span class="toc-text">Plank</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Typora"><span class="toc-number">4.2.4.</span> <span class="toc-text">Typora</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Stellarium"><span class="toc-number">4.2.5.</span> <span class="toc-text">Stellarium</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Inkscape"><span class="toc-number">4.2.6.</span> <span class="toc-text">Inkscape</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Listen-1"><span class="toc-number">4.2.7.</span> <span class="toc-text">Listen 1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90"><span class="toc-number">4.2.8.</span> <span class="toc-text">网易云音乐</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#AppImage-Launcher"><span class="toc-number">4.2.9.</span> <span class="toc-text">AppImage Launcher</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#QQ-For-Linux"><span class="toc-number">4.2.10.</span> <span class="toc-text">QQ For Linux</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Gimp"><span class="toc-number">4.2.11.</span> <span class="toc-text">Gimp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Steam"><span class="toc-number">4.2.12.</span> <span class="toc-text">Steam</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%81%E9%97%A8%E5%B7%A6%E9%81%93"><span class="toc-number">4.3.</span> <span class="toc-text">旁门左道</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%B3%E4%BE%A7%E9%9D%A2%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0"><span class="toc-number">4.3.1.</span> <span class="toc-text">右侧面板的实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B7%A5%E4%BD%9C%E5%8C%BA%E8%AE%BE%E7%BD%AE%E4%B8%8D%E5%90%8C%E5%A3%81%E7%BA%B8"><span class="toc-number">4.3.2.</span> <span class="toc-text">工作区设置不同壁纸</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021-09-26-GDSS_1_1.html" title="高等数学（上）第一章归纳"><img src="https://cdn1.fzdslr.cn/Pic/ACG/yzstyb/2-1-10.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="高等数学（上）第一章归纳"/></a><div class="content"><a class="title" href="/2021-09-26-GDSS_1_1.html" title="高等数学（上）第一章归纳">高等数学（上）第一章归纳</a><time datetime="2021-09-26T10:00:00.000Z" title="发表于 2021-09-26 18:00:00">2021-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021-09-23-sakuranotoki-1.html" title="在樱花之森下咕咕咕——樱之刻体验版观后感及毒奶"><img src="https://cdn1.fzdslr.cn/Pic/ACG/yzstyb/2-bg01.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在樱花之森下咕咕咕——樱之刻体验版观后感及毒奶"/></a><div class="content"><a class="title" href="/2021-09-23-sakuranotoki-1.html" title="在樱花之森下咕咕咕——樱之刻体验版观后感及毒奶">在樱花之森下咕咕咕——樱之刻体验版观后感及毒奶</a><time datetime="2021-09-23T14:00:00.000Z" title="发表于 2021-09-23 22:00:00">2021-09-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021-09-12-setPicSite.html" title="使用自己的域名访问 Github 上的资源"><img src="https://cdn1.fzdslr.cn/Pic/cover/wp2258508-1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="使用自己的域名访问 Github 上的资源"/></a><div class="content"><a class="title" href="/2021-09-12-setPicSite.html" title="使用自己的域名访问 Github 上的资源">使用自己的域名访问 Github 上的资源</a><time datetime="2021-09-12T04:00:00.000Z" title="发表于 2021-09-12 12:00:00">2021-09-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021-08-29-manjaro-2.html" title="Manjaro及Xfce的一些魔改记录"><img src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/%E6%88%AA%E5%9B%BE_2021-08-29_23-16-36.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Manjaro及Xfce的一些魔改记录"/></a><div class="content"><a class="title" href="/2021-08-29-manjaro-2.html" title="Manjaro及Xfce的一些魔改记录">Manjaro及Xfce的一些魔改记录</a><time datetime="2021-08-29T07:00:00.000Z" title="发表于 2021-08-29 15:00:00">2021-08-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021-02-11-Manjaro-1.html" title="拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装"><img src="https://cdn.jsdelivr.net/gh/FZDSLR/buran-picture-bed/Tec/manjaro/截图_2021-02-06_17-14-39.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装"/></a><div class="content"><a class="title" href="/2021-02-11-Manjaro-1.html" title="拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装">拯救旧电脑——轻量Linux发行版Manjaro及桌面环境Xfce安装</a><time datetime="2021-02-11T14:00:00.000Z" title="发表于 2021-02-11 22:00:00">2021-02-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By FZDSLR</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
