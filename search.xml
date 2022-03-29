@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>使用软链接管理配置文件</title>
+      <link href="/2022-03-29-howtobakdotfile.html"/>
+      <url>/2022-03-29-howtobakdotfile.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="前言">前言</h2><p>在配置 Linux 的时候，我们往往需要和许多配置文件打交道。由于许多配置文件以 <code>.</code> 开头，所以又被称作“dotfile”。如果需要自定义多个配置文件，那么就会产生一个问题：配置文件分散在各处，难以统一管理。这时，可以利用软链接，将分散在多个位置的配置文件集中到一起，进行统一管理。</p><h2 id="什么是链接">什么是链接</h2><p>链接对应 Linux 中的 <code>ln</code> 命令。在不同目录中使用相同文件时，我们不需要在每一个相同的目录下都放置相同的文件，只需要在某个目录放置文件，然后在另外的目录用 <code>ln</code> 命令链接它即可。</p><p>链接分为软链接和硬链接，它们的区别有：</p><ul><li>软链接以路径的形式存在，而硬链接以文本副本的形式存在</li><li>软链接可以跨文件系统，而硬链接不行</li><li>软链接可以链接目录，也可以链接不存在的文件名</li></ul><p>使用 <code>ln -s</code> 创建一个软链接，如 <code>ln -s ~/dotfile/vim/ultisnips/markdown.snippets .vim/UltiSnips/</code></p><h2 id="使用软链接管理配置文件">使用软链接管理配置文件</h2><p>基本步骤是：</p><ol><li>建立一个用于存放配置文件的目录，并初始化 Git 仓库。</li><li>将配置文件从原位置移动到前一步建立的目录下。</li><li>在原位置建立一个链接到移动后的配置文件的符号链接。</li></ol><p>然后就可以在一个目录下快乐地使用 Git 管理配置文件了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+            <tag> Sway </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在 Chromebook Pixel 2013 上安装 ArchLinux + Sway</title>
       <link href="/2022-03-25-archonchromebook2013-1.html"/>
       <url>/2022-03-25-archonchromebook2013-1.html</url>

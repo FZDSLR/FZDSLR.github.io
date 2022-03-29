@@ -6,7 +6,7 @@
   <link href="http://blog.fzdslr.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.fzdslr.cn/"/>
-  <updated>2022-03-25T14:22:33.577Z</updated>
+  <updated>2022-03-29T14:44:45.573Z</updated>
   <id>http://blog.fzdslr.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用软链接管理配置文件</title>
+    <link href="http://blog.fzdslr.cn/2022-03-29-howtobakdotfile.html"/>
+    <id>http://blog.fzdslr.cn/2022-03-29-howtobakdotfile.html</id>
+    <published>2022-03-29T15:45:00.000Z</published>
+    <updated>2022-03-29T14:44:45.573Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="前言">前言</h2><p>在配置 Linux 的时候，我们往往需要和许多配置文件打交道。由于许多配置文件以 <code>.</code> 开头，所以又被称作“dotfile”。如果需要自定义多个配置文件，那么就会产生一个问题：配置文件分散在各处，难以统一管理。这时，可以利用软链接，将分散在多个位置的配置文件集中到一起，进行统一管理。</p><h2 id="什么是链接">什么是链接</h2><p>链接对应 Linux 中的 <code>ln</code> 命令。在不同目录中使用相同文件时，我们不需要在每一个相同的目录下都放置相同的文件，只需要在某个目录放置文件，然后在另外的目录用 <code>ln</code> 命令链接它即可。</p><p>链接分为软链接和硬链接，它们的区别有：</p><ul><li>软链接以路径的形式存在，而硬链接以文本副本的形式存在</li><li>软链接可以跨文件系统，而硬链接不行</li><li>软链接可以链接目录，也可以链接不存在的文件名</li></ul><p>使用 <code>ln -s</code> 创建一个软链接，如 <code>ln -s ~/dotfile/vim/ultisnips/markdown.snippets .vim/UltiSnips/</code></p><h2 id="使用软链接管理配置文件">使用软链接管理配置文件</h2><p>基本步骤是：</p><ol><li>建立一个用于存放配置文件的目录，并初始化 Git 仓库。</li><li>将配置文件从原位置移动到前一步建立的目录下。</li><li>在原位置建立一个链接到移动后的配置文件的符号链接。</li></ol><p>然后就可以在一个目录下快乐地使用 Git 管理配置文件了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script src=&quot;</summary>
+      
+    
+    
+    
+    <category term="技术" scheme="http://blog.fzdslr.cn/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="Linux" scheme="http://blog.fzdslr.cn/tags/Linux/"/>
+    
+    <category term="Sway" scheme="http://blog.fzdslr.cn/tags/Sway/"/>
+    
+  </entry>
   
   <entry>
     <title>在 Chromebook Pixel 2013 上安装 ArchLinux + Sway</title>
@@ -501,30 +527,6 @@
     <category term="FZYZ" scheme="http://blog.fzdslr.cn/tags/FZYZ/"/>
     
     <category term="测试" scheme="http://blog.fzdslr.cn/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEXO-Butterfly主题右侧添加Bing每日图片</title>
-    <link href="http://blog.fzdslr.cn/2020-04-14-BINGPICTURES.html"/>
-    <id>http://blog.fzdslr.cn/2020-04-14-BINGPICTURES.html</id>
-    <published>2020-04-14T08:30:00.000Z</published>
-    <updated>2021-08-12T13:36:21.434Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><blockquote><p>本文基于 <a href="https://blog.hclonely.com/posts/57bd67ce/">HCLonely添加组件的方法</a>以及<a href="https://www.dujin.org/3618.html">缙哥哥的Bing每日图片API</a>，在此表示感谢。</p></blockquote><blockquote><p>因为懒<span class="heimu" title="那与咸鱼有什么区别">其实是不好意思直接整段搬运</span>所以具体步骤请直接参考HCLonely<a href="https://blog.hclonely.com/posts/57bd67ce/#pixiv%E6%97%A5%E6%A6%9C">添加PIXIV组件的方法</a></p></blockquote><h1>顺带一提</h1><ul><li>本页面的封面图即为<a href="https://www.dujin.org/3618.html">Bing每日图片</a>。</li><li>可能存在缩进上的问题，如果报错请详细检查错误代码。</li></ul><h1><code>card_bingpicture.pug</code>内容</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.card-widget.card-bingpicture</span><br><span class="line"> .card-content</span><br><span class="line">  .item-headline</span><br><span class="line">    i.fa.fa-image(aria-hidden=&quot;true&quot;)</span><br><span class="line">    span= _p(&#x27;aside.card_bingpicture&#x27;)</span><br><span class="line">  img(src=&#x27;https://api.dujin.org/bing/1366.php&#x27;, width=&#x27;99%&#x27;)</span><br></pre></td></tr></table></figure><h1><code>index.pug</code>添加</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">if theme.aside.card_bingpicture</span><br><span class="line">  include ./card_bingpicture.pug</span><br></pre></td></tr></table></figure><h1><code>butterfly.yml</code>添加</h1><p><code>card_bingpicture: true</code></p><h1><code>ZH-CN.yml</code>添加</h1><p><code>card_bingpicture: Bing每日图片</code></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css&quot;&gt;&lt;script src=&quot;</summary>
-      
-    
-    
-    
-    <category term="Hexo" scheme="http://blog.fzdslr.cn/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="http://blog.fzdslr.cn/tags/Hexo/"/>
     
   </entry>
   
