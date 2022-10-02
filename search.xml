@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>解决无法连接部署在 Vercel 上的 Waline 服务的问题</title>
+      <link href="/2022-10-02-fixWaline-Vercel.html"/>
+      <url>/2022-10-02-fixWaline-Vercel.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h2 id="起因">起因</h2><p>前几天翻博客的时候发现自己博客底下的评论加载不出来，经过排查，最终确定是因为 <code>vercel.app</code> <s>因为某种神秘的力量而</s>无法访问，导致 Waline 前端无法连接部署在 <code>vercel</code> 上的服务端。</p><h2 id="解决方法">解决方法</h2><p>这个问题的解决思路很明确：既然 <code>vercel.app</code> 用不了，那就用另一个域名替代掉就行。我的解决方法是使用一个二级域名分配给部署在 Vercel 上的服务端，然后在 Hexo 的配置文件里更改服务端网址。</p><h3 id="DNS-配置">DNS 配置</h3><p>在自己的域名的 DNS 配置界面新增一条 <code>CNAME</code> 记录，指向 <code>cname.vercel-dns.com</code>。</p><h3 id="Vercel-配置">Vercel 配置</h3><p>在 <code>Settings-Domains</code> 添加之前设定的二级域名。</p><h3 id="Hexo-配置">Hexo 配置</h3><p>以我目前使用的 Butterfly 主题为例，在 <code>_config.butterfly.yml</code> 中修改</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">waline:</span><br><span class="line">  serverURL: https://xxxx.xxx.xx # Waline server address url</span><br></pre></td></tr></table></figure><p>为之前设定的二级域名。</p><p>然后重新生成静态页面并部署即可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用软链接管理配置文件</title>
       <link href="/2022-03-29-howtobakdotfile.html"/>
       <url>/2022-03-29-howtobakdotfile.html</url>
