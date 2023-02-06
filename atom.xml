@@ -6,7 +6,7 @@
   <link href="http://blog.fzdslr.cn/atom.xml" rel="self"/>
   
   <link href="http://blog.fzdslr.cn/"/>
-  <updated>2022-10-02T12:42:45.417Z</updated>
+  <updated>2023-02-06T13:20:28.000Z</updated>
   <id>http://blog.fzdslr.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>迟到的年度总结</title>
+    <link href="http://blog.fzdslr.cn/2023-02-06-annual_summary_of_2022.html"/>
+    <id>http://blog.fzdslr.cn/2023-02-06-annual_summary_of_2022.html</id>
+    <published>2023-02-06T14:30:00.000Z</published>
+    <updated>2023-02-06T13:20:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>过去一年，可以说是相当混乱的一年。</p><p>奥密克戎在一年内就攻破了防疫的防线，在此期间，政策快速变化，让人捉摸不定；舆论场风起浪涌，相较于讨论问题，人们似乎更倾向于在网上发泄情绪；人们的工作与生活被打乱，一些人认定了一条路线，一些人认定了另一条，更多的人没有什么坚定的想法，只是随波逐流而已。</p><p>人往往会倾向于相信自己愿意相信的东西。一件事的发生常常被简单的归类为“我能共情的”和“无法共情的”。至于共情的标准，往往只取决于判断者是否认为，事件的“受害者”是否正在“遭受”和自己一样的“苦难”罢了。这样的“共情”不等于同情：真正有同情能力的人，可以真正换位思考，从各方的角度出发，尝试作出恰当的判断；而所谓的“共情者”，更多的将事件中的“受害者”看作掷向“加害者”的石头，至于这石头应不应该、会不会粉身碎骨，就不在他们的考虑范围内了。当“共情者”们在事件发生的开始义愤填膺，宣告着自己强大的“共情能力”时，笔者大抵只能感慨一声“永远年轻，永远愤怒，永远热泪盈眶，永远不长记性”了。</p><p>话题有点扯远了。</p><p>这一年，回顾起来，好像没有完成什么非常大的事情：</p><ul><li>结束大一生活，成为一只大二狗</li><li>换了宿舍，结识了新的舍友</li><li>成功通过智能车队入社考核，并且认识了两个不错的队友</li><li>研究了几个小众的圈子，勉强算是学到了一点目前没啥用的知识</li><li>放开后成功躲过第一波疫情（但是可以预见开学返校后就很难不中招了）</li><li>…</li></ul><p>希望新的一年可以平安渡过，别中道奔殂（？）</p><p>大概就这样吧。</p>]]></content>
+    
+    
+    <summary type="html">回顾一下过去混乱的一年</summary>
+    
+    
+    
+    <category term="随笔" scheme="http://blog.fzdslr.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="http://blog.fzdslr.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>解决无法连接部署在 Vercel 上的 Waline 服务的问题</title>
@@ -504,29 +525,6 @@
     <category term="学习笔记" scheme="http://blog.fzdslr.cn/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     <category term="化学" scheme="http://blog.fzdslr.cn/tags/%E5%8C%96%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>“暴风雪”计划：大纲（持续补充）</title>
-    <link href="http://blog.fzdslr.cn/2020-04-17-BURAN.html"/>
-    <id>http://blog.fzdslr.cn/2020-04-17-BURAN.html</id>
-    <published>2020-04-17T04:00:00.000Z</published>
-    <updated>2020-04-17T04:07:28.073Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><h1>简介</h1><p>“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。它是苏联在太空探索中最大型、昂贵的计划。该项目在苏联解体后被中止。</p><p>项目的核心为“暴风雪”号航天飞机。</p><h1>大纲</h1><h2 id="运载工具">运载工具</h2><ul><li>Myasishchev VM-T（Мясищев ВМ-Т «Атлант»）<ul><li>米亚-4型轰炸机的变种，用于运输“暴风雪”号模型及“能源”火箭的组件。</li></ul></li><li>AN-225(Ан-225 « Мрия »)<ul><li>至今为止世界上载重量最大的运输机，用于运输“暴风雪”号航天飞机。</li></ul></li></ul><h2 id="发射场——拜科努尔航天发射场（Космодром-Байконур）">发射场——拜科努尔航天发射场（Космодром Байконур）</h2><ul><li>UKSS/第250号站点（УниверсальныйКомплексСтенд-Старт）<ul><li>该发射台建于70年代末，可兼做测试台。唯一一次在250号上进行的发射为“能源”的首飞。</li></ul></li><li>第110号站点<ul><li>该发射台上进行过五次发射任务：四次失败的N1火箭发射任务，以及一次成功的“能源-暴风雪”任务。</li></ul></li><li>“周年纪念日”机场/第251号站点（“Юбилейный”）<ul><li>位于拜科努尔发射场的机场，被用于运输航天组件及“暴风雪”的着陆设施。</li></ul></li><li>第112号站点<ul><li>最开始为组装N1火箭而被建造，后被用于维护航天飞机和组装“暴风雪-能源”复合体，1K1“暴风雪”在此存放，并在2002年被倒塌的机库屋顶摧毁。</li></ul></li><li>第254号站点<ul><li>在飞行任务后，用于维修、翻新航天飞机。</li></ul></li></ul><h2 id="航天飞机">航天飞机</h2><h3 id="量产型">量产型</h3><ul><li>11F35 1K “暴风雪”（Буран）（1.01）<ul><li>唯一飞行过的量产型号。在2002年于哈萨克斯坦被因暴风雪而倒塌的机棚摧毁。</li></ul></li><li>11F35 2K “小鸟”/“风暴”（Птичка/Буря）（1.02）<ul><li>量产型二号机，1988年开始建造，目前位于拜科努尔发射场的112A站点（112-MZK组装大楼）。</li></ul></li><li>11F35 3K “贝加尔湖”（Байкал）（2.01）<ul><li>量产型三号机，为前两架的改进版本，现位于莫斯科郊外茄科夫斯基的飞行博物馆。</li></ul></li><li>11F35 4K （2.02）<ul><li>量产型四号机，被拆解。</li></ul></li><li>11F35 5K （2.03）<ul><li>量产型五号机，被拆解。</li></ul></li></ul><h3 id="试验机">试验机</h3><ul><li>BOR/БОР(Беспилотный Орбитальный Ракетоплан, 无人驾驶轨道火箭飞机）<ul><li>BOR-1<ul><li>（以米格-105为蓝本的）全木制（？）试验机，于1969年7月15日被发射至亚轨道，在以13,000 km / h的速度进入大气层时被烧毁。</li></ul></li><li>BOR-2<ul><li>1:3全金属试验机，发射过四次，编号101-104。</li></ul></li><li>BOR-3<ul><li>1:3全金属试验机，发射过两次，编号301-302。</li></ul></li><li>BOR-4<ul><li>米格-105的1:2模型，发射过至少5次（另外还有2次未证实的发射记录），编号为BOR-4C,“宇宙”-1374/1445/1517/1614。</li></ul></li><li>BOR-5<ul><li>“暴风雪”的1:8模型，发射过5次，编号501-505。</li></ul></li></ul></li><li>空中及静态试验机<ul><li>OK-M/OK-ML-1/BST-001（0.01）<ul><li>静态强度测试机。后被移至高尔基中央文化休闲公园。在2014年7月5-6日被移至俄罗斯国家经济展览中心以庆祝国家经济成就展（前身为苏联国民经济成就展）举办75周年。</li></ul></li><li>OK-GLI/BST-002（0.02）<ul><li>水平飞行测试机，进行过25（24？）次空中飞行和9次地面飞行。现位于德国施派尔技术博物馆中。</li></ul></li><li>OK-KS（0.03）<ul><li>电控、电力系统测试机。现位于RKK Energia的安全控制中心？（ICC）</li></ul></li><li>OK-MT/OK-ML-1（0.04）<ul><li>尺寸-重量拟合测试模型，现位于拜科努尔发射场的博物馆。</li></ul></li><li>OK-M005（0.05）<ul><li>热-振动-强度测试机。位于莫斯科中央空气流体动力学研究院。</li></ul></li><li>OK-TVI（0.06）<ul><li>热-真空测试模型。位于莫斯科东北的佩列斯韦特的НИИХИММАШ测试厂房。</li></ul></li><li>OK-M008（0.08）<ul><li>医学研究。在测试弹射座椅的可靠性后，该机就被送到莫斯科第29医院，后被转移至莫斯科附近的宇航员培训中心。目前位于（FMBA所属的？）第83临床医院辖区内。</li></ul></li><li>OK-TVA（0.15）<ul><li>发射前操作（加油，装配等）测试机。现在和1.02“小鸟”一起躺在拜科努尔112A站点的80号大楼。</li></ul></li></ul></li></ul><h2 id="能源火箭家族">能源火箭家族</h2><ul><li>“能源”<ul><li>芯级：4台RD-0120</li><li>“天顶”助推器数：4</li></ul></li><li>“能源-M”<ul><li>芯级：1台RD-0120</li><li>“天顶”助推器数：2或4</li></ul></li><li>“能源-2”/Ураган<ul><li>从芯级到助推皆采用滑翔方式进行回收。</li></ul></li><li>“祝融星”<ul><li>使用8个“天顶”助推器，并使用“能源-M”作为最上级。</li></ul></li><li>“天顶-2/3”<ul><li>由“能源”的助推器“天顶-1”发展而来的运载火箭。</li></ul></li></ul><h2 id="火箭发动机">火箭发动机</h2><ul><li>RD-170系列<ul><li>RD-170</li><li>RD-171</li><li>RD-171M</li><li>RD-175</li><li>RD-180</li><li>RD-180M</li><li>RD-180V</li><li>RD-191</li><li>RD-151</li><li>RD-193</li><li>RD-120</li></ul></li><li>RD-0120</li></ul><h2 id="其它载荷">其它载荷</h2><ul><li>“极地”号</li></ul>]]></content>
-    
-    
-    <summary type="html">“暴风雪”计划，是苏联在1976年启动，由苏联中央动力空气研究所（ЦАГИ）负责的可重复使用航天飞机计划。</summary>
-    
-    
-    
-    <category term="航天" scheme="http://blog.fzdslr.cn/categories/%E8%88%AA%E5%A4%A9/"/>
-    
-    
-    <category term="航天" scheme="http://blog.fzdslr.cn/tags/%E8%88%AA%E5%A4%A9/"/>
-    
-    <category term="暴风雪-能源" scheme="http://blog.fzdslr.cn/tags/%E6%9A%B4%E9%A3%8E%E9%9B%AA-%E8%83%BD%E6%BA%90/"/>
     
   </entry>
   

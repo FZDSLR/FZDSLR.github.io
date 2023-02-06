@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>迟到的年度总结</title>
+      <link href="/2023-02-06-annual_summary_of_2022.html"/>
+      <url>/2023-02-06-annual_summary_of_2022.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting/dist/Meting.min.js"></script><p>过去一年，可以说是相当混乱的一年。</p><p>奥密克戎在一年内就攻破了防疫的防线，在此期间，政策快速变化，让人捉摸不定；舆论场风起浪涌，相较于讨论问题，人们似乎更倾向于在网上发泄情绪；人们的工作与生活被打乱，一些人认定了一条路线，一些人认定了另一条，更多的人没有什么坚定的想法，只是随波逐流而已。</p><p>人往往会倾向于相信自己愿意相信的东西。一件事的发生常常被简单的归类为“我能共情的”和“无法共情的”。至于共情的标准，往往只取决于判断者是否认为，事件的“受害者”是否正在“遭受”和自己一样的“苦难”罢了。这样的“共情”不等于同情：真正有同情能力的人，可以真正换位思考，从各方的角度出发，尝试作出恰当的判断；而所谓的“共情者”，更多的将事件中的“受害者”看作掷向“加害者”的石头，至于这石头应不应该、会不会粉身碎骨，就不在他们的考虑范围内了。当“共情者”们在事件发生的开始义愤填膺，宣告着自己强大的“共情能力”时，笔者大抵只能感慨一声“永远年轻，永远愤怒，永远热泪盈眶，永远不长记性”了。</p><p>话题有点扯远了。</p><p>这一年，回顾起来，好像没有完成什么非常大的事情：</p><ul><li>结束大一生活，成为一只大二狗</li><li>换了宿舍，结识了新的舍友</li><li>成功通过智能车队入社考核，并且认识了两个不错的队友</li><li>研究了几个小众的圈子，勉强算是学到了一点目前没啥用的知识</li><li>放开后成功躲过第一波疫情（但是可以预见开学返校后就很难不中招了）</li><li>…</li></ul><p>希望新的一年可以平安渡过，别中道奔殂（？）</p><p>大概就这样吧。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决无法连接部署在 Vercel 上的 Waline 服务的问题</title>
       <link href="/2022-10-02-fixWaline-Vercel.html"/>
       <url>/2022-10-02-fixWaline-Vercel.html</url>
