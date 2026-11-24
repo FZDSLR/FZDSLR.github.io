@@ -1,0 +1,18 @@
+﻿class:
+  class_name: 一些链接
+  link_list:
+    1:
+      name: FZDSLR
+      link: https://blog.fzdslr.cn
+      avatar: https://blog.fzdslr.cn/img/1.png
+      descr: Auferstanden aus Ruinen
+    2:
+      name: HibikiZer0的博客
+      link: https://blog.hibikizer0.top
+      avatar: https://i.loli.net/2021/06/25/dhC9VIABsw2JZ5e.jpg
+      descr: 一个不稳定的精神空间。<span class="heimu" title="你知道的太多了">FZDSLR:这句话感觉有点似曾相识啊</span>
+    3:
+      name: NiceBowl的博客
+      link: https://nicebowl.fun
+      avatar: https://nicebowl.fun/usr/uploads/2020/01/2156859298.jpg
+      descr: 一个不稳定的精神世界。偶尔写些随想，杂谈，学习笔记。
